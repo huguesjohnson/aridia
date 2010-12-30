@@ -1,6 +1,6 @@
 #summary Things in the Phantasy Star III ROM that can't be edited or that produce major bugs if they are edited.
-*Gems* – Since Gems can be equipped it seems logical that they would modify statistics. Nope, editing them has no effect in the game so they were removed from the weapons page.
+*Gems* – Since Gems can be equipped it seems logical that they would modify statistics. Nope, editing them has no effect in the game so they were removed from the weapons page because it is misleading to let users modify them.
 
-*Adding items to initial inventory* – In the ROM, a character's techniques begin immediately after their inventory. Adding items causes their values to overflow into techniques, resulting in incredibly powerful techniques. In a save state, the empty item slots are filled with '['00 00']' but not in the ROM.
+*Adding items to initial inventory* – In the ROM, a character's techniques begin immediately after their inventory. Adding items causes their values to overflow into techniques, resulting in incredibly powerful techniques. In a save state, the empty item slots are filled with 00 00 but not in the ROM.
 
 *Add/Remove individual techniques* – Aridia only supports modifying an entire technique group. However, it is possible to add/remove individual techniques within a group. Doing that causes the game to crash when you enter a technique redistribution shop. I wouldn't be surprised if other problems occurred too.
