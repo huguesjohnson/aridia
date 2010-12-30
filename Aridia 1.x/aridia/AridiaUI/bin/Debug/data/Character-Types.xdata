@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>01 (Rhys,Nial)</Description>
+      <IntValue>1</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>02 (Ayn,Aron,Crys,Adan,Sean)</Description>
+      <IntValue>2</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>04 (Mieu)</Description>
+      <IntValue>4</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>08 (Wren)</Description>
+      <IntValue>8</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>16 (Thea,Kara)</Description>
+      <IntValue>16</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>32 (Lyle,Ryan)</Description>
+      <IntValue>32</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>64 (Lena,Sari)</Description>
+      <IntValue>64</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>128 (Laya,Gwyn)</Description>
+      <IntValue>128</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>

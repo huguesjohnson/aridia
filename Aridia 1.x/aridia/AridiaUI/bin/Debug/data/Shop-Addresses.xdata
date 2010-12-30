@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>Landen - Armor</Description>
+      <IntValue>257726</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Landen - Weapon</Description>
+      <IntValue>257731</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Supply -  Landen, Yaata, Ilan, Rysel, Agoe, Hazatak</Description>
+      <IntValue>257736</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Yaata - Weapon</Description>
+      <IntValue>257741</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Yaata - Armor</Description>
+      <IntValue>257746</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Ilan - Weapon</Description>
+      <IntValue>257751</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Ilan - Armor</Description>
+      <IntValue>257756</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Rysel - Weapon</Description>
+      <IntValue>257761</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Rysel - Armor</Description>
+      <IntValue>257766</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Hazatak - Weapon</Description>
+      <IntValue>257771</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Hazatak - Armor</Description>
+      <IntValue>257776</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Agoe - Weapon</Description>
+      <IntValue>257781</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Agoe - Armor</Description>
+      <IntValue>257786</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Shushoran - Weapon</Description>
+      <IntValue>257791</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Shushoran - Armor</Description>
+      <IntValue>257796</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Supply - Shusoran, Cille </Description>
+      <IntValue>257801</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Cille - Armor</Description>
+      <IntValue>257806</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Cille - Weapon</Description>
+      <IntValue>257811</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Techna - Weapon</Description>
+      <IntValue>257816</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Techna - Armor</Description>
+      <IntValue>257821</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Supply - Techna</Description>
+      <IntValue>257826</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Mystoke - Weapon</Description>
+      <IntValue>257831</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Mystoke - Armor</Description>
+      <IntValue>257836</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Supply - Mystoke</Description>
+      <IntValue>257841</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>South Divisia - Weapon</Description>
+      <IntValue>257846</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>South Divisia - Armor</Description>
+      <IntValue>257851</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Unused - Weapon</Description>
+      <IntValue>257856</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Unused - Armor</Description>
+      <IntValue>257861</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Supply -  North Divisia, South Divisia</Description>
+      <IntValue>257866</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Aerone - Weapon</Description>
+      <IntValue>257871</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Aerone - Armor</Description>
+      <IntValue>257876</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Supply - Endora, Aerone, New Mota</Description>
+      <IntValue>257881</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>New Mota - Weapon</Description>
+      <IntValue>257886</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>New Mota - Armor</Description>
+      <IntValue>257891</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Supply -  Lensol</Description>
+      <IntValue>257896</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Endora - Weapon</Description>
+      <IntValue>257901</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Endora - Armor</Description>
+      <IntValue>257906</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lensol - Weapon</Description>
+      <IntValue>257911</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lensol - Armor</Description>
+      <IntValue>257916</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>
