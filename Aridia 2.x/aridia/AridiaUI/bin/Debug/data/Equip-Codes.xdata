@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>Head</Description>
+      <IntValue>0</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Right hand</Description>
+      <IntValue>2</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Left hand</Description>
+      <IntValue>4</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Torso</Description>
+      <IntValue>6</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Feet</Description>
+      <IntValue>8</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Buckle</Description>
+      <IntValue>10</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Both hands</Description>
+      <IntValue>12</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>    
+    <anyType xsi:type="LookupValue">
+      <Description>0006</Description>
+      <IntValue>6</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>000A</Description>
+      <IntValue>10</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>000C</Description>
+      <IntValue>12</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>000E</Description>
+      <IntValue>14</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>0010</Description>
+      <IntValue>16</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>0012</Description>
+      <IntValue>18</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>0014</Description>
+      <IntValue>20</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>0016</Description>
+      <IntValue>22</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>0018</Description>
+      <IntValue>24</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>001A</Description>
+      <IntValue>26</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>001C</Description>
+      <IntValue>28</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>001E</Description>
+      <IntValue>30</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>0020</Description>
+      <IntValue>32</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>0022</Description>
+      <IntValue>34</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>0024</Description>
+      <IntValue>36</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>0026</Description>
+      <IntValue>38</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>0028</Description>
+      <IntValue>40</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>002A</Description>
+      <IntValue>42</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>002C</Description>
+      <IntValue>44</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>002E</Description>
+      <IntValue>46</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>0030</Description>
+      <IntValue>48</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>

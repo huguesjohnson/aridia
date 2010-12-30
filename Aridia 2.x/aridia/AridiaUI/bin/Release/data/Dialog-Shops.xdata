@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<BaseMDDataCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="MDString">
+      <Address>253322</Address>
+      <NumBytes>11</NumBytes>
+      <Description>Melee Tech</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253334</Address>
+      <NumBytes>11</NumBytes>
+      <Description>Order Tech</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253346</Address>
+      <NumBytes>10</NumBytes>
+      <Description>Heal Tech</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253357</Address>
+      <NumBytes>10</NumBytes>
+      <Description>Time Tech.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253384</Address>
+      <NumBytes>43</NumBytes>
+      <Description>Welcome to the Supply Shop. May I help you?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253428</Address>
+      <NumBytes>43</NumBytes>
+      <Description>Welcome to the Weapon Shop. May I help you?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253472</Address>
+      <NumBytes>42</NumBytes>
+      <Description>Welcome to the Armor Shop. May I help you?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253516</Address>
+      <NumBytes>15</NumBytes>
+      <Description>Who's been poisoned?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253538</Address>
+      <NumBytes>38</NumBytes>
+      <Description>Who needs to regain the will to fight?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253578</Address>
+      <NumBytes>39</NumBytes>
+      <Description>Technique distribution costs</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253618</Address>
+      <NumBytes>43</NumBytes>
+      <Description>Step right up! Fortunes told for meseta!</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253663</Address>
+      <NumBytes>7</NumBytes>
+      <Description>BUY SEL</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253671</Address>
+      <NumBytes>3</NumBytes>
+      <Description>MES</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253675</Address>
+      <NumBytes>46</NumBytes>
+      <Description>Which of my wares most interests you, friends?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253722</Address>
+      <NumBytes>19</NumBytes>
+      <Description>Who wants to sell?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253742</Address>
+      <NumBytes>17</NumBytes>
+      <Description>What's for sale?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253760</Address>
+      <NumBytes>25</NumBytes>
+      <Description>Who's going to carry it?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253786</Address>
+      <NumBytes>34</NumBytes>
+      <Description>Thank you. Is there anything else?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253821</Address>
+      <NumBytes>7</NumBytes>
+      <Description>YES NO</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253829</Address>
+      <NumBytes>36</NumBytes>
+      <Description>Sorry, you don't have enough meseta.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253866</Address>
+      <NumBytes>38</NumBytes>
+      <Description>Sorry, you can't carry any more items.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253905</Address>
+      <NumBytes>41</NumBytes>
+      <Description>You can't use this. Do you still want it?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253949</Address>
+      <NumBytes>7</NumBytes>
+      <Description>NEXT</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253957</Address>
+      <NumBytes>21</NumBytes>
+      <Description>That's [X] meseta, OK?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>253979</Address>
+      <NumBytes>23</NumBytes>
+      <Description>Thanks, but no thanks.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254003</Address>
+      <NumBytes>44</NumBytes>
+      <Description>Sorry, but [X] doesn't have anything to sell.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254048</Address>
+      <NumBytes>45</NumBytes>
+      <Description>Go away; you're starting to get on my nerves!</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254094</Address>
+      <NumBytes>44</NumBytes>
+      <Description>That's what I see of your future. Take heed!</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254139</Address>
+      <NumBytes>36</NumBytes>
+      <Description>A good night's rest costs [x] meseta.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254176</Address>
+      <NumBytes>19</NumBytes>
+      <Description>Sorry, no freebies!</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254197</Address>
+      <NumBytes>22</NumBytes>
+      <Description>OK to save this game?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254220</Address>
+      <NumBytes>22</NumBytes>
+      <Description>Be careful out there</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254246</Address>
+      <NumBytes>22</NumBytes>
+      <Description>has not been poisoned</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254269</Address>
+      <NumBytes>30</NumBytes>
+      <Description>I can cure you for [x] meseta</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254300</Address>
+      <NumBytes>40</NumBytes>
+      <Description>Sorry I couldn't be of more help to you</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254341</Address>
+      <NumBytes>24</NumBytes>
+      <Description>Sorry, I can't help you.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254367</Address>
+      <NumBytes>36</NumBytes>
+      <Description>Be careful--danger lurks everywhere!</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254407</Address>
+      <NumBytes>26</NumBytes>
+      <Description>does not need my services</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254434</Address>
+      <NumBytes>28</NumBytes>
+      <Description>My services cost [x] meseta.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254463</Address>
+      <NumBytes>28</NumBytes>
+      <Description>Whose Tech Distribution needs to be altered?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254508</Address>
+      <NumBytes>40</NumBytes>
+      <Description>Sorry, but you don't have enough meseta</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254549</Address>
+      <NumBytes>44</NumBytes>
+      <Description>Whose Tech Distribution needs to be altered?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254597</Address>
+      <NumBytes>25</NumBytes>
+      <Description>can't use any techniques</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254623</Address>
+      <NumBytes>17</NumBytes>
+      <Description>Which technique?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>254641</Address>
+      <NumBytes>19</NumBytes>
+      <Description>Please be careful</Description>
+    </anyType>
+  </Collection>
+</BaseMDDataCollection>

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>Mieu</Description>
+      <IntValue>122930</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Wren</Description>
+      <IntValue>122988</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Rhys</Description>
+      <IntValue>123084</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lyle</Description>
+      <IntValue>123140</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lena</Description>
+      <IntValue>123200</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Nial</Description>
+      <IntValue>123260</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Laya</Description>
+      <IntValue>123326</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Gwyn</Description>
+      <IntValue>123386</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Ryan</Description>
+      <IntValue>123448</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Ayn</Description>
+      <IntValue>123510</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Sari</Description>
+      <IntValue>123574</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Thea</Description>
+      <IntValue>123636</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Adan</Description>
+      <IntValue>123696</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Kara (Princess)</Description>
+      <IntValue>123768</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Kara (Warrior)</Description>
+      <IntValue>123828</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Aron</Description>
+      <IntValue>123888</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Crys</Description>
+      <IntValue>123962</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Sean</Description>
+      <IntValue>124032</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>

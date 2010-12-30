@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<BaseMDDataCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="MDString">
+      <Address>252170</Address>
+      <NumBytes>21</NumBytes>
+      <Description>You've been ambushed!</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252192</Address>
+      <NumBytes>24</NumBytes>
+      <Description>You surprise the monster</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252217</Address>
+      <NumBytes>20</NumBytes>
+      <Description>You try to escape...</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252238</Address>
+      <NumBytes>23</NumBytes>
+      <Description>But you can't get away!</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252265</Address>
+      <NumBytes>8</NumBytes>
+      <Description>attacks!</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252274</Address>
+      <NumBytes>6</NumBytes>
+      <Description>Damage</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252367</Address>
+      <NumBytes>15</NumBytes>
+      <Description>gained a level!</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252386</Address>
+      <NumBytes>14</NumBytes>
+      <Description>has no weapon!</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252419</Address>
+      <NumBytes>20</NumBytes>
+      <Description>'s defense increasd.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252443</Address>
+      <NumBytes>18</NumBytes>
+      <Description>has no techniques.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252462</Address>
+      <NumBytes>20</NumBytes>
+      <Description>Not enough Tech Pts.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252483</Address>
+      <NumBytes>19</NumBytes>
+      <Description>You can't use that.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252539</Address>
+      <NumBytes>19</NumBytes>
+      <Description>can no longer fight</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252559</Address>
+      <NumBytes>23</NumBytes>
+      <Description>You have been defeated.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252586</Address>
+      <NumBytes>18</NumBytes>
+      <Description>has been poisoned.</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252605</Address>
+      <NumBytes>10</NumBytes>
+      <Description>Succeeded!</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>252616</Address>
+      <NumBytes>7</NumBytes>
+      <Description>Failed!</Description>
+    </anyType>
+  </Collection>
+</BaseMDDataCollection>
