@@ -1,0 +1,729 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>    
+    <anyType xsi:type="LookupValue">
+      <Description>Glop</Description>
+      <IntValue>239089</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Ooze</Description>
+      <IntValue>239119</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Slime</Description>
+      <IntValue>239149</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Fire</Description>
+      <IntValue>239179</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Murafire</Description>
+      <IntValue>239209</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Azufire</Description>
+      <IntValue>239239</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Nayl</Description>
+      <IntValue>239269</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Flayl</Description>
+      <IntValue>239299</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Slayl</Description>
+      <IntValue>239329</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Dryad</Description>
+      <IntValue>239359</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Nereid</Description>
+      <IntValue>239389</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Sylph</Description>
+      <IntValue>239419</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Buzzgull</Description>
+      <IntValue>239449</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lashgull</Description>
+      <IntValue>239479</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Hackgull</Description>
+      <IntValue>239509</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Eindon</Description>
+      <IntValue>239539</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Tsveidon</Description>
+      <IntValue>239569</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Dreidon</Description>
+      <IntValue>239599</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Clump</Description>
+      <IntValue>239629</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Cluster</Description>
+      <IntValue>239659</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Clique</Description>
+      <IntValue>239689</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Chirper</Description>
+      <IntValue>239719</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Warbler</Description>
+      <IntValue>239749</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Squawker</Description>
+      <IntValue>239779</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lizrd</Description>
+      <IntValue>239809</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Blizrd</Description>
+      <IntValue>239839</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Grizrd</Description>
+      <IntValue>239869</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Spinner</Description>
+      <IntValue>239899</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Twirler</Description>
+      <IntValue>239929</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Wizzer</Description>
+      <IntValue>239959</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Imp</Description>
+      <IntValue>239989</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Impfoul</Description>
+      <IntValue>240019</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Impvile</Description>
+      <IntValue>240049</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Nova</Description>
+      <IntValue>240079</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Pulsar</Description>
+      <IntValue>240109</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Quasar</Description>
+      <IntValue>240139</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Chirpbot</Description>
+      <IntValue>240169</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Warblbot</Description>
+      <IntValue>240199</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Squakbot</Description>
+      <IntValue>240229</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Commsat</Description>
+      <IntValue>240259</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Spysat</Description>
+      <IntValue>240289</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Killsat</Description>
+      <IntValue>240319</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Arachne</Description>
+      <IntValue>240349</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Darachne</Description>
+      <IntValue>240379</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Zarachne</Description>
+      <IntValue>240409</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Blink</Description>
+      <IntValue>240439</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Flash</Description>
+      <IntValue>240469</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Strobe</Description>
+      <IntValue>240499</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Minimech</Description>
+      <IntValue>240529</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Mech</Description>
+      <IntValue>240559</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Maxmech</Description>
+      <IntValue>240589</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lazrbot</Description>
+      <IntValue>240619</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Mazrbot</Description>
+      <IntValue>240649</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Fazrbot</Description>
+      <IntValue>240679</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>RightHand</Description>
+      <IntValue>240709</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>LeftHand</Description>
+      <IntValue>240739</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Emir</Description>
+      <IntValue>240769</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Sheik</Description>
+      <IntValue>240805</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Caliph</Description>
+      <IntValue>240841</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Harpy</Description>
+      <IntValue>240877</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Griffin</Description>
+      <IntValue>240913</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Gryphon</Description>
+      <IntValue>240949</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Banshee</Description>
+      <IntValue>240985</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Ghost</Description>
+      <IntValue>241021</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Haunt</Description>
+      <IntValue>241057</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Beastess</Description>
+      <IntValue>241093</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Trogess</Description>
+      <IntValue>241129</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Demoness</Description>
+      <IntValue>241165</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Bushi</Description>
+      <IntValue>241201</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Kensai</Description>
+      <IntValue>241237</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Samurai</Description>
+      <IntValue>241273</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Irisa</Description>
+      <IntValue>241309</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Rosa</Description>
+      <IntValue>241345</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Viola</Description>
+      <IntValue>241381</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Moos</Description>
+      <IntValue>241417</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Fearmoos</Description>
+      <IntValue>241453</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Diremoos</Description>
+      <IntValue>241489</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Blueroot</Description>
+      <IntValue>241525</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Pinkroot</Description>
+      <IntValue>241561</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Goldroot</Description>
+      <IntValue>241597</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Catwoman</Description>
+      <IntValue>241633</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Tigress</Description>
+      <IntValue>241669</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lioness</Description>
+      <IntValue>241705</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lobowing</Description>
+      <IntValue>241741</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lobobat</Description>
+      <IntValue>241777</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lobohawk</Description>
+      <IntValue>241813</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Hopliz</Description>
+      <IntValue>241849</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Leapliz</Description>
+      <IntValue>241885</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Jumpliz</Description>
+      <IntValue>241921</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Glowtoad</Description>
+      <IntValue>241957</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Gilatoad</Description>
+      <IntValue>241993</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Megatoad</Description>
+      <IntValue>242029</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Seeker</Description>
+      <IntValue>242065</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Hunter</Description>
+      <IntValue>242101</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Killer</Description>
+      <IntValue>242137</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Roboman</Description>
+      <IntValue>242173</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Mechman</Description>
+      <IntValue>242209</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Droidman</Description>
+      <IntValue>242245</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Stix</Description>
+      <IntValue>242281</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Glazstix</Description>
+      <IntValue>242317</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Metlstix</Description>
+      <IntValue>242353</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Twistbot</Description>
+      <IntValue>242389</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Swivlbot</Description>
+      <IntValue>242425</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Rotabot</Description>
+      <IntValue>242461</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Drake</Description>
+      <IntValue>242497</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Dragon</Description>
+      <IntValue>242533</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Wyrm</Description>
+      <IntValue>242569</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Skeleton</Description>
+      <IntValue>242605</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Spectre</Description>
+      <IntValue>242641</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Wraith</Description>
+      <IntValue>242677</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Grinder</Description>
+      <IntValue>242713</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Smasher</Description>
+      <IntValue>242749</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Crusher</Description>
+      <IntValue>242785</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Clops</Description>
+      <IntValue>242821</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Biclops</Description>
+      <IntValue>242857</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Triclops</Description>
+      <IntValue>242893</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Dogbot</Description>
+      <IntValue>242929</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Feralbot</Description>
+      <IntValue>242965</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Wolfbot</Description>
+      <IntValue>243001</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Amazon</Description>
+      <IntValue>243037</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Erinye</Description>
+      <IntValue>243073</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Valkyrie</Description>
+      <IntValue>243109</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Giant</Description>
+      <IntValue>243145</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Titan</Description>
+      <IntValue>243181</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Colossus</Description>
+      <IntValue>243217</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Primus</Description>
+      <IntValue>243253</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Secundus</Description>
+      <IntValue>243289</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Tertius</Description>
+      <IntValue>243325</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lasher</Description>
+      <IntValue>243361</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Slasher</Description>
+      <IntValue>243397</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Gnasher</Description>
+      <IntValue>243433</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Doomfly</Description>
+      <IntValue>243469</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Demonfly</Description>
+      <IntValue>243505</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Deathfly</Description>
+      <IntValue>243541</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Blotter</Description>
+      <IntValue>243577</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Flutter</Description>
+      <IntValue>243613</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Splatter</Description>
+      <IntValue>243649</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Polebot</Description>
+      <IntValue>243685</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Stickbot</Description>
+      <IntValue>243721</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Wirebot</Description>
+      <IntValue>243757</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Agribot</Description>
+      <IntValue>243793</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Guardbot</Description>
+      <IntValue>243829</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Warbot</Description>
+      <IntValue>243865</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Flopper</Description>
+      <IntValue>243901</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Disker</Description>
+      <IntValue>243937</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Carder</Description>
+      <IntValue>243973</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Fatale</Description>
+      <IntValue>244009</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Morte</Description>
+      <IntValue>244045</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Finis</Description>
+      <IntValue>244081</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Stickle</Description>
+      <IntValue>244117</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Twig</Description>
+      <IntValue>244153</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Mantis</Description>
+      <IntValue>244189</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Orb</Description>
+      <IntValue>244225</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Globe</Description>
+      <IntValue>244261</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Sphere</Description>
+      <IntValue>244297</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Dire</Description>
+      <IntValue>244333</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Baneful</Description>
+      <IntValue>244369</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Malific</Description>
+      <IntValue>244405</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Goatman</Description>
+      <IntValue>244441</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Goatduke</Description>
+      <IntValue>244477</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Goatking</Description>
+      <IntValue>244513</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Punisher</Description>
+      <IntValue>244549</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Torturer</Description>
+      <IntValue>244585</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Executer</Description>
+      <IntValue>244621</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Fatima</Description>
+      <IntValue>244657</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Zafirah</Description>
+      <IntValue>244693</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Khalidah</Description>
+      <IntValue>244729</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Watcher</Description>
+      <IntValue>244765</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Defender</Description>
+      <IntValue>244801</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Guardian</Description>
+      <IntValue>244837</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Conjurer</Description>
+      <IntValue>244873</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Wizard</Description>
+      <IntValue>244909</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Sorcerer</Description>
+      <IntValue>244945</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lyle</Description>
+      <IntValue>244981</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Sari</Description>
+      <IntValue>245017</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lune</Description>
+      <IntValue>245053</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Kara</Description>
+      <IntValue>245089</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Siren</Description>
+      <IntValue>245125</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Rulakir</Description>
+      <IntValue>245161</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>King Cille</Description>
+      <IntValue>245197</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Body</Description>
+      <IntValue>245233</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>
