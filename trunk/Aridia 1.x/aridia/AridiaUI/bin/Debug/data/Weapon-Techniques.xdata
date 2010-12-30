@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>None</Description>
+      <IntValue>0</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Foi (1)</Description>
+      <IntValue>10</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Foi (2)</Description>
+      <IntValue>12</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Rimit</Description>
+      <IntValue>4618</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Shu</Description>
+      <IntValue>7690</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Forsa</Description>
+      <IntValue>6666</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Rever (1)</Description>
+      <IntValue>3073</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Rever (2)</Description>
+      <IntValue>3082</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Fanbi</Description>
+      <IntValue>6154</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Shu</Description>
+      <IntValue>7700</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Res (1)</Description>
+      <IntValue>2565</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Res (2)</Description>
+      <IntValue>2053</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Res (3)</Description>
+      <IntValue>2058</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Ner</Description>
+      <IntValue>4106</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Zan (1)</Description>
+      <IntValue>522</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Zan (2)</Description>
+      <IntValue>258</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Zan (3)</Description>
+      <IntValue>526</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Nasak</Description>
+      <IntValue>7218</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Gires</Description>
+      <IntValue>2567</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>

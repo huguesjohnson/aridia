@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<BaseMDDataCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="MDString">
+      <Address>97964</Address>
+      <NumBytes>37</NumBytes>
+      <Description>Marriage text - Rhys</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>98002</Address>
+      <NumBytes>36</NumBytes>
+      <Description>Marriage text - Ayn</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>98039</Address>
+      <NumBytes>37</NumBytes>
+      <Description>Marriage text - Nial</Description>
+    </anyType>
+  </Collection>
+</BaseMDDataCollection>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>Monomate</Description>
+      <IntValue>231280</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Dimate</Description>
+      <IntValue>231296</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Trimate</Description>
+      <IntValue>231312</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Antidote</Description>
+      <IntValue>231328</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Star Mist</Description>
+      <IntValue>231344</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Moon Dew</Description>
+      <IntValue>231360</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Escapipe</Description>
+      <IntValue>231376</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Monitor</Description>
+      <IntValue>231392</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>

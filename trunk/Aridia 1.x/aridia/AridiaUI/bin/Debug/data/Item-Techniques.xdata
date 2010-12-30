@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>Res</Description>
+      <IntValue>8</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Anti</Description>
+      <IntValue>14</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Gires</Description>
+      <IntValue>10</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Rever</Description>
+      <IntValue>12</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Escapipe</Description>
+      <IntValue>252</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Monitor</Description>
+      <IntValue>232</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>
