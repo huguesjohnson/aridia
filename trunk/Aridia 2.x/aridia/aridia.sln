@@ -1,5 +1,5 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C# Express 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AridiaUI", "AridiaUI\AridiaUI.csproj", "{C6DB9140-1ED2-4C44-BEC1-16E6AC5DFF34}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaDriveIO", "..\..\MDLib\MegaDriveIO\MegaDriveIO.csproj", "{D993560D-E1D5-4B39-B81B-31A0F0004D0C}"
