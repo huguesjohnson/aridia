@@ -23,6 +23,7 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
+using com.huguesjohnson.IPSCreator;
 using com.huguesjohnson.MegaDriveIO;
 using com.huguesjohnson.PaletteEditor;
 using com.huguesjohnson.TileEditor;
@@ -35,6 +36,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 	public class MainForm : System.Windows.Forms.Form
 	{
 		private MDBinaryRomIO romIO;
+        private const String GOOD_HEADER="SEGA MEGA DRIVE (C)SEGA 1991.APLTOKINO          KEISHOUSHA      PHANTASY STAR 3 PHANTASY STAR 3 GENERATIONS     OF DOOM         GM 1303-01";
 		private System.Windows.Forms.MainMenu mainMenu;
 		private System.Windows.Forms.MenuItem menuItem1;
 		private System.Windows.Forms.MenuItem menuItem3;
@@ -264,6 +266,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 		private System.Windows.Forms.Label labelEnemyTechniqueCastPercent;
 		private System.Windows.Forms.TextBox textBoxEnemyEscapePercent;
 		private System.Windows.Forms.Label labelEnemyEscapePercent;
+        private Button buttonCreateIPS;
+        private MenuItem menuItemCreateIPSFile;
 		private int paletteFindIndex;
 
 		public MainForm()
@@ -310,23 +314,24 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 		private void InitializeComponent()
 		{
             this.components=new System.ComponentModel.Container();
-            System.Windows.Forms.ListViewItem listViewItem1=new System.Windows.Forms.ListViewItem("Main");
-            System.Windows.Forms.ListViewItem listViewItem2=new System.Windows.Forms.ListViewItem("Characters");
-            System.Windows.Forms.ListViewItem listViewItem3=new System.Windows.Forms.ListViewItem("Dialog Text");
-            System.Windows.Forms.ListViewItem listViewItem4=new System.Windows.Forms.ListViewItem("Enemies");
-            System.Windows.Forms.ListViewItem listViewItem5=new System.Windows.Forms.ListViewItem("Graphics");
-            System.Windows.Forms.ListViewItem listViewItem6=new System.Windows.Forms.ListViewItem("Inventory Names");
-            System.Windows.Forms.ListViewItem listViewItem7=new System.Windows.Forms.ListViewItem("Items");
-            System.Windows.Forms.ListViewItem listViewItem8=new System.Windows.Forms.ListViewItem("Level Tables");
-            System.Windows.Forms.ListViewItem listViewItem9=new System.Windows.Forms.ListViewItem("Palettes");
-            System.Windows.Forms.ListViewItem listViewItem10=new System.Windows.Forms.ListViewItem("Script");
-            System.Windows.Forms.ListViewItem listViewItem11=new System.Windows.Forms.ListViewItem("Shops");
-            System.Windows.Forms.ListViewItem listViewItem12=new System.Windows.Forms.ListViewItem("Weapons");
+            System.Windows.Forms.ListViewItem listViewItem13=new System.Windows.Forms.ListViewItem("Main");
+            System.Windows.Forms.ListViewItem listViewItem14=new System.Windows.Forms.ListViewItem("Characters");
+            System.Windows.Forms.ListViewItem listViewItem15=new System.Windows.Forms.ListViewItem("Dialog Text");
+            System.Windows.Forms.ListViewItem listViewItem16=new System.Windows.Forms.ListViewItem("Enemies");
+            System.Windows.Forms.ListViewItem listViewItem17=new System.Windows.Forms.ListViewItem("Graphics");
+            System.Windows.Forms.ListViewItem listViewItem18=new System.Windows.Forms.ListViewItem("Inventory Names");
+            System.Windows.Forms.ListViewItem listViewItem19=new System.Windows.Forms.ListViewItem("Items");
+            System.Windows.Forms.ListViewItem listViewItem20=new System.Windows.Forms.ListViewItem("Level Tables");
+            System.Windows.Forms.ListViewItem listViewItem21=new System.Windows.Forms.ListViewItem("Palettes");
+            System.Windows.Forms.ListViewItem listViewItem22=new System.Windows.Forms.ListViewItem("Script");
+            System.Windows.Forms.ListViewItem listViewItem23=new System.Windows.Forms.ListViewItem("Shops");
+            System.Windows.Forms.ListViewItem listViewItem24=new System.Windows.Forms.ListViewItem("Weapons");
             System.ComponentModel.ComponentResourceManager resources=new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.mainMenu=new System.Windows.Forms.MainMenu(this.components);
             this.menuItem1=new System.Windows.Forms.MenuItem();
             this.menuItemOpen=new System.Windows.Forms.MenuItem();
             this.menuItem3=new System.Windows.Forms.MenuItem();
+            this.menuItemCreateIPSFile=new System.Windows.Forms.MenuItem();
             this.menuItemChecksum=new System.Windows.Forms.MenuItem();
             this.menuItem5=new System.Windows.Forms.MenuItem();
             this.menuItemHomepage=new System.Windows.Forms.MenuItem();
@@ -335,9 +340,10 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.menuItem8=new System.Windows.Forms.MenuItem();
             this.menuItemExit=new System.Windows.Forms.MenuItem();
             this.listViewNavigate=new System.Windows.Forms.ListView();
-            this.columnHeader=new System.Windows.Forms.ColumnHeader();
+            this.columnHeader=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabControlMainContent=new System.Windows.Forms.TabControl();
             this.tabPageMain=new System.Windows.Forms.TabPage();
+            this.buttonCreateIPS=new System.Windows.Forms.Button();
             this.textBoxWarning1=new System.Windows.Forms.TextBox();
             this.textBoxWarningExample=new System.Windows.Forms.TextBox();
             this.textBoxCalculatedChecksum=new System.Windows.Forms.TextBox();
@@ -366,10 +372,10 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.labelCharacterTechniqueMelee=new System.Windows.Forms.Label();
             this.linkLabelItemEditing=new System.Windows.Forms.LinkLabel();
             this.listViewCharacterItems=new System.Windows.Forms.ListView();
-            this.columnHeaderCharacterItemHexString=new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderCharacterItemItem=new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderCharacterItemIsEquipped=new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderCharacterItemWhereEquipped=new System.Windows.Forms.ColumnHeader();
+            this.columnHeaderCharacterItemHexString=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderCharacterItemItem=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderCharacterItemIsEquipped=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderCharacterItemWhereEquipped=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.contextMenuCharacterMenu=new System.Windows.Forms.ContextMenu();
             this.menuItemEditCharacterItem=new System.Windows.Forms.MenuItem();
             this.labelCharacterItems=new System.Windows.Forms.Label();
@@ -401,11 +407,11 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.labelSelectCharacter=new System.Windows.Forms.Label();
             this.tabPageDialogText=new System.Windows.Forms.TabPage();
             this.listViewDialogText=new System.Windows.Forms.ListView();
-            this.columnDialogTextHeaderCurrentValue=new System.Windows.Forms.ColumnHeader();
-            this.columnDialogTextCategory=new System.Windows.Forms.ColumnHeader();
-            this.columnDialogTextDescription=new System.Windows.Forms.ColumnHeader();
-            this.columnDialogTextAddress=new System.Windows.Forms.ColumnHeader();
-            this.columncolumnDialogTextLength=new System.Windows.Forms.ColumnHeader();
+            this.columnDialogTextHeaderCurrentValue=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnDialogTextCategory=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnDialogTextDescription=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnDialogTextAddress=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columncolumnDialogTextLength=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPageEnemies=new System.Windows.Forms.TabPage();
             this.panelEnemy=new System.Windows.Forms.Panel();
             this.textBoxEnemyEscapePercent=new System.Windows.Forms.TextBox();
@@ -448,10 +454,10 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.buttonEditTitleLogo=new System.Windows.Forms.Button();
             this.tabPageInventoryNames=new System.Windows.Forms.TabPage();
             this.listViewInventoryNames=new System.Windows.Forms.ListView();
-            this.columnHeader2=new System.Windows.Forms.ColumnHeader();
-            this.columnHeader3=new System.Windows.Forms.ColumnHeader();
-            this.columnHeader7=new System.Windows.Forms.ColumnHeader();
-            this.columnHeader8=new System.Windows.Forms.ColumnHeader();
+            this.columnHeader2=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPageItems=new System.Windows.Forms.TabPage();
             this.panelItem=new System.Windows.Forms.Panel();
             this.textBoxItemAddress=new System.Windows.Forms.TextBox();
@@ -481,9 +487,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.comboBoxLevelTableHP=new System.Windows.Forms.ComboBox();
             this.labelLevelTableHP=new System.Windows.Forms.Label();
             this.listViewLevelTable=new System.Windows.Forms.ListView();
-            this.columnHeaderXP=new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderLevel=new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderLevelTableAddress=new System.Windows.Forms.ColumnHeader();
+            this.columnHeaderXP=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderLevel=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderLevelTableAddress=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.comboBoxLevelTable=new System.Windows.Forms.ComboBox();
             this.labelSelectLevelTable=new System.Windows.Forms.Label();
             this.tabPagePalettes=new System.Windows.Forms.TabPage();
@@ -495,17 +501,17 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.pictureBoxPalettePreview=new System.Windows.Forms.PictureBox();
             this.buttonLaunchPaletteEditor=new System.Windows.Forms.Button();
             this.listViewPalettes=new System.Windows.Forms.ListView();
-            this.columnHeader6=new System.Windows.Forms.ColumnHeader();
-            this.columnHeader10=new System.Windows.Forms.ColumnHeader();
+            this.columnHeader6=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPageScript=new System.Windows.Forms.TabPage();
             this.labelFindScript=new System.Windows.Forms.Label();
             this.buttonFindScriptPrevious=new System.Windows.Forms.Button();
             this.buttonFindScriptNext=new System.Windows.Forms.Button();
             this.textBoxFindScript=new System.Windows.Forms.TextBox();
             this.listViewScript=new System.Windows.Forms.ListView();
-            this.columnHeader1=new System.Windows.Forms.ColumnHeader();
-            this.columnHeader4=new System.Windows.Forms.ColumnHeader();
-            this.columnHeader5=new System.Windows.Forms.ColumnHeader();
+            this.columnHeader1=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5=((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPageShops=new System.Windows.Forms.TabPage();
             this.panelShop=new System.Windows.Forms.Panel();
             this.comboBoxItem5=new System.Windows.Forms.ComboBox();
@@ -580,6 +586,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.menuItem1.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.menuItemOpen,
             this.menuItem3,
+            this.menuItemCreateIPSFile,
             this.menuItemChecksum,
             this.menuItem5,
             this.menuItemHomepage,
@@ -600,44 +607,51 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.menuItem3.Index=1;
             this.menuItem3.Text="-";
             // 
+            // menuItemCreateIPSFile
+            // 
+            this.menuItemCreateIPSFile.Enabled=false;
+            this.menuItemCreateIPSFile.Index=2;
+            this.menuItemCreateIPSFile.Text="Create &IPS File...";
+            this.menuItemCreateIPSFile.Click+=new System.EventHandler(this.menuItemCreateIPSFile_Click);
+            // 
             // menuItemChecksum
             // 
             this.menuItemChecksum.Enabled=false;
-            this.menuItemChecksum.Index=2;
+            this.menuItemChecksum.Index=3;
             this.menuItemChecksum.Text="&Repair Checksum";
             this.menuItemChecksum.Click+=new System.EventHandler(this.menuItemChecksum_Click);
             // 
             // menuItem5
             // 
-            this.menuItem5.Index=3;
+            this.menuItem5.Index=4;
             this.menuItem5.Text="-";
             // 
             // menuItemHomepage
             // 
-            this.menuItemHomepage.Index=4;
+            this.menuItemHomepage.Index=5;
             this.menuItemHomepage.Text="&Homepage..";
             this.menuItemHomepage.Click+=new System.EventHandler(this.menuItemHomepage_Click);
             // 
             // menuItemAbout
             // 
-            this.menuItemAbout.Index=5;
+            this.menuItemAbout.Index=6;
             this.menuItemAbout.Text="&About..";
             this.menuItemAbout.Click+=new System.EventHandler(this.menuItemAbout_Click);
             // 
             // menuItemThanks
             // 
-            this.menuItemThanks.Index=6;
+            this.menuItemThanks.Index=7;
             this.menuItemThanks.Text="&Thanks..";
             this.menuItemThanks.Click+=new System.EventHandler(this.menuItemThanks_Click);
             // 
             // menuItem8
             // 
-            this.menuItem8.Index=7;
+            this.menuItem8.Index=8;
             this.menuItem8.Text="-";
             // 
             // menuItemExit
             // 
-            this.menuItemExit.Index=8;
+            this.menuItemExit.Index=9;
             this.menuItemExit.Text="E&xit";
             this.menuItemExit.Click+=new System.EventHandler(this.menuItemExit_Click);
             // 
@@ -649,18 +663,18 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.listViewNavigate.FullRowSelect=true;
             this.listViewNavigate.HideSelection=false;
             this.listViewNavigate.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2,
-            listViewItem3,
-            listViewItem4,
-            listViewItem5,
-            listViewItem6,
-            listViewItem7,
-            listViewItem8,
-            listViewItem9,
-            listViewItem10,
-            listViewItem11,
-            listViewItem12});
+            listViewItem13,
+            listViewItem14,
+            listViewItem15,
+            listViewItem16,
+            listViewItem17,
+            listViewItem18,
+            listViewItem19,
+            listViewItem20,
+            listViewItem21,
+            listViewItem22,
+            listViewItem23,
+            listViewItem24});
             this.listViewNavigate.Location=new System.Drawing.Point(0,0);
             this.listViewNavigate.MultiSelect=false;
             this.listViewNavigate.Name="listViewNavigate";
@@ -669,8 +683,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.listViewNavigate.TabIndex=0;
             this.listViewNavigate.UseCompatibleStateImageBehavior=false;
             this.listViewNavigate.View=System.Windows.Forms.View.Details;
-            this.listViewNavigate.SelectedIndexChanged+=new System.EventHandler(this.listViewNavigate_SelectedIndexChanged);
             this.listViewNavigate.ColumnClick+=new System.Windows.Forms.ColumnClickEventHandler(this.listViewNavigate_ColumnClick);
+            this.listViewNavigate.SelectedIndexChanged+=new System.EventHandler(this.listViewNavigate_SelectedIndexChanged);
             // 
             // columnHeader
             // 
@@ -702,6 +716,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // tabPageMain
             // 
+            this.tabPageMain.Controls.Add(this.buttonCreateIPS);
             this.tabPageMain.Controls.Add(this.textBoxWarning1);
             this.tabPageMain.Controls.Add(this.textBoxWarningExample);
             this.tabPageMain.Controls.Add(this.textBoxCalculatedChecksum);
@@ -723,6 +738,20 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabPageMain.TabIndex=0;
             this.tabPageMain.Text="Main";
             this.tabPageMain.ToolTipText="Open a game ROM and regenerate checksum";
+            // 
+            // buttonCreateIPS
+            // 
+            this.buttonCreateIPS.Enabled=false;
+            this.buttonCreateIPS.FlatStyle=System.Windows.Forms.FlatStyle.Popup;
+            this.buttonCreateIPS.Image=((System.Drawing.Image)(resources.GetObject("buttonCreateIPS.Image")));
+            this.buttonCreateIPS.ImageAlign=System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonCreateIPS.Location=new System.Drawing.Point(340,71);
+            this.buttonCreateIPS.Name="buttonCreateIPS";
+            this.buttonCreateIPS.Size=new System.Drawing.Size(124,32);
+            this.buttonCreateIPS.TabIndex=15;
+            this.buttonCreateIPS.Text="Create IPS File     ";
+            this.buttonCreateIPS.TextAlign=System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonCreateIPS.Click+=new System.EventHandler(this.buttonCreateIPS_Click);
             // 
             // textBoxWarning1
             // 
@@ -749,7 +778,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // textBoxCalculatedChecksum
             // 
-            this.textBoxCalculatedChecksum.Location=new System.Drawing.Point(340,97);
+            this.textBoxCalculatedChecksum.Location=new System.Drawing.Point(340,137);
             this.textBoxCalculatedChecksum.Name="textBoxCalculatedChecksum";
             this.textBoxCalculatedChecksum.ReadOnly=true;
             this.textBoxCalculatedChecksum.Size=new System.Drawing.Size(124,20);
@@ -757,7 +786,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelCalculatedChecksum
             // 
-            this.labelCalculatedChecksum.Location=new System.Drawing.Point(214,97);
+            this.labelCalculatedChecksum.Location=new System.Drawing.Point(214,137);
             this.labelCalculatedChecksum.Name="labelCalculatedChecksum";
             this.labelCalculatedChecksum.Size=new System.Drawing.Size(120,20);
             this.labelCalculatedChecksum.TabIndex=11;
@@ -766,7 +795,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // textBoxChecksum
             // 
-            this.textBoxChecksum.Location=new System.Drawing.Point(340,71);
+            this.textBoxChecksum.Location=new System.Drawing.Point(340,111);
             this.textBoxChecksum.Name="textBoxChecksum";
             this.textBoxChecksum.ReadOnly=true;
             this.textBoxChecksum.Size=new System.Drawing.Size(124,20);
@@ -774,7 +803,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelChecksum
             // 
-            this.labelChecksum.Location=new System.Drawing.Point(230,71);
+            this.labelChecksum.Location=new System.Drawing.Point(230,111);
             this.labelChecksum.Name="labelChecksum";
             this.labelChecksum.Size=new System.Drawing.Size(104,20);
             this.labelChecksum.TabIndex=9;
@@ -834,7 +863,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.buttonChecksum.ImageAlign=System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonChecksum.ImageIndex=2;
             this.buttonChecksum.ImageList=this.imageListIcons;
-            this.buttonChecksum.Location=new System.Drawing.Point(340,123);
+            this.buttonChecksum.Location=new System.Drawing.Point(340,163);
             this.buttonChecksum.Name="buttonChecksum";
             this.buttonChecksum.Size=new System.Drawing.Size(124,32);
             this.buttonChecksum.TabIndex=3;
@@ -1370,8 +1399,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.listViewDialogText.UseCompatibleStateImageBehavior=false;
             this.listViewDialogText.View=System.Windows.Forms.View.Details;
             this.listViewDialogText.AfterLabelEdit+=new System.Windows.Forms.LabelEditEventHandler(this.listViewDialogText_AfterLabelEdit);
-            this.listViewDialogText.DoubleClick+=new System.EventHandler(this.listViewDialogText_DoubleClick);
             this.listViewDialogText.ColumnClick+=new System.Windows.Forms.ColumnClickEventHandler(this.listViewDialogText_ColumnClick);
+            this.listViewDialogText.DoubleClick+=new System.EventHandler(this.listViewDialogText_DoubleClick);
             this.listViewDialogText.KeyPress+=new System.Windows.Forms.KeyPressEventHandler(this.listViewDialogText_KeyPress);
             // 
             // columnDialogTextHeaderCurrentValue
@@ -1839,8 +1868,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.listViewInventoryNames.UseCompatibleStateImageBehavior=false;
             this.listViewInventoryNames.View=System.Windows.Forms.View.Details;
             this.listViewInventoryNames.AfterLabelEdit+=new System.Windows.Forms.LabelEditEventHandler(this.listViewInventoryNames_AfterLabelEdit);
-            this.listViewInventoryNames.DoubleClick+=new System.EventHandler(this.listViewInventoryNames_DoubleClick);
             this.listViewInventoryNames.ColumnClick+=new System.Windows.Forms.ColumnClickEventHandler(this.listViewInventoryNames_ColumnClick);
+            this.listViewInventoryNames.DoubleClick+=new System.EventHandler(this.listViewInventoryNames_DoubleClick);
             this.listViewInventoryNames.KeyPress+=new System.Windows.Forms.KeyPressEventHandler(this.listViewInventoryNames_KeyPress);
             // 
             // columnHeader2
@@ -2292,9 +2321,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.listViewPalettes.TabIndex=7;
             this.listViewPalettes.UseCompatibleStateImageBehavior=false;
             this.listViewPalettes.View=System.Windows.Forms.View.Details;
+            this.listViewPalettes.ColumnClick+=new System.Windows.Forms.ColumnClickEventHandler(this.listViewPalettes_ColumnClick);
             this.listViewPalettes.SelectedIndexChanged+=new System.EventHandler(this.listViewPalettes_SelectedIndexChanged);
             this.listViewPalettes.DoubleClick+=new System.EventHandler(this.listViewPalettes_DoubleClick);
-            this.listViewPalettes.ColumnClick+=new System.Windows.Forms.ColumnClickEventHandler(this.listViewPalettes_ColumnClick);
             // 
             // columnHeader6
             // 
@@ -2375,8 +2404,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.listViewScript.UseCompatibleStateImageBehavior=false;
             this.listViewScript.View=System.Windows.Forms.View.Details;
             this.listViewScript.AfterLabelEdit+=new System.Windows.Forms.LabelEditEventHandler(this.listViewScript_AfterLabelEdit);
-            this.listViewScript.DoubleClick+=new System.EventHandler(this.listViewScript_DoubleClick);
             this.listViewScript.ColumnClick+=new System.Windows.Forms.ColumnClickEventHandler(this.listViewScript_ColumnClick);
+            this.listViewScript.DoubleClick+=new System.EventHandler(this.listViewScript_DoubleClick);
             this.listViewScript.KeyPress+=new System.Windows.Forms.KeyPressEventHandler(this.listViewScript_KeyPress);
             // 
             // columnHeader1
@@ -2857,18 +2886,23 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 
 		private void openRom()
 		{
-			this.Cursor=Cursors.WaitCursor;
 			try
 			{
 				System.Windows.Forms.DialogResult result=this.openFileRomDialog.ShowDialog(this);
 				if(result.Equals(System.Windows.Forms.DialogResult.OK))
 				{
-					String fileName=this.openFileRomDialog.FileName;
+                    this.Cursor=Cursors.WaitCursor;
+                    String fileName=this.openFileRomDialog.FileName;
 					this.statusBarPanel.Text="Opening "+fileName+"..";
 					//update romIO
 					if(this.romIO!=null){ this.romIO.Dispose(); }
 					this.romIO=new MDBinaryRomIO(fileName);
 					String romHeader=this.romIO.readString(256,138);
+                    //check if this is a supported rom header
+                    if(!romHeader.Equals(GOOD_HEADER)) 
+                    {
+                        System.Windows.Forms.MessageBox.Show(this,"The selected ROM does not match a supported Phantasy Star III image. Bad stuff could happen if you edit it in Aridia.\n\nSelected ROM header:\n"+romHeader+"\n\nSupported header:\n"+GOOD_HEADER,"Warning",System.Windows.Forms.MessageBoxButtons.OK,System.Windows.Forms.MessageBoxIcon.Warning);
+                    }
 					//update UI
 					this.textBoxRomPath.Text=fileName;
 					this.statusBarPanel.Text="Opened "+fileName;
@@ -2892,6 +2926,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 					this.menuItemChecksum.Enabled=true;
 					this.textBoxFindScript.Enabled=true;
 					this.textBoxPaletteFind.Enabled=true;
+                    this.buttonCreateIPS.Enabled=true;
+                    this.menuItemCreateIPSFile.Enabled=true;
 					//checksum stuff
 					int storedChecksum=this.romIO.readInteger(398,2);
 					this.textBoxChecksum.Text=storedChecksum.ToString()+" (0x"+storedChecksum.ToString("X")+")";
@@ -3000,7 +3036,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 
 		private void menuItemAbout_Click(object sender, System.EventArgs e)
 		{
-			System.Windows.Forms.MessageBox.Show(this,"Aridia - Phantasy Star III ROM Editor\n\n(c) 2007-2010 Hugues Johnson\nhttp://www.huguesjohnson.com/\n\nChecksum code based off Calculate_Checksum method in Gens\nhttp://sourceforge.net/projects/gens/","About Aridia",System.Windows.Forms.MessageBoxButtons.OK,System.Windows.Forms.MessageBoxIcon.Information);
+			System.Windows.Forms.MessageBox.Show(this,"Aridia - Phantasy Star III ROM Editor\n\n(c) 2007-2011 Hugues Johnson\nhttp://www.huguesjohnson.com/\n\nChecksum code based off Calculate_Checksum method in Gens\nhttp://sourceforge.net/projects/gens/","About Aridia",System.Windows.Forms.MessageBoxButtons.OK,System.Windows.Forms.MessageBoxIcon.Information);
 		}
 
 		private void menuItemOpen_Click(object sender, System.EventArgs e)
@@ -5553,5 +5589,25 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 			}
 			this.Cursor=Cursors.Default;	
 		}
+
+        private void buttonCreateIPS_Click(object sender,EventArgs e)
+        {
+            try
+            {
+                this.Cursor=Cursors.WaitCursor;
+                IPSCreatorForm ipsCreatorForm=new IPSCreatorForm(this.textBoxRomPath.Text);
+                this.Cursor=Cursors.Default;
+                ipsCreatorForm.ShowDialog(this);
+            }
+            catch(Exception x)
+            {
+                this.errorHandler("create an IPS file",x);
+            }
+        }
+
+        private void menuItemCreateIPSFile_Click(object sender,EventArgs e)
+        {
+            buttonCreateIPS_Click(sender,e);
+        }
 	}
 }
