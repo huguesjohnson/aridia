@@ -1,9 +1,27 @@
-﻿using System;
+﻿/*
+IPSCreator: Utility to create an IPS file
+Originally created for Aridia: Phantasy Star III ROM Editor
+Copyright (c) 2011 Hugues Johnson
+
+TileEditor is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 2 
+as published by the Free Software Foundation.
+
+Aridia is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace IPSCreator
+namespace com.huguesjohnson.IPSCreator
 {
     static class Program
     {

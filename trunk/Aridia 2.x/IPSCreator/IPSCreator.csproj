@@ -8,7 +8,7 @@
     <ProjectGuid>{E5CDD06C-A9E3-40DC-86D9-A108510A8361}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IPSCreator</RootNamespace>
+    <RootNamespace>com.huguesjohnson.IPSCreator</RootNamespace>
     <AssemblyName>IPSCreator</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -59,6 +59,7 @@
     <Compile Include="IPSCreatorForm.Designer.cs">
       <DependentUpon>IPSCreatorForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PatchRecord.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="IPSCreatorForm.resx">
