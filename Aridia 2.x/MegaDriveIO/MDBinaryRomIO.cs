@@ -58,7 +58,7 @@ namespace com.huguesjohnson.MegaDriveIO
 		/// <param name="filePath">The full path to the file to edit.</param>
 		public MDBinaryRomIO(String filePath)
 		{ 
-			FileStream romFileStream=File.Open(filePath,FileMode.Open,FileAccess.ReadWrite);
+			FileStream romFileStream=File.Open(filePath,FileMode.Open,FileAccess.ReadWrite,FileShare.Read);
 			this.writer=new BinaryWriter(romFileStream);
 			this.reader=new BinaryReader(romFileStream);
 		}
