@@ -2,11 +2,11 @@
 <LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Collection>
     <anyType xsi:type="LookupValue">
-      <Description>Multiple - Rhys status screen portrait, dialog font and border, 1st generation dialog portraits</Description>
+      <Description>Multiple - Rhys portrait, dialog font and border, 1st generation dialog portraits</Description>
       <IntValue>236080</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Status screen - Mieu</Description>
+      <Description>Portrait - Mieu and Wren</Description>
       <IntValue>236112</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -22,51 +22,51 @@
       <IntValue>236208</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette005 (????)</Description>
+      <Description>Portrait - Kara - princess</Description>
       <IntValue>236240</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette006 (????)</Description>
+      <Description>Portrait - Aron</Description>
       <IntValue>236272</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette007 (????)</Description>
+      <Description>Portrait - Gwyn</Description>
       <IntValue>236304</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette008 (????)</Description>
+      <Description>Portrait - Adan</Description>
       <IntValue>236336</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette009 (????)</Description>
+      <Description>Portrait - Crys</Description>
       <IntValue>236368</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette010 (????)</Description>
+      <Description>Portrait - Sean</Description>
       <IntValue>236400</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette011 (????)</Description>
+      <Description>Portrait - Nial</Description>
       <IntValue>236432</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette012 (????)</Description>
+      <Description>Portrait - Sari</Description>
       <IntValue>236464</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette013 (????)</Description>
+      <Description>Portrait - Thea</Description>
       <IntValue>236496</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette014 (????)</Description>
+      <Description>Portrait - Laya - 2nd generation</Description>
       <IntValue>236528</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette015 (????)</Description>
+      <Description>Portrait - Kara - warrior</Description>
       <IntValue>236560</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette016 (????)</Description>
+      <Description>Portrait - Laya - 3rd generation</Description>
       <IntValue>236592</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -74,19 +74,19 @@
       <IntValue>236624</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette018 (????)</Description>
+      <Description>Portrait - Alair</Description>
       <IntValue>236656</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette019 (????)</Description>
+      <Description>Portrait - Ayn</Description>
       <IntValue>236688</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette020 (????)</Description>
+      <Description>Portrait - Ryan</Description>
       <IntValue>236720</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette021 (????)</Description>
+      <Description>Portrait - Lune</Description>
       <IntValue>236752</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -250,7 +250,7 @@
       <IntValue>238032</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Sprite - 1st generation party, Maia</Description>
+      <Description>Party - Rhys, Maia</Description>
       <IntValue>238064</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -262,7 +262,7 @@
       <IntValue>238128</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette065 (????)</Description>
+      <Description>Party - Sean</Description>
       <IntValue>238160</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -278,43 +278,43 @@
       <IntValue>238256</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette069 (????)</Description>
+      <Description>Cinema - Sean intro - throne room - background</Description>
       <IntValue>238288</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette070 (????)</Description>
+      <Description>Cinema - Sean intro - throne room - foreground</Description>
       <IntValue>238320</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette071 (????)</Description>
+      <Description>Cinema - Sean intro - escape - background</Description>
       <IntValue>238352</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette072 (????)</Description>
+      <Description>Cinema - Sean intro - escape - foreground</Description>
       <IntValue>238384</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette073 (????)</Description>
+      <Description>Cinema - Crys intro - background</Description>
       <IntValue>238416</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette074 (????)</Description>
+      <Description>Cinema - Crys intro - foreground</Description>
       <IntValue>238448</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette075 (????)</Description>
+      <Description>Cinema - Adan intro - earthquake</Description>
       <IntValue>238480</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette076 (????)</Description>
+      <Description>Cinema - Adan intro - find out what caused - background</Description>
       <IntValue>238512</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette077 (????)</Description>
+      <Description>Cinema - Adan intro - find out what caused - foreground</Description>
       <IntValue>238544</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Cinema - 'Legends of the past' font (may be used elsewhere?)</Description>
+      <Description>Cinema - 'Legends of the past' font, Aron intro background</Description>
       <IntValue>238576</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -330,43 +330,43 @@
       <IntValue>238672</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette082 (????)</Description>
+      <Description>Battle - Dark Force - dialog</Description>
       <IntValue>238704</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette083 (????)</Description>
+      <Description>Enemy - Dark Force - body</Description>
       <IntValue>238736</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette084 (????)</Description>
+      <Description>Enemy - Dark Force - hands</Description>
       <IntValue>238768</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette085 (????)</Description>
+      <Description>Battle - Dark Force - clouds</Description>
       <IntValue>238800</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette086 (????)</Description>
+      <Description>Cinema - Black and white marriage cutscenes</Description>
       <IntValue>238832</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette087 (????)</Description>
+      <Description>Cinema - ending - This city is too evil</Description>
       <IntValue>238864</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette088 (????)</Description>
+      <Description>Cinema - ending - Megido tearing city apart - background</Description>
       <IntValue>238896</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette089 (????)</Description>
+      <Description>Cinema - ending - Megido tearing city apart - foreground</Description>
       <IntValue>238928</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette090 (????)</Description>
+      <Description>Cinema - ending - Grantz</Description>
       <IntValue>238960</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette091 (????)</Description>
+      <Description>Cinema - ending - city falling</Description>
       <IntValue>238992</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1106,11 +1106,11 @@
       <IntValue>206838</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette276 (????)</Description>
+      <Description>Orakian castle - ground and trees</Description>
       <IntValue>206870</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette277 (????)</Description>
+      <Description>Orakian castle - walls and floor</Description>
       <IntValue>206902</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1154,11 +1154,11 @@
       <IntValue>207222</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette288 (????)</Description>
+      <Description>Inside houses and shops - walls</Description>
       <IntValue>207254</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette289 (????)</Description>
+      <Description>Inside houses and shops - floor</Description>
       <IntValue>207286</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1170,11 +1170,11 @@
       <IntValue>207350</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette292 (????)</Description>
+      <Description>Village - path, walls, signs</Description>
       <IntValue>207382</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette293 (????)</Description>
+      <Description>Village - ground, roofs</Description>
       <IntValue>207414</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1218,11 +1218,11 @@
       <IntValue>207734</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Overworld - water, coast, towns</Description>
+      <Description>Overworld - Landen, Elysium, Aquatica, Terminus - water, coast, towns</Description>
       <IntValue>207766</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Overworld - green</Description>
+      <Description>Overworld - Landen, Elysium, Aquatica, Terminus - grass, trees, mountains</Description>
       <IntValue>207798</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1234,11 +1234,11 @@
       <IntValue>207862</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Overworld - desert - water, border, towns</Description>
+      <Description>Overworld - Aridia - water, border, towns</Description>
       <IntValue>207894</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Overworld - desert</Description>
+      <Description>Overworld - Aridia</Description>
       <IntValue>207926</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1282,11 +1282,11 @@
       <IntValue>208246</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Overworld - frozen - ice, coast, border, towns</Description>
+      <Description>Overworld - Frigidia, frozen Aquatica - ice, coast, border, towns</Description>
       <IntValue>208278</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Overworld - frozen - ground, mountains, trees</Description>
+      <Description>Overworld - Frigidia, frozen Aquatica - ground, mountains, trees</Description>
       <IntValue>208310</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1298,11 +1298,11 @@
       <IntValue>208374</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette324 (????)</Description>
+      <Description>Layan castle - ground and trees</Description>
       <IntValue>208406</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette325 (????)</Description>
+      <Description>Layan castle - walls and floors</Description>
       <IntValue>208438</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1314,11 +1314,11 @@
       <IntValue>208502</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette328 (????)</Description>
+      <Description>Tunnel - foreground</Description>
       <IntValue>208534</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette329 (????)</Description>
+      <Description>Tunnel - background</Description>
       <IntValue>208566</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1506,11 +1506,11 @@
       <IntValue>210038</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette376 (????)</Description>
+      <Description>Skyhaven - Walls and floor</Description>
       <IntValue>210070</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette377 (????)</Description>
+      <Description>Skyhaven - forest</Description>
       <IntValue>210102</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1554,11 +1554,11 @@
       <IntValue>210422</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette388 (????)</Description>
+      <Description>Elysium cave</Description>
       <IntValue>210454</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette389 (????)</Description>
+      <Description>Elysium cave (loaded in VPD but apparently not used)</Description>
       <IntValue>210486</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1570,11 +1570,11 @@
       <IntValue>210550</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette392 (????)</Description>
+      <Description>Undersea palace - palace walls and floor</Description>
       <IntValue>210582</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette393 (????)</Description>
+      <Description>Undersea palace - ground and trees</Description>
       <IntValue>210614</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1618,7 +1618,7 @@
       <IntValue>210934</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette404 (????)</Description>
+      <Description>Laya's palace - walls and floor</Description>
       <IntValue>210966</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1630,15 +1630,15 @@
       <IntValue>211030</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette407 (????)</Description>
+      <Description>Laya's palace - old men</Description>
       <IntValue>211062</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette408 (????)</Description>
+      <Description>Overworld - Draconia - water, coast, towns</Description>
       <IntValue>211094</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette409 (????)</Description>
+      <Description>Overworld - Draconia - grass, trees, mountains</Description>
       <IntValue>211126</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1650,11 +1650,11 @@
       <IntValue>211190</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette412 (????)</Description>
+      <Description>Lashute - Wall, floor, water, dialog</Description>
       <IntValue>211222</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette413 (????)</Description>
+      <Description>Lashute - forest</Description>
       <IntValue>211254</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1662,7 +1662,7 @@
       <IntValue>211286</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette415 (????)</Description>
+      <Description>Lashute - sprites</Description>
       <IntValue>211318</IntValue>
     </anyType>
   </Collection>
