@@ -2,11 +2,11 @@
 <LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Collection>
     <anyType xsi:type="LookupValue">
-      <Description>Multiple - Rhys status screen portrait, dialog font and border, 1st generation dialog portraits</Description>
+      <Description>Multiple - Rhys portrait, dialog font and border, 1st generation dialog portraits</Description>
       <IntValue>236080</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Status screen - Mieu</Description>
+      <Description>Portrait - Mieu and Wren</Description>
       <IntValue>236112</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -22,71 +22,71 @@
       <IntValue>236208</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette005 (????)</Description>
+      <Description>Portrait - Kara - princess</Description>
       <IntValue>236240</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette006 (????)</Description>
+      <Description>Portrait - Aron</Description>
       <IntValue>236272</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette007 (????)</Description>
+      <Description>Portrait - Gwyn</Description>
       <IntValue>236304</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette008 (????)</Description>
+      <Description>Portrait - Adan</Description>
       <IntValue>236336</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette009 (????)</Description>
+      <Description>Portrait - Crys</Description>
       <IntValue>236368</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette010 (????)</Description>
+      <Description>Portrait - Sean</Description>
       <IntValue>236400</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette011 (????)</Description>
+      <Description>Portrait - Nial</Description>
       <IntValue>236432</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette012 (????)</Description>
+      <Description>Portrait - Sari</Description>
       <IntValue>236464</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette013 (????)</Description>
+      <Description>Portrait - Thea</Description>
       <IntValue>236496</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette014 (????)</Description>
+      <Description>Portrait - Laya - 2nd generation</Description>
       <IntValue>236528</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette015 (????)</Description>
+      <Description>Portrait - Kara - warrior</Description>
       <IntValue>236560</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette016 (????)</Description>
+      <Description>Portrait - Laya - 3rd generation</Description>
       <IntValue>236592</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette017 (????)</Description>
+      <Description>Portrait - Kara - Adan's generation</Description>
       <IntValue>236624</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette018 (????)</Description>
+      <Description>Portrait - Alair</Description>
       <IntValue>236656</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette019 (????)</Description>
+      <Description>Portrait - Ayn</Description>
       <IntValue>236688</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette020 (????)</Description>
+      <Description>Portrait - Ryan</Description>
       <IntValue>236720</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette021 (????)</Description>
+      <Description>Portrait - Lune</Description>
       <IntValue>236752</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -98,11 +98,11 @@
       <IntValue>236816</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette024 (????)</Description>
+      <Description>zUnknown - Palette024 (????)</Description>
       <IntValue>236848</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette025 (????)</Description>
+      <Description>zUnknown - Palette025 (????)</Description>
       <IntValue>236880</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -114,11 +114,11 @@
       <IntValue>236944</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette028 (????)</Description>
+      <Description>zUnknown - Palette028 (????)</Description>
       <IntValue>236976</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette029 (????)</Description>
+      <Description>zUnknown - Palette029 (????)</Description>
       <IntValue>237008</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -130,11 +130,11 @@
       <IntValue>237072</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette032 (????)</Description>
+      <Description>zUnknown - Palette032 (????)</Description>
       <IntValue>237104</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette033 (????)</Description>
+      <Description>zUnknown - Palette033 (????)</Description>
       <IntValue>237136</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -146,11 +146,11 @@
       <IntValue>237200</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette036 (????)</Description>
+      <Description>zUnknown - Palette036 (????)</Description>
       <IntValue>237232</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette037 (????)</Description>
+      <Description>zUnknown - Palette037 (????)</Description>
       <IntValue>237264</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -162,11 +162,11 @@
       <IntValue>237328</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette040 (????)</Description>
+      <Description>zUnknown - Palette040 (????)</Description>
       <IntValue>237360</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette041 (????)</Description>
+      <Description>zUnknown - Palette041 (????)</Description>
       <IntValue>237392</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -178,27 +178,27 @@
       <IntValue>237456</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette044 (????)</Description>
+      <Description>zUnknown - Palette044 (????)</Description>
       <IntValue>237488</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette045 (????)</Description>
+      <Description>zUnknown - Palette045 (????)</Description>
       <IntValue>237520</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette046 (????)</Description>
+      <Description>zUnknown - Palette046 (????)</Description>
       <IntValue>237552</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette047 (????)</Description>
+      <Description>zUnknown - Palette047 (????)</Description>
       <IntValue>237584</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette048 (????)</Description>
+      <Description>zUnknown - Palette048 (????)</Description>
       <IntValue>237616</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette049 (????)</Description>
+      <Description>zUnknown - Palette049 (????)</Description>
       <IntValue>237648</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -210,11 +210,11 @@
       <IntValue>237712</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette052 (????)</Description>
+      <Description>zUnknown - Palette052 (????)</Description>
       <IntValue>237744</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette053 (????)</Description>
+      <Description>zUnknown - Palette053 (????)</Description>
       <IntValue>237776</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -226,15 +226,15 @@
       <IntValue>237840</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette056 (????)</Description>
+      <Description>zUnknown - Palette056 (????)</Description>
       <IntValue>237872</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette057 (????)</Description>
+      <Description>zUnknown - Palette057 (????)</Description>
       <IntValue>237904</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette058 (????)</Description>
+      <Description>zUnknown - Palette058 (????)</Description>
       <IntValue>237936</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -242,83 +242,83 @@
       <IntValue>237968</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette060 (????)</Description>
+      <Description>zUnknown - Palette060 (????)</Description>
       <IntValue>238000</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette061 (????)</Description>
+      <Description>zUnknown - Palette061 (????)</Description>
       <IntValue>238032</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Sprite - 1st generation party, Maia</Description>
+      <Description>Party - Rhys, Maia</Description>
       <IntValue>238064</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette063 (????)</Description>
+      <Description>Party - Ayn</Description>
       <IntValue>238096</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette064 (????)</Description>
+      <Description>Party - Nial</Description>
       <IntValue>238128</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette065 (????)</Description>
+      <Description>Party - Sean</Description>
       <IntValue>238160</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette066 (????)</Description>
+      <Description>Party - Crys</Description>
       <IntValue>238192</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette067 (????)</Description>
+      <Description>Party - Adan</Description>
       <IntValue>238224</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette068 (????)</Description>
+      <Description>Party - Aron</Description>
       <IntValue>238256</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette069 (????)</Description>
+      <Description>Cinema - Sean intro - throne room - background</Description>
       <IntValue>238288</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette070 (????)</Description>
+      <Description>Cinema - Sean intro - throne room - foreground</Description>
       <IntValue>238320</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette071 (????)</Description>
+      <Description>Cinema - Sean intro - escape - background</Description>
       <IntValue>238352</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette072 (????)</Description>
+      <Description>Cinema - Sean intro - escape - foreground</Description>
       <IntValue>238384</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette073 (????)</Description>
+      <Description>Cinema - Crys intro - background</Description>
       <IntValue>238416</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette074 (????)</Description>
+      <Description>Cinema - Crys intro - foreground</Description>
       <IntValue>238448</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette075 (????)</Description>
+      <Description>Cinema - Adan intro - earthquake</Description>
       <IntValue>238480</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette076 (????)</Description>
+      <Description>Cinema - Adan intro - find out what caused - background</Description>
       <IntValue>238512</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette077 (????)</Description>
+      <Description>Cinema - Adan intro - find out what caused - foreground</Description>
       <IntValue>238544</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Cinema - 'Legends of the past' font (may be used elsewhere?)</Description>
+      <Description>Cinema - 'Legends of the past' font, Aron intro background</Description>
       <IntValue>238576</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette079 (????)</Description>
+      <Description>zUnknown - Palette079 (????)</Description>
       <IntValue>238608</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -330,803 +330,803 @@
       <IntValue>238672</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette082 (????)</Description>
+      <Description>Battle - Dark Force - dialog</Description>
       <IntValue>238704</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette083 (????)</Description>
+      <Description>Enemy - Dark Force - body</Description>
       <IntValue>238736</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette084 (????)</Description>
+      <Description>Enemy - Dark Force - hands</Description>
       <IntValue>238768</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette085 (????)</Description>
+      <Description>Battle - Dark Force - clouds</Description>
       <IntValue>238800</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette086 (????)</Description>
+      <Description>Cinema - Black and white marriage cutscenes</Description>
       <IntValue>238832</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette087 (????)</Description>
+      <Description>Cinema - ending - This city is too evil</Description>
       <IntValue>238864</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette088 (????)</Description>
+      <Description>Cinema - ending - Megido tearing city apart - background</Description>
       <IntValue>238896</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette089 (????)</Description>
+      <Description>Cinema - ending - Megido tearing city apart - foreground</Description>
       <IntValue>238928</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette090 (????)</Description>
+      <Description>Cinema - ending - Grantz</Description>
       <IntValue>238960</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette091 (????)</Description>
+      <Description>Cinema - ending - city falling</Description>
       <IntValue>238992</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette092 (????)</Description>
+      <Description>zUnknown - Palette092 (????)</Description>
       <IntValue>239024</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette093 (????)</Description>
+      <Description>zUnknown - Palette093 (????)</Description>
       <IntValue>239056</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette094 (????)</Description>
+      <Description>zUnknown - Palette094 (????)</Description>
       <IntValue>201046</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette095 (????)</Description>
+      <Description>zUnknown - Palette095 (????)</Description>
       <IntValue>201078</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette096 (????)</Description>
+      <Description>zUnknown - Palette096 (????)</Description>
       <IntValue>201110</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette097 (????)</Description>
+      <Description>zUnknown - Palette097 (????)</Description>
       <IntValue>201142</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette098 (????)</Description>
+      <Description>zUnknown - Palette098 (????)</Description>
       <IntValue>201174</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette099 (????)</Description>
+      <Description>zUnknown - Palette099 (????)</Description>
       <IntValue>201206</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette100 (????)</Description>
+      <Description>zUnknown - Palette100 (????)</Description>
       <IntValue>201238</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette101 (????)</Description>
+      <Description>zUnknown - Palette101 (????)</Description>
       <IntValue>201270</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette102 (????)</Description>
+      <Description>zUnknown - Palette102 (????)</Description>
       <IntValue>201302</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette103 (????)</Description>
+      <Description>zUnknown - Palette103 (????)</Description>
       <IntValue>201334</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette104 (????)</Description>
+      <Description>zUnknown - Palette104 (????)</Description>
       <IntValue>201366</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette105 (????)</Description>
+      <Description>zUnknown - Palette105 (????)</Description>
       <IntValue>201398</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette106 (????)</Description>
+      <Description>zUnknown - Palette106 (????)</Description>
       <IntValue>201430</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette107 (????)</Description>
+      <Description>zUnknown - Palette107 (????)</Description>
       <IntValue>201462</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette108 (????)</Description>
+      <Description>zUnknown - Palette108 (????)</Description>
       <IntValue>201494</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette109 (????)</Description>
+      <Description>zUnknown - Palette109 (????)</Description>
       <IntValue>201526</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette110 (????)</Description>
+      <Description>zUnknown - Palette110 (????)</Description>
       <IntValue>201558</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette111 (????)</Description>
+      <Description>zUnknown - Palette111 (????)</Description>
       <IntValue>201590</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette112 (????)</Description>
+      <Description>zUnknown - Palette112 (????)</Description>
       <IntValue>201622</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette113 (????)</Description>
+      <Description>zUnknown - Palette113 (????)</Description>
       <IntValue>201654</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette114 (????)</Description>
+      <Description>zUnknown - Palette114 (????)</Description>
       <IntValue>201686</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette115 (????)</Description>
+      <Description>zUnknown - Palette115 (????)</Description>
       <IntValue>201718</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette116 (????)</Description>
+      <Description>zUnknown - Palette116 (????)</Description>
       <IntValue>201750</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette117 (????)</Description>
+      <Description>zUnknown - Palette117 (????)</Description>
       <IntValue>201782</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette118 (????)</Description>
+      <Description>zUnknown - Palette118 (????)</Description>
       <IntValue>201814</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette119 (????)</Description>
+      <Description>zUnknown - Palette119 (????)</Description>
       <IntValue>201846</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette120 (????)</Description>
+      <Description>zUnknown - Palette120 (????)</Description>
       <IntValue>201878</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette121 (????)</Description>
+      <Description>zUnknown - Palette121 (????)</Description>
       <IntValue>201910</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette122 (????)</Description>
+      <Description>zUnknown - Palette122 (????)</Description>
       <IntValue>201942</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette123 (????)</Description>
+      <Description>zUnknown - Palette123 (????)</Description>
       <IntValue>201974</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette124 (????)</Description>
+      <Description>zUnknown - Palette124 (????)</Description>
       <IntValue>202006</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette125 (????)</Description>
+      <Description>zUnknown - Palette125 (????)</Description>
       <IntValue>202038</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette126 (????)</Description>
+      <Description>zUnknown - Palette126 (????)</Description>
       <IntValue>202070</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette127 (????)</Description>
+      <Description>zUnknown - Palette127 (????)</Description>
       <IntValue>202102</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette128 (????)</Description>
+      <Description>zUnknown - Palette128 (????)</Description>
       <IntValue>202134</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette129 (????)</Description>
+      <Description>zUnknown - Palette129 (????)</Description>
       <IntValue>202166</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette130 (????)</Description>
+      <Description>zUnknown - Palette130 (????)</Description>
       <IntValue>202198</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette131 (????)</Description>
+      <Description>zUnknown - Palette131 (????)</Description>
       <IntValue>202230</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette132 (????)</Description>
+      <Description>zUnknown - Palette132 (????)</Description>
       <IntValue>202262</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette133 (????)</Description>
+      <Description>zUnknown - Palette133 (????)</Description>
       <IntValue>202294</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette134 (????)</Description>
+      <Description>zUnknown - Palette134 (????)</Description>
       <IntValue>202326</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette135 (????)</Description>
+      <Description>zUnknown - Palette135 (????)</Description>
       <IntValue>202358</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette136 (????)</Description>
+      <Description>zUnknown - Palette136 (????)</Description>
       <IntValue>202390</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette137 (????)</Description>
+      <Description>zUnknown - Palette137 (????)</Description>
       <IntValue>202422</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette138 (????)</Description>
+      <Description>zUnknown - Palette138 (????)</Description>
       <IntValue>202454</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette139 (????)</Description>
+      <Description>zUnknown - Palette139 (????)</Description>
       <IntValue>202486</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette140 (????)</Description>
+      <Description>zUnknown - Palette140 (????)</Description>
       <IntValue>202518</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette141 (????)</Description>
+      <Description>zUnknown - Palette141 (????)</Description>
       <IntValue>202550</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette142 (????)</Description>
+      <Description>zUnknown - Palette142 (????)</Description>
       <IntValue>202582</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette143 (????)</Description>
+      <Description>zUnknown - Palette143 (????)</Description>
       <IntValue>202614</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette144 (????)</Description>
+      <Description>zUnknown - Palette144 (????)</Description>
       <IntValue>202646</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette145 (????)</Description>
+      <Description>zUnknown - Palette145 (????)</Description>
       <IntValue>202678</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette146 (????)</Description>
+      <Description>zUnknown - Palette146 (????)</Description>
       <IntValue>202710</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette147 (????)</Description>
+      <Description>zUnknown - Palette147 (????)</Description>
       <IntValue>202742</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette148 (????)</Description>
+      <Description>zUnknown - Palette148 (????)</Description>
       <IntValue>202774</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette149 (????)</Description>
+      <Description>zUnknown - Palette149 (????)</Description>
       <IntValue>202806</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette150 (????)</Description>
+      <Description>zUnknown - Palette150 (????)</Description>
       <IntValue>202838</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette151 (????)</Description>
+      <Description>zUnknown - Palette151 (????)</Description>
       <IntValue>202870</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette152 (????)</Description>
+      <Description>zUnknown - Palette152 (????)</Description>
       <IntValue>202902</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette153 (????)</Description>
+      <Description>zUnknown - Palette153 (????)</Description>
       <IntValue>202934</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette154 (????)</Description>
+      <Description>zUnknown - Palette154 (????)</Description>
       <IntValue>202966</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette155 (????)</Description>
+      <Description>zUnknown - Palette155 (????)</Description>
       <IntValue>202998</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette156 (????)</Description>
+      <Description>zUnknown - Palette156 (????)</Description>
       <IntValue>203030</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette157 (????)</Description>
+      <Description>zUnknown - Palette157 (????)</Description>
       <IntValue>203062</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette158 (????)</Description>
+      <Description>zUnknown - Palette158 (????)</Description>
       <IntValue>203094</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette159 (????)</Description>
+      <Description>zUnknown - Palette159 (????)</Description>
       <IntValue>203126</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette160 (????)</Description>
+      <Description>zUnknown - Palette160 (????)</Description>
       <IntValue>203158</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette161 (????)</Description>
+      <Description>zUnknown - Palette161 (????)</Description>
       <IntValue>203190</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette162 (????)</Description>
+      <Description>zUnknown - Palette162 (????)</Description>
       <IntValue>203222</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette163 (????)</Description>
+      <Description>zUnknown - Palette163 (????)</Description>
       <IntValue>203254</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette164 (????)</Description>
+      <Description>zUnknown - Palette164 (????)</Description>
       <IntValue>203286</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette165 (????)</Description>
+      <Description>zUnknown - Palette165 (????)</Description>
       <IntValue>203318</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette166 (????)</Description>
+      <Description>zUnknown - Palette166 (????)</Description>
       <IntValue>203350</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette167 (????)</Description>
+      <Description>zUnknown - Palette167 (????)</Description>
       <IntValue>203382</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette168 (????)</Description>
+      <Description>zUnknown - Palette168 (????)</Description>
       <IntValue>203414</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette169 (????)</Description>
+      <Description>zUnknown - Palette169 (????)</Description>
       <IntValue>203446</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette170 (????)</Description>
+      <Description>zUnknown - Palette170 (????)</Description>
       <IntValue>203478</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette171 (????)</Description>
+      <Description>zUnknown - Palette171 (????)</Description>
       <IntValue>203510</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette172 (????)</Description>
+      <Description>zUnknown - Palette172 (????)</Description>
       <IntValue>203542</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette173 (????)</Description>
+      <Description>zUnknown - Palette173 (????)</Description>
       <IntValue>203574</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette174 (????)</Description>
+      <Description>zUnknown - Palette174 (????)</Description>
       <IntValue>203606</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette175 (????)</Description>
+      <Description>zUnknown - Palette175 (????)</Description>
       <IntValue>203638</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette176 (????)</Description>
+      <Description>zUnknown - Palette176 (????)</Description>
       <IntValue>203670</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette177 (????)</Description>
+      <Description>zUnknown - Palette177 (????)</Description>
       <IntValue>203702</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette178 (????)</Description>
+      <Description>zUnknown - Palette178 (????)</Description>
       <IntValue>203734</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette179 (????)</Description>
+      <Description>zUnknown - Palette179 (????)</Description>
       <IntValue>203766</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette180 (????)</Description>
+      <Description>zUnknown - Palette180 (????)</Description>
       <IntValue>203798</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette181 (????)</Description>
+      <Description>zUnknown - Palette181 (????)</Description>
       <IntValue>203830</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette182 (????)</Description>
+      <Description>zUnknown - Palette182 (????)</Description>
       <IntValue>203862</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette183 (????)</Description>
+      <Description>zUnknown - Palette183 (????)</Description>
       <IntValue>203894</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette184 (????)</Description>
+      <Description>zUnknown - Palette184 (????)</Description>
       <IntValue>203926</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette185 (????)</Description>
+      <Description>zUnknown - Palette185 (????)</Description>
       <IntValue>203958</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette186 (????)</Description>
+      <Description>zUnknown - Palette186 (????)</Description>
       <IntValue>203990</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette187 (????)</Description>
+      <Description>zUnknown - Palette187 (????)</Description>
       <IntValue>204022</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette188 (????)</Description>
+      <Description>zUnknown - Palette188 (????)</Description>
       <IntValue>204054</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette189 (????)</Description>
+      <Description>zUnknown - Palette189 (????)</Description>
       <IntValue>204086</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette190 (????)</Description>
+      <Description>zUnknown - Palette190 (????)</Description>
       <IntValue>204118</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette191 (????)</Description>
+      <Description>zUnknown - Palette191 (????)</Description>
       <IntValue>204150</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette192 (????)</Description>
+      <Description>zUnknown - Palette192 (????)</Description>
       <IntValue>204182</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette193 (????)</Description>
+      <Description>zUnknown - Palette193 (????)</Description>
       <IntValue>204214</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette194 (????)</Description>
+      <Description>zUnknown - Palette194 (????)</Description>
       <IntValue>204246</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette195 (????)</Description>
+      <Description>zUnknown - Palette195 (????)</Description>
       <IntValue>204278</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette196 (????)</Description>
+      <Description>zUnknown - Palette196 (????)</Description>
       <IntValue>204310</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette197 (????)</Description>
+      <Description>zUnknown - Palette197 (????)</Description>
       <IntValue>204342</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette198 (????)</Description>
+      <Description>zUnknown - Palette198 (????)</Description>
       <IntValue>204374</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette199 (????)</Description>
+      <Description>zUnknown - Palette199 (????)</Description>
       <IntValue>204406</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette200 (????)</Description>
+      <Description>zUnknown - Palette200 (????)</Description>
       <IntValue>204438</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette201 (????)</Description>
+      <Description>zUnknown - Palette201 (????)</Description>
       <IntValue>204470</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette202 (????)</Description>
+      <Description>zUnknown - Palette202 (????)</Description>
       <IntValue>204502</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette203 (????)</Description>
+      <Description>zUnknown - Palette203 (????)</Description>
       <IntValue>204534</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette204 (????)</Description>
+      <Description>zUnknown - Palette204 (????)</Description>
       <IntValue>204566</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette205 (????)</Description>
+      <Description>zUnknown - Palette205 (????)</Description>
       <IntValue>204598</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette206 (????)</Description>
+      <Description>zUnknown - Palette206 (????)</Description>
       <IntValue>204630</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette207 (????)</Description>
+      <Description>zUnknown - Palette207 (????)</Description>
       <IntValue>204662</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette208 (????)</Description>
+      <Description>zUnknown - Palette208 (????)</Description>
       <IntValue>204694</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette209 (????)</Description>
+      <Description>zUnknown - Palette209 (????)</Description>
       <IntValue>204726</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette210 (????)</Description>
+      <Description>zUnknown - Palette210 (????)</Description>
       <IntValue>204758</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette211 (????)</Description>
+      <Description>zUnknown - Palette211 (????)</Description>
       <IntValue>204790</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette212 (????)</Description>
+      <Description>zUnknown - Palette212 (????)</Description>
       <IntValue>204822</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette213 (????)</Description>
+      <Description>zUnknown - Palette213 (????)</Description>
       <IntValue>204854</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette214 (????)</Description>
+      <Description>zUnknown - Palette214 (????)</Description>
       <IntValue>204886</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette215 (????)</Description>
+      <Description>zUnknown - Palette215 (????)</Description>
       <IntValue>204918</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette216 (????)</Description>
+      <Description>zUnknown - Palette216 (????)</Description>
       <IntValue>204950</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette217 (????)</Description>
+      <Description>zUnknown - Palette217 (????)</Description>
       <IntValue>204982</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette218 (????)</Description>
+      <Description>zUnknown - Palette218 (????)</Description>
       <IntValue>205014</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette219 (????)</Description>
+      <Description>zUnknown - Palette219 (????)</Description>
       <IntValue>205046</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette220 (????)</Description>
+      <Description>zUnknown - Palette220 (????)</Description>
       <IntValue>205078</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette221 (????)</Description>
+      <Description>zUnknown - Palette221 (????)</Description>
       <IntValue>205110</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette222 (????)</Description>
+      <Description>zUnknown - Palette222 (????)</Description>
       <IntValue>205142</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette223 (????)</Description>
+      <Description>zUnknown - Palette223 (????)</Description>
       <IntValue>205174</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette224 (????)</Description>
+      <Description>zUnknown - Palette224 (????)</Description>
       <IntValue>205206</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette225 (????)</Description>
+      <Description>zUnknown - Palette225 (????)</Description>
       <IntValue>205238</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette226 (????)</Description>
+      <Description>zUnknown - Palette226 (????)</Description>
       <IntValue>205270</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette227 (????)</Description>
+      <Description>zUnknown - Palette227 (????)</Description>
       <IntValue>205302</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette228 (????)</Description>
+      <Description>zUnknown - Palette228 (????)</Description>
       <IntValue>205334</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette229 (????)</Description>
+      <Description>zUnknown - Palette229 (????)</Description>
       <IntValue>205366</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette230 (????)</Description>
+      <Description>zUnknown - Palette230 (????)</Description>
       <IntValue>205398</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette231 (????)</Description>
+      <Description>zUnknown - Palette231 (????)</Description>
       <IntValue>205430</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette232 (????)</Description>
+      <Description>zUnknown - Palette232 (????)</Description>
       <IntValue>205462</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette233 (????)</Description>
+      <Description>zUnknown - Palette233 (????)</Description>
       <IntValue>205494</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette234 (????)</Description>
+      <Description>zUnknown - Palette234 (????)</Description>
       <IntValue>205526</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette235 (????)</Description>
+      <Description>zUnknown - Palette235 (????)</Description>
       <IntValue>205558</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette236 (????)</Description>
+      <Description>zUnknown - Palette236 (????)</Description>
       <IntValue>205590</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette237 (????)</Description>
+      <Description>zUnknown - Palette237 (????)</Description>
       <IntValue>205622</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette238 (????)</Description>
+      <Description>zUnknown - Palette238 (????)</Description>
       <IntValue>205654</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette239 (????)</Description>
+      <Description>zUnknown - Palette239 (????)</Description>
       <IntValue>205686</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette240 (????)</Description>
+      <Description>zUnknown - Palette240 (????)</Description>
       <IntValue>205718</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette241 (????)</Description>
+      <Description>zUnknown - Palette241 (????)</Description>
       <IntValue>205750</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette242 (????)</Description>
+      <Description>zUnknown - Palette242 (????)</Description>
       <IntValue>205782</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette243 (????)</Description>
+      <Description>zUnknown - Palette243 (????)</Description>
       <IntValue>205814</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette244 (????)</Description>
+      <Description>zUnknown - Palette244 (????)</Description>
       <IntValue>205846</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette245 (????)</Description>
+      <Description>zUnknown - Palette245 (????)</Description>
       <IntValue>205878</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette246 (????)</Description>
+      <Description>zUnknown - Palette246 (????)</Description>
       <IntValue>205910</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette247 (????)</Description>
+      <Description>zUnknown - Palette247 (????)</Description>
       <IntValue>205942</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette248 (????)</Description>
+      <Description>zUnknown - Palette248 (????)</Description>
       <IntValue>205974</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette249 (????)</Description>
+      <Description>zUnknown - Palette249 (????)</Description>
       <IntValue>206006</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette250 (????)</Description>
+      <Description>zUnknown - Palette250 (????)</Description>
       <IntValue>206038</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette251 (????)</Description>
+      <Description>zUnknown - Palette251 (????)</Description>
       <IntValue>206070</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette252 (????)</Description>
+      <Description>zUnknown - Palette252 (????)</Description>
       <IntValue>206102</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette253 (????)</Description>
+      <Description>zUnknown - Palette253 (????)</Description>
       <IntValue>206134</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette254 (????)</Description>
+      <Description>zUnknown - Palette254 (????)</Description>
       <IntValue>206166</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette255 (????)</Description>
+      <Description>zUnknown - Palette255 (????)</Description>
       <IntValue>206198</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette256 (????)</Description>
+      <Description>zUnknown - Palette256 (????)</Description>
       <IntValue>206230</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette257 (????)</Description>
+      <Description>zUnknown - Palette257 (????)</Description>
       <IntValue>206262</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette258 (????)</Description>
+      <Description>zUnknown - Palette258 (????)</Description>
       <IntValue>206294</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette259 (????)</Description>
+      <Description>zUnknown - Palette259 (????)</Description>
       <IntValue>206326</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette260 (????)</Description>
+      <Description>zUnknown - Palette260 (????)</Description>
       <IntValue>206358</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette261 (????)</Description>
+      <Description>zUnknown - Palette261 (????)</Description>
       <IntValue>206390</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette262 (????)</Description>
+      <Description>zUnknown - Palette262 (????)</Description>
       <IntValue>206422</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette263 (????)</Description>
+      <Description>zUnknown - Palette263 (????)</Description>
       <IntValue>206454</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette264 (????)</Description>
+      <Description>zUnknown - Palette264 (????)</Description>
       <IntValue>206486</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette265 (????)</Description>
+      <Description>zUnknown - Palette265 (????)</Description>
       <IntValue>206518</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette266 (????)</Description>
+      <Description>zUnknown - Palette266 (????)</Description>
       <IntValue>206550</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette267 (????)</Description>
+      <Description>zUnknown - Palette267 (????)</Description>
       <IntValue>206582</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette268 (????)</Description>
+      <Description>zUnknown - Palette268 (????)</Description>
       <IntValue>206614</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette269 (????)</Description>
+      <Description>zUnknown - Palette269 (????)</Description>
       <IntValue>206646</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette270 (????)</Description>
+      <Description>zUnknown - Palette270 (????)</Description>
       <IntValue>206678</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette271 (????)</Description>
+      <Description>zUnknown - Palette271 (????)</Description>
       <IntValue>206710</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette272 (????)</Description>
+      <Description>zUnknown - Palette272 (????)</Description>
       <IntValue>206742</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette273 (????)</Description>
+      <Description>zUnknown - Palette273 (????)</Description>
       <IntValue>206774</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette274 (????)</Description>
+      <Description>zUnknown - Palette274 (????)</Description>
       <IntValue>206806</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette275 (????)</Description>
+      <Description>zUnknown - Palette275 (????)</Description>
       <IntValue>206838</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette276 (????)</Description>
+      <Description>Orakian castle - ground and trees</Description>
       <IntValue>206870</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette277 (????)</Description>
+      <Description>Orakian castle - walls and floor</Description>
       <IntValue>206902</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette278 (????)</Description>
+      <Description>zUnknown - Palette278 (????)</Description>
       <IntValue>206934</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette279 (????)</Description>
+      <Description>Castle - sprites</Description>
       <IntValue>206966</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette280 (????)</Description>
+      <Description>zUnknown - Palette280 (????)</Description>
       <IntValue>206998</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette281 (????)</Description>
+      <Description>zUnknown - Palette281 (????)</Description>
       <IntValue>207030</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1134,135 +1134,135 @@
       <IntValue>207062</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette283 (????)</Description>
+      <Description>zUnknown - Palette283 (????)</Description>
       <IntValue>207094</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette284 (????)</Description>
+      <Description>zUnknown - Palette284 (????)</Description>
       <IntValue>207126</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette285 (????)</Description>
+      <Description>zUnknown - Palette285 (????)</Description>
       <IntValue>207158</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette286 (????)</Description>
+      <Description>zUnknown - Palette286 (????)</Description>
       <IntValue>207190</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette287 (????)</Description>
+      <Description>zUnknown - Palette287 (????)</Description>
       <IntValue>207222</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette288 (????)</Description>
+      <Description>Inside houses and shops - walls</Description>
       <IntValue>207254</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette289 (????)</Description>
+      <Description>Inside houses and shops - floor</Description>
       <IntValue>207286</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette290 (????)</Description>
+      <Description>zUnknown - Palette290 (????)</Description>
       <IntValue>207318</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette291 (????)</Description>
+      <Description>zUnknown - Palette291 (????)</Description>
       <IntValue>207350</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette292 (????)</Description>
+      <Description>Village - path, walls, signs</Description>
       <IntValue>207382</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette293 (????)</Description>
+      <Description>Village - ground, roofs</Description>
       <IntValue>207414</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette294 (????)</Description>
+      <Description>zUnknown - Palette294 (????)</Description>
       <IntValue>207446</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette295 (????)</Description>
+      <Description>Village - villager sprites</Description>
       <IntValue>207478</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette296 (????)</Description>
+      <Description>zUnknown - Palette296 (????)</Description>
       <IntValue>207510</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette297 (????)</Description>
+      <Description>zUnknown - Palette297 (????)</Description>
       <IntValue>207542</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette298 (????)</Description>
+      <Description>zUnknown - Palette298 (????)</Description>
       <IntValue>207574</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette299 (????)</Description>
+      <Description>zUnknown - Palette299 (????)</Description>
       <IntValue>207606</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette300 (????)</Description>
+      <Description>zUnknown - Palette300 (????)</Description>
       <IntValue>207638</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette301 (????)</Description>
+      <Description>zUnknown - Palette301 (????)</Description>
       <IntValue>207670</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette302 (????)</Description>
+      <Description>zUnknown - Palette302 (????)</Description>
       <IntValue>207702</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette303 (????)</Description>
+      <Description>zUnknown - Palette303 (????)</Description>
       <IntValue>207734</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Overworld - water, coast, towns</Description>
+      <Description>Overworld - Landen, Elysium, Aquatica, Terminus - water, coast, towns</Description>
       <IntValue>207766</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Overworld - green</Description>
+      <Description>Overworld - Landen, Elysium, Aquatica, Terminus - grass, trees, mountains</Description>
       <IntValue>207798</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette306 (????)</Description>
+      <Description>zUnknown - Palette306 (????)</Description>
       <IntValue>207830</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette307 (????)</Description>
+      <Description>zUnknown - Palette307 (????)</Description>
       <IntValue>207862</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Overworld - desert - water, border, towns</Description>
+      <Description>Overworld - Aridia - water, border, towns</Description>
       <IntValue>207894</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Overworld - desert</Description>
+      <Description>Overworld - Aridia</Description>
       <IntValue>207926</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette310 (????)</Description>
+      <Description>zUnknown - Palette310 (????)</Description>
       <IntValue>207958</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette311 (????)</Description>
+      <Description>zUnknown - Palette311 (????)</Description>
       <IntValue>207990</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette312 (????)</Description>
+      <Description>zUnknown - Palette312 (????)</Description>
       <IntValue>208022</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette313 (????)</Description>
+      <Description>zUnknown - Palette313 (????)</Description>
       <IntValue>208054</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette314 (????)</Description>
+      <Description>zUnknown - Palette314 (????)</Description>
       <IntValue>208086</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette315 (????)</Description>
+      <Description>zUnknown - Palette315 (????)</Description>
       <IntValue>208118</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1270,63 +1270,63 @@
       <IntValue>208150</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette317 (????)</Description>
+      <Description>zUnknown - Palette317 (????)</Description>
       <IntValue>208182</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette318 (????)</Description>
+      <Description>zUnknown - Palette318 (????)</Description>
       <IntValue>208214</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette319 (????)</Description>
+      <Description>zUnknown - Palette319 (????)</Description>
       <IntValue>208246</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Overworld - frozen - ice, coast, border, towns</Description>
+      <Description>Overworld - Frigidia, frozen Aquatica - ice, coast, border, towns</Description>
       <IntValue>208278</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Overworld - frozen - ground, mountains, trees</Description>
+      <Description>Overworld - Frigidia, frozen Aquatica - ground, mountains, trees</Description>
       <IntValue>208310</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette322 (????)</Description>
+      <Description>zUnknown - Palette322 (????)</Description>
       <IntValue>208342</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette323 (????)</Description>
+      <Description>zUnknown - Palette323 (????)</Description>
       <IntValue>208374</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette324 (????)</Description>
+      <Description>Layan castle - ground and trees</Description>
       <IntValue>208406</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette325 (????)</Description>
+      <Description>Layan castle - walls and floors</Description>
       <IntValue>208438</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette326 (????)</Description>
+      <Description>zUnknown - Palette326 (????)</Description>
       <IntValue>208470</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette327 (????)</Description>
+      <Description>zUnknown - Palette327 (????)</Description>
       <IntValue>208502</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette328 (????)</Description>
+      <Description>Tunnel - foreground</Description>
       <IntValue>208534</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette329 (????)</Description>
+      <Description>Tunnel - background</Description>
       <IntValue>208566</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette330 (????)</Description>
+      <Description>zUnknown - Palette330 (????)</Description>
       <IntValue>208598</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette331 (????)</Description>
+      <Description>zUnknown - Palette331 (????)</Description>
       <IntValue>208630</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1334,31 +1334,31 @@
       <IntValue>208662</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette333 (????)</Description>
+      <Description>Cinema - intro - Maia on beach - foreground</Description>
       <IntValue>208694</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette334 (????)</Description>
+      <Description>Cinema - intro - Maia on beach - background</Description>
       <IntValue>208726</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette335 (????)</Description>
+      <Description>Cinema - intro - Laya and Orakio</Description>
       <IntValue>208758</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette336 (????)</Description>
+      <Description>zUnknown - Palette336 (????)</Description>
       <IntValue>208790</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette337 (????)</Description>
+      <Description>zUnknown - Palette337 (????)</Description>
       <IntValue>208822</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette338 (????)</Description>
+      <Description>zUnknown - Palette338 (????)</Description>
       <IntValue>208854</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette339 (????)</Description>
+      <Description>zUnknown - Palette339 (????)</Description>
       <IntValue>208886</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1366,303 +1366,303 @@
       <IntValue>208918</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette341 (????)</Description>
+      <Description>zUnknown - Palette341 (????)</Description>
       <IntValue>208950</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette342 (????)</Description>
+      <Description>zUnknown - Palette342 (????)</Description>
       <IntValue>208982</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette343 (????)</Description>
+      <Description>zUnknown - Palette343 (????)</Description>
       <IntValue>209014</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette344 (????)</Description>
+      <Description>zUnknown - Palette344 (????)</Description>
       <IntValue>209046</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette345 (????)</Description>
+      <Description>zUnknown - Palette345 (????)</Description>
       <IntValue>209078</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette346 (????)</Description>
+      <Description>zUnknown - Palette346 (????)</Description>
       <IntValue>209110</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette347 (????)</Description>
+      <Description>zUnknown - Palette347 (????)</Description>
       <IntValue>209142</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette348 (????)</Description>
+      <Description>zUnknown - Palette348 (????)</Description>
       <IntValue>209174</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette349 (????)</Description>
+      <Description>zUnknown - Palette349 (????)</Description>
       <IntValue>209206</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette350 (????)</Description>
+      <Description>zUnknown - Palette350 (????)</Description>
       <IntValue>209238</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette351 (????)</Description>
+      <Description>zUnknown - Palette351 (????)</Description>
       <IntValue>209270</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette352 (????)</Description>
+      <Description>zUnknown - Palette352 (????)</Description>
       <IntValue>209302</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette353 (????)</Description>
+      <Description>zUnknown - Palette353 (????)</Description>
       <IntValue>209334</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette354 (????)</Description>
+      <Description>zUnknown - Palette354 (????)</Description>
       <IntValue>209366</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette355 (????)</Description>
+      <Description>zUnknown - Palette355 (????)</Description>
       <IntValue>209398</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette356 (????)</Description>
+      <Description>zUnknown - Palette356 (????)</Description>
       <IntValue>209430</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette357 (????)</Description>
+      <Description>zUnknown - Palette357 (????)</Description>
       <IntValue>209462</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette358 (????)</Description>
+      <Description>zUnknown - Palette358 (????)</Description>
       <IntValue>209494</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette359 (????)</Description>
+      <Description>zUnknown - Palette359 (????)</Description>
       <IntValue>209526</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette360 (????)</Description>
+      <Description>zUnknown - Palette360 (????)</Description>
       <IntValue>209558</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette361 (????)</Description>
+      <Description>zUnknown - Palette361 (????)</Description>
       <IntValue>209590</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette362 (????)</Description>
+      <Description>zUnknown - Palette362 (????)</Description>
       <IntValue>209622</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette363 (????)</Description>
+      <Description>zUnknown - Palette363 (????)</Description>
       <IntValue>209654</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette364 (????)</Description>
+      <Description>zUnknown - Palette364 (????)</Description>
       <IntValue>209686</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette365 (????)</Description>
+      <Description>zUnknown - Palette365 (????)</Description>
       <IntValue>209718</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette366 (????)</Description>
+      <Description>zUnknown - Palette366 (????)</Description>
       <IntValue>209750</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette367 (????)</Description>
+      <Description>zUnknown - Palette367 (????)</Description>
       <IntValue>209782</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette368 (????)</Description>
+      <Description>zUnknown - Palette368 (????)</Description>
       <IntValue>209814</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette369 (????)</Description>
+      <Description>zUnknown - Palette369 (????)</Description>
       <IntValue>209846</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette370 (????)</Description>
+      <Description>zUnknown - Palette370 (????)</Description>
       <IntValue>209878</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette371 (????)</Description>
+      <Description>zUnknown - Palette371 (????)</Description>
       <IntValue>209910</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette372 (????)</Description>
+      <Description>Cinema - flying to a moon - space and stars</Description>
       <IntValue>209942</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette373 (????)</Description>
+      <Description>Cinema - flying to a moon - Azura</Description>
       <IntValue>209974</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette374 (????)</Description>
+      <Description>Cinema - flying to a moon - shuttle and Alisa III</Description>
       <IntValue>210006</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette375 (????)</Description>
+      <Description>Cinema - flying to a moon - Dahlia</Description>
       <IntValue>210038</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette376 (????)</Description>
+      <Description>Skyhaven - Walls and floor</Description>
       <IntValue>210070</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette377 (????)</Description>
+      <Description>Skyhaven - forest</Description>
       <IntValue>210102</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette378 (????)</Description>
+      <Description>zUnknown - Palette378 (????)</Description>
       <IntValue>210134</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette379 (????)</Description>
+      <Description>zUnknown - Palette379 (????)</Description>
       <IntValue>210166</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette380 (????)</Description>
+      <Description>zUnknown - Palette380 (????)</Description>
       <IntValue>210198</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette381 (????)</Description>
+      <Description>zUnknown - Palette381 (????)</Description>
       <IntValue>210230</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette382 (????)</Description>
+      <Description>zUnknown - Palette382 (????)</Description>
       <IntValue>210262</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette383 (????)</Description>
+      <Description>zUnknown - Palette383 (????)</Description>
       <IntValue>210294</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette384 (????)</Description>
+      <Description>zUnknown - Palette384 (????)</Description>
       <IntValue>210326</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette385 (????)</Description>
+      <Description>zUnknown - Palette385 (????)</Description>
       <IntValue>210358</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette386 (????)</Description>
+      <Description>zUnknown - Palette386 (????)</Description>
       <IntValue>210390</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette387 (????)</Description>
+      <Description>zUnknown - Palette387 (????)</Description>
       <IntValue>210422</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette388 (????)</Description>
+      <Description>Elysium cave</Description>
       <IntValue>210454</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette389 (????)</Description>
+      <Description>Elysium cave (loaded in VPD but apparently not used)</Description>
       <IntValue>210486</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette390 (????)</Description>
+      <Description>zUnknown - Palette390 (????)</Description>
       <IntValue>210518</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette391 (????)</Description>
+      <Description>zUnknown - Palette391 (????)</Description>
       <IntValue>210550</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette392 (????)</Description>
+      <Description>Undersea palace - palace walls and floor</Description>
       <IntValue>210582</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette393 (????)</Description>
+      <Description>Undersea palace - ground and trees</Description>
       <IntValue>210614</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette394 (????)</Description>
+      <Description>zUnknown - Palette394 (????)</Description>
       <IntValue>210646</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette395 (????)</Description>
+      <Description>zUnknown - Palette395 (????)</Description>
       <IntValue>210678</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette396 (????)</Description>
+      <Description>zUnknown - Palette396 (????)</Description>
       <IntValue>210710</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette397 (????)</Description>
+      <Description>zUnknown - Palette397 (????)</Description>
       <IntValue>210742</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette398 (????)</Description>
+      <Description>zUnknown - Palette398 (????)</Description>
       <IntValue>210774</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette399 (????)</Description>
+      <Description>zUnknown - Palette399 (????)</Description>
       <IntValue>210806</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette400 (????)</Description>
+      <Description>zUnknown - Palette400 (????)</Description>
       <IntValue>210838</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette401 (????)</Description>
+      <Description>zUnknown - Palette401 (????)</Description>
       <IntValue>210870</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette402 (????)</Description>
+      <Description>zUnknown - Palette402 (????)</Description>
       <IntValue>210902</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette403 (????)</Description>
+      <Description>zUnknown - Palette403 (????)</Description>
       <IntValue>210934</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette404 (????)</Description>
+      <Description>Laya's palace - walls and floor</Description>
       <IntValue>210966</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette405 (????)</Description>
+      <Description>zUnknown - Palette405 (????)</Description>
       <IntValue>210998</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette406 (????)</Description>
+      <Description>zUnknown - Palette406 (????)</Description>
       <IntValue>211030</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette407 (????)</Description>
+      <Description>Laya's palace - old men</Description>
       <IntValue>211062</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette408 (????)</Description>
+      <Description>Overworld - Draconia - water, coast, towns</Description>
       <IntValue>211094</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette409 (????)</Description>
+      <Description>Overworld - Draconia - grass, trees, mountains</Description>
       <IntValue>211126</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette410 (????)</Description>
+      <Description>zUnknown - Palette410 (????)</Description>
       <IntValue>211158</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette411 (????)</Description>
+      <Description>zUnknown - Palette411 (????)</Description>
       <IntValue>211190</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette412 (????)</Description>
+      <Description>Lashute - Wall, floor, water, dialog</Description>
       <IntValue>211222</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette413 (????)</Description>
+      <Description>Lashute - forest</Description>
       <IntValue>211254</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette414 (????)</Description>
+      <Description>zUnknown - Palette414 (????)</Description>
       <IntValue>211286</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Unknown - Palette415 (????)</Description>
+      <Description>Lashute - sprites</Description>
       <IntValue>211318</IntValue>
     </anyType>
   </Collection>
