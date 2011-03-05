@@ -1,5 +1,5 @@
 #summary New features under consideration and comments on the feasibility/status of each.
-*Map Editing* - Located where map data is in the ROM but it is compressed and the algorithm has not been reverse-engineered yet.
+*Map Editing* - Located where map data is in the ROM but it is compressed and the algorithm has not been reverse-engineered.
 
 *Compressed Graphics* - Graphics that are uncompressed are currently editable in Aridia. The compression algorithm for the remaining graphics has not been reverse-engineered yet. Items to include for are: cut scenes, sprites, tiles, and portraits.
 
@@ -9,6 +9,4 @@
 
 *Treasure chest contents* - This seems like something that would be easy to track down but so far have not been able to find where this is located.
 
-*Advanced enemy editing* - Name lookup, color palette, technique effectiveness.
-
-*Create IPS patch* - In-progress, should be included in 2.0 release.
+*Advanced enemy editing* - Name lookup, color palette, technique effectiveness, animation lookup.
