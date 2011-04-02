@@ -1278,7 +1278,7 @@
       <IntValue>208214</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette319 (????)</Description>
+      <Description>Sage Isle - sage sprites, may be used elsewhere</Description>
       <IntValue>208246</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1474,19 +1474,19 @@
       <IntValue>209782</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette368 (????)</Description>
+      <Description>Wren transforms - dialog text and frame, animated boxes</Description>
       <IntValue>209814</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette369 (????)</Description>
+      <Description>Wren transforms - wren, animated boxes</Description>
       <IntValue>209846</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette370 (????)</Description>
+      <Description>Wren transforms - dialog background, animated boxes</Description>
       <IntValue>209878</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette371 (????)</Description>
+      <Description>zNot used - Loaded during Wren transformations</Description>
       <IntValue>209910</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1518,15 +1518,15 @@
       <IntValue>210134</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette379 (????)</Description>
+      <Description>zNot used - Loaded in Mystoke dungeon</Description>
       <IntValue>210166</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette380 (????)</Description>
+      <Description>Mystoke dungeon - floors, walls</Description>
       <IntValue>210198</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette381 (????)</Description>
+      <Description>zNot used - Loaded in Mystoke dungeon</Description>
       <IntValue>210230</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
