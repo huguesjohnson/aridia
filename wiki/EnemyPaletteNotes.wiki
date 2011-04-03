@@ -1,0 +1,13 @@
+#summary Notes about how enemy palettes work
+
+The palettes for enemies are stored from 201046 (31156 hex) to 206709 (32775 hex). The first 5 entries of each palette are reserved for the battle background and menu.
+
+This allows four different enemy colors to be displayed onscreen at a single time. The limitation is that enemies can only have 11 colors.
+
+In the VDP the palette entries map to:
+#1 = bottom left enemy group
+#2 = bottom right enemy group
+#3 = top left enemy group
+#4 = top right enemy group
+
+Dark Force is the only exception found so far.
