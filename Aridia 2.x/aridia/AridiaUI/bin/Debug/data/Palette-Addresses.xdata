@@ -378,715 +378,715 @@
       <IntValue>239056</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette094 (????)</Description>
+      <Description>Enemy - Glop</Description>
       <IntValue>201046</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette095 (????)</Description>
+      <Description>Enemy - Ooze</Description>
       <IntValue>201078</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette096 (????)</Description>
+      <Description>Enemy - Slime</Description>
       <IntValue>201110</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette097 (????)</Description>
+      <Description>Enemy - Fire</Description>
       <IntValue>201142</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette098 (????)</Description>
+      <Description>Enemy - Murafire</Description>
       <IntValue>201174</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette099 (????)</Description>
+      <Description>Enemy - Azufire</Description>
       <IntValue>201206</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette100 (????)</Description>
+      <Description>Enemy - Nayl</Description>
       <IntValue>201238</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette101 (????)</Description>
+      <Description>Enemy - Flayl</Description>
       <IntValue>201270</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette102 (????)</Description>
+      <Description>Enemy - Slayl</Description>
       <IntValue>201302</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette103 (????)</Description>
+      <Description>Enemy - Dryad</Description>
       <IntValue>201334</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette104 (????)</Description>
+      <Description>Enemy - Nereid</Description>
       <IntValue>201366</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette105 (????)</Description>
+      <Description>Enemy - Sylph</Description>
       <IntValue>201398</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette106 (????)</Description>
+      <Description>Enemy - Buzzgull</Description>
       <IntValue>201430</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette107 (????)</Description>
+      <Description>Enemy - Lashgull</Description>
       <IntValue>201462</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette108 (????)</Description>
+      <Description>Enemy - Hackgull</Description>
       <IntValue>201494</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette109 (????)</Description>
+      <Description>Enemy - Eindon</Description>
       <IntValue>201526</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette110 (????)</Description>
+      <Description>Enemy - Tsveidon</Description>
       <IntValue>201558</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette111 (????)</Description>
+      <Description>Enemy - Dreidon</Description>
       <IntValue>201590</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette112 (????)</Description>
+      <Description>Enemy - Clump</Description>
       <IntValue>201622</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette113 (????)</Description>
+      <Description>Enemy - Cluster</Description>
       <IntValue>201654</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette114 (????)</Description>
+      <Description>Enemy - Clique</Description>
       <IntValue>201686</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette115 (????)</Description>
+      <Description>Enemy - Chirper</Description>
       <IntValue>201718</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette116 (????)</Description>
+      <Description>Warbler</Description>
       <IntValue>201750</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette117 (????)</Description>
+      <Description>Enemy - Squaker</Description>
       <IntValue>201782</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette118 (????)</Description>
+      <Description>Enemy - Lizrd</Description>
       <IntValue>201814</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette119 (????)</Description>
+      <Description>Enemy - Blizrd</Description>
       <IntValue>201846</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette120 (????)</Description>
+      <Description>Enemy - Grizrd</Description>
       <IntValue>201878</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette121 (????)</Description>
+      <Description>Enemy - Spinner</Description>
       <IntValue>201910</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette122 (????)</Description>
+      <Description>Enemy - Twirler</Description>
       <IntValue>201942</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette123 (????)</Description>
+      <Description>Enemy - Wizzer</Description>
       <IntValue>201974</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette124 (????)</Description>
+      <Description>Enemy - Imp</Description>
       <IntValue>202006</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette125 (????)</Description>
+      <Description>Enemy - Impfoul</Description>
       <IntValue>202038</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette126 (????)</Description>
+      <Description>Enemy - Impvile</Description>
       <IntValue>202070</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette127 (????)</Description>
+      <Description>Enemy - Nova</Description>
       <IntValue>202102</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette128 (????)</Description>
+      <Description>Enemy - Pulsar</Description>
       <IntValue>202134</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette129 (????)</Description>
+      <Description>Enemy - Quasar</Description>
       <IntValue>202166</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette130 (????)</Description>
+      <Description>Enemy - Chirpbot</Description>
       <IntValue>202198</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette131 (????)</Description>
+      <Description>Enemy - Warblbot</Description>
       <IntValue>202230</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette132 (????)</Description>
+      <Description>Enemy - Squakbot</Description>
       <IntValue>202262</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette133 (????)</Description>
+      <Description>Enemy - Commsat</Description>
       <IntValue>202294</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette134 (????)</Description>
+      <Description>Enemy - Spysat</Description>
       <IntValue>202326</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette135 (????)</Description>
+      <Description>Enemy - Killsat</Description>
       <IntValue>202358</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette136 (????)</Description>
+      <Description>Enemy - Arachne</Description>
       <IntValue>202390</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette137 (????)</Description>
+      <Description>Enemy - Darachne</Description>
       <IntValue>202422</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette138 (????)</Description>
+      <Description>Enemy - Zarachne</Description>
       <IntValue>202454</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette139 (????)</Description>
+      <Description>Enemy - Blink</Description>
       <IntValue>202486</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette140 (????)</Description>
+      <Description>Enemy - Flash</Description>
       <IntValue>202518</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette141 (????)</Description>
+      <Description>Enemy - Strobe</Description>
       <IntValue>202550</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette142 (????)</Description>
+      <Description>Enemy - Minimech</Description>
       <IntValue>202582</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette143 (????)</Description>
+      <Description>Enemy - Mech</Description>
       <IntValue>202614</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette144 (????)</Description>
+      <Description>Enemy - Maxmech</Description>
       <IntValue>202646</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette145 (????)</Description>
+      <Description>Enemy - Lazrbot</Description>
       <IntValue>202678</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette146 (????)</Description>
+      <Description>Enemy - Mazrbot</Description>
       <IntValue>202710</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette147 (????)</Description>
+      <Description>Enemy - Fazrbot</Description>
       <IntValue>202742</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette148 (????)</Description>
+      <Description>Enemy - Emir</Description>
       <IntValue>202774</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette149 (????)</Description>
+      <Description>Enemy - Shiek</Description>
       <IntValue>202806</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette150 (????)</Description>
+      <Description>Enemy - Caliph</Description>
       <IntValue>202838</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette151 (????)</Description>
+      <Description>Enemy - Harpy</Description>
       <IntValue>202870</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette152 (????)</Description>
+      <Description>Enemy - Griffin</Description>
       <IntValue>202902</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette153 (????)</Description>
+      <Description>Enemy - Gryphon</Description>
       <IntValue>202934</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette154 (????)</Description>
+      <Description>Enemy - Banshee</Description>
       <IntValue>202966</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette155 (????)</Description>
+      <Description>Enemy - Ghost</Description>
       <IntValue>202998</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette156 (????)</Description>
+      <Description>Enemy - Haunt</Description>
       <IntValue>203030</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette157 (????)</Description>
+      <Description>Enemy - Beastess</Description>
       <IntValue>203062</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette158 (????)</Description>
+      <Description>Enemy - Trogress</Description>
       <IntValue>203094</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette159 (????)</Description>
+      <Description>Enemy - Demoness</Description>
       <IntValue>203126</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette160 (????)</Description>
+      <Description>Enemy - Bushi</Description>
       <IntValue>203158</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette161 (????)</Description>
+      <Description>Enemy - Kensai</Description>
       <IntValue>203190</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette162 (????)</Description>
+      <Description>Enemy - Samurai</Description>
       <IntValue>203222</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette163 (????)</Description>
+      <Description>Enemy - Irisa</Description>
       <IntValue>203254</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette164 (????)</Description>
+      <Description>Enemy - Rosa</Description>
       <IntValue>203286</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette165 (????)</Description>
+      <Description>Enemy - Viola</Description>
       <IntValue>203318</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette166 (????)</Description>
+      <Description>Enemy - Moos</Description>
       <IntValue>203350</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette167 (????)</Description>
+      <Description>Enemy - Fearmoos</Description>
       <IntValue>203382</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette168 (????)</Description>
+      <Description>Enemy - Diremoos</Description>
       <IntValue>203414</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette169 (????)</Description>
+      <Description>Enemy - Blueroot</Description>
       <IntValue>203446</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette170 (????)</Description>
+      <Description>Enemy - Pinkroot</Description>
       <IntValue>203478</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette171 (????)</Description>
+      <Description>Enemy - Goldroot</Description>
       <IntValue>203510</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette172 (????)</Description>
+      <Description>Enemy - Catwoman</Description>
       <IntValue>203542</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette173 (????)</Description>
+      <Description>Enemy - Tigress</Description>
       <IntValue>203574</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette174 (????)</Description>
+      <Description>Enemy - Lioness</Description>
       <IntValue>203606</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette175 (????)</Description>
+      <Description>Enemy - Lobowing</Description>
       <IntValue>203638</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette176 (????)</Description>
+      <Description>Enemy - Lobobat</Description>
       <IntValue>203670</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette177 (????)</Description>
+      <Description>Enemy - Lobohawk</Description>
       <IntValue>203702</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette178 (????)</Description>
+      <Description>Enemy - Hopliz</Description>
       <IntValue>203734</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette179 (????)</Description>
+      <Description>Enemy - Leapliz</Description>
       <IntValue>203766</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette180 (????)</Description>
+      <Description>Enemy - Jumpliz</Description>
       <IntValue>203798</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette181 (????)</Description>
+      <Description>Enemy - Glowtoad</Description>
       <IntValue>203830</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette182 (????)</Description>
+      <Description>Enemy - Gilatoad</Description>
       <IntValue>203862</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette183 (????)</Description>
+      <Description>Enemy - Megatoad</Description>
       <IntValue>203894</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette184 (????)</Description>
+      <Description>Enemy - Seeker</Description>
       <IntValue>203926</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette185 (????)</Description>
+      <Description>Enemy - Hunter</Description>
       <IntValue>203958</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette186 (????)</Description>
+      <Description>Enemy - Killer</Description>
       <IntValue>203990</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette187 (????)</Description>
+      <Description>Enemy - Roboman</Description>
       <IntValue>204022</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette188 (????)</Description>
+      <Description>Enemy - Mechman</Description>
       <IntValue>204054</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette189 (????)</Description>
+      <Description>Enemy - Droidman</Description>
       <IntValue>204086</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette190 (????)</Description>
+      <Description>Enemy - Stix</Description>
       <IntValue>204118</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette191 (????)</Description>
+      <Description>Enemy - Glazstix</Description>
       <IntValue>204150</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette192 (????)</Description>
+      <Description>Enemy - Metlstix</Description>
       <IntValue>204182</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette193 (????)</Description>
+      <Description>Enemy - Twistbot</Description>
       <IntValue>204214</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette194 (????)</Description>
+      <Description>Enemy - Swivlbot</Description>
       <IntValue>204246</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette195 (????)</Description>
+      <Description>Enemy - Rotabot</Description>
       <IntValue>204278</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette196 (????)</Description>
+      <Description>Enemy - Drake</Description>
       <IntValue>204310</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette197 (????)</Description>
+      <Description>Enemy - Dragon</Description>
       <IntValue>204342</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette198 (????)</Description>
+      <Description>Enemy - Wyrm</Description>
       <IntValue>204374</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette199 (????)</Description>
+      <Description>Enemy - Skeleton</Description>
       <IntValue>204406</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette200 (????)</Description>
+      <Description>Enemy - Spectre</Description>
       <IntValue>204438</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette201 (????)</Description>
+      <Description>Enemy - Wraith</Description>
       <IntValue>204470</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette202 (????)</Description>
+      <Description>Enemy - Grinder</Description>
       <IntValue>204502</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette203 (????)</Description>
+      <Description>Enemy - Smasher</Description>
       <IntValue>204534</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette204 (????)</Description>
+      <Description>Enemy - Crusher</Description>
       <IntValue>204566</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette205 (????)</Description>
+      <Description>Enemy - Clops</Description>
       <IntValue>204598</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette206 (????)</Description>
+      <Description>Enemy - Biclops</Description>
       <IntValue>204630</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette207 (????)</Description>
+      <Description>Enemy - Triclops</Description>
       <IntValue>204662</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette208 (????)</Description>
+      <Description>Enemy - Dogbot</Description>
       <IntValue>204694</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette209 (????)</Description>
+      <Description>Enemy - Feralbot</Description>
       <IntValue>204726</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette210 (????)</Description>
+      <Description>Enemy - Wolfbot</Description>
       <IntValue>204758</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette211 (????)</Description>
+      <Description>Enemy - Amazon</Description>
       <IntValue>204790</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette212 (????)</Description>
+      <Description>Enemy - Erinye</Description>
       <IntValue>204822</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette213 (????)</Description>
+      <Description>Enemy - Valkyrie</Description>
       <IntValue>204854</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette214 (????)</Description>
+      <Description>Enemy - Giant</Description>
       <IntValue>204886</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette215 (????)</Description>
+      <Description>Enemy - Titan</Description>
       <IntValue>204918</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette216 (????)</Description>
+      <Description>Enemy - Colossus</Description>
       <IntValue>204950</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette217 (????)</Description>
+      <Description>Enemy - Primus</Description>
       <IntValue>204982</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette218 (????)</Description>
+      <Description>Enemy - Secundus</Description>
       <IntValue>205014</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette219 (????)</Description>
+      <Description>Enemy - Teritus</Description>
       <IntValue>205046</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette220 (????)</Description>
+      <Description>Enemy - Lasher</Description>
       <IntValue>205078</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette221 (????)</Description>
+      <Description>Enemy - Slasher</Description>
       <IntValue>205110</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette222 (????)</Description>
+      <Description>Enemy - Gnasher</Description>
       <IntValue>205142</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette223 (????)</Description>
+      <Description>Enemy - Doomfly</Description>
       <IntValue>205174</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette224 (????)</Description>
+      <Description>Enemy - Demonfly</Description>
       <IntValue>205206</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette225 (????)</Description>
+      <Description>Enemy - Deathfly</Description>
       <IntValue>205238</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette226 (????)</Description>
+      <Description>Enemy - Blotter</Description>
       <IntValue>205270</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette227 (????)</Description>
+      <Description>Enemy - Flutter</Description>
       <IntValue>205302</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette228 (????)</Description>
+      <Description>Enemy - Splatter</Description>
       <IntValue>205334</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette229 (????)</Description>
+      <Description>Enemy - Polebot</Description>
       <IntValue>205366</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette230 (????)</Description>
+      <Description>Enemy - Stickbot</Description>
       <IntValue>205398</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette231 (????)</Description>
+      <Description>Enemy - Wirebot</Description>
       <IntValue>205430</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette232 (????)</Description>
+      <Description>Enemy - Agribot</Description>
       <IntValue>205462</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette233 (????)</Description>
+      <Description>Enemy - Guardbot</Description>
       <IntValue>205494</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette234 (????)</Description>
+      <Description>Enemy - Warbot</Description>
       <IntValue>205526</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette235 (????)</Description>
+      <Description>Enemy - Flopper</Description>
       <IntValue>205558</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette236 (????)</Description>
+      <Description>Enemy - Disker</Description>
       <IntValue>205590</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette237 (????)</Description>
+      <Description>Enemy - Carder</Description>
       <IntValue>205622</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette238 (????)</Description>
+      <Description>Enemy - Fatale</Description>
       <IntValue>205654</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette239 (????)</Description>
+      <Description>Enemy - Morte</Description>
       <IntValue>205686</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette240 (????)</Description>
+      <Description>Enemy - Finis</Description>
       <IntValue>205718</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette241 (????)</Description>
+      <Description>Enemy - Stickle</Description>
       <IntValue>205750</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette242 (????)</Description>
+      <Description>Enemy - Twig</Description>
       <IntValue>205782</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette243 (????)</Description>
+      <Description>Enemy - Mantis</Description>
       <IntValue>205814</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette244 (????)</Description>
+      <Description>Enemy - Orb</Description>
       <IntValue>205846</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette245 (????)</Description>
+      <Description>Enemy - Globe</Description>
       <IntValue>205878</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette246 (????)</Description>
+      <Description>Enemy - Sphere</Description>
       <IntValue>205910</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette247 (????)</Description>
+      <Description>Enemy - Dire</Description>
       <IntValue>205942</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette248 (????)</Description>
+      <Description>Enemy - Baneful</Description>
       <IntValue>205974</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette249 (????)</Description>
+      <Description>Enemy - Malific</Description>
       <IntValue>206006</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette250 (????)</Description>
+      <Description>Enemy - Goatman</Description>
       <IntValue>206038</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette251 (????)</Description>
+      <Description>Enemy - Goatduke</Description>
       <IntValue>206070</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette252 (????)</Description>
+      <Description>Enemy - Goatking</Description>
       <IntValue>206102</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette253 (????)</Description>
+      <Description>Enemy - Punisher</Description>
       <IntValue>206134</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette254 (????)</Description>
+      <Description>Enemy - Torturer</Description>
       <IntValue>206166</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette255 (????)</Description>
+      <Description>Enemy - Executer</Description>
       <IntValue>206198</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette256 (????)</Description>
+      <Description>Enemy - Fatima</Description>
       <IntValue>206230</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette257 (????)</Description>
+      <Description>Enemy - Zafirah</Description>
       <IntValue>206262</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette258 (????)</Description>
+      <Description>Enemy - Khalidah</Description>
       <IntValue>206294</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette259 (????)</Description>
+      <Description>Enemy - Watcher</Description>
       <IntValue>206326</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette260 (????)</Description>
+      <Description>Enemy - Defender</Description>
       <IntValue>206358</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette261 (????)</Description>
+      <Description>Enemy - Guardian</Description>
       <IntValue>206390</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette262 (????)</Description>
+      <Description>Enemy - Conjurer</Description>
       <IntValue>206422</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette263 (????)</Description>
+      <Description>Enemy - Wizard</Description>
       <IntValue>206454</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette264 (????)</Description>
+      <Description>Enemy - Sorcerer</Description>
       <IntValue>206486</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette265 (????)</Description>
+      <Description>Enemy - Lyle</Description>
       <IntValue>206518</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette266 (????)</Description>
+      <Description>Enemy - Sari</Description>
       <IntValue>206550</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette267 (????)</Description>
+      <Description>Enemy - Lune</Description>
       <IntValue>206582</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette268 (????)</Description>
+      <Description>Enemy - Kara</Description>
       <IntValue>206614</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette269 (????)</Description>
+      <Description>Enemy - Siren</Description>
       <IntValue>206646</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette270 (????)</Description>
+      <Description>Enemy - Rulakir</Description>
       <IntValue>206678</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette271 (????)</Description>
+      <Description>Enemy - King of Cille</Description>
       <IntValue>206710</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
