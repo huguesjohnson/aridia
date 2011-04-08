@@ -186,11 +186,11 @@
       <IntValue>237520</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette046 (????)</Description>
+      <Description>Dialog - fortune teller</Description>
       <IntValue>237552</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette047 (????)</Description>
+      <Description>Dialog - fortune teller - blinking text</Description>
       <IntValue>237584</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -242,7 +242,7 @@
       <IntValue>237968</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette060 (????)</Description>
+      <Description>Fortune teller sprite</Description>
       <IntValue>238000</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -314,7 +314,7 @@
       <IntValue>238544</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Cinema - 'Legends of the past' font, Aron intro background</Description>
+      <Description>Cinema - 'Legends of the past' - font, Aron intro background</Description>
       <IntValue>238576</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -322,11 +322,11 @@
       <IntValue>238608</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Cinema - opening foreground</Description>
+      <Description>Cinema - 'Legends of the past' - foreground</Description>
       <IntValue>238640</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Cinema - opening background</Description>
+      <Description>Cinema - 'Legends of the past' - opening background</Description>
       <IntValue>238672</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -466,7 +466,7 @@
       <IntValue>201718</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Warbler</Description>
+      <Description>Enemy - Warbler</Description>
       <IntValue>201750</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1122,7 +1122,7 @@
       <IntValue>206966</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette280 (????)</Description>
+      <Description>Title screen - PSIII logo fade-in colors</Description>
       <IntValue>206998</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1134,7 +1134,7 @@
       <IntValue>207062</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette283 (????)</Description>
+      <Description>zNot used (283) - loaded during title screen</Description>
       <IntValue>207094</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1310,15 +1310,15 @@
       <IntValue>208470</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette327 (????)</Description>
+      <Description>Shusoran and Cille castle - sprites</Description>
       <IntValue>208502</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Tunnel - foreground</Description>
+      <Description>Tunnels - foreground</Description>
       <IntValue>208534</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Tunnel - background</Description>
+      <Description>Tunnels - background</Description>
       <IntValue>208566</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1326,7 +1326,7 @@
       <IntValue>208598</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette331 (????)</Description>
+      <Description>Tunnels - old man sprite</Description>
       <IntValue>208630</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1346,19 +1346,19 @@
       <IntValue>208758</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette336 (????)</Description>
+      <Description>Cinema - moons moving - stars</Description>
       <IntValue>208790</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette337 (????)</Description>
+      <Description>zNot used (337) - loaded during moons moving cinema</Description>
       <IntValue>208822</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette338 (????)</Description>
+      <Description>Cinema - moons moving - Azura</Description>
       <IntValue>208854</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette339 (????)</Description>
+      <Description>Cinema - moons moving - Dahlia</Description>
       <IntValue>208886</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1378,67 +1378,67 @@
       <IntValue>209014</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette344 (????)</Description>
+      <Description>Cinema - New Mota history - scenes 1-4 - dialog, text, background, worldships</Description>
       <IntValue>209046</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette345 (????)</Description>
+      <Description>zNot used (345) - loaded during New Mota history</Description>
       <IntValue>209078</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette346 (????)</Description>
+      <Description>Cinema - New Mota history - scenes 1-4 - Palm</Description>
       <IntValue>209110</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette347 (????)</Description>
+      <Description>Cinema - New Mota history - scene 4 - explosion</Description>
       <IntValue>209142</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette348 (????)</Description>
+      <Description>Cinema - New Mota history - scene 5 - dialog, text, background, worldships</Description>
       <IntValue>209174</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette349 (????)</Description>
+      <Description>zNot used (349) - loaded during New Mota history - empty</Description>
       <IntValue>209206</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette350 (????)</Description>
+      <Description>Cinema - New Mota history - scene 5 - Alisa III (also used in Sean's and Aron's endings)</Description>
       <IntValue>209238</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette351 (????)</Description>
+      <Description>zNot used (351) - loaded during New Mota history - scene 5</Description>
       <IntValue>209270</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette352 (????)</Description>
+      <Description>Ending - Crys - background</Description>
       <IntValue>209302</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette353 (????)</Description>
+      <Description>zNot used (353) - loaded during Crys' ending</Description>
       <IntValue>209334</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette354 (????)</Description>
+      <Description>Ending - Crys - small planets</Description>
       <IntValue>209366</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette355 (????)</Description>
+      <Description>Ending - Crys - large planet</Description>
       <IntValue>209398</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette356 (????)</Description>
+      <Description>Ending - Adan - background and dialog</Description>
       <IntValue>209430</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette357 (????)</Description>
+      <Description>zNot used (357) - loaded during Adan's ending</Description>
       <IntValue>209462</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette358 (????)</Description>
+      <Description>Ending - Sean, Aron - background and dialog</Description>
       <IntValue>209494</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette359 (????)</Description>
+      <Description>zNot used (359) - loaded during endings - blanks</Description>
       <IntValue>209526</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1458,7 +1458,7 @@
       <IntValue>209654</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette364 (????)</Description>
+      <Description>Title screen - logo after pressing Start (only used briefly)</Description>
       <IntValue>209686</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1466,11 +1466,11 @@
       <IntValue>209718</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette366 (????)</Description>
+      <Description>zNot used (366) - loaded during title screen</Description>
       <IntValue>209750</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette367 (????)</Description>
+      <Description>zNot used (367) - loaded during title screen</Description>
       <IntValue>209782</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1486,7 +1486,7 @@
       <IntValue>209878</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zNot used - Loaded during Wren transformations</Description>
+      <Description>zNot used (371) - Loaded during Wren transformations</Description>
       <IntValue>209910</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1518,7 +1518,7 @@
       <IntValue>210134</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zNot used - Loaded in Mystoke dungeon</Description>
+      <Description>zNot used (379) - Loaded in Mystoke dungeon</Description>
       <IntValue>210166</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1526,7 +1526,7 @@
       <IntValue>210198</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zNot used - Loaded in Mystoke dungeon</Description>
+      <Description>zNot used (381) - Loaded in Mystoke dungeon</Description>
       <IntValue>210230</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1538,11 +1538,11 @@
       <IntValue>210294</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette384 (????)</Description>
+      <Description>Divisia dungeon - floors, walls</Description>
       <IntValue>210326</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette385 (????)</Description>
+      <Description>zNot used (385) - Loaded in Divisia dungeon</Description>
       <IntValue>210358</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1558,7 +1558,7 @@
       <IntValue>210454</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Elysium cave (loaded in VPD but apparently not used)</Description>
+      <Description>zNot used (389) - Loaded in Elysium cave</Description>
       <IntValue>210486</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1630,7 +1630,7 @@
       <IntValue>211030</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Laya's palace - old men</Description>
+      <Description>Laya's palace - old men, Lune's guards</Description>
       <IntValue>211062</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
