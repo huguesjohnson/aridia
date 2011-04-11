@@ -1,6 +1,6 @@
 /*
 Aridia: Phantasy Star III ROM Editor
-Copyright (c) 2007-2010 Hugues Johnson
+Copyright (c) 2007-2011 Hugues Johnson
 
 Aridia is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 2 
@@ -144,13 +144,11 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 		private System.Windows.Forms.TextBox textBoxCharacterSkill;
 		private System.Windows.Forms.Label labelCharacterSkill;
 		private System.Windows.Forms.TextBox textBoxCharacterSpeed;
-		private System.Windows.Forms.Label labelCharacterSpeed;
-		private System.Windows.Forms.Label labelLevelTemplate;
+        private System.Windows.Forms.Label labelCharacterSpeed;
 		private System.Windows.Forms.Label labelCharacterItems;
 		private System.Windows.Forms.ListView listViewCharacterItems;
 		private System.Windows.Forms.ComboBox comboBoxCharacterType;
-		private System.Windows.Forms.TextBox textBoxCharacterTechPoints;
-		private System.Windows.Forms.TextBox textBoxCharacterLevelTemplate;
+        private System.Windows.Forms.TextBox textBoxCharacterTechPoints;
 		private System.Windows.Forms.ColumnHeader columnHeaderCharacterItemHexString;
 		private System.Windows.Forms.ColumnHeader columnHeaderCharacterItemIsEquipped;
 		private System.Windows.Forms.ColumnHeader columnHeaderCharacterItemItem;
@@ -187,9 +185,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 		private System.Windows.Forms.TabPage tabPageGraphics;
 		private System.Windows.Forms.Button buttonEditTitleLogo;
 		private System.Windows.Forms.Button buttonEditFont;
-		private System.Windows.Forms.Button buttonEditBorders;
-		private System.Windows.Forms.TextBox textBoxWarningExample;
-		private System.Windows.Forms.TextBox textBoxWarning1;
+        private System.Windows.Forms.Button buttonEditBorders;
 		private System.Windows.Forms.Button buttonCreditFont;
 		private System.Windows.Forms.Button buttonEditStatusFont;
 		private System.Windows.Forms.MenuItem menuItemThanks;
@@ -344,8 +340,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabControlMainContent=new System.Windows.Forms.TabControl();
             this.tabPageMain=new System.Windows.Forms.TabPage();
             this.buttonCreateIPS=new System.Windows.Forms.Button();
-            this.textBoxWarning1=new System.Windows.Forms.TextBox();
-            this.textBoxWarningExample=new System.Windows.Forms.TextBox();
             this.textBoxCalculatedChecksum=new System.Windows.Forms.TextBox();
             this.labelCalculatedChecksum=new System.Windows.Forms.Label();
             this.textBoxChecksum=new System.Windows.Forms.TextBox();
@@ -379,8 +373,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.contextMenuCharacterMenu=new System.Windows.Forms.ContextMenu();
             this.menuItemEditCharacterItem=new System.Windows.Forms.MenuItem();
             this.labelCharacterItems=new System.Windows.Forms.Label();
-            this.textBoxCharacterLevelTemplate=new System.Windows.Forms.TextBox();
-            this.labelLevelTemplate=new System.Windows.Forms.Label();
             this.textBoxCharacterSpeed=new System.Windows.Forms.TextBox();
             this.labelCharacterSpeed=new System.Windows.Forms.Label();
             this.textBoxCharacterSkill=new System.Windows.Forms.TextBox();
@@ -717,8 +709,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // tabPageMain
             // 
             this.tabPageMain.Controls.Add(this.buttonCreateIPS);
-            this.tabPageMain.Controls.Add(this.textBoxWarning1);
-            this.tabPageMain.Controls.Add(this.textBoxWarningExample);
             this.tabPageMain.Controls.Add(this.textBoxCalculatedChecksum);
             this.tabPageMain.Controls.Add(this.labelCalculatedChecksum);
             this.tabPageMain.Controls.Add(this.textBoxChecksum);
@@ -752,29 +742,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.buttonCreateIPS.Text="Create IPS File     ";
             this.buttonCreateIPS.TextAlign=System.Drawing.ContentAlignment.MiddleRight;
             this.buttonCreateIPS.Click+=new System.EventHandler(this.buttonCreateIPS_Click);
-            // 
-            // textBoxWarning1
-            // 
-            this.textBoxWarning1.BorderStyle=System.Windows.Forms.BorderStyle.None;
-            this.textBoxWarning1.Enabled=false;
-            this.textBoxWarning1.Location=new System.Drawing.Point(8,239);
-            this.textBoxWarning1.Multiline=true;
-            this.textBoxWarning1.Name="textBoxWarning1";
-            this.textBoxWarning1.Size=new System.Drawing.Size(456,32);
-            this.textBoxWarning1.TabIndex=14;
-            this.textBoxWarning1.Text="These fields are present mostly for experimentation; the results can be somewhat "+
-                "unpredictable. Please consult the documentation on the homepage.";
-            // 
-            // textBoxWarningExample
-            // 
-            this.textBoxWarningExample.BackColor=System.Drawing.Color.FromArgb(((int)(((byte)(255)))),((int)(((byte)(192)))),((int)(((byte)(192)))));
-            this.textBoxWarningExample.Enabled=false;
-            this.textBoxWarningExample.Location=new System.Drawing.Point(107,213);
-            this.textBoxWarningExample.Multiline=true;
-            this.textBoxWarningExample.Name="textBoxWarningExample";
-            this.textBoxWarningExample.Size=new System.Drawing.Size(315,20);
-            this.textBoxWarningExample.TabIndex=13;
-            this.textBoxWarningExample.Text="Fields with a red background are known to cause odd behavior.";
             // 
             // textBoxCalculatedChecksum
             // 
@@ -841,7 +808,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // labelWarning
             // 
             this.labelWarning.Font=new System.Drawing.Font("Microsoft Sans Serif",8.25F,System.Drawing.FontStyle.Bold,System.Drawing.GraphicsUnit.Point,((byte)(0)));
-            this.labelWarning.Location=new System.Drawing.Point(109,194);
+            this.labelWarning.Location=new System.Drawing.Point(97,255);
             this.labelWarning.Name="labelWarning";
             this.labelWarning.Size=new System.Drawing.Size(192,16);
             this.labelWarning.TabIndex=5;
@@ -850,7 +817,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // pictureBoxWarning
             // 
             this.pictureBoxWarning.Image=((System.Drawing.Image)(resources.GetObject("pictureBoxWarning.Image")));
-            this.pictureBoxWarning.Location=new System.Drawing.Point(18,153);
+            this.pictureBoxWarning.Location=new System.Drawing.Point(11,191);
             this.pictureBoxWarning.Name="pictureBoxWarning";
             this.pictureBoxWarning.Size=new System.Drawing.Size(80,80);
             this.pictureBoxWarning.TabIndex=4;
@@ -935,8 +902,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.panelCharacter.Controls.Add(this.linkLabelItemEditing);
             this.panelCharacter.Controls.Add(this.listViewCharacterItems);
             this.panelCharacter.Controls.Add(this.labelCharacterItems);
-            this.panelCharacter.Controls.Add(this.textBoxCharacterLevelTemplate);
-            this.panelCharacter.Controls.Add(this.labelLevelTemplate);
             this.panelCharacter.Controls.Add(this.textBoxCharacterSpeed);
             this.panelCharacter.Controls.Add(this.labelCharacterSpeed);
             this.panelCharacter.Controls.Add(this.textBoxCharacterSkill);
@@ -1137,25 +1102,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.labelCharacterItems.Text="Items:";
             this.labelCharacterItems.TextAlign=System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBoxCharacterLevelTemplate
-            // 
-            this.textBoxCharacterLevelTemplate.BackColor=System.Drawing.Color.FromArgb(((int)(((byte)(255)))),((int)(((byte)(192)))),((int)(((byte)(192)))));
-            this.textBoxCharacterLevelTemplate.Location=new System.Drawing.Point(316,127);
-            this.textBoxCharacterLevelTemplate.MaxLength=5;
-            this.textBoxCharacterLevelTemplate.Name="textBoxCharacterLevelTemplate";
-            this.textBoxCharacterLevelTemplate.Size=new System.Drawing.Size(130,20);
-            this.textBoxCharacterLevelTemplate.TabIndex=36;
-            this.textBoxCharacterLevelTemplate.Validating+=new System.ComponentModel.CancelEventHandler(this.textBoxCharacterLevelTemplate_Validating);
-            // 
-            // labelLevelTemplate
-            // 
-            this.labelLevelTemplate.Location=new System.Drawing.Point(238,125);
-            this.labelLevelTemplate.Name="labelLevelTemplate";
-            this.labelLevelTemplate.Size=new System.Drawing.Size(72,21);
-            this.labelLevelTemplate.TabIndex=34;
-            this.labelLevelTemplate.Text="LV Template:";
-            this.labelLevelTemplate.TextAlign=System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // textBoxCharacterSpeed
             // 
             this.textBoxCharacterSpeed.Location=new System.Drawing.Point(96,128);
@@ -1284,7 +1230,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // comboBoxCharacterTechniques
             // 
-            this.comboBoxCharacterTechniques.BackColor=System.Drawing.Color.FromArgb(((int)(((byte)(255)))),((int)(((byte)(192)))),((int)(((byte)(192)))));
+            this.comboBoxCharacterTechniques.BackColor=System.Drawing.SystemColors.Window;
             this.comboBoxCharacterTechniques.DropDownStyle=System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCharacterTechniques.Location=new System.Drawing.Point(316,32);
             this.comboBoxCharacterTechniques.Name="comboBoxCharacterTechniques";
@@ -2314,6 +2260,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.listViewPalettes.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader6,
             this.columnHeader10});
+            this.listViewPalettes.HideSelection=false;
             this.listViewPalettes.Location=new System.Drawing.Point(8,5);
             this.listViewPalettes.MultiSelect=false;
             this.listViewPalettes.Name="listViewPalettes";
@@ -2813,7 +2760,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.MaximizeBox=false;
             this.Menu=this.mainMenu;
             this.Name="MainForm";
-            this.Text="Aridia 2.0 (DEV BUILD)";
+            this.Text="Aridia 2.1";
             this.tabControlMainContent.ResumeLayout(false);
             this.tabPageMain.ResumeLayout(false);
             this.tabPageMain.PerformLayout();
@@ -3803,9 +3750,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 				//speed
 				int speed=this.romIO.readInteger(address+(int)Constants.CharacterOffsets.Speed,1);
 				this.textBoxCharacterSpeed.Text=speed.ToString();
-				//level template
-				int levelTemplate=this.romIO.readInteger(address+(int)Constants.CharacterOffsets.LevelTemplate,2);
-				this.textBoxCharacterLevelTemplate.Text=levelTemplate.ToString();
 				//items
 				this.listViewCharacterItems.Items.Clear();
 				int itemCount=this.romIO.readInteger(address+(int)Constants.CharacterOffsets.ItemCount,1);
@@ -4235,45 +4179,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 				catch(Exception x)
 				{
 					this.errorHandler("save the speed for a character",x);
-					e.Cancel=true;
-				}
-			}
-			catch
-			{
-				//can be thrown from Convert.ToInt call
-				this.validationFailed(mdInt);
-				e.Cancel=true;
-			}
-			this.Cursor=Cursors.Default;
-		}
-
-		private void textBoxCharacterLevelTemplate_Validating(object sender, System.ComponentModel.CancelEventArgs e)
-		{
-			if((this.comboBoxSelectCharacter.Text.Length<1)||(this.textBoxCharacterAddress.Text.Length<1)){ return; }
-			this.Cursor=Cursors.WaitCursor;
-			MDInteger mdInt=new MDInteger();
-			try
-			{
-				string newValue=this.textBoxCharacterLevelTemplate.Text;
-				mdInt.NumBytes=2;
-				mdInt.CurrentValue=Convert.ToInt32(newValue);
-				mdInt.Address=(Convert.ToInt32(this.textBoxCharacterAddress.Text))+(int)Constants.CharacterOffsets.LevelTemplate;
-				try
-				{
-					if(AridiaUtils.validateMDInteger(mdInt))
-					{
-						this.romIO.writeInt(mdInt);
-						this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
-					}
-					else
-					{
-						this.validationFailed(mdInt);
-						e.Cancel=true;
-					}
-				}
-				catch(Exception x)
-				{
-					this.errorHandler("save the level template for a character",x);
 					e.Cancel=true;
 				}
 			}
