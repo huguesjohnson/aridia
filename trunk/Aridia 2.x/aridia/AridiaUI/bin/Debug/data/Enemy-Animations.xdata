@@ -2,87 +2,87 @@
 <LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Collection>    
     <anyType xsi:type="LookupValue">
-      <Description>0006</Description>
+      <Description>2nd row - no animation</Description>
       <IntValue>6</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>000A</Description>
+      <Description>1st row - flip upside down</Description>
       <IntValue>10</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>000C</Description>
+      <Description>1st row - double hop</Description>
       <IntValue>12</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>000E</Description>
+      <Description>2nd row - doomfly, demonfly, deathfly</Description>
       <IntValue>14</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>0010</Description>
+      <Description>1st row - attack in air</Description>
       <IntValue>16</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>0012</Description>
+      <Description>1st row - half twist</Description>
       <IntValue>18</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>0014</Description>
+      <Description>1st row - bounce</Description>
       <IntValue>20</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>0016</Description>
+      <Description>1st row - full twist</Description>
       <IntValue>22</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>0018</Description>
+      <Description>1st row - circle in air</Description>
       <IntValue>24</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>001A</Description>
+      <Description>1st row - run across</Description>
       <IntValue>26</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>001C</Description>
+      <Description>1st row - spin in air</Description>
       <IntValue>28</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>001E</Description>
+      <Description>1st row - high jump</Description>
       <IntValue>30</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>0020</Description>
+      <Description>1st row - attack during jump</Description>
       <IntValue>32</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>0022</Description>
+      <Description>2nd row - dragon, drake, wyrm</Description>
       <IntValue>34</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>0024</Description>
+      <Description>2nd row - Lyle</Description>
       <IntValue>36</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>0026</Description>
+      <Description>2nd row - blueroot, pinkroot, goldroot</Description>
       <IntValue>38</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>0028</Description>
+      <Description>2nd row - stix, glazstix, metlstix</Description>
       <IntValue>40</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>002A</Description>
+      <Description>Dark Force - body</Description>
       <IntValue>42</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>002C</Description>
+      <Description>Dark Force - right hand</Description>
       <IntValue>44</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>002E</Description>
+      <Description>Dark Force - left hand</Description>
       <IntValue>46</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>0030</Description>
+      <Description>2nd row - orb, globe, sphere</Description>
       <IntValue>48</IntValue>
     </anyType>
   </Collection>
