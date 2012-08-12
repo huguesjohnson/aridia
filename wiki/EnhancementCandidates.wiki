@@ -7,6 +7,6 @@
 
 *Event editing* - No clue how to do this yet.
 
-*Treasure chest contents* - Found location of some treasure chests, searching for the others.
+*Treasure chest contents* - Found location of some treasure chests, searching for the others, likely to be included in version 2.2.
 
 *Advanced enemy editing* - Name lookup, color palette, technique effectiveness, animation lookup.
