@@ -7,6 +7,6 @@
 
 *Event editing* - No clue how to do this yet.
 
-*Treasure chest contents* - This seems like something that would be easy to track down but so far have not been able to find where this is located.
+*Treasure chest contents* - Found location of some treasure chests, searching for the others.
 
 *Advanced enemy editing* - Name lookup, color palette, technique effectiveness, animation lookup.
