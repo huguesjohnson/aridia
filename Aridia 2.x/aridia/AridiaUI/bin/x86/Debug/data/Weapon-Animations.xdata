@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>None</Description>
+      <IntValue>0</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Sword</Description>
+      <IntValue>8</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Knife</Description>
+      <IntValue>1032</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Staff</Description>
+      <IntValue>2056</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Slicer</Description>
+      <IntValue>3084</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Claw</Description>
+      <IntValue>4104</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Bow</Description>
+      <IntValue>5130</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Shot</Description>
+      <IntValue>6154</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Ceramic Shot</Description>
+      <IntValue>6156</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Pulse Vulcan</Description>
+      <IntValue>6160</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Needle</Description>
+      <IntValue>7182</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>
