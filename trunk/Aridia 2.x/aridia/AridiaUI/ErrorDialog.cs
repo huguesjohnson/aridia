@@ -1,6 +1,6 @@
 /*
 Aridia: Phantasy Star III ROM Editor
-Copyright (c) 2007-2010 Hugues Johnson
+Copyright (c) 2007-2013 Hugues Johnson
 
 Aridia is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 2 
@@ -75,108 +75,111 @@ namespace com.huguesjohnson.aridia.ui
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Resources.ResourceManager resources = new System.Resources.ResourceManager(typeof(ErrorDialog));
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.labelStackTrace = new System.Windows.Forms.Label();
-			this.labelYouTriedTo = new System.Windows.Forms.Label();
-			this.labelAction = new System.Windows.Forms.Label();
-			this.labelNormallyASmartMove = new System.Windows.Forms.Label();
-			this.textBoxStackTrace = new System.Windows.Forms.TextBox();
-			this.buttonReturn = new System.Windows.Forms.Button();
-			this.buttonTerminate = new System.Windows.Forms.Button();
-			this.SuspendLayout();
-			// 
-			// pictureBox1
-			// 
-			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(8, 8);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(128, 64);
-			this.pictureBox1.TabIndex = 0;
-			this.pictureBox1.TabStop = false;
-			// 
-			// labelStackTrace
-			// 
-			this.labelStackTrace.Location = new System.Drawing.Point(8, 72);
-			this.labelStackTrace.Name = "labelStackTrace";
-			this.labelStackTrace.Size = new System.Drawing.Size(104, 24);
-			this.labelStackTrace.TabIndex = 1;
-			this.labelStackTrace.Text = "Error Stack Trace:";
-			// 
-			// labelYouTriedTo
-			// 
-			this.labelYouTriedTo.Location = new System.Drawing.Point(136, 16);
-			this.labelYouTriedTo.Name = "labelYouTriedTo";
-			this.labelYouTriedTo.Size = new System.Drawing.Size(64, 24);
-			this.labelYouTriedTo.TabIndex = 2;
-			this.labelYouTriedTo.Text = "You tried to ";
-			// 
-			// labelAction
-			// 
-			this.labelAction.Location = new System.Drawing.Point(192, 16);
-			this.labelAction.Name = "labelAction";
-			this.labelAction.Size = new System.Drawing.Size(280, 24);
-			this.labelAction.TabIndex = 3;
-			this.labelAction.Text = "<action>";
-			// 
-			// labelNormallyASmartMove
-			// 
-			this.labelNormallyASmartMove.Location = new System.Drawing.Point(136, 40);
-			this.labelNormallyASmartMove.Name = "labelNormallyASmartMove";
-			this.labelNormallyASmartMove.Size = new System.Drawing.Size(344, 24);
-			this.labelNormallyASmartMove.TabIndex = 4;
-			this.labelNormallyASmartMove.Text = "Normally a smart move, but I\'m afraid an error occured.";
-			// 
-			// textBoxStackTrace
-			// 
-			this.textBoxStackTrace.Location = new System.Drawing.Point(8, 96);
-			this.textBoxStackTrace.Multiline = true;
-			this.textBoxStackTrace.Name = "textBoxStackTrace";
-			this.textBoxStackTrace.ReadOnly = true;
-			this.textBoxStackTrace.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.textBoxStackTrace.Size = new System.Drawing.Size(512, 88);
-			this.textBoxStackTrace.TabIndex = 5;
-			this.textBoxStackTrace.Text = "";
-			// 
-			// buttonReturn
-			// 
-			this.buttonReturn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.buttonReturn.Location = new System.Drawing.Point(264, 192);
-			this.buttonReturn.Name = "buttonReturn";
-			this.buttonReturn.Size = new System.Drawing.Size(120, 32);
-			this.buttonReturn.TabIndex = 7;
-			this.buttonReturn.Text = "Return to Aridia";
-			this.buttonReturn.Click += new System.EventHandler(this.buttonReturn_Click);
-			// 
-			// buttonTerminate
-			// 
-			this.buttonTerminate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.buttonTerminate.Location = new System.Drawing.Point(392, 192);
-			this.buttonTerminate.Name = "buttonTerminate";
-			this.buttonTerminate.Size = new System.Drawing.Size(120, 32);
-			this.buttonTerminate.TabIndex = 8;
-			this.buttonTerminate.Text = "End the application";
-			this.buttonTerminate.Click += new System.EventHandler(this.buttonTerminate_Click);
-			// 
-			// ErrorDialog
-			// 
-			this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-			this.ClientSize = new System.Drawing.Size(522, 231);
-			this.Controls.Add(this.buttonTerminate);
-			this.Controls.Add(this.buttonReturn);
-			this.Controls.Add(this.textBoxStackTrace);
-			this.Controls.Add(this.labelNormallyASmartMove);
-			this.Controls.Add(this.labelAction);
-			this.Controls.Add(this.labelYouTriedTo);
-			this.Controls.Add(this.labelStackTrace);
-			this.Controls.Add(this.pictureBox1);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.MaximizeBox = false;
-			this.MinimizeBox = false;
-			this.Name = "ErrorDialog";
-			this.Text = "Error";
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ErrorDialog));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.labelStackTrace = new System.Windows.Forms.Label();
+            this.labelYouTriedTo = new System.Windows.Forms.Label();
+            this.labelAction = new System.Windows.Forms.Label();
+            this.labelNormallyASmartMove = new System.Windows.Forms.Label();
+            this.textBoxStackTrace = new System.Windows.Forms.TextBox();
+            this.buttonReturn = new System.Windows.Forms.Button();
+            this.buttonTerminate = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(10, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(153, 74);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // labelStackTrace
+            // 
+            this.labelStackTrace.Location = new System.Drawing.Point(10, 83);
+            this.labelStackTrace.Name = "labelStackTrace";
+            this.labelStackTrace.Size = new System.Drawing.Size(124, 28);
+            this.labelStackTrace.TabIndex = 1;
+            this.labelStackTrace.Text = "Error Stack Trace:";
+            // 
+            // labelYouTriedTo
+            // 
+            this.labelYouTriedTo.Location = new System.Drawing.Point(163, 18);
+            this.labelYouTriedTo.Name = "labelYouTriedTo";
+            this.labelYouTriedTo.Size = new System.Drawing.Size(77, 28);
+            this.labelYouTriedTo.TabIndex = 2;
+            this.labelYouTriedTo.Text = "You tried to ";
+            // 
+            // labelAction
+            // 
+            this.labelAction.Location = new System.Drawing.Point(230, 18);
+            this.labelAction.Name = "labelAction";
+            this.labelAction.Size = new System.Drawing.Size(336, 28);
+            this.labelAction.TabIndex = 3;
+            this.labelAction.Text = "<action>";
+            // 
+            // labelNormallyASmartMove
+            // 
+            this.labelNormallyASmartMove.Location = new System.Drawing.Point(163, 46);
+            this.labelNormallyASmartMove.Name = "labelNormallyASmartMove";
+            this.labelNormallyASmartMove.Size = new System.Drawing.Size(413, 28);
+            this.labelNormallyASmartMove.TabIndex = 4;
+            this.labelNormallyASmartMove.Text = "Normally a smart move, but I\'m afraid an error occured.";
+            // 
+            // textBoxStackTrace
+            // 
+            this.textBoxStackTrace.Location = new System.Drawing.Point(10, 111);
+            this.textBoxStackTrace.Multiline = true;
+            this.textBoxStackTrace.Name = "textBoxStackTrace";
+            this.textBoxStackTrace.ReadOnly = true;
+            this.textBoxStackTrace.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxStackTrace.Size = new System.Drawing.Size(614, 101);
+            this.textBoxStackTrace.TabIndex = 5;
+            // 
+            // buttonReturn
+            // 
+            this.buttonReturn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonReturn.Location = new System.Drawing.Point(317, 222);
+            this.buttonReturn.Name = "buttonReturn";
+            this.buttonReturn.Size = new System.Drawing.Size(144, 36);
+            this.buttonReturn.TabIndex = 7;
+            this.buttonReturn.Text = "Return to Aridia";
+            this.buttonReturn.Click += new System.EventHandler(this.buttonReturn_Click);
+            // 
+            // buttonTerminate
+            // 
+            this.buttonTerminate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonTerminate.Location = new System.Drawing.Point(470, 222);
+            this.buttonTerminate.Name = "buttonTerminate";
+            this.buttonTerminate.Size = new System.Drawing.Size(144, 36);
+            this.buttonTerminate.TabIndex = 8;
+            this.buttonTerminate.Text = "End the application";
+            this.buttonTerminate.Click += new System.EventHandler(this.buttonTerminate_Click);
+            // 
+            // ErrorDialog
+            // 
+            this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(628, 279);
+            this.Controls.Add(this.buttonTerminate);
+            this.Controls.Add(this.buttonReturn);
+            this.Controls.Add(this.textBoxStackTrace);
+            this.Controls.Add(this.labelNormallyASmartMove);
+            this.Controls.Add(this.labelAction);
+            this.Controls.Add(this.labelYouTriedTo);
+            this.Controls.Add(this.labelStackTrace);
+            this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "ErrorDialog";
+            this.Text = "Error";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 		#endregion
