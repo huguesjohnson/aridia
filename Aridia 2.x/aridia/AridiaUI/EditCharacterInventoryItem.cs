@@ -1,6 +1,6 @@
 /*
 Aridia: Phantasy Star III ROM Editor
-Copyright (c) 2007-2010 Hugues Johnson
+Copyright (c) 2007-2013 Hugues Johnson
 
 Aridia is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 2 
@@ -161,123 +161,124 @@ namespace com.huguesjohnson.aridia.ui
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Resources.ResourceManager resources = new System.Resources.ResourceManager(typeof(EditCharacterInventoryItem));
-			this.labelHexValue = new System.Windows.Forms.Label();
-			this.textBoxHexValue = new System.Windows.Forms.TextBox();
-			this.labelItem = new System.Windows.Forms.Label();
-			this.comboBoxItem = new System.Windows.Forms.ComboBox();
-			this.comboBoxWhereEquipped = new System.Windows.Forms.ComboBox();
-			this.labelWhereEquipped = new System.Windows.Forms.Label();
-			this.buttonOK = new System.Windows.Forms.Button();
-			this.buttonCancel = new System.Windows.Forms.Button();
-			this.checkBoxEquipped = new System.Windows.Forms.CheckBox();
-			this.SuspendLayout();
-			// 
-			// labelHexValue
-			// 
-			this.labelHexValue.Location = new System.Drawing.Point(8, 16);
-			this.labelHexValue.Name = "labelHexValue";
-			this.labelHexValue.Size = new System.Drawing.Size(96, 20);
-			this.labelHexValue.TabIndex = 0;
-			this.labelHexValue.Text = "Hex Value:";
-			this.labelHexValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// textBoxHexValue
-			// 
-			this.textBoxHexValue.Location = new System.Drawing.Point(112, 16);
-			this.textBoxHexValue.Name = "textBoxHexValue";
-			this.textBoxHexValue.ReadOnly = true;
-			this.textBoxHexValue.Size = new System.Drawing.Size(144, 20);
-			this.textBoxHexValue.TabIndex = 1;
-			this.textBoxHexValue.Text = "";
-			// 
-			// labelItem
-			// 
-			this.labelItem.Location = new System.Drawing.Point(8, 40);
-			this.labelItem.Name = "labelItem";
-			this.labelItem.Size = new System.Drawing.Size(96, 20);
-			this.labelItem.TabIndex = 2;
-			this.labelItem.Text = "Item:";
-			this.labelItem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// comboBoxItem
-			// 
-			this.comboBoxItem.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comboBoxItem.Location = new System.Drawing.Point(112, 40);
-			this.comboBoxItem.Name = "comboBoxItem";
-			this.comboBoxItem.Size = new System.Drawing.Size(144, 21);
-			this.comboBoxItem.TabIndex = 3;
-			this.comboBoxItem.SelectedValueChanged += new System.EventHandler(this.comboBoxItem_SelectedValueChanged);
-			// 
-			// comboBoxWhereEquipped
-			// 
-			this.comboBoxWhereEquipped.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comboBoxWhereEquipped.Location = new System.Drawing.Point(112, 80);
-			this.comboBoxWhereEquipped.Name = "comboBoxWhereEquipped";
-			this.comboBoxWhereEquipped.Size = new System.Drawing.Size(144, 21);
-			this.comboBoxWhereEquipped.TabIndex = 5;
-			this.comboBoxWhereEquipped.SelectedValueChanged += new System.EventHandler(this.comboBoxWhereEquipped_SelectedValueChanged);
-			// 
-			// labelWhereEquipped
-			// 
-			this.labelWhereEquipped.Location = new System.Drawing.Point(8, 80);
-			this.labelWhereEquipped.Name = "labelWhereEquipped";
-			this.labelWhereEquipped.Size = new System.Drawing.Size(96, 20);
-			this.labelWhereEquipped.TabIndex = 4;
-			this.labelWhereEquipped.Text = "Where Equipped:";
-			this.labelWhereEquipped.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// buttonOK
-			// 
-			this.buttonOK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.buttonOK.Location = new System.Drawing.Point(136, 120);
-			this.buttonOK.Name = "buttonOK";
-			this.buttonOK.Size = new System.Drawing.Size(56, 24);
-			this.buttonOK.TabIndex = 6;
-			this.buttonOK.Text = "&OK";
-			this.buttonOK.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.buttonOK_KeyPress);
-			this.buttonOK.Click += new System.EventHandler(this.buttonOK_Click);
-			// 
-			// buttonCancel
-			// 
-			this.buttonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.buttonCancel.Location = new System.Drawing.Point(200, 120);
-			this.buttonCancel.Name = "buttonCancel";
-			this.buttonCancel.Size = new System.Drawing.Size(56, 24);
-			this.buttonCancel.TabIndex = 7;
-			this.buttonCancel.Text = "&Cancel";
-			this.buttonCancel.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.buttonCancel_KeyPress);
-			this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
-			// 
-			// checkBoxEquipped
-			// 
-			this.checkBoxEquipped.Location = new System.Drawing.Point(112, 64);
-			this.checkBoxEquipped.Name = "checkBoxEquipped";
-			this.checkBoxEquipped.Size = new System.Drawing.Size(144, 16);
-			this.checkBoxEquipped.TabIndex = 4;
-			this.checkBoxEquipped.Text = "Equipped";
-			this.checkBoxEquipped.CheckedChanged += new System.EventHandler(this.checkBoxEquipped_CheckedChanged);
-			// 
-			// EditCharacterInventoryItem
-			// 
-			this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-			this.ClientSize = new System.Drawing.Size(266, 151);
-			this.Controls.Add(this.checkBoxEquipped);
-			this.Controls.Add(this.buttonCancel);
-			this.Controls.Add(this.buttonOK);
-			this.Controls.Add(this.comboBoxWhereEquipped);
-			this.Controls.Add(this.labelWhereEquipped);
-			this.Controls.Add(this.comboBoxItem);
-			this.Controls.Add(this.labelItem);
-			this.Controls.Add(this.textBoxHexValue);
-			this.Controls.Add(this.labelHexValue);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.MaximizeBox = false;
-			this.MinimizeBox = false;
-			this.Name = "EditCharacterInventoryItem";
-			this.Text = "Inventory Item";
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditCharacterInventoryItem));
+            this.labelHexValue = new System.Windows.Forms.Label();
+            this.textBoxHexValue = new System.Windows.Forms.TextBox();
+            this.labelItem = new System.Windows.Forms.Label();
+            this.comboBoxItem = new System.Windows.Forms.ComboBox();
+            this.comboBoxWhereEquipped = new System.Windows.Forms.ComboBox();
+            this.labelWhereEquipped = new System.Windows.Forms.Label();
+            this.buttonOK = new System.Windows.Forms.Button();
+            this.buttonCancel = new System.Windows.Forms.Button();
+            this.checkBoxEquipped = new System.Windows.Forms.CheckBox();
+            this.SuspendLayout();
+            // 
+            // labelHexValue
+            // 
+            this.labelHexValue.Location = new System.Drawing.Point(10, 18);
+            this.labelHexValue.Name = "labelHexValue";
+            this.labelHexValue.Size = new System.Drawing.Size(115, 24);
+            this.labelHexValue.TabIndex = 0;
+            this.labelHexValue.Text = "Hex Value:";
+            this.labelHexValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxHexValue
+            // 
+            this.textBoxHexValue.Location = new System.Drawing.Point(134, 18);
+            this.textBoxHexValue.Name = "textBoxHexValue";
+            this.textBoxHexValue.ReadOnly = true;
+            this.textBoxHexValue.Size = new System.Drawing.Size(173, 22);
+            this.textBoxHexValue.TabIndex = 1;
+            // 
+            // labelItem
+            // 
+            this.labelItem.Location = new System.Drawing.Point(10, 46);
+            this.labelItem.Name = "labelItem";
+            this.labelItem.Size = new System.Drawing.Size(115, 23);
+            this.labelItem.TabIndex = 2;
+            this.labelItem.Text = "Item:";
+            this.labelItem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // comboBoxItem
+            // 
+            this.comboBoxItem.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxItem.Location = new System.Drawing.Point(134, 46);
+            this.comboBoxItem.Name = "comboBoxItem";
+            this.comboBoxItem.Size = new System.Drawing.Size(173, 24);
+            this.comboBoxItem.TabIndex = 3;
+            this.comboBoxItem.SelectedValueChanged += new System.EventHandler(this.comboBoxItem_SelectedValueChanged);
+            // 
+            // comboBoxWhereEquipped
+            // 
+            this.comboBoxWhereEquipped.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxWhereEquipped.Location = new System.Drawing.Point(134, 92);
+            this.comboBoxWhereEquipped.Name = "comboBoxWhereEquipped";
+            this.comboBoxWhereEquipped.Size = new System.Drawing.Size(173, 24);
+            this.comboBoxWhereEquipped.TabIndex = 5;
+            this.comboBoxWhereEquipped.SelectedValueChanged += new System.EventHandler(this.comboBoxWhereEquipped_SelectedValueChanged);
+            // 
+            // labelWhereEquipped
+            // 
+            this.labelWhereEquipped.Location = new System.Drawing.Point(10, 92);
+            this.labelWhereEquipped.Name = "labelWhereEquipped";
+            this.labelWhereEquipped.Size = new System.Drawing.Size(115, 23);
+            this.labelWhereEquipped.TabIndex = 4;
+            this.labelWhereEquipped.Text = "Where Equipped:";
+            this.labelWhereEquipped.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // buttonOK
+            // 
+            this.buttonOK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonOK.Location = new System.Drawing.Point(163, 138);
+            this.buttonOK.Name = "buttonOK";
+            this.buttonOK.Size = new System.Drawing.Size(67, 28);
+            this.buttonOK.TabIndex = 6;
+            this.buttonOK.Text = "&OK";
+            this.buttonOK.Click += new System.EventHandler(this.buttonOK_Click);
+            this.buttonOK.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.buttonOK_KeyPress);
+            // 
+            // buttonCancel
+            // 
+            this.buttonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonCancel.Location = new System.Drawing.Point(240, 138);
+            this.buttonCancel.Name = "buttonCancel";
+            this.buttonCancel.Size = new System.Drawing.Size(67, 28);
+            this.buttonCancel.TabIndex = 7;
+            this.buttonCancel.Text = "&Cancel";
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
+            this.buttonCancel.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.buttonCancel_KeyPress);
+            // 
+            // checkBoxEquipped
+            // 
+            this.checkBoxEquipped.Location = new System.Drawing.Point(134, 74);
+            this.checkBoxEquipped.Name = "checkBoxEquipped";
+            this.checkBoxEquipped.Size = new System.Drawing.Size(173, 18);
+            this.checkBoxEquipped.TabIndex = 4;
+            this.checkBoxEquipped.Text = "Equipped";
+            this.checkBoxEquipped.CheckedChanged += new System.EventHandler(this.checkBoxEquipped_CheckedChanged);
+            // 
+            // EditCharacterInventoryItem
+            // 
+            this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(342, 186);
+            this.Controls.Add(this.checkBoxEquipped);
+            this.Controls.Add(this.buttonCancel);
+            this.Controls.Add(this.buttonOK);
+            this.Controls.Add(this.comboBoxWhereEquipped);
+            this.Controls.Add(this.labelWhereEquipped);
+            this.Controls.Add(this.comboBoxItem);
+            this.Controls.Add(this.labelItem);
+            this.Controls.Add(this.textBoxHexValue);
+            this.Controls.Add(this.labelHexValue);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "EditCharacterInventoryItem";
+            this.Text = "Inventory Item";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 		#endregion

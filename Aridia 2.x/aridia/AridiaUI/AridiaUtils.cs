@@ -1,6 +1,6 @@
 /*
 Aridia: Phantasy Star III ROM Editor
-Copyright (c) 2007-2010 Hugues Johnson
+Copyright (c) 2007-2013 Hugues Johnson
 
 Aridia is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 2 
@@ -41,7 +41,8 @@ namespace com.huguesjohnson.aridia.ui
 	/// </summary>
 	public abstract class AridiaUtils
 	{
-		private static string dataPath;
+        public const byte STRING_TERMINATOR=(byte)252;
+        private static string dataPath;
 		private static LookupValueCollection equipCodes;
 		private static LookupValueCollection itemCodes;
 		private static LookupValueCollection statGrowthCodes;
@@ -140,14 +141,14 @@ namespace com.huguesjohnson.aridia.ui
 			while(currentOffset<endAddress)
 			{
 				//find the start of the next string - there are junk characters between the strings
-				string nextChar=romIO.readString(currentOffset,1);
+                string nextChar=romIO.readString(currentOffset,1,AridiaUtils.STRING_TERMINATOR);
 				while(!(new Regex(@"^[a-zA-Z0-9]")).IsMatch(nextChar))
 				{
 					currentOffset++;
-					nextChar=romIO.readString(currentOffset,1);
+                    nextChar=romIO.readString(currentOffset,1,AridiaUtils.STRING_TERMINATOR);
 				}
 				//found the next starting position, read the string
-				string scriptEntry=romIO.readString(currentOffset,65535);
+                string scriptEntry=romIO.readString(currentOffset,65535,AridiaUtils.STRING_TERMINATOR);
 				int length=scriptEntry.Length;
 				int address=currentOffset;
 				items.Add(new ListViewItem(new string[]{scriptEntry,address.ToString(),length.ToString()}));
@@ -172,7 +173,7 @@ namespace com.huguesjohnson.aridia.ui
 			{
 				int address=allItems[index].Address;
 				int length=allItems[index].NumBytes;
-				string currentValue=romIO.readString(address,length); 
+                string currentValue=romIO.readString(address,length,AridiaUtils.STRING_TERMINATOR); 
 				string description=allItems[index].Description;
 				items[index]=new ListViewItem(new string[]{currentValue,categoryName,description,address.ToString(),length.ToString()});
 			}
@@ -194,7 +195,7 @@ namespace com.huguesjohnson.aridia.ui
 			while(currentOffset<endAddress)
 			{
 				//found the next starting position, read the string
-				string inventoryText=romIO.readString(currentOffset,65535);
+                string inventoryText=romIO.readString(currentOffset,65535,AridiaUtils.STRING_TERMINATOR);
 				int length=inventoryText.Length;
 				int address=currentOffset;
 				items.Add(new ListViewItem(new string[]{inventoryText,categoryName,address.ToString(),length.ToString()}));

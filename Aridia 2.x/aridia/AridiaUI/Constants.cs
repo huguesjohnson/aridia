@@ -1,6 +1,6 @@
 /*
 Aridia: Phantasy Star III ROM Editor
-Copyright (c) 2007-2010 Hugues Johnson
+Copyright (c) 2007-2013 Hugues Johnson
 
 Aridia is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 2 
@@ -21,7 +21,7 @@ namespace com.huguesjohnson.aridia.ui
 {
 	/// <summary>
 	/// Contains constants and enumerations used by Aridia.
-	/// Externalizing these would probably make sense if there was ever any desire to make this application more generic (right now there isn't).
+	/// Externalizing these would probably make sense if there was ever any desire to make this application support other ROM variants (right now there isn't).
 	/// </summary>
 	public abstract class Constants
 	{
@@ -142,5 +142,15 @@ namespace com.huguesjohnson.aridia.ui
 
 		/// <summary>Address where enemy names start.</summary>
 		public const int EnemyNameOffset=245268;
-	}
+
+         /// <summary>
+		/// Where treause attributes are located relative to their starting address.
+		/// </summary>
+		public enum TreasureOffsets : int
+		{
+			X=0,
+			Y=2,
+			ItemCode=4
+		}
+    }
 }
