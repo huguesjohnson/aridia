@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>23 (main character,Lyle,Ryan)</Description>
+      <IntValue>35</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>03 (main character)</Description>
+      <IntValue>3</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>F3 (all except Mieu and Wren)</Description>
+      <IntValue>243</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>C3 (Sari,Lena,Laya,Gwyn,main character)</Description>
+      <IntValue>195</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>43 (all Orakians)</Description>
+      <IntValue>67</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>B0 (all Layans)</Description>
+      <IntValue>176</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>20 (Lyle,Ryan)</Description>
+      <IntValue>32</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>10 (Thea,Kara)</Description>
+      <IntValue>16</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>04 (Mieu)</Description>
+      <IntValue>4</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>80 (Laya,Gwyn)</Description>
+      <IntValue>128</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>08 (Wren)</Description>
+      <IntValue>8</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>90 (Laya,Gwyn,Thea,Kara)</Description>
+      <IntValue>144</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>F7 (all except Wren)</Description>
+      <IntValue>247</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>C0 (Laya,Gwyn,Sari,Lena)</Description>
+      <IntValue>192</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>40 (Sari,Lena)</Description>
+      <IntValue>64</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>D0 (All women)</Description>
+      <IntValue>208</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>73 (Sari,Lena,Lyle,Ryan,Thea,Kara,main character)</Description>
+      <IntValue>115</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>63 (Sari,Lena,Lyle,Ryan,main character)</Description>
+      <IntValue>99</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>46 (Sari,Lena)</Description>
+      <IntValue>70</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>50 (Sari,Lena,Thea,Kara)</Description>
+      <IntValue>80</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>FF (All characters)</Description>
+      <IntValue>255</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>00 (Can not be equipped)</Description>
+      <IntValue>0</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>

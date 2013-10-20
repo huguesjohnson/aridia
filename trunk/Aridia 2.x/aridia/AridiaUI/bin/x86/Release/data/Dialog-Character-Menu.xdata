@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<BaseMDDataCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="MDString">
+      <Address>128719</Address>
+      <NumBytes>35</NumBytes>
+      <Description>Character dialog menu options</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128818</Address>
+      <NumBytes>6</NumBytes>
+      <Description>Whose?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128830</Address>
+      <NumBytes>4</NumBytes>
+      <Description>Who?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128842</Address>
+      <NumBytes>5</NumBytes>
+      <Description>What?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128853</Address>
+      <NumBytes>7</NumBytes>
+      <Description>ToWhom?</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128869</Address>
+      <NumBytes>18</NumBytes>
+      <Description>Use, Give, Discard</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128910</Address>
+      <NumBytes>5</NumBytes>
+      <Description>First</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128920</Address>
+      <NumBytes>6</NumBytes>
+      <Description>Second</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128932</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Third</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128942</Address>
+      <NumBytes>6</NumBytes>
+      <Description>Fourth</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128954</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Fifth</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128964</Address>
+      <NumBytes>4</NumBytes>
+      <Description>Head</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128970</Address>
+      <NumBytes>6</NumBytes>
+      <Description>R Hand</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128978</Address>
+      <NumBytes>6</NumBytes>
+      <Description>L Hand</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128990</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Torso</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>128997</Address>
+      <NumBytes>4</NumBytes>
+      <Description>Feet</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129003</Address>
+      <NumBytes>6</NumBytes>
+      <Description>Buckle</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129014</Address>
+      <NumBytes>22</NumBytes>
+      <Description>Damage, Defense, Speed</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129050</Address>
+      <NumBytes>18</NumBytes>
+      <Description>Level, XP, Reqd Xp</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129074</Address>
+      <NumBytes>22</NumBytes>
+      <Description>Speed, Damage, Defense</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129102</Address>
+      <NumBytes>15</NumBytes>
+      <Description>Intel, Stamina</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129122</Address>
+      <NumBytes>15</NumBytes>
+      <Description>Luck, Skill</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129170</Address>
+      <NumBytes>3</NumBytes>
+      <Description>Foi (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129178</Address>
+      <NumBytes>3</NumBytes>
+      <Description>Zan (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129186</Address>
+      <NumBytes>3</NumBytes>
+      <Description>Gra (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129194</Address>
+      <NumBytes>3</NumBytes>
+      <Description>Tsu (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129202</Address>
+      <NumBytes>3</NumBytes>
+      <Description>Res (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129210</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Gires (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129220</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Rever (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129230</Address>
+      <NumBytes>4</NumBytes>
+      <Description>Anti (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129240</Address>
+      <NumBytes>3</NumBytes>
+      <Description>Ner (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129248</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Rimit (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129258</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Shiza (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129268</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Deban (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129278</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Fanbi (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129288</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Forsa (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129298</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Nasak (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129308</Address>
+      <NumBytes>3</NumBytes>
+      <Description>Shu (Character Dialog)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129477</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Can't (1)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129484</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Can't (2)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129491</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Can't (3)</Description>
+    </anyType>
+    <anyType xsi:type="MDString">
+      <Address>129498</Address>
+      <NumBytes>5</NumBytes>
+      <Description>Can't (4)</Description>
+    </anyType>
+  </Collection>
+</BaseMDDataCollection>

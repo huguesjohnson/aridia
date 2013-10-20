@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>Foi</Description>
+      <IntValue>72</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Zan</Description>
+      <IntValue>76</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Gra</Description>
+      <IntValue>80</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Tsu</Description>
+      <IntValue>84</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Gires</Description>
+      <IntValue>88</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Poison</Description>
+      <IntValue>92</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>
