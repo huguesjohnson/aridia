@@ -57,8 +57,8 @@ namespace com.huguesjohnson.aridia.ui
 				if(dataPath==null)
 				{
 					dataPath=Application.ExecutablePath;
-					int indexOf=dataPath.LastIndexOf(@"\")+1;
-					dataPath=dataPath.Substring(0,indexOf)+@"data\";
+					int indexOf=dataPath.LastIndexOf(Path.DirectorySeparatorChar)+1;
+					dataPath=dataPath.Substring(0,indexOf)+@"data"+Path.DirectorySeparatorChar;
 				}
 				return(dataPath);
 			}
