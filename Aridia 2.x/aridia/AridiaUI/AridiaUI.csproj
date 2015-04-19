@@ -11,8 +11,6 @@
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
     <AssemblyName>aridia</AssemblyName>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
@@ -20,8 +18,6 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>com.huguesjohnson.aridia.ui</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
-    <StartupObject>
-    </StartupObject>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
@@ -43,12 +39,11 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ReleaseVersion>2.3</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
-    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
     <ConfigurationOverrideFile>
     </ConfigurationOverrideFile>
     <DefineConstants>TRACE;DEBUG</DefineConstants>
@@ -56,36 +51,25 @@
     </DocumentationFile>
     <DebugSymbols>true</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
-    <NoStdLib>false</NoStdLib>
-    <NoWarn>
-    </NoWarn>
     <Optimize>false</Optimize>
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <WarningLevel>4</WarningLevel>
     <DebugType>full</DebugType>
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
-    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
     <ConfigurationOverrideFile>
     </ConfigurationOverrideFile>
     <DefineConstants>TRACE</DefineConstants>
     <DocumentationFile>
     </DocumentationFile>
-    <DebugSymbols>false</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
-    <NoStdLib>false</NoStdLib>
-    <NoWarn>
-    </NoWarn>
     <Optimize>true</Optimize>
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <WarningLevel>4</WarningLevel>
     <DebugType>none</DebugType>
     <ErrorReport>prompt</ErrorReport>
@@ -100,6 +84,8 @@
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <OutputPath>bin\x86\Release\</OutputPath>
@@ -110,6 +96,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
@@ -126,6 +113,18 @@
     </Reference>
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="TileEditor">
+      <HintPath>lib\TileEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="PaletteEditor">
+      <HintPath>lib\PaletteEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="MegaDriveIO">
+      <HintPath>lib\MegaDriveIO.dll</HintPath>
+    </Reference>
+    <Reference Include="IPSCreator">
+      <HintPath>lib\IPSCreator.exe</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -208,24 +207,6 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\MDLib\IPS\IPSCreator\IPSCreator.csproj">
-      <Project>{E5CDD06C-A9E3-40DC-86D9-A108510A8361}</Project>
-      <Name>IPSCreator</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\MDLib\MegaDriveIO\MegaDriveIO.csproj">
-      <Project>{D993560D-E1D5-4B39-B81B-31A0F0004D0C}</Project>
-      <Name>MegaDriveIO</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\MDLib\PaletteEditor\PaletteEditor.csproj">
-      <Project>{0B08F434-E925-4E5D-BB85-25046BF71C28}</Project>
-      <Name>PaletteEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\MDLib\TileEditor\TileEditor.csproj">
-      <Project>{C5FCCEA6-E2C7-4382-8B9A-E6A1E1F6B332}</Project>
-      <Name>TileEditor</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
@@ -233,4 +214,22 @@
     <PostBuildEvent>
     </PostBuildEvent>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="lib\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\IPSCreator.exe" />
+    <None Include="lib\IPSCreator.exe.mdb" />
+    <None Include="lib\IPSCreator.pdb" />
+    <None Include="lib\MegaDriveIO.dll" />
+    <None Include="lib\MegaDriveIO.dll.mdb" />
+    <None Include="lib\MegaDriveIO.pdb" />
+    <None Include="lib\PaletteEditor.dll" />
+    <None Include="lib\PaletteEditor.dll.mdb" />
+    <None Include="lib\PaletteEditor.pdb" />
+    <None Include="lib\PaletteEditor.vshost.exe" />
+    <None Include="lib\TileEditor.dll" />
+    <None Include="lib\TileEditor.dll.mdb" />
+    <None Include="lib\TileEditor.pdb" />
+  </ItemGroup>
 </Project>
