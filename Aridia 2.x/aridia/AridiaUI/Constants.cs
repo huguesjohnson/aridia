@@ -1,6 +1,6 @@
 /*
 Aridia: Phantasy Star III ROM Editor
-Copyright (c) 2007-2013 Hugues Johnson
+Copyright (c) 2007-2015 Hugues Johnson
 
 Aridia is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 2 
@@ -66,9 +66,17 @@ namespace com.huguesjohnson.aridia.ui
 		/// </summary>
 		public enum ItemOffsets : int
 		{
+			NameAddress=4,
 			Cost=6,
+			Animation=8,
+			Attack=10,
+			Defense=11,
+			Speed=12,
 			Technique=13,
-			Effectiveness=14
+			Effectiveness=14,
+			EquipBy=15,
+			Type=16,
+			Droppable=17
 		}
 
 		/// <summary>
