@@ -644,6 +644,54 @@
     <anyType xsi:type="LookupValue">
       <Description>Royal Needler</Description>
       <IntValue>233840</IntValue>
-    </anyType>	
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Sapphire</Description>
+      <IntValue>233856</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Moon Stone</Description>
+      <IntValue>233872</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Moon Tear</Description>
+      <IntValue>233888</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Dragon Tear</Description>
+      <IntValue>233904</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Snow (unused)</Description>
+      <IntValue>233920</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Twin's Ruby</Description>
+      <IntValue>233936</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Power Topaz</Description>
+      <IntValue>233952</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Mystery Star</Description>
+      <IntValue>233968</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Aqua Parts</Description>
+      <IntValue>233984</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Sub Parts</Description>
+      <IntValue>234000</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Aero Parts</Description>
+      <IntValue>234016</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Laya's Pendant</Description>
+      <IntValue>234032</IntValue>
+    </anyType>
   </Collection>
 </LookupValueCollection>
