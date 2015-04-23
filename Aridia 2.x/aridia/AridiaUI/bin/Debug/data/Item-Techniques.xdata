@@ -65,5 +65,25 @@
       <Description>Monitor</Description>
       <IntValue>232</IntValue>
     </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Aqua Parts</Description>
+      <IntValue>248</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Sub Parts</Description>
+      <IntValue>244</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Sub Parts</Description>
+      <IntValue>244</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Aero Parts</Description>
+      <IntValue>240</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Laya's Pendant</Description>
+      <IntValue>236</IntValue>
+    </anyType>
   </Collection>
 </LookupValueCollection>
