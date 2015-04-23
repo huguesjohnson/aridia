@@ -124,9 +124,9 @@
   <data name="buttonCreateIPS.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAABfSURBVDhPtZJRCgAgCEM9uje3DKKI2gah5I/kcy3N3eMn
-        DTVHDwZ/ApTmhF8B2XzGS0mNgjlNeQY0kRk4PIg8W67pWv0foMhEd6gHzEgKyOkIAvdAWaY6BeoySQrQ
-        LzQiNaW5uUd6igAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAABcSURBVDhPtY5JDsAgDAN5en4e8MESlZzUpSJiOGQZeURE
+        /qEVoFR/pxQ4x0AKVKk9cCcBcSStwGEk3gYHbn/9z8ZnAQenvApQqk+sBJ2kFKhSe/cSkO4YWAlqIici
+        NaW5Yi0bWwAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="textBoxWarningText.Text" xml:space="preserve">
@@ -168,7 +168,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAY
-        DAAAAk1TRnQBSQFMAgEBBQEAAXwBAAF8AQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        DAAAAk1TRnQBSQFMAgEBBQEAAZwBAAGcAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -273,9 +273,9 @@
   <data name="buttonLaunchPaletteEditor.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAFRJREFUOE/dktEJ
-        wDAQQh3d0W4z+35KTDtBkvDA44igRJLSmLmR2RdGN7y9wMB0sDC6kdkVRjdUcLzBzKShkGzke9hnoQsM
-        fpH3iJX2Tc7X73u+wQMVEUJfwA/EvAAAAABJRU5ErkJggg==
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEBJREFUOE/dzMER
+        ADAERNEtfUvTGXLCqiBknoPJfOR4RwFOFDcCzFUowIniQsDMvMvKtObdyoXA+i/2Sd7vAXgAFRFCX5cy
+        qVQAAAAASUVORK5CYII=
 </value>
   </data>
   <metadata name="openFileRomDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

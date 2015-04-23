@@ -47,8 +47,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 		private System.Windows.Forms.TabPage tabPageMain;
 		private System.Windows.Forms.TabPage tabPageScript;
 		private System.Windows.Forms.TabPage tabPageDialogText;
-		private System.Windows.Forms.TabPage tabPageItems;
-		private System.Windows.Forms.TabPage tabPageWeapons;
+        private System.Windows.Forms.TabPage tabPageItems;
 		private System.Windows.Forms.TabPage tabPageCharacters;
         private System.Windows.Forms.TabPage tabPageEnemies;
 		private System.Windows.Forms.StatusBarPanel statusBarPanel;
@@ -94,33 +93,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 		private System.Windows.Forms.ColumnHeader columnHeader1;
 		private System.Windows.Forms.ColumnHeader columnHeader4;
 		private System.Windows.Forms.ColumnHeader columnHeader5;
-		private ListViewColumnSorter listViewDialogTextSorter;
-		private System.Windows.Forms.TabPage tabPageInventoryNames;
-		private System.Windows.Forms.ListView listViewInventoryNames;
-		private System.Windows.Forms.ColumnHeader columnHeader2;
-		private System.Windows.Forms.ColumnHeader columnHeader3;
-		private System.Windows.Forms.ColumnHeader columnHeader7;
-		private System.Windows.Forms.ColumnHeader columnHeader8;
-		private ListViewColumnSorter listViewScriptSorter;
-		private System.Windows.Forms.ComboBox comboBoxSelectWeapon;
-		private System.Windows.Forms.Label labelSelectWeapon;
-		private System.Windows.Forms.Panel panelWeapon;
-		private System.Windows.Forms.TextBox textBoxWeaponAddress;
-		private System.Windows.Forms.Label labelWeaponAddress;
-		private System.Windows.Forms.ComboBox comboBoxWeaponTechnique;
-		private System.Windows.Forms.TextBox textBoxWeaponCost;
-		private System.Windows.Forms.Label labelWeaponTechnique;
-		private System.Windows.Forms.Label labelWeaponCost;
-		private System.Windows.Forms.ComboBox comboBoxWeaponAnimation;
-		private System.Windows.Forms.Label labelWeaponAnimation;
-		private System.Windows.Forms.TextBox textBoxWeaponAttack;
-		private System.Windows.Forms.Label labelWeaponAttack;
-		private System.Windows.Forms.TextBox textBoxWeaponDefense;
-		private System.Windows.Forms.Label labelWeaponDefense;
-		private System.Windows.Forms.TextBox textBoxWeaponSpeed;
-		private System.Windows.Forms.Label labelWeaponSpeed;
-		private System.Windows.Forms.ComboBox comboBoxWeaponEquipBy;
-		private System.Windows.Forms.Label labelWeaponEquipBy;
+        private ListViewColumnSorter listViewDialogTextSorter;
+        private ListViewColumnSorter listViewScriptSorter;
 		private System.Windows.Forms.ComboBox comboBoxSelectCharacter;
 		private System.Windows.Forms.Label labelSelectCharacter;
 		private System.Windows.Forms.Panel panelCharacter;
@@ -273,6 +247,22 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private Label labelTreasureY;
         private TextBox textBoxTreasureX;
         private Label labelTreasureX;
+        private ComboBox comboBoxItemEquipBy;
+        private Label labelItemEquipBy;
+        private TextBox textBoxItemSpeed;
+        private Label labelItemSpeed;
+        private TextBox textBoxItemDefense;
+        private Label labelItemDefense;
+        private TextBox textBoxItemAttack;
+        private Label labelItemAttack;
+        private ComboBox comboBoxItemAnimation;
+        private Label labelItemAnimation;
+        private TextBox textBoxItemNameLength;
+        private Label labelItemNameLength;
+        private TextBox textBoxItemNameAddress;
+        private Label labelItemNameAddress;
+        private TextBox textBoxItemName;
+        private Label labelItemName;
 		private int paletteFindIndex;
 
 		public MainForm()
@@ -286,8 +276,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 			this.listViewDialogText.ListViewItemSorter=listViewDialogTextSorter;
 			this.listViewScriptSorter=new ListViewColumnSorter();
 			this.listViewScript.ListViewItemSorter=listViewScriptSorter;
-			this.listViewInventoryNamesSorter=new ListViewColumnSorter();
-			this.listViewInventoryNames.ListViewItemSorter=listViewInventoryNamesSorter;
 			this.listViewPalettesSorter=new ListViewColumnSorter();
 			this.listViewPalettes.ListViewItemSorter=listViewPalettesSorter;
             this.listViewTreasureSorter=new ListViewColumnSorter();
@@ -436,14 +424,24 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.buttonEditBorders = new System.Windows.Forms.Button();
             this.buttonEditFont = new System.Windows.Forms.Button();
             this.buttonEditTitleLogo = new System.Windows.Forms.Button();
-            this.tabPageInventoryNames = new System.Windows.Forms.TabPage();
-            this.listViewInventoryNames = new System.Windows.Forms.ListView();
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPageItems = new System.Windows.Forms.TabPage();
             this.panelItem = new System.Windows.Forms.Panel();
+            this.textBoxItemName = new System.Windows.Forms.TextBox();
+            this.labelItemName = new System.Windows.Forms.Label();
+            this.textBoxItemNameLength = new System.Windows.Forms.TextBox();
+            this.labelItemNameLength = new System.Windows.Forms.Label();
+            this.textBoxItemNameAddress = new System.Windows.Forms.TextBox();
+            this.labelItemNameAddress = new System.Windows.Forms.Label();
+            this.comboBoxItemEquipBy = new System.Windows.Forms.ComboBox();
+            this.labelItemEquipBy = new System.Windows.Forms.Label();
+            this.textBoxItemSpeed = new System.Windows.Forms.TextBox();
+            this.labelItemSpeed = new System.Windows.Forms.Label();
+            this.textBoxItemDefense = new System.Windows.Forms.TextBox();
+            this.labelItemDefense = new System.Windows.Forms.Label();
+            this.textBoxItemAttack = new System.Windows.Forms.TextBox();
+            this.labelItemAttack = new System.Windows.Forms.Label();
+            this.comboBoxItemAnimation = new System.Windows.Forms.ComboBox();
+            this.labelItemAnimation = new System.Windows.Forms.Label();
             this.textBoxItemAddress = new System.Windows.Forms.TextBox();
             this.labelItemAddress = new System.Windows.Forms.Label();
             this.textBoxItemEffectiveness = new System.Windows.Forms.TextBox();
@@ -522,26 +520,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.listViewTreasure = new System.Windows.Forms.ListView();
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabPageWeapons = new System.Windows.Forms.TabPage();
-            this.panelWeapon = new System.Windows.Forms.Panel();
-            this.comboBoxWeaponEquipBy = new System.Windows.Forms.ComboBox();
-            this.labelWeaponEquipBy = new System.Windows.Forms.Label();
-            this.textBoxWeaponSpeed = new System.Windows.Forms.TextBox();
-            this.labelWeaponSpeed = new System.Windows.Forms.Label();
-            this.textBoxWeaponDefense = new System.Windows.Forms.TextBox();
-            this.labelWeaponDefense = new System.Windows.Forms.Label();
-            this.textBoxWeaponAttack = new System.Windows.Forms.TextBox();
-            this.labelWeaponAttack = new System.Windows.Forms.Label();
-            this.comboBoxWeaponAnimation = new System.Windows.Forms.ComboBox();
-            this.labelWeaponAnimation = new System.Windows.Forms.Label();
-            this.textBoxWeaponAddress = new System.Windows.Forms.TextBox();
-            this.labelWeaponAddress = new System.Windows.Forms.Label();
-            this.comboBoxWeaponTechnique = new System.Windows.Forms.ComboBox();
-            this.textBoxWeaponCost = new System.Windows.Forms.TextBox();
-            this.labelWeaponTechnique = new System.Windows.Forms.Label();
-            this.labelWeaponCost = new System.Windows.Forms.Label();
-            this.comboBoxSelectWeapon = new System.Windows.Forms.ComboBox();
-            this.labelSelectWeapon = new System.Windows.Forms.Label();
             this.buttonOpenRom = new System.Windows.Forms.Button();
             this.textBoxRomPath = new System.Windows.Forms.TextBox();
             this.labelRom = new System.Windows.Forms.Label();
@@ -557,7 +535,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabPageEnemies.SuspendLayout();
             this.panelEnemy.SuspendLayout();
             this.tabPageGraphics.SuspendLayout();
-            this.tabPageInventoryNames.SuspendLayout();
             this.tabPageItems.SuspendLayout();
             this.panelItem.SuspendLayout();
             this.tabPageLevelTables.SuspendLayout();
@@ -568,8 +545,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabPageShops.SuspendLayout();
             this.panelShop.SuspendLayout();
             this.tabPageTreasure.SuspendLayout();
-            this.tabPageWeapons.SuspendLayout();
-            this.panelWeapon.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.statusBarPanel)).BeginInit();
             this.SuspendLayout();
             // 
@@ -661,14 +636,12 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabControlMainContent.Controls.Add(this.tabPageDialogText);
             this.tabControlMainContent.Controls.Add(this.tabPageEnemies);
             this.tabControlMainContent.Controls.Add(this.tabPageGraphics);
-            this.tabControlMainContent.Controls.Add(this.tabPageInventoryNames);
             this.tabControlMainContent.Controls.Add(this.tabPageItems);
             this.tabControlMainContent.Controls.Add(this.tabPageLevelTables);
             this.tabControlMainContent.Controls.Add(this.tabPagePalettes);
             this.tabControlMainContent.Controls.Add(this.tabPageScript);
             this.tabControlMainContent.Controls.Add(this.tabPageShops);
             this.tabControlMainContent.Controls.Add(this.tabPageTreasure);
-            this.tabControlMainContent.Controls.Add(this.tabPageWeapons);
             this.tabControlMainContent.Location = new System.Drawing.Point(5, 58);
             this.tabControlMainContent.Multiline = true;
             this.tabControlMainContent.Name = "tabControlMainContent";
@@ -1742,55 +1715,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.buttonEditTitleLogo.Text = "Title Logo";
             this.buttonEditTitleLogo.Click += new System.EventHandler(this.buttonEditTitleLogo_Click);
             // 
-            // tabPageInventoryNames
-            // 
-            this.tabPageInventoryNames.Controls.Add(this.listViewInventoryNames);
-            this.tabPageInventoryNames.Location = new System.Drawing.Point(4, 55);
-            this.tabPageInventoryNames.Name = "tabPageInventoryNames";
-            this.tabPageInventoryNames.Size = new System.Drawing.Size(700, 379);
-            this.tabPageInventoryNames.TabIndex = 10;
-            this.tabPageInventoryNames.Text = "Inventory Names";
-            // 
-            // listViewInventoryNames
-            // 
-            this.listViewInventoryNames.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader7,
-            this.columnHeader8});
-            this.listViewInventoryNames.LabelEdit = true;
-            this.listViewInventoryNames.Location = new System.Drawing.Point(10, 6);
-            this.listViewInventoryNames.MultiSelect = false;
-            this.listViewInventoryNames.Name = "listViewInventoryNames";
-            this.listViewInventoryNames.Size = new System.Drawing.Size(681, 370);
-            this.listViewInventoryNames.TabIndex = 6;
-            this.listViewInventoryNames.UseCompatibleStateImageBehavior = false;
-            this.listViewInventoryNames.View = System.Windows.Forms.View.Details;
-            this.listViewInventoryNames.AfterLabelEdit += new System.Windows.Forms.LabelEditEventHandler(this.listViewInventoryNames_AfterLabelEdit);
-            this.listViewInventoryNames.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.listViewInventoryNames_ColumnClick);
-            this.listViewInventoryNames.DoubleClick += new System.EventHandler(this.listViewInventoryNames_DoubleClick);
-            this.listViewInventoryNames.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.listViewInventoryNames_KeyPress);
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Current Value";
-            this.columnHeader2.Width = 262;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Category";
-            this.columnHeader3.Width = 213;
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "Address";
-            this.columnHeader7.Width = 69;
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "Length";
-            this.columnHeader8.Width = 54;
-            // 
             // tabPageItems
             // 
             this.tabPageItems.Controls.Add(this.panelItem);
@@ -1806,6 +1730,22 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // panelItem
             // 
             this.panelItem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelItem.Controls.Add(this.textBoxItemName);
+            this.panelItem.Controls.Add(this.labelItemName);
+            this.panelItem.Controls.Add(this.textBoxItemNameLength);
+            this.panelItem.Controls.Add(this.labelItemNameLength);
+            this.panelItem.Controls.Add(this.textBoxItemNameAddress);
+            this.panelItem.Controls.Add(this.labelItemNameAddress);
+            this.panelItem.Controls.Add(this.comboBoxItemEquipBy);
+            this.panelItem.Controls.Add(this.labelItemEquipBy);
+            this.panelItem.Controls.Add(this.textBoxItemSpeed);
+            this.panelItem.Controls.Add(this.labelItemSpeed);
+            this.panelItem.Controls.Add(this.textBoxItemDefense);
+            this.panelItem.Controls.Add(this.labelItemDefense);
+            this.panelItem.Controls.Add(this.textBoxItemAttack);
+            this.panelItem.Controls.Add(this.labelItemAttack);
+            this.panelItem.Controls.Add(this.comboBoxItemAnimation);
+            this.panelItem.Controls.Add(this.labelItemAnimation);
             this.panelItem.Controls.Add(this.textBoxItemAddress);
             this.panelItem.Controls.Add(this.labelItemAddress);
             this.panelItem.Controls.Add(this.textBoxItemEffectiveness);
@@ -1816,20 +1756,162 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.panelItem.Controls.Add(this.labelItemCost);
             this.panelItem.Location = new System.Drawing.Point(10, 55);
             this.panelItem.Name = "panelItem";
-            this.panelItem.Size = new System.Drawing.Size(402, 130);
+            this.panelItem.Size = new System.Drawing.Size(681, 321);
             this.panelItem.TabIndex = 3;
+            // 
+            // textBoxItemName
+            // 
+            this.textBoxItemName.Location = new System.Drawing.Point(132, 98);
+            this.textBoxItemName.MaxLength = 5;
+            this.textBoxItemName.Name = "textBoxItemName";
+            this.textBoxItemName.Size = new System.Drawing.Size(205, 22);
+            this.textBoxItemName.TabIndex = 5;
+            this.textBoxItemName.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxItemName_Validating);
+            // 
+            // labelItemName
+            // 
+            this.labelItemName.Location = new System.Drawing.Point(27, 98);
+            this.labelItemName.Name = "labelItemName";
+            this.labelItemName.Size = new System.Drawing.Size(96, 24);
+            this.labelItemName.TabIndex = 32;
+            this.labelItemName.Text = "Name: ";
+            this.labelItemName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxItemNameLength
+            // 
+            this.textBoxItemNameLength.Location = new System.Drawing.Point(132, 68);
+            this.textBoxItemNameLength.Name = "textBoxItemNameLength";
+            this.textBoxItemNameLength.ReadOnly = true;
+            this.textBoxItemNameLength.Size = new System.Drawing.Size(205, 22);
+            this.textBoxItemNameLength.TabIndex = 4;
+            // 
+            // labelItemNameLength
+            // 
+            this.labelItemNameLength.Location = new System.Drawing.Point(7, 68);
+            this.labelItemNameLength.Name = "labelItemNameLength";
+            this.labelItemNameLength.Size = new System.Drawing.Size(116, 24);
+            this.labelItemNameLength.TabIndex = 31;
+            this.labelItemNameLength.Text = "Name Length:";
+            this.labelItemNameLength.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxItemNameAddress
+            // 
+            this.textBoxItemNameAddress.Location = new System.Drawing.Point(132, 40);
+            this.textBoxItemNameAddress.Name = "textBoxItemNameAddress";
+            this.textBoxItemNameAddress.ReadOnly = true;
+            this.textBoxItemNameAddress.Size = new System.Drawing.Size(205, 22);
+            this.textBoxItemNameAddress.TabIndex = 3;
+            // 
+            // labelItemNameAddress
+            // 
+            this.labelItemNameAddress.Location = new System.Drawing.Point(4, 40);
+            this.labelItemNameAddress.Name = "labelItemNameAddress";
+            this.labelItemNameAddress.Size = new System.Drawing.Size(119, 24);
+            this.labelItemNameAddress.TabIndex = 29;
+            this.labelItemNameAddress.Text = "Name Address:";
+            this.labelItemNameAddress.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // comboBoxItemEquipBy
+            // 
+            this.comboBoxItemEquipBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxItemEquipBy.Location = new System.Drawing.Point(456, 176);
+            this.comboBoxItemEquipBy.Name = "comboBoxItemEquipBy";
+            this.comboBoxItemEquipBy.Size = new System.Drawing.Size(205, 24);
+            this.comboBoxItemEquipBy.TabIndex = 13;
+            this.comboBoxItemEquipBy.Validating += new System.ComponentModel.CancelEventHandler(this.comboBoxItemEquipBy_Validating);
+            // 
+            // labelItemEquipBy
+            // 
+            this.labelItemEquipBy.Location = new System.Drawing.Point(351, 176);
+            this.labelItemEquipBy.Name = "labelItemEquipBy";
+            this.labelItemEquipBy.Size = new System.Drawing.Size(96, 24);
+            this.labelItemEquipBy.TabIndex = 27;
+            this.labelItemEquipBy.Text = "Equip By: ";
+            this.labelItemEquipBy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxItemSpeed
+            // 
+            this.textBoxItemSpeed.Location = new System.Drawing.Point(456, 148);
+            this.textBoxItemSpeed.MaxLength = 3;
+            this.textBoxItemSpeed.Name = "textBoxItemSpeed";
+            this.textBoxItemSpeed.Size = new System.Drawing.Size(205, 22);
+            this.textBoxItemSpeed.TabIndex = 12;
+            this.textBoxItemSpeed.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxItemSpeed_Validating);
+            // 
+            // labelItemSpeed
+            // 
+            this.labelItemSpeed.Location = new System.Drawing.Point(351, 148);
+            this.labelItemSpeed.Name = "labelItemSpeed";
+            this.labelItemSpeed.Size = new System.Drawing.Size(96, 25);
+            this.labelItemSpeed.TabIndex = 26;
+            this.labelItemSpeed.Text = "Speed: ";
+            this.labelItemSpeed.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxItemDefense
+            // 
+            this.textBoxItemDefense.Location = new System.Drawing.Point(456, 121);
+            this.textBoxItemDefense.MaxLength = 3;
+            this.textBoxItemDefense.Name = "textBoxItemDefense";
+            this.textBoxItemDefense.Size = new System.Drawing.Size(205, 22);
+            this.textBoxItemDefense.TabIndex = 11;
+            this.textBoxItemDefense.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxItemDefense_Validating);
+            // 
+            // labelItemDefense
+            // 
+            this.labelItemDefense.Location = new System.Drawing.Point(351, 121);
+            this.labelItemDefense.Name = "labelItemDefense";
+            this.labelItemDefense.Size = new System.Drawing.Size(96, 24);
+            this.labelItemDefense.TabIndex = 25;
+            this.labelItemDefense.Text = "Defense: ";
+            this.labelItemDefense.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxItemAttack
+            // 
+            this.textBoxItemAttack.Location = new System.Drawing.Point(456, 93);
+            this.textBoxItemAttack.MaxLength = 3;
+            this.textBoxItemAttack.Name = "textBoxItemAttack";
+            this.textBoxItemAttack.Size = new System.Drawing.Size(205, 22);
+            this.textBoxItemAttack.TabIndex = 10;
+            this.textBoxItemAttack.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxItemAttack_Validating);
+            // 
+            // labelItemAttack
+            // 
+            this.labelItemAttack.Location = new System.Drawing.Point(351, 93);
+            this.labelItemAttack.Name = "labelItemAttack";
+            this.labelItemAttack.Size = new System.Drawing.Size(96, 24);
+            this.labelItemAttack.TabIndex = 24;
+            this.labelItemAttack.Text = "Attack: ";
+            this.labelItemAttack.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // comboBoxItemAnimation
+            // 
+            this.comboBoxItemAnimation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxItemAnimation.Location = new System.Drawing.Point(456, 65);
+            this.comboBoxItemAnimation.Name = "comboBoxItemAnimation";
+            this.comboBoxItemAnimation.Size = new System.Drawing.Size(205, 24);
+            this.comboBoxItemAnimation.TabIndex = 9;
+            this.comboBoxItemAnimation.Validating += new System.ComponentModel.CancelEventHandler(this.comboBoxItemAnimation_Validating);
+            // 
+            // labelItemAnimation
+            // 
+            this.labelItemAnimation.Location = new System.Drawing.Point(351, 65);
+            this.labelItemAnimation.Name = "labelItemAnimation";
+            this.labelItemAnimation.Size = new System.Drawing.Size(96, 25);
+            this.labelItemAnimation.TabIndex = 22;
+            this.labelItemAnimation.Text = "Animation: ";
+            this.labelItemAnimation.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // textBoxItemAddress
             // 
-            this.textBoxItemAddress.Location = new System.Drawing.Point(115, 9);
+            this.textBoxItemAddress.Location = new System.Drawing.Point(132, 12);
             this.textBoxItemAddress.Name = "textBoxItemAddress";
             this.textBoxItemAddress.ReadOnly = true;
-            this.textBoxItemAddress.Size = new System.Drawing.Size(281, 22);
-            this.textBoxItemAddress.TabIndex = 8;
+            this.textBoxItemAddress.Size = new System.Drawing.Size(205, 22);
+            this.textBoxItemAddress.TabIndex = 2;
             // 
             // labelItemAddress
             // 
-            this.labelItemAddress.Location = new System.Drawing.Point(10, 9);
+            this.labelItemAddress.Location = new System.Drawing.Point(27, 12);
             this.labelItemAddress.Name = "labelItemAddress";
             this.labelItemAddress.Size = new System.Drawing.Size(96, 24);
             this.labelItemAddress.TabIndex = 7;
@@ -1838,34 +1920,34 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // textBoxItemEffectiveness
             // 
-            this.textBoxItemEffectiveness.Location = new System.Drawing.Point(115, 92);
+            this.textBoxItemEffectiveness.Location = new System.Drawing.Point(456, 37);
             this.textBoxItemEffectiveness.MaxLength = 3;
             this.textBoxItemEffectiveness.Name = "textBoxItemEffectiveness";
-            this.textBoxItemEffectiveness.Size = new System.Drawing.Size(281, 22);
-            this.textBoxItemEffectiveness.TabIndex = 6;
+            this.textBoxItemEffectiveness.Size = new System.Drawing.Size(205, 22);
+            this.textBoxItemEffectiveness.TabIndex = 8;
             this.textBoxItemEffectiveness.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxItemEffectiveness_Validating);
             // 
             // comboBoxItemTechnique
             // 
             this.comboBoxItemTechnique.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxItemTechnique.Location = new System.Drawing.Point(115, 65);
+            this.comboBoxItemTechnique.Location = new System.Drawing.Point(456, 10);
             this.comboBoxItemTechnique.Name = "comboBoxItemTechnique";
-            this.comboBoxItemTechnique.Size = new System.Drawing.Size(281, 24);
-            this.comboBoxItemTechnique.TabIndex = 5;
+            this.comboBoxItemTechnique.Size = new System.Drawing.Size(205, 24);
+            this.comboBoxItemTechnique.TabIndex = 7;
             this.comboBoxItemTechnique.Validating += new System.ComponentModel.CancelEventHandler(this.comboBoxItemTechnique_Validating);
             // 
             // textBoxItemCost
             // 
-            this.textBoxItemCost.Location = new System.Drawing.Point(115, 37);
+            this.textBoxItemCost.Location = new System.Drawing.Point(132, 126);
             this.textBoxItemCost.MaxLength = 5;
             this.textBoxItemCost.Name = "textBoxItemCost";
-            this.textBoxItemCost.Size = new System.Drawing.Size(281, 22);
-            this.textBoxItemCost.TabIndex = 4;
+            this.textBoxItemCost.Size = new System.Drawing.Size(205, 22);
+            this.textBoxItemCost.TabIndex = 6;
             this.textBoxItemCost.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxItemCost_Validating);
             // 
             // labelItemEffectiveness
             // 
-            this.labelItemEffectiveness.Location = new System.Drawing.Point(10, 92);
+            this.labelItemEffectiveness.Location = new System.Drawing.Point(351, 37);
             this.labelItemEffectiveness.Name = "labelItemEffectiveness";
             this.labelItemEffectiveness.Size = new System.Drawing.Size(96, 25);
             this.labelItemEffectiveness.TabIndex = 3;
@@ -1874,7 +1956,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelItemTechnique
             // 
-            this.labelItemTechnique.Location = new System.Drawing.Point(10, 65);
+            this.labelItemTechnique.Location = new System.Drawing.Point(351, 10);
             this.labelItemTechnique.Name = "labelItemTechnique";
             this.labelItemTechnique.Size = new System.Drawing.Size(96, 24);
             this.labelItemTechnique.TabIndex = 2;
@@ -1883,7 +1965,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelItemCost
             // 
-            this.labelItemCost.Location = new System.Drawing.Point(10, 37);
+            this.labelItemCost.Location = new System.Drawing.Point(27, 126);
             this.labelItemCost.Name = "labelItemCost";
             this.labelItemCost.Size = new System.Drawing.Size(96, 24);
             this.labelItemCost.TabIndex = 1;
@@ -2575,203 +2657,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.columnHeader11.Text = "Address";
             this.columnHeader11.Width = 69;
             // 
-            // tabPageWeapons
-            // 
-            this.tabPageWeapons.Controls.Add(this.panelWeapon);
-            this.tabPageWeapons.Controls.Add(this.comboBoxSelectWeapon);
-            this.tabPageWeapons.Controls.Add(this.labelSelectWeapon);
-            this.tabPageWeapons.Location = new System.Drawing.Point(4, 55);
-            this.tabPageWeapons.Name = "tabPageWeapons";
-            this.tabPageWeapons.Size = new System.Drawing.Size(700, 379);
-            this.tabPageWeapons.TabIndex = 4;
-            this.tabPageWeapons.Text = "Weapons";
-            this.tabPageWeapons.ToolTipText = "Edit weapon names and properties";
-            // 
-            // panelWeapon
-            // 
-            this.panelWeapon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelWeapon.Controls.Add(this.comboBoxWeaponEquipBy);
-            this.panelWeapon.Controls.Add(this.labelWeaponEquipBy);
-            this.panelWeapon.Controls.Add(this.textBoxWeaponSpeed);
-            this.panelWeapon.Controls.Add(this.labelWeaponSpeed);
-            this.panelWeapon.Controls.Add(this.textBoxWeaponDefense);
-            this.panelWeapon.Controls.Add(this.labelWeaponDefense);
-            this.panelWeapon.Controls.Add(this.textBoxWeaponAttack);
-            this.panelWeapon.Controls.Add(this.labelWeaponAttack);
-            this.panelWeapon.Controls.Add(this.comboBoxWeaponAnimation);
-            this.panelWeapon.Controls.Add(this.labelWeaponAnimation);
-            this.panelWeapon.Controls.Add(this.textBoxWeaponAddress);
-            this.panelWeapon.Controls.Add(this.labelWeaponAddress);
-            this.panelWeapon.Controls.Add(this.comboBoxWeaponTechnique);
-            this.panelWeapon.Controls.Add(this.textBoxWeaponCost);
-            this.panelWeapon.Controls.Add(this.labelWeaponTechnique);
-            this.panelWeapon.Controls.Add(this.labelWeaponCost);
-            this.panelWeapon.Location = new System.Drawing.Point(10, 55);
-            this.panelWeapon.Name = "panelWeapon";
-            this.panelWeapon.Size = new System.Drawing.Size(396, 240);
-            this.panelWeapon.TabIndex = 4;
-            // 
-            // comboBoxWeaponEquipBy
-            // 
-            this.comboBoxWeaponEquipBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxWeaponEquipBy.Location = new System.Drawing.Point(115, 203);
-            this.comboBoxWeaponEquipBy.Name = "comboBoxWeaponEquipBy";
-            this.comboBoxWeaponEquipBy.Size = new System.Drawing.Size(275, 24);
-            this.comboBoxWeaponEquipBy.TabIndex = 10;
-            this.comboBoxWeaponEquipBy.Validating += new System.ComponentModel.CancelEventHandler(this.comboBoxWeaponEquipBy_Validating);
-            // 
-            // labelWeaponEquipBy
-            // 
-            this.labelWeaponEquipBy.Location = new System.Drawing.Point(10, 203);
-            this.labelWeaponEquipBy.Name = "labelWeaponEquipBy";
-            this.labelWeaponEquipBy.Size = new System.Drawing.Size(96, 24);
-            this.labelWeaponEquipBy.TabIndex = 17;
-            this.labelWeaponEquipBy.Text = "Equip By: ";
-            this.labelWeaponEquipBy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // textBoxWeaponSpeed
-            // 
-            this.textBoxWeaponSpeed.Location = new System.Drawing.Point(115, 175);
-            this.textBoxWeaponSpeed.MaxLength = 3;
-            this.textBoxWeaponSpeed.Name = "textBoxWeaponSpeed";
-            this.textBoxWeaponSpeed.Size = new System.Drawing.Size(275, 22);
-            this.textBoxWeaponSpeed.TabIndex = 9;
-            this.textBoxWeaponSpeed.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxWeaponSpeed_Validating);
-            // 
-            // labelWeaponSpeed
-            // 
-            this.labelWeaponSpeed.Location = new System.Drawing.Point(10, 175);
-            this.labelWeaponSpeed.Name = "labelWeaponSpeed";
-            this.labelWeaponSpeed.Size = new System.Drawing.Size(96, 25);
-            this.labelWeaponSpeed.TabIndex = 15;
-            this.labelWeaponSpeed.Text = "Speed: ";
-            this.labelWeaponSpeed.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // textBoxWeaponDefense
-            // 
-            this.textBoxWeaponDefense.Location = new System.Drawing.Point(115, 148);
-            this.textBoxWeaponDefense.MaxLength = 3;
-            this.textBoxWeaponDefense.Name = "textBoxWeaponDefense";
-            this.textBoxWeaponDefense.Size = new System.Drawing.Size(275, 22);
-            this.textBoxWeaponDefense.TabIndex = 8;
-            this.textBoxWeaponDefense.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxWeaponDefense_Validating);
-            // 
-            // labelWeaponDefense
-            // 
-            this.labelWeaponDefense.Location = new System.Drawing.Point(10, 148);
-            this.labelWeaponDefense.Name = "labelWeaponDefense";
-            this.labelWeaponDefense.Size = new System.Drawing.Size(96, 24);
-            this.labelWeaponDefense.TabIndex = 13;
-            this.labelWeaponDefense.Text = "Defense: ";
-            this.labelWeaponDefense.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // textBoxWeaponAttack
-            // 
-            this.textBoxWeaponAttack.Location = new System.Drawing.Point(115, 120);
-            this.textBoxWeaponAttack.MaxLength = 3;
-            this.textBoxWeaponAttack.Name = "textBoxWeaponAttack";
-            this.textBoxWeaponAttack.Size = new System.Drawing.Size(275, 22);
-            this.textBoxWeaponAttack.TabIndex = 7;
-            this.textBoxWeaponAttack.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxWeaponAttack_Validating);
-            // 
-            // labelWeaponAttack
-            // 
-            this.labelWeaponAttack.Location = new System.Drawing.Point(10, 120);
-            this.labelWeaponAttack.Name = "labelWeaponAttack";
-            this.labelWeaponAttack.Size = new System.Drawing.Size(96, 24);
-            this.labelWeaponAttack.TabIndex = 11;
-            this.labelWeaponAttack.Text = "Attack: ";
-            this.labelWeaponAttack.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // comboBoxWeaponAnimation
-            // 
-            this.comboBoxWeaponAnimation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxWeaponAnimation.Location = new System.Drawing.Point(115, 92);
-            this.comboBoxWeaponAnimation.Name = "comboBoxWeaponAnimation";
-            this.comboBoxWeaponAnimation.Size = new System.Drawing.Size(275, 24);
-            this.comboBoxWeaponAnimation.TabIndex = 6;
-            this.comboBoxWeaponAnimation.Validating += new System.ComponentModel.CancelEventHandler(this.comboBoxWeaponAnimation_Validating);
-            // 
-            // labelWeaponAnimation
-            // 
-            this.labelWeaponAnimation.Location = new System.Drawing.Point(10, 92);
-            this.labelWeaponAnimation.Name = "labelWeaponAnimation";
-            this.labelWeaponAnimation.Size = new System.Drawing.Size(96, 25);
-            this.labelWeaponAnimation.TabIndex = 9;
-            this.labelWeaponAnimation.Text = "Animation: ";
-            this.labelWeaponAnimation.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // textBoxWeaponAddress
-            // 
-            this.textBoxWeaponAddress.Location = new System.Drawing.Point(115, 9);
-            this.textBoxWeaponAddress.Name = "textBoxWeaponAddress";
-            this.textBoxWeaponAddress.ReadOnly = true;
-            this.textBoxWeaponAddress.Size = new System.Drawing.Size(275, 22);
-            this.textBoxWeaponAddress.TabIndex = 11;
-            // 
-            // labelWeaponAddress
-            // 
-            this.labelWeaponAddress.Location = new System.Drawing.Point(10, 9);
-            this.labelWeaponAddress.Name = "labelWeaponAddress";
-            this.labelWeaponAddress.Size = new System.Drawing.Size(96, 24);
-            this.labelWeaponAddress.TabIndex = 7;
-            this.labelWeaponAddress.Text = "Address:";
-            this.labelWeaponAddress.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // comboBoxWeaponTechnique
-            // 
-            this.comboBoxWeaponTechnique.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxWeaponTechnique.Location = new System.Drawing.Point(115, 65);
-            this.comboBoxWeaponTechnique.Name = "comboBoxWeaponTechnique";
-            this.comboBoxWeaponTechnique.Size = new System.Drawing.Size(275, 24);
-            this.comboBoxWeaponTechnique.TabIndex = 5;
-            this.comboBoxWeaponTechnique.Validating += new System.ComponentModel.CancelEventHandler(this.comboBoxWeaponTechnique_Validating);
-            // 
-            // textBoxWeaponCost
-            // 
-            this.textBoxWeaponCost.Location = new System.Drawing.Point(115, 37);
-            this.textBoxWeaponCost.MaxLength = 5;
-            this.textBoxWeaponCost.Name = "textBoxWeaponCost";
-            this.textBoxWeaponCost.Size = new System.Drawing.Size(275, 22);
-            this.textBoxWeaponCost.TabIndex = 4;
-            this.textBoxWeaponCost.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxWeaponCost_Validating);
-            // 
-            // labelWeaponTechnique
-            // 
-            this.labelWeaponTechnique.Location = new System.Drawing.Point(10, 65);
-            this.labelWeaponTechnique.Name = "labelWeaponTechnique";
-            this.labelWeaponTechnique.Size = new System.Drawing.Size(96, 24);
-            this.labelWeaponTechnique.TabIndex = 2;
-            this.labelWeaponTechnique.Text = "Technique: ";
-            this.labelWeaponTechnique.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // labelWeaponCost
-            // 
-            this.labelWeaponCost.Location = new System.Drawing.Point(10, 37);
-            this.labelWeaponCost.Name = "labelWeaponCost";
-            this.labelWeaponCost.Size = new System.Drawing.Size(96, 24);
-            this.labelWeaponCost.TabIndex = 1;
-            this.labelWeaponCost.Text = "Cost: ";
-            this.labelWeaponCost.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // comboBoxSelectWeapon
-            // 
-            this.comboBoxSelectWeapon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxSelectWeapon.Location = new System.Drawing.Point(115, 18);
-            this.comboBoxSelectWeapon.Name = "comboBoxSelectWeapon";
-            this.comboBoxSelectWeapon.Size = new System.Drawing.Size(291, 24);
-            this.comboBoxSelectWeapon.TabIndex = 3;
-            this.comboBoxSelectWeapon.SelectedIndexChanged += new System.EventHandler(this.comboBoxSelectWeapon_SelectedIndexChanged);
-            // 
-            // labelSelectWeapon
-            // 
-            this.labelSelectWeapon.Location = new System.Drawing.Point(10, 18);
-            this.labelSelectWeapon.Name = "labelSelectWeapon";
-            this.labelSelectWeapon.Size = new System.Drawing.Size(96, 25);
-            this.labelSelectWeapon.TabIndex = 2;
-            this.labelSelectWeapon.Text = "Select Item: ";
-            this.labelSelectWeapon.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // buttonOpenRom
             // 
             this.buttonOpenRom.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -2854,7 +2739,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.panelEnemy.ResumeLayout(false);
             this.panelEnemy.PerformLayout();
             this.tabPageGraphics.ResumeLayout(false);
-            this.tabPageInventoryNames.ResumeLayout(false);
             this.tabPageItems.ResumeLayout(false);
             this.panelItem.ResumeLayout(false);
             this.panelItem.PerformLayout();
@@ -2870,9 +2754,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.panelShop.PerformLayout();
             this.tabPageTreasure.ResumeLayout(false);
             this.tabPageTreasure.PerformLayout();
-            this.tabPageWeapons.ResumeLayout(false);
-            this.panelWeapon.ResumeLayout(false);
-            this.panelWeapon.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.statusBarPanel)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -2947,14 +2828,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 					this.textBoxRomHeader.Text=romHeader;
 					this.tabControlMainContent.Enabled=true;
 					this.listViewDialogText.Items.Clear();
-					this.listViewInventoryNames.Items.Clear();
 					this.listViewScript.Items.Clear();
 					this.comboBoxItemTechnique.Items.Clear();
 					this.comboBoxSelectItem.Items.Clear();
-					this.comboBoxSelectWeapon.Items.Clear();
-					this.comboBoxWeaponAnimation.Items.Clear();
-					this.comboBoxWeaponEquipBy.Items.Clear();
-					this.comboBoxWeaponTechnique.Items.Clear();
 					this.comboBoxCharacterTechniques.Items.Clear();
 					this.comboBoxCharacterType.Items.Clear();
 					this.comboBoxSelectCharacter.Items.Clear();
@@ -3036,7 +2912,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 
 		private void menuItemAbout_Click(object sender, System.EventArgs e)
 		{
-			System.Windows.Forms.MessageBox.Show(this,"Aridia - Phantasy Star III ROM Editor\n\n(c) 2007-2012 Hugues Johnson\nhttp://www.huguesjohnson.com/\n\nChecksum code based off Calculate_Checksum method in Gens\nhttp://sourceforge.net/projects/gens/","About Aridia",System.Windows.Forms.MessageBoxButtons.OK,System.Windows.Forms.MessageBoxIcon.Information);
+			System.Windows.Forms.MessageBox.Show(this,"Aridia - Phantasy Star III ROM Editor\n\n(c) 2007-2015 Hugues Johnson\nhttp://www.huguesjohnson.com/\n\nChecksum code based off Calculate_Checksum method in Gens\nhttp://sourceforge.net/projects/gens/","About Aridia",System.Windows.Forms.MessageBoxButtons.OK,System.Windows.Forms.MessageBoxIcon.Information);
 		}
 
 		private void menuItemOpen_Click(object sender, System.EventArgs e)
@@ -3106,17 +2982,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 								this.listViewDialogText.Items.AddRange(AridiaUtils.getDialogListItems("Title-Screen",this.romIO));
 							}
 							break;
-						case "Inventory Names":
-							if(this.listViewInventoryNames.Items.Count<1)
-							{
-								this.listViewInventoryNames.Items.AddRange(AridiaUtils.getInventoryListItems("Items",234050,234118,this.romIO));
-								this.listViewInventoryNames.Items.AddRange(AridiaUtils.getInventoryListItems("Weapons",234119,234715,this.romIO));
-								this.listViewInventoryNames.Items.AddRange(AridiaUtils.getInventoryListItems("Weapons",235504,235580,this.romIO));
-								this.listViewInventoryNames.Items.AddRange(AridiaUtils.getInventoryListItems("Armor",234726,235503,this.romIO));
-								this.listViewInventoryNames.Items.AddRange(AridiaUtils.getInventoryListItems("Gems",235581,235654,this.romIO));
-								this.listViewInventoryNames.Items.AddRange(AridiaUtils.getInventoryListItems("Transport",235655,235694,this.romIO));
-							}
-							break;
 						case "Characters":
 							if(this.comboBoxSelectCharacter.Items.Count<1)
 							{
@@ -3139,7 +3004,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 							{
 								AridiaUtils.loadLookupValues(this.comboBoxSelectItem,"Item-Addresses");
 								AridiaUtils.loadLookupValues(this.comboBoxItemTechnique,"Item-Techniques");
-							}
+                                AridiaUtils.loadLookupValues(this.comboBoxItemAnimation, "Weapon-Animations");
+                                AridiaUtils.loadLookupValues(this.comboBoxItemEquipBy, "Weapon-EquipBy");
+                            }
 							break;
 						case "Shops":
 							if(this.comboBoxSelectShop.Items.Count<1)
@@ -3155,15 +3022,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 								this.comboBoxItem3.Items.Add(new LookupValue("Empty",255));
 								this.comboBoxItem4.Items.Add(new LookupValue("Empty",255));
 								this.comboBoxItem5.Items.Add(new LookupValue("Empty",255));
-							}
-							break;
-						case "Weapons":
-							if(this.comboBoxSelectWeapon.Items.Count<1)
-							{
-								AridiaUtils.loadLookupValues(this.comboBoxSelectWeapon,"Weapon-Addresses");
-								AridiaUtils.loadLookupValues(this.comboBoxWeaponAnimation,"Weapon-Animations");
-								AridiaUtils.loadLookupValues(this.comboBoxWeaponEquipBy,"Weapon-EquipBy");
-								AridiaUtils.loadLookupValues(this.comboBoxWeaponTechnique,"Weapon-Techniques");
 							}
 							break;
 						case "Graphics":
@@ -3272,13 +3130,36 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 				//item cost
 				int cost=this.romIO.readInteger(address+(int)Constants.ItemOffsets.Cost,2);
 				this.textBoxItemCost.Text=cost.ToString();
+                //attack
+                int attack=this.romIO.readInteger(address+(int)Constants.ItemOffsets.Attack,1);
+                this.textBoxItemAttack.Text=attack.ToString();
+                //defense
+                int defense=this.romIO.readInteger(address+(int)Constants.ItemOffsets.Defense,1);
+                this.textBoxItemDefense.Text=defense.ToString();
+                //speed
+                int speed=this.romIO.readInteger(address+(int)Constants.ItemOffsets.Speed,1);
+                this.textBoxItemSpeed.Text=speed.ToString();
 				//item technique
 				int technique=this.romIO.readInteger(address+(int)Constants.ItemOffsets.Technique,1);
 				AridiaUtils.setComboBoxSelection(this.comboBoxItemTechnique,technique);
 				//item effectiveness
 				int effectiveness=this.romIO.readInteger(address+(int)Constants.ItemOffsets.Effectiveness,1);
 				this.textBoxItemEffectiveness.Text=effectiveness.ToString();
-			}
+                //animation
+                int animation=this.romIO.readInteger(address+(int)Constants.ItemOffsets.Animation,2);
+                AridiaUtils.setComboBoxSelection(this.comboBoxItemAnimation,animation);
+                //equip by
+                int equipby=this.romIO.readInteger(address+(int)Constants.ItemOffsets.EquipBy,1);
+                AridiaUtils.setComboBoxSelection(this.comboBoxItemEquipBy,equipby);
+                //name
+                int nameAddress=this.romIO.readInteger(address+(int)Constants.ItemOffsets.NameAddress,2)+Constants.ItemNameStartAddress;
+                this.textBoxItemNameAddress.Text=nameAddress.ToString();
+                string itemText=romIO.readString(nameAddress,65535,AridiaUtils.STRING_TERMINATOR);
+				int itemNameLength=itemText.Length;
+                this.textBoxItemNameLength.Text=itemNameLength.ToString();
+                this.textBoxItemName.Text=itemText;
+                this.textBoxItemName.MaxLength=itemNameLength;
+            }
 			catch(Exception x)
 			{
 				this.errorHandler("selecting an item",x);
@@ -3438,321 +3319,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 			{
 				this.listViewScript.SelectedItems[0].BeginEdit();
 			}
-		}
-
-		private void listViewInventoryNames_ColumnClick(object sender, System.Windows.Forms.ColumnClickEventArgs e)
-		{
-			this.Cursor=Cursors.WaitCursor;
-			AridiaUtils.sortListView(e,this.listViewInventoryNames);
-			this.Cursor=Cursors.Default;
-		}
-
-		private void listViewInventoryNames_DoubleClick(object sender, System.EventArgs e)
-		{
-			if(this.listViewInventoryNames.SelectedItems.Count==1)
-			{
-				this.listViewInventoryNames.SelectedItems[0].BeginEdit();
-			}
-		}
-
-		private void listViewInventoryNames_KeyPress(object sender, System.Windows.Forms.KeyPressEventArgs e)
-		{
-			if(this.listViewInventoryNames.SelectedItems.Count==1)
-			{
-				this.listViewInventoryNames.SelectedItems[0].BeginEdit();
-			}
-		}
-
-		private void listViewInventoryNames_AfterLabelEdit(object sender, System.Windows.Forms.LabelEditEventArgs e)
-		{
-			if(e.Label!=null)
-			{
-				this.Cursor=Cursors.WaitCursor;
-				try
-				{
-					ListViewItem selectedItem=this.listViewInventoryNames.SelectedItems[0];
-					MDString mdString=new MDString();
-					mdString.CurrentValue=e.Label;
-					mdString.Address=int.Parse(selectedItem.SubItems[2].Text);
-					mdString.NumBytes=int.Parse(selectedItem.SubItems[3].Text);
-					if(AridiaUtils.validateMDString(mdString))
-					{
-                        this.romIO.writeString(mdString,AridiaUtils.STRING_TERMINATOR);
-						this.statusBarPanel.Text="Wrote "+mdString.CurrentValue+" to address "+mdString.Address.ToString();
-					}
-					else
-					{
-						this.validationFailed(mdString);
-						e.CancelEdit=true;
-					}
-				}
-				catch(Exception x)
-				{
-					this.errorHandler("save an inventory item name",x);
-					e.CancelEdit=true;
-				}
-				this.Cursor=Cursors.Default;
-			}
-		}
-
-		private void comboBoxSelectWeapon_SelectedIndexChanged(object sender, System.EventArgs e)
-		{
-			this.Cursor=Cursors.WaitCursor;
-			try
-			{
-				LookupValue selectedItem=(LookupValue)this.comboBoxSelectWeapon.SelectedItem;
-				int address=selectedItem.IntValue;
-				//starting address
-				this.textBoxWeaponAddress.Text=address.ToString();
-				//cost
-				int cost=this.romIO.readInteger(address+(int)Constants.WeaponOffsets.Cost,2);
-				this.textBoxWeaponCost.Text=cost.ToString();
-				//attack
-				int attack=this.romIO.readInteger(address+(int)Constants.WeaponOffsets.Attack,1);
-				this.textBoxWeaponAttack.Text=attack.ToString();
-				//defense
-				int defense=this.romIO.readInteger(address+(int)Constants.WeaponOffsets.Defense,1);
-				this.textBoxWeaponDefense.Text=defense.ToString();
-				//speed
-				int speed=this.romIO.readInteger(address+(int)Constants.WeaponOffsets.Speed,1);
-				this.textBoxWeaponSpeed.Text=speed.ToString();
-				//technique
-				int technique=this.romIO.readInteger(address+(int)Constants.WeaponOffsets.Technique,2);
-				AridiaUtils.setComboBoxSelection(this.comboBoxWeaponTechnique,technique);
-				//animation
-				int animation=this.romIO.readInteger(address+(int)Constants.WeaponOffsets.Animation,2);
-				AridiaUtils.setComboBoxSelection(this.comboBoxWeaponAnimation,animation);
-				//equip by
-				int equipby=this.romIO.readInteger(address+(int)Constants.WeaponOffsets.EquipBy,1);
-				AridiaUtils.setComboBoxSelection(this.comboBoxWeaponEquipBy,equipby);
-			}
-			catch(Exception x)
-			{
-				this.errorHandler("selecting a weapon",x);
-			}
-			this.Cursor=Cursors.Default;
-		}
-
-		private void textBoxWeaponCost_Validating(object sender, System.ComponentModel.CancelEventArgs e)
-		{
-			if((this.comboBoxSelectWeapon.Text.Length<1)||(this.comboBoxSelectWeapon.Text.Length<1)){ return; }
-			this.Cursor=Cursors.WaitCursor;
-			MDInteger mdInt=new MDInteger();
-			try
-			{
-				string newValue=textBoxWeaponCost.Text;
-				mdInt.NumBytes=2;
-				mdInt.CurrentValue=Convert.ToInt32(newValue);
-				mdInt.Address=(Convert.ToInt32(this.textBoxWeaponAddress.Text))+(int)Constants.WeaponOffsets.Cost;
-				try
-				{
-					if(AridiaUtils.validateMDInteger(mdInt))
-					{
-						this.romIO.writeInt(mdInt);
-						this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
-					}
-					else
-					{
-						this.validationFailed(mdInt);
-						e.Cancel=true;
-					}
-				}
-				catch(Exception x)
-				{
-					this.errorHandler("save the cost for a weapon",x);
-					e.Cancel=true;
-				}
-			}
-			catch
-			{
-				//can be thrown from Convert.ToInt call
-				this.validationFailed(mdInt);
-				e.Cancel=true;
-			}
-			this.Cursor=Cursors.Default;
-		}
-
-		private void textBoxWeaponAttack_Validating(object sender, System.ComponentModel.CancelEventArgs e)
-		{
-			if((this.comboBoxSelectWeapon.Text.Length<1)||(this.comboBoxSelectWeapon.Text.Length<1)){ return; }
-			this.Cursor=Cursors.WaitCursor;
-			MDInteger mdInt=new MDInteger();
-			try
-			{
-				string newValue=textBoxWeaponAttack.Text;
-				mdInt.NumBytes=1;
-				mdInt.CurrentValue=Convert.ToInt32(newValue);
-				mdInt.Address=(Convert.ToInt32(this.textBoxWeaponAddress.Text))+(int)Constants.WeaponOffsets.Attack;
-				try
-				{
-					if(AridiaUtils.validateMDInteger(mdInt))
-					{
-						this.romIO.writeInt(mdInt);
-						this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
-					}
-					else
-					{
-						this.validationFailed(mdInt);
-						e.Cancel=true;
-					}
-				}
-				catch(Exception x)
-				{
-					this.errorHandler("save the attack for a weapon",x);
-					e.Cancel=true;
-				}
-			}
-			catch
-			{
-				//can be thrown from Convert.ToInt call
-				this.validationFailed(mdInt);
-				e.Cancel=true;
-			}		
-			this.Cursor=Cursors.Default;
-		}
-
-		private void textBoxWeaponDefense_Validating(object sender, System.ComponentModel.CancelEventArgs e)
-		{
-			if((this.comboBoxSelectWeapon.Text.Length<1)||(this.comboBoxSelectWeapon.Text.Length<1)){ return; }
-			this.Cursor=Cursors.WaitCursor;
-			MDInteger mdInt=new MDInteger();
-			try
-			{
-				string newValue=textBoxWeaponDefense.Text;
-				mdInt.NumBytes=1;
-				mdInt.CurrentValue=Convert.ToInt32(newValue);
-				mdInt.Address=(Convert.ToInt32(this.textBoxWeaponAddress.Text))+(int)Constants.WeaponOffsets.Defense;
-				try
-				{
-					if(AridiaUtils.validateMDInteger(mdInt))
-					{
-						this.romIO.writeInt(mdInt);
-						this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
-					}
-					else
-					{
-						this.validationFailed(mdInt);
-						e.Cancel=true;
-					}
-				}
-				catch(Exception x)
-				{
-					this.errorHandler("save the defense for a weapon",x);
-					e.Cancel=true;
-				}
-			}
-			catch
-			{
-				//can be thrown from Convert.ToInt call
-				this.validationFailed(mdInt);
-				e.Cancel=true;
-			}		
-			this.Cursor=Cursors.Default;
-		}
-
-		private void textBoxWeaponSpeed_Validating(object sender, System.ComponentModel.CancelEventArgs e)
-		{
-			if((this.comboBoxSelectWeapon.Text.Length<1)||(this.comboBoxSelectWeapon.Text.Length<1)){ return; }
-			this.Cursor=Cursors.WaitCursor;
-			MDInteger mdInt=new MDInteger();
-			try
-			{
-				string newValue=textBoxWeaponSpeed.Text;
-				mdInt.NumBytes=1;
-				mdInt.CurrentValue=Convert.ToInt32(newValue);
-				mdInt.Address=(Convert.ToInt32(this.textBoxWeaponAddress.Text))+(int)Constants.WeaponOffsets.Speed;
-				try
-				{
-					if(AridiaUtils.validateMDInteger(mdInt))
-					{
-						this.romIO.writeInt(mdInt);
-						this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
-					}
-					else
-					{
-						this.validationFailed(mdInt);
-						e.Cancel=true;
-					}
-				}
-				catch(Exception x)
-				{
-					this.errorHandler("save the speed for a weapon",x);
-					e.Cancel=true;
-				}
-			}
-			catch
-			{
-				//can be thrown from Convert.ToInt call
-				this.validationFailed(mdInt);
-				e.Cancel=true;
-			}		
-			this.Cursor=Cursors.Default;
-		}
-
-		private void comboBoxWeaponTechnique_Validating(object sender, System.ComponentModel.CancelEventArgs e)
-		{
-			if((this.comboBoxSelectWeapon.Text.Length<1)||(this.comboBoxSelectWeapon.Text.Length<1)){ return; }
-			this.Cursor=Cursors.WaitCursor;
-			try
-			{
-				LookupValue newValue=(LookupValue)this.comboBoxWeaponTechnique.SelectedItem;
-				MDInteger mdInt=new MDInteger();
-				mdInt.NumBytes=2;
-				mdInt.Address=(Convert.ToInt32(this.textBoxWeaponAddress.Text))+(int)Constants.WeaponOffsets.Technique;
-				mdInt.CurrentValue=newValue.IntValue;
-				this.romIO.writeInt(mdInt);
-				this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
-			}				
-			catch(Exception x)
-			{
-				this.errorHandler("save the technique for a weapon",x);
-				e.Cancel=true;
-			}
-			this.Cursor=Cursors.Default;
-		}
-
-		private void comboBoxWeaponAnimation_Validating(object sender, System.ComponentModel.CancelEventArgs e)
-		{
-			if((this.comboBoxSelectWeapon.Text.Length<1)||(this.comboBoxSelectWeapon.Text.Length<1)){ return; }
-			this.Cursor=Cursors.WaitCursor;
-			try
-			{
-				LookupValue newValue=(LookupValue)this.comboBoxWeaponAnimation.SelectedItem;
-				MDInteger mdInt=new MDInteger();
-				mdInt.NumBytes=2;
-				mdInt.Address=(Convert.ToInt32(this.textBoxWeaponAddress.Text))+(int)Constants.WeaponOffsets.Animation;
-				mdInt.CurrentValue=newValue.IntValue;
-				this.romIO.writeInt(mdInt);
-				this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
-			}				
-			catch(Exception x)
-			{
-				this.errorHandler("save the animation for a weapon",x);
-				e.Cancel=true;
-			}
-			this.Cursor=Cursors.Default;
-		}
-
-		private void comboBoxWeaponEquipBy_Validating(object sender, System.ComponentModel.CancelEventArgs e)
-		{
-			if((this.comboBoxSelectWeapon.Text.Length<1)||(this.comboBoxSelectWeapon.Text.Length<1)){ return; }
-			this.Cursor=Cursors.WaitCursor;
-			try
-			{
-				LookupValue newValue=(LookupValue)this.comboBoxWeaponEquipBy.SelectedItem;
-				MDInteger mdInt=new MDInteger();
-				mdInt.NumBytes=1;
-				mdInt.Address=(Convert.ToInt32(this.textBoxWeaponAddress.Text))+(int)Constants.WeaponOffsets.EquipBy;
-				mdInt.CurrentValue=newValue.IntValue;
-				this.romIO.writeInt(mdInt);
-				this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
-			}				
-			catch(Exception x)
-			{
-				this.errorHandler("save the equip by for a weapon",x);
-				e.Cancel=true;
-			}
-			this.Cursor=Cursors.Default;
 		}
 
 		private void comboBoxSelectCharacter_SelectedIndexChanged(object sender, System.EventArgs e)
@@ -5700,5 +5266,195 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.Cursor=Cursors.Default;
         }
 
-	}
+        private void comboBoxItemAnimation_Validating(object sender, CancelEventArgs e)
+        {
+            if((this.comboBoxSelectItem.Text.Length<1)||(this.textBoxItemAddress.Text.Length<1)){return;}
+            this.Cursor=Cursors.WaitCursor;
+            try
+            {
+                LookupValue newValue=(LookupValue)this.comboBoxItemAnimation.SelectedItem;
+                MDInteger mdInt=new MDInteger();
+                mdInt.NumBytes=2;
+                mdInt.Address=(Convert.ToInt32(this.textBoxItemAddress.Text))+(int)Constants.ItemOffsets.Animation;
+                mdInt.CurrentValue=newValue.IntValue;
+                this.romIO.writeInt(mdInt);
+                this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
+            }
+            catch(Exception x)
+            {
+                this.errorHandler("save the animation for an item",x);
+                e.Cancel=true;
+            }
+            this.Cursor = Cursors.Default;
+        }
+
+        private void textBoxItemAttack_Validating(object sender, CancelEventArgs e)
+        {
+			if((this.comboBoxSelectItem.Text.Length<1)||(this.textBoxItemAddress.Text.Length<1)){ return; }
+			this.Cursor=Cursors.WaitCursor;
+			MDInteger mdInt=new MDInteger();
+			try
+			{
+				string newValue=textBoxItemAttack.Text;
+				mdInt.NumBytes=1;
+				mdInt.CurrentValue=Convert.ToInt32(newValue);
+				mdInt.Address=(Convert.ToInt32(this.textBoxItemAddress.Text))+(int)Constants.ItemOffsets.Attack;
+				try
+				{
+					if(AridiaUtils.validateMDInteger(mdInt))
+					{
+						this.romIO.writeInt(mdInt);
+						this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
+					}
+					else
+					{
+						this.validationFailed(mdInt);
+						e.Cancel=true;
+					}
+				}
+				catch(Exception x)
+				{
+					this.errorHandler("save the attack for a Item",x);
+					e.Cancel=true;
+				}
+			}
+			catch
+			{
+				//can be thrown from Convert.ToInt call
+				this.validationFailed(mdInt);
+				e.Cancel=true;
+			}		
+			this.Cursor=Cursors.Default;
+        }
+
+        private void textBoxItemDefense_Validating(object sender, CancelEventArgs e)
+        {
+			if((this.comboBoxSelectItem.Text.Length<1)||(this.textBoxItemAddress.Text.Length<1)){ return; }
+			this.Cursor=Cursors.WaitCursor;
+			MDInteger mdInt=new MDInteger();
+			try
+			{
+				string newValue=textBoxItemDefense.Text;
+				mdInt.NumBytes=1;
+				mdInt.CurrentValue=Convert.ToInt32(newValue);
+				mdInt.Address=(Convert.ToInt32(this.textBoxItemAddress.Text))+(int)Constants.ItemOffsets.Defense;
+				try
+				{
+					if(AridiaUtils.validateMDInteger(mdInt))
+					{
+						this.romIO.writeInt(mdInt);
+						this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
+					}
+					else
+					{
+						this.validationFailed(mdInt);
+						e.Cancel=true;
+					}
+				}
+				catch(Exception x)
+				{
+					this.errorHandler("save the defense for a Item",x);
+					e.Cancel=true;
+				}
+			}
+			catch
+			{
+				//can be thrown from Convert.ToInt call
+				this.validationFailed(mdInt);
+				e.Cancel=true;
+			}		
+			this.Cursor=Cursors.Default;
+        }
+
+        private void textBoxItemSpeed_Validating(object sender, CancelEventArgs e)
+        {
+			if((this.comboBoxSelectItem.Text.Length<1)||(this.textBoxItemAddress.Text.Length<1)){ return; }
+			this.Cursor=Cursors.WaitCursor;
+			MDInteger mdInt=new MDInteger();
+			try
+			{
+				string newValue=textBoxItemSpeed.Text;
+				mdInt.NumBytes=1;
+				mdInt.CurrentValue=Convert.ToInt32(newValue);
+				mdInt.Address=(Convert.ToInt32(this.textBoxItemAddress.Text))+(int)Constants.ItemOffsets.Speed;
+				try
+				{
+					if(AridiaUtils.validateMDInteger(mdInt))
+					{
+						this.romIO.writeInt(mdInt);
+						this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
+					}
+					else
+					{
+						this.validationFailed(mdInt);
+						e.Cancel=true;
+					}
+				}
+				catch(Exception x)
+				{
+					this.errorHandler("save the speed for a Item",x);
+					e.Cancel=true;
+				}
+			}
+			catch
+			{
+				//can be thrown from Convert.ToInt call
+				this.validationFailed(mdInt);
+				e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+        private void comboBoxItemEquipBy_Validating(object sender, CancelEventArgs e)
+        {
+			if((this.comboBoxSelectItem.Text.Length<1)||(this.textBoxItemAddress.Text.Length<1)){ return; }
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+				LookupValue newValue=(LookupValue)this.comboBoxItemEquipBy.SelectedItem;
+				MDInteger mdInt=new MDInteger();
+				mdInt.NumBytes=1;
+				mdInt.Address=(Convert.ToInt32(this.textBoxItemAddress.Text))+(int)Constants.ItemOffsets.EquipBy;
+				mdInt.CurrentValue=newValue.IntValue;
+				this.romIO.writeInt(mdInt);
+				this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
+			}				
+			catch(Exception x)
+			{
+				this.errorHandler("save the equip by for a Item",x);
+				e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+        private void textBoxItemName_Validating(object sender,CancelEventArgs e)
+        {
+			if((this.comboBoxSelectItem.Text.Length<1)||(this.textBoxItemAddress.Text.Length<1)||(this.textBoxItemNameAddress.Text.Length<1)){ return; }
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+				MDString mdString=new MDString();
+				mdString.CurrentValue=this.textBoxItemName.Text;
+                mdString.Address=int.Parse(this.textBoxItemNameAddress.Text);
+                mdString.NumBytes=int.Parse(this.textBoxItemNameLength.Text);
+                if(AridiaUtils.validateMDString(mdString))
+                {
+                    this.romIO.writeString(mdString,AridiaUtils.STRING_TERMINATOR);
+                    this.statusBarPanel.Text="Wrote "+mdString.CurrentValue+" to address "+mdString.Address.ToString();
+                }
+                else
+                {
+                    this.validationFailed(mdString);
+                    e.Cancel=true;
+                }
+            }
+			catch(Exception x)
+			{
+				this.errorHandler("save the name for a Item",x);
+				e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+    }
 }

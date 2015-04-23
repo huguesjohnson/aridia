@@ -1,6 +1,6 @@
 /*
 Aridia: Phantasy Star III ROM Editor
-Copyright (c) 2007-2013 Hugues Johnson
+Copyright (c) 2007-2015 Hugues Johnson
 
 Aridia is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 2 
@@ -178,30 +178,6 @@ namespace com.huguesjohnson.aridia.ui
 				items[index]=new ListViewItem(new string[]{currentValue,categoryName,description,address.ToString(),length.ToString()});
 			}
 			return(items);
-		}
-
-		/// <summary>
-		/// Load list items for the dialog list view.
-		/// </summary>
-		/// <param name="categoryName">The category to load (i.e. "Armor")</param>
-		/// <param name="startAddress">The address to start reading from.</param>
-		/// <param name="endAddress">The address to stop reading at.</param>
-		/// <param name="romIO">The MDBinaryRomIO to load values from.</param>
-		/// <returns>ListViewItem[]</returns>
-		public static ListViewItem[] getInventoryListItems(string categoryName,int startAddress,int endAddress,MDBinaryRomIO romIO)
-		{
-			ArrayList items=new ArrayList();
-			int currentOffset=startAddress;
-			while(currentOffset<endAddress)
-			{
-				//found the next starting position, read the string
-                string inventoryText=romIO.readString(currentOffset,65535,AridiaUtils.STRING_TERMINATOR);
-				int length=inventoryText.Length;
-				int address=currentOffset;
-				items.Add(new ListViewItem(new string[]{inventoryText,categoryName,address.ToString(),length.ToString()}));
-				currentOffset+=length+1;
-			}
-			return((ListViewItem[])items.ToArray(typeof(ListViewItem)));
 		}
 
 		/// <summary>

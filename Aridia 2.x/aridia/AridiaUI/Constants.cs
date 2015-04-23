@@ -79,6 +79,9 @@ namespace com.huguesjohnson.aridia.ui
 			Droppable=17
 		}
 
+		/// <summary>Location where item names start.</summary>
+		public const int ItemNameStartAddress=234050;
+
 		/// <summary>
 		/// Where weapon attributes are located relative to their starting address.
 		/// </summary>
