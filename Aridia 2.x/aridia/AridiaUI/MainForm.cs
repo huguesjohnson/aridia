@@ -247,7 +247,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private Label labelTreasureY;
         private TextBox textBoxTreasureX;
         private Label labelTreasureX;
-        private ComboBox comboBoxItemEquipBy;
         private Label labelItemEquipBy;
         private TextBox textBoxItemSpeed;
         private Label labelItemSpeed;
@@ -263,6 +262,14 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private Label labelItemNameAddress;
         private TextBox textBoxItemName;
         private Label labelItemName;
+        private CheckBox checkBoxEquipLayaGwyn;
+        private CheckBox checkBoxEquipLenaSari;
+        private CheckBox checkBoxEquipLyleRyan;
+        private CheckBox checkBoxEquipTheaKara;
+        private CheckBox checkBoxEquipWren;
+        private CheckBox checkBoxEquipMieu;
+        private CheckBox checkBoxEquipAynSeanCrysAdanAron;
+        private CheckBox checkBoxEquipRhysNial;
 		private int paletteFindIndex;
 
 		public MainForm()
@@ -432,7 +439,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.labelItemNameLength = new System.Windows.Forms.Label();
             this.textBoxItemNameAddress = new System.Windows.Forms.TextBox();
             this.labelItemNameAddress = new System.Windows.Forms.Label();
-            this.comboBoxItemEquipBy = new System.Windows.Forms.ComboBox();
             this.labelItemEquipBy = new System.Windows.Forms.Label();
             this.textBoxItemSpeed = new System.Windows.Forms.TextBox();
             this.labelItemSpeed = new System.Windows.Forms.Label();
@@ -526,6 +532,14 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.statusBar = new System.Windows.Forms.StatusBar();
             this.statusBarPanel = new System.Windows.Forms.StatusBarPanel();
             this.openFileRomDialog = new System.Windows.Forms.OpenFileDialog();
+            this.checkBoxEquipRhysNial = new System.Windows.Forms.CheckBox();
+            this.checkBoxEquipAynSeanCrysAdanAron = new System.Windows.Forms.CheckBox();
+            this.checkBoxEquipMieu = new System.Windows.Forms.CheckBox();
+            this.checkBoxEquipWren = new System.Windows.Forms.CheckBox();
+            this.checkBoxEquipLayaGwyn = new System.Windows.Forms.CheckBox();
+            this.checkBoxEquipLenaSari = new System.Windows.Forms.CheckBox();
+            this.checkBoxEquipLyleRyan = new System.Windows.Forms.CheckBox();
+            this.checkBoxEquipTheaKara = new System.Windows.Forms.CheckBox();
             this.tabControlMainContent.SuspendLayout();
             this.tabPageMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWarning)).BeginInit();
@@ -1730,13 +1744,20 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // panelItem
             // 
             this.panelItem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelItem.Controls.Add(this.checkBoxEquipLayaGwyn);
+            this.panelItem.Controls.Add(this.checkBoxEquipLenaSari);
+            this.panelItem.Controls.Add(this.checkBoxEquipLyleRyan);
+            this.panelItem.Controls.Add(this.checkBoxEquipTheaKara);
+            this.panelItem.Controls.Add(this.checkBoxEquipWren);
+            this.panelItem.Controls.Add(this.checkBoxEquipMieu);
+            this.panelItem.Controls.Add(this.checkBoxEquipAynSeanCrysAdanAron);
+            this.panelItem.Controls.Add(this.checkBoxEquipRhysNial);
             this.panelItem.Controls.Add(this.textBoxItemName);
             this.panelItem.Controls.Add(this.labelItemName);
             this.panelItem.Controls.Add(this.textBoxItemNameLength);
             this.panelItem.Controls.Add(this.labelItemNameLength);
             this.panelItem.Controls.Add(this.textBoxItemNameAddress);
             this.panelItem.Controls.Add(this.labelItemNameAddress);
-            this.panelItem.Controls.Add(this.comboBoxItemEquipBy);
             this.panelItem.Controls.Add(this.labelItemEquipBy);
             this.panelItem.Controls.Add(this.textBoxItemSpeed);
             this.panelItem.Controls.Add(this.labelItemSpeed);
@@ -1811,18 +1832,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.labelItemNameAddress.Text = "Name Address:";
             this.labelItemNameAddress.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // comboBoxItemEquipBy
-            // 
-            this.comboBoxItemEquipBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxItemEquipBy.Location = new System.Drawing.Point(456, 176);
-            this.comboBoxItemEquipBy.Name = "comboBoxItemEquipBy";
-            this.comboBoxItemEquipBy.Size = new System.Drawing.Size(205, 24);
-            this.comboBoxItemEquipBy.TabIndex = 13;
-            this.comboBoxItemEquipBy.Validating += new System.ComponentModel.CancelEventHandler(this.comboBoxItemEquipBy_Validating);
-            // 
             // labelItemEquipBy
             // 
-            this.labelItemEquipBy.Location = new System.Drawing.Point(351, 176);
+            this.labelItemEquipBy.Location = new System.Drawing.Point(355, 12);
             this.labelItemEquipBy.Name = "labelItemEquipBy";
             this.labelItemEquipBy.Size = new System.Drawing.Size(96, 24);
             this.labelItemEquipBy.TabIndex = 27;
@@ -1831,7 +1843,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // textBoxItemSpeed
             // 
-            this.textBoxItemSpeed.Location = new System.Drawing.Point(456, 148);
+            this.textBoxItemSpeed.Location = new System.Drawing.Point(132, 292);
             this.textBoxItemSpeed.MaxLength = 3;
             this.textBoxItemSpeed.Name = "textBoxItemSpeed";
             this.textBoxItemSpeed.Size = new System.Drawing.Size(205, 22);
@@ -1840,7 +1852,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelItemSpeed
             // 
-            this.labelItemSpeed.Location = new System.Drawing.Point(351, 148);
+            this.labelItemSpeed.Location = new System.Drawing.Point(27, 292);
             this.labelItemSpeed.Name = "labelItemSpeed";
             this.labelItemSpeed.Size = new System.Drawing.Size(96, 25);
             this.labelItemSpeed.TabIndex = 26;
@@ -1849,7 +1861,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // textBoxItemDefense
             // 
-            this.textBoxItemDefense.Location = new System.Drawing.Point(456, 121);
+            this.textBoxItemDefense.Location = new System.Drawing.Point(132, 265);
             this.textBoxItemDefense.MaxLength = 3;
             this.textBoxItemDefense.Name = "textBoxItemDefense";
             this.textBoxItemDefense.Size = new System.Drawing.Size(205, 22);
@@ -1858,7 +1870,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelItemDefense
             // 
-            this.labelItemDefense.Location = new System.Drawing.Point(351, 121);
+            this.labelItemDefense.Location = new System.Drawing.Point(27, 265);
             this.labelItemDefense.Name = "labelItemDefense";
             this.labelItemDefense.Size = new System.Drawing.Size(96, 24);
             this.labelItemDefense.TabIndex = 25;
@@ -1867,7 +1879,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // textBoxItemAttack
             // 
-            this.textBoxItemAttack.Location = new System.Drawing.Point(456, 93);
+            this.textBoxItemAttack.Location = new System.Drawing.Point(132, 237);
             this.textBoxItemAttack.MaxLength = 3;
             this.textBoxItemAttack.Name = "textBoxItemAttack";
             this.textBoxItemAttack.Size = new System.Drawing.Size(205, 22);
@@ -1876,7 +1888,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelItemAttack
             // 
-            this.labelItemAttack.Location = new System.Drawing.Point(351, 93);
+            this.labelItemAttack.Location = new System.Drawing.Point(27, 237);
             this.labelItemAttack.Name = "labelItemAttack";
             this.labelItemAttack.Size = new System.Drawing.Size(96, 24);
             this.labelItemAttack.TabIndex = 24;
@@ -1886,7 +1898,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // comboBoxItemAnimation
             // 
             this.comboBoxItemAnimation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxItemAnimation.Location = new System.Drawing.Point(456, 65);
+            this.comboBoxItemAnimation.Location = new System.Drawing.Point(132, 209);
             this.comboBoxItemAnimation.Name = "comboBoxItemAnimation";
             this.comboBoxItemAnimation.Size = new System.Drawing.Size(205, 24);
             this.comboBoxItemAnimation.TabIndex = 9;
@@ -1894,7 +1906,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelItemAnimation
             // 
-            this.labelItemAnimation.Location = new System.Drawing.Point(351, 65);
+            this.labelItemAnimation.Location = new System.Drawing.Point(27, 209);
             this.labelItemAnimation.Name = "labelItemAnimation";
             this.labelItemAnimation.Size = new System.Drawing.Size(96, 25);
             this.labelItemAnimation.TabIndex = 22;
@@ -1920,7 +1932,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // textBoxItemEffectiveness
             // 
-            this.textBoxItemEffectiveness.Location = new System.Drawing.Point(456, 37);
+            this.textBoxItemEffectiveness.Location = new System.Drawing.Point(132, 181);
             this.textBoxItemEffectiveness.MaxLength = 3;
             this.textBoxItemEffectiveness.Name = "textBoxItemEffectiveness";
             this.textBoxItemEffectiveness.Size = new System.Drawing.Size(205, 22);
@@ -1930,7 +1942,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // comboBoxItemTechnique
             // 
             this.comboBoxItemTechnique.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxItemTechnique.Location = new System.Drawing.Point(456, 10);
+            this.comboBoxItemTechnique.Location = new System.Drawing.Point(132, 154);
             this.comboBoxItemTechnique.Name = "comboBoxItemTechnique";
             this.comboBoxItemTechnique.Size = new System.Drawing.Size(205, 24);
             this.comboBoxItemTechnique.TabIndex = 7;
@@ -1947,7 +1959,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelItemEffectiveness
             // 
-            this.labelItemEffectiveness.Location = new System.Drawing.Point(351, 37);
+            this.labelItemEffectiveness.Location = new System.Drawing.Point(27, 181);
             this.labelItemEffectiveness.Name = "labelItemEffectiveness";
             this.labelItemEffectiveness.Size = new System.Drawing.Size(96, 25);
             this.labelItemEffectiveness.TabIndex = 3;
@@ -1956,7 +1968,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelItemTechnique
             // 
-            this.labelItemTechnique.Location = new System.Drawing.Point(351, 10);
+            this.labelItemTechnique.Location = new System.Drawing.Point(27, 154);
             this.labelItemTechnique.Name = "labelItemTechnique";
             this.labelItemTechnique.Size = new System.Drawing.Size(96, 24);
             this.labelItemTechnique.TabIndex = 2;
@@ -2710,6 +2722,94 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.openFileRomDialog.Filter = "Phantasy Star III ROM Images (*.bin)|*.bin";
             this.openFileRomDialog.Title = "Open Phantasy Star III ROM";
             // 
+            // checkBoxEquipRhysNial
+            // 
+            this.checkBoxEquipRhysNial.AutoSize = true;
+            this.checkBoxEquipRhysNial.Location = new System.Drawing.Point(384, 39);
+            this.checkBoxEquipRhysNial.Name = "checkBoxEquipRhysNial";
+            this.checkBoxEquipRhysNial.Size = new System.Drawing.Size(94, 21);
+            this.checkBoxEquipRhysNial.TabIndex = 13;
+            this.checkBoxEquipRhysNial.Text = "Rhys, Nial";
+            this.checkBoxEquipRhysNial.UseVisualStyleBackColor = true;
+            this.checkBoxEquipRhysNial.Validating += new System.ComponentModel.CancelEventHandler(this.saveEquipBy);
+            // 
+            // checkBoxEquipAynSeanCrysAdanAron
+            // 
+            this.checkBoxEquipAynSeanCrysAdanAron.AutoSize = true;
+            this.checkBoxEquipAynSeanCrysAdanAron.Location = new System.Drawing.Point(384, 66);
+            this.checkBoxEquipAynSeanCrysAdanAron.Name = "checkBoxEquipAynSeanCrysAdanAron";
+            this.checkBoxEquipAynSeanCrysAdanAron.Size = new System.Drawing.Size(210, 21);
+            this.checkBoxEquipAynSeanCrysAdanAron.TabIndex = 14;
+            this.checkBoxEquipAynSeanCrysAdanAron.Text = "Ayn, Sean, Crys, Adan, Aron";
+            this.checkBoxEquipAynSeanCrysAdanAron.UseVisualStyleBackColor = true;
+            this.checkBoxEquipAynSeanCrysAdanAron.Validating += new System.ComponentModel.CancelEventHandler(this.saveEquipBy);
+            // 
+            // checkBoxEquipMieu
+            // 
+            this.checkBoxEquipMieu.AutoSize = true;
+            this.checkBoxEquipMieu.Location = new System.Drawing.Point(384, 93);
+            this.checkBoxEquipMieu.Name = "checkBoxEquipMieu";
+            this.checkBoxEquipMieu.Size = new System.Drawing.Size(60, 21);
+            this.checkBoxEquipMieu.TabIndex = 15;
+            this.checkBoxEquipMieu.Text = "Mieu";
+            this.checkBoxEquipMieu.UseVisualStyleBackColor = true;
+            this.checkBoxEquipMieu.Validating += new System.ComponentModel.CancelEventHandler(this.saveEquipBy);
+            // 
+            // checkBoxEquipWren
+            // 
+            this.checkBoxEquipWren.AutoSize = true;
+            this.checkBoxEquipWren.Location = new System.Drawing.Point(384, 117);
+            this.checkBoxEquipWren.Name = "checkBoxEquipWren";
+            this.checkBoxEquipWren.Size = new System.Drawing.Size(64, 21);
+            this.checkBoxEquipWren.TabIndex = 16;
+            this.checkBoxEquipWren.Text = "Wren";
+            this.checkBoxEquipWren.UseVisualStyleBackColor = true;
+            this.checkBoxEquipWren.Validating += new System.ComponentModel.CancelEventHandler(this.saveEquipBy);
+            // 
+            // checkBoxEquipLayaGwyn
+            // 
+            this.checkBoxEquipLayaGwyn.AutoSize = true;
+            this.checkBoxEquipLayaGwyn.Location = new System.Drawing.Point(384, 220);
+            this.checkBoxEquipLayaGwyn.Name = "checkBoxEquipLayaGwyn";
+            this.checkBoxEquipLayaGwyn.Size = new System.Drawing.Size(104, 21);
+            this.checkBoxEquipLayaGwyn.TabIndex = 20;
+            this.checkBoxEquipLayaGwyn.Text = "Laya, Gwyn";
+            this.checkBoxEquipLayaGwyn.UseVisualStyleBackColor = true;
+            this.checkBoxEquipLayaGwyn.Validating += new System.ComponentModel.CancelEventHandler(this.saveEquipBy);
+            // 
+            // checkBoxEquipLenaSari
+            // 
+            this.checkBoxEquipLenaSari.AutoSize = true;
+            this.checkBoxEquipLenaSari.Location = new System.Drawing.Point(384, 196);
+            this.checkBoxEquipLenaSari.Name = "checkBoxEquipLenaSari";
+            this.checkBoxEquipLenaSari.Size = new System.Drawing.Size(95, 21);
+            this.checkBoxEquipLenaSari.TabIndex = 19;
+            this.checkBoxEquipLenaSari.Text = "Lena, Sari";
+            this.checkBoxEquipLenaSari.UseVisualStyleBackColor = true;
+            this.checkBoxEquipLenaSari.Validating += new System.ComponentModel.CancelEventHandler(this.saveEquipBy);
+            // 
+            // checkBoxEquipLyleRyan
+            // 
+            this.checkBoxEquipLyleRyan.AutoSize = true;
+            this.checkBoxEquipLyleRyan.Location = new System.Drawing.Point(384, 169);
+            this.checkBoxEquipLyleRyan.Name = "checkBoxEquipLyleRyan";
+            this.checkBoxEquipLyleRyan.Size = new System.Drawing.Size(97, 21);
+            this.checkBoxEquipLyleRyan.TabIndex = 18;
+            this.checkBoxEquipLyleRyan.Text = "Lyle, Ryan";
+            this.checkBoxEquipLyleRyan.UseVisualStyleBackColor = true;
+            this.checkBoxEquipLyleRyan.Validating += new System.ComponentModel.CancelEventHandler(this.saveEquipBy);
+            // 
+            // checkBoxEquipTheaKara
+            // 
+            this.checkBoxEquipTheaKara.AutoSize = true;
+            this.checkBoxEquipTheaKara.Location = new System.Drawing.Point(384, 142);
+            this.checkBoxEquipTheaKara.Name = "checkBoxEquipTheaKara";
+            this.checkBoxEquipTheaKara.Size = new System.Drawing.Size(101, 21);
+            this.checkBoxEquipTheaKara.TabIndex = 17;
+            this.checkBoxEquipTheaKara.Text = "Thea, Kara";
+            this.checkBoxEquipTheaKara.UseVisualStyleBackColor = true;
+            this.checkBoxEquipTheaKara.Validating += new System.ComponentModel.CancelEventHandler(this.saveEquipBy);
+            // 
             // MainForm
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
@@ -3005,7 +3105,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 								AridiaUtils.loadLookupValues(this.comboBoxSelectItem,"Item-Addresses");
 								AridiaUtils.loadLookupValues(this.comboBoxItemTechnique,"Item-Techniques");
                                 AridiaUtils.loadLookupValues(this.comboBoxItemAnimation, "Weapon-Animations");
-                                AridiaUtils.loadLookupValues(this.comboBoxItemEquipBy, "Weapon-EquipBy");
                             }
 							break;
 						case "Shops":
@@ -3150,7 +3249,14 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
                 AridiaUtils.setComboBoxSelection(this.comboBoxItemAnimation,animation);
                 //equip by
                 int equipby=this.romIO.readInteger(address+(int)Constants.ItemOffsets.EquipBy,1);
-                AridiaUtils.setComboBoxSelection(this.comboBoxItemEquipBy,equipby);
+                this.checkBoxEquipRhysNial.Checked=((equipby&(int)Constants.CharacterIdMask.RhysNial)==(int)Constants.CharacterIdMask.RhysNial);
+                this.checkBoxEquipAynSeanCrysAdanAron.Checked=((equipby&(int)Constants.CharacterIdMask.AynSeanCrysAdanAron)==(int)Constants.CharacterIdMask.AynSeanCrysAdanAron);
+                this.checkBoxEquipMieu.Checked=((equipby&(int)Constants.CharacterIdMask.Mieu)==(int)Constants.CharacterIdMask.Mieu);
+                this.checkBoxEquipWren.Checked=((equipby&(int)Constants.CharacterIdMask.Wren)==(int)Constants.CharacterIdMask.Wren);
+                this.checkBoxEquipTheaKara.Checked=((equipby&(int)Constants.CharacterIdMask.TheaKara)==(int)Constants.CharacterIdMask.TheaKara);
+                this.checkBoxEquipLyleRyan.Checked=((equipby&(int)Constants.CharacterIdMask.LyleRyan)==(int)Constants.CharacterIdMask.LyleRyan);
+                this.checkBoxEquipLenaSari.Checked=((equipby&(int)Constants.CharacterIdMask.LenaSari)==(int)Constants.CharacterIdMask.LenaSari);
+                this.checkBoxEquipLayaGwyn.Checked=((equipby&(int)Constants.CharacterIdMask.LayaGwyn)==(int)Constants.CharacterIdMask.LayaGwyn);
                 //name
                 int nameAddress=this.romIO.readInteger(address+(int)Constants.ItemOffsets.NameAddress,2)+Constants.ItemNameStartAddress;
                 this.textBoxItemNameAddress.Text=nameAddress.ToString();
@@ -5405,28 +5511,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 			this.Cursor=Cursors.Default;
         }
 
-        private void comboBoxItemEquipBy_Validating(object sender, CancelEventArgs e)
-        {
-			if((this.comboBoxSelectItem.Text.Length<1)||(this.textBoxItemAddress.Text.Length<1)){ return; }
-			this.Cursor=Cursors.WaitCursor;
-			try
-			{
-				LookupValue newValue=(LookupValue)this.comboBoxItemEquipBy.SelectedItem;
-				MDInteger mdInt=new MDInteger();
-				mdInt.NumBytes=1;
-				mdInt.Address=(Convert.ToInt32(this.textBoxItemAddress.Text))+(int)Constants.ItemOffsets.EquipBy;
-				mdInt.CurrentValue=newValue.IntValue;
-				this.romIO.writeInt(mdInt);
-				this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
-			}				
-			catch(Exception x)
-			{
-				this.errorHandler("save the equip by for a Item",x);
-				e.Cancel=true;
-			}
-			this.Cursor=Cursors.Default;
-        }
-
         private void textBoxItemName_Validating(object sender,CancelEventArgs e)
         {
 			if((this.comboBoxSelectItem.Text.Length<1)||(this.textBoxItemAddress.Text.Length<1)||(this.textBoxItemNameAddress.Text.Length<1)){ return; }
@@ -5451,6 +5535,36 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 			catch(Exception x)
 			{
 				this.errorHandler("save the name for a Item",x);
+				e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+        private void saveEquipBy(object sender,CancelEventArgs e)
+        {
+			if((this.comboBoxSelectItem.Text.Length<1)||(this.textBoxItemAddress.Text.Length<1)){return;}
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+                int equipby=0;
+                if(this.checkBoxEquipRhysNial.Checked){equipby=equipby|(int)Constants.CharacterIdMask.RhysNial;}
+                if(this.checkBoxEquipAynSeanCrysAdanAron.Checked){equipby=equipby|(int)Constants.CharacterIdMask.AynSeanCrysAdanAron;}
+                if(this.checkBoxEquipMieu.Checked){equipby=equipby|(int)Constants.CharacterIdMask.Mieu;}
+                if(this.checkBoxEquipWren.Checked){equipby=equipby|(int)Constants.CharacterIdMask.Wren;}
+                if(this.checkBoxEquipTheaKara.Checked){equipby=equipby|(int)Constants.CharacterIdMask.TheaKara;}
+                if(this.checkBoxEquipLyleRyan.Checked){equipby=equipby|(int)Constants.CharacterIdMask.LyleRyan;}
+                if(this.checkBoxEquipLenaSari.Checked){equipby=equipby|(int)Constants.CharacterIdMask.LenaSari;}
+                if(this.checkBoxEquipLayaGwyn.Checked){equipby=equipby|(int)Constants.CharacterIdMask.LayaGwyn;}
+				MDInteger mdInt=new MDInteger();
+				mdInt.NumBytes=1;
+				mdInt.Address=(Convert.ToInt32(this.textBoxItemAddress.Text))+(int)Constants.ItemOffsets.EquipBy;
+				mdInt.CurrentValue=equipby;
+				this.romIO.writeInt(mdInt);
+				this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
+			}				
+			catch(Exception x)
+			{
+				this.errorHandler("save the equip by for a Item",x);
 				e.Cancel=true;
 			}
 			this.Cursor=Cursors.Default;

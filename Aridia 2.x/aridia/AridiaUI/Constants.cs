@@ -97,6 +97,21 @@ namespace com.huguesjohnson.aridia.ui
 		}
 
 		/// <summary>
+		/// Character IDs used for equip bitmask, taken from ps3.constants.asm by lorenzo
+		/// </summary>
+        public enum CharacterIdMask : int
+        { 
+            RhysNial=1,
+            AynSeanCrysAdanAron=2,
+            Mieu=4,
+            Wren=8,
+            TheaKara=16,
+            LyleRyan=32,
+            LenaSari=64,
+            LayaGwyn=128
+        }
+
+		/// <summary>
 		/// Where character attributes are located relative to their starting address.
 		/// </summary>
 		public enum CharacterOffsets : int
