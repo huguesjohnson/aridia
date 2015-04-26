@@ -75,7 +75,7 @@ namespace com.huguesjohnson.aridia.ui
 			Technique=13,
 			Effectiveness=14,
 			EquipBy=15,
-			Type=16,
+			EquipWhere=16,
 			Flags=17
 		}
 

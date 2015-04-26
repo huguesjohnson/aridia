@@ -275,6 +275,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private CheckBox checkBoxEquipRhysNial;
         private CheckBox checkBoxItemFlag2;
         private CheckBox checkBoxItemFlag3;
+        private ComboBox comboBoxItemEquipWhere;
+        private Label labelEquipWhere;
 		private int paletteFindIndex;
 
 		public MainForm()
@@ -550,6 +552,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.checkBoxItemFlag1 = new System.Windows.Forms.CheckBox();
             this.checkBoxItemFlag2 = new System.Windows.Forms.CheckBox();
             this.checkBoxItemFlag3 = new System.Windows.Forms.CheckBox();
+            this.labelEquipWhere = new System.Windows.Forms.Label();
+            this.comboBoxItemEquipWhere = new System.Windows.Forms.ComboBox();
             this.tabControlMainContent.SuspendLayout();
             this.tabPageMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWarning)).BeginInit();
@@ -1754,6 +1758,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // panelItem
             // 
             this.panelItem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelItem.Controls.Add(this.comboBoxItemEquipWhere);
+            this.panelItem.Controls.Add(this.labelEquipWhere);
             this.panelItem.Controls.Add(this.checkBoxItemFlag3);
             this.panelItem.Controls.Add(this.checkBoxItemFlag2);
             this.panelItem.Controls.Add(this.checkBoxItemFlag1);
@@ -2840,7 +2846,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.checkBoxItemFlag0.Location = new System.Drawing.Point(518, 37);
             this.checkBoxItemFlag0.Name = "checkBoxItemFlag0";
             this.checkBoxItemFlag0.Size = new System.Drawing.Size(115, 21);
-            this.checkBoxItemFlag0.TabIndex = 21;
+            this.checkBoxItemFlag0.TabIndex = 22;
             this.checkBoxItemFlag0.Text = "[0] - Shot flag";
             this.checkBoxItemFlag0.UseVisualStyleBackColor = true;
             this.checkBoxItemFlag0.Validating += new System.ComponentModel.CancelEventHandler(this.saveItemFlags);
@@ -2851,7 +2857,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.checkBoxItemFlag1.Location = new System.Drawing.Point(518, 64);
             this.checkBoxItemFlag1.Name = "checkBoxItemFlag1";
             this.checkBoxItemFlag1.Size = new System.Drawing.Size(125, 21);
-            this.checkBoxItemFlag1.TabIndex = 22;
+            this.checkBoxItemFlag1.TabIndex = 23;
             this.checkBoxItemFlag1.Text = "[1] - Unknown?";
             this.checkBoxItemFlag1.UseVisualStyleBackColor = true;
             this.checkBoxItemFlag1.Validating += new System.ComponentModel.CancelEventHandler(this.saveItemFlags);
@@ -2862,7 +2868,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.checkBoxItemFlag2.Location = new System.Drawing.Point(518, 91);
             this.checkBoxItemFlag2.Name = "checkBoxItemFlag2";
             this.checkBoxItemFlag2.Size = new System.Drawing.Size(125, 21);
-            this.checkBoxItemFlag2.TabIndex = 23;
+            this.checkBoxItemFlag2.TabIndex = 24;
             this.checkBoxItemFlag2.Text = "[2] - Droppable";
             this.checkBoxItemFlag2.UseVisualStyleBackColor = true;
             this.checkBoxItemFlag2.Validating += new System.ComponentModel.CancelEventHandler(this.saveItemFlags);
@@ -2873,10 +2879,28 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.checkBoxItemFlag3.Location = new System.Drawing.Point(518, 115);
             this.checkBoxItemFlag3.Name = "checkBoxItemFlag3";
             this.checkBoxItemFlag3.Size = new System.Drawing.Size(156, 21);
-            this.checkBoxItemFlag3.TabIndex = 24;
+            this.checkBoxItemFlag3.TabIndex = 25;
             this.checkBoxItemFlag3.Text = "[3] - Usable in fights";
             this.checkBoxItemFlag3.UseVisualStyleBackColor = true;
             this.checkBoxItemFlag3.Validating += new System.ComponentModel.CancelEventHandler(this.saveItemFlags);
+            // 
+            // labelEquipWhere
+            // 
+            this.labelEquipWhere.Location = new System.Drawing.Point(303, 242);
+            this.labelEquipWhere.Name = "labelEquipWhere";
+            this.labelEquipWhere.Size = new System.Drawing.Size(100, 24);
+            this.labelEquipWhere.TabIndex = 34;
+            this.labelEquipWhere.Text = "Equip Where:";
+            this.labelEquipWhere.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // comboBoxItemEquipWhere
+            // 
+            this.comboBoxItemEquipWhere.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxItemEquipWhere.Location = new System.Drawing.Point(306, 266);
+            this.comboBoxItemEquipWhere.Name = "comboBoxItemEquipWhere";
+            this.comboBoxItemEquipWhere.Size = new System.Drawing.Size(155, 24);
+            this.comboBoxItemEquipWhere.TabIndex = 21;
+            this.comboBoxItemEquipWhere.Validating += new System.ComponentModel.CancelEventHandler(this.comboBoxItemEquipWhere_Validating);
             // 
             // MainForm
             // 
@@ -3172,7 +3196,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 							{
 								AridiaUtils.loadLookupValues(this.comboBoxSelectItem,"Item-Addresses");
 								AridiaUtils.loadLookupValues(this.comboBoxItemTechnique,"Item-Techniques");
-                                AridiaUtils.loadLookupValues(this.comboBoxItemAnimation, "Weapon-Animations");
+                                AridiaUtils.loadLookupValues(this.comboBoxItemAnimation,"Weapon-Animations");
+                                AridiaUtils.loadLookupValues(this.comboBoxItemEquipWhere,"Item-EquipWhere");
                             }
 							break;
 						case "Shops":
@@ -3325,6 +3350,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
                 this.checkBoxEquipLyleRyan.Checked=((equipby&(int)Constants.CharacterIdMask.LyleRyan)==(int)Constants.CharacterIdMask.LyleRyan);
                 this.checkBoxEquipLenaSari.Checked=((equipby&(int)Constants.CharacterIdMask.LenaSari)==(int)Constants.CharacterIdMask.LenaSari);
                 this.checkBoxEquipLayaGwyn.Checked=((equipby&(int)Constants.CharacterIdMask.LayaGwyn)==(int)Constants.CharacterIdMask.LayaGwyn);
+                //equip where
+                int equipWhere=this.romIO.readInteger(address+(int)Constants.ItemOffsets.EquipWhere,1);
+                AridiaUtils.setComboBoxSelection(this.comboBoxItemEquipWhere,equipWhere);
                 //item flags
                 int itemFlags=this.romIO.readInteger(address+(int)Constants.ItemOffsets.Flags,1);
                 this.checkBoxItemFlag0.Checked=((itemFlags&16)==16);
@@ -5665,6 +5693,28 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 			catch(Exception x)
 			{
 				this.errorHandler("save the flags by for a Item",x);
+				e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+        private void comboBoxItemEquipWhere_Validating(object sender,CancelEventArgs e)
+        {
+			if((this.comboBoxSelectItem.Text.Length<1)||(this.textBoxItemAddress.Text.Length<1)){ return; }
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+				LookupValue newValue=(LookupValue)this.comboBoxItemEquipWhere.SelectedItem;
+				MDInteger mdInt=new MDInteger();
+				mdInt.NumBytes=1;
+				mdInt.Address=(Convert.ToInt32(this.textBoxItemAddress.Text))+(int)Constants.ItemOffsets.EquipWhere;
+				mdInt.CurrentValue=newValue.IntValue;
+				this.romIO.writeInt(mdInt);
+				this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
+			}				
+			catch(Exception x)
+			{
+				this.errorHandler("save equip where for an item",x);
 				e.Cancel=true;
 			}
 			this.Cursor=Cursors.Default;
