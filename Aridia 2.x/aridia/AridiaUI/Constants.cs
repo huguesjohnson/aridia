@@ -76,7 +76,7 @@ namespace com.huguesjohnson.aridia.ui
 			Effectiveness=14,
 			EquipBy=15,
 			Type=16,
-			Droppable=17
+			Flags=17
 		}
 
 		/// <summary>Location where item names start.</summary>
