@@ -277,6 +277,23 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private CheckBox checkBoxItemFlag3;
         private ComboBox comboBoxItemEquipWhere;
         private Label labelEquipWhere;
+        private TabPage tabPageEnemyGroups;
+        private ComboBox comboBoxEnemyGroupsSelectGeneration;
+        private Label labelEnemyGroupsSelectGeneration;
+        private Panel panelEnemyGroups;
+        private ListBox listBoxSelectEnemyGroup;
+        private Label labelSelectEnemyGroup;
+        private Label labelBetaFeature;
+        private TextBox textBoxGroupAddress;
+        private Label labelGroupAddress;
+        private ComboBox comboBoxBackRowEnemyCount;
+        private Label labelBackRowEnemyCount;
+        private ComboBox comboBoxBackRowEnemy;
+        private Label labelBackRowEnemy;
+        private ComboBox comboBoxFrontRowEnemyCount;
+        private Label labelFrontRowEnemyCount;
+        private ComboBox comboBoxFrontRowEnemy;
+        private Label labelFrontRowEnemy;
 		private int paletteFindIndex;
 
 		public MainForm()
@@ -554,6 +571,23 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.statusBar = new System.Windows.Forms.StatusBar();
             this.statusBarPanel = new System.Windows.Forms.StatusBarPanel();
             this.openFileRomDialog = new System.Windows.Forms.OpenFileDialog();
+            this.tabPageEnemyGroups = new System.Windows.Forms.TabPage();
+            this.comboBoxEnemyGroupsSelectGeneration = new System.Windows.Forms.ComboBox();
+            this.labelEnemyGroupsSelectGeneration = new System.Windows.Forms.Label();
+            this.panelEnemyGroups = new System.Windows.Forms.Panel();
+            this.labelSelectEnemyGroup = new System.Windows.Forms.Label();
+            this.listBoxSelectEnemyGroup = new System.Windows.Forms.ListBox();
+            this.textBoxGroupAddress = new System.Windows.Forms.TextBox();
+            this.labelGroupAddress = new System.Windows.Forms.Label();
+            this.labelBetaFeature = new System.Windows.Forms.Label();
+            this.comboBoxFrontRowEnemy = new System.Windows.Forms.ComboBox();
+            this.labelFrontRowEnemy = new System.Windows.Forms.Label();
+            this.comboBoxFrontRowEnemyCount = new System.Windows.Forms.ComboBox();
+            this.labelFrontRowEnemyCount = new System.Windows.Forms.Label();
+            this.comboBoxBackRowEnemyCount = new System.Windows.Forms.ComboBox();
+            this.labelBackRowEnemyCount = new System.Windows.Forms.Label();
+            this.comboBoxBackRowEnemy = new System.Windows.Forms.ComboBox();
+            this.labelBackRowEnemy = new System.Windows.Forms.Label();
             this.tabControlMainContent.SuspendLayout();
             this.tabPageMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWarning)).BeginInit();
@@ -574,6 +608,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.panelShop.SuspendLayout();
             this.tabPageTreasure.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.statusBarPanel)).BeginInit();
+            this.tabPageEnemyGroups.SuspendLayout();
+            this.panelEnemyGroups.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainMenu
@@ -663,6 +699,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabControlMainContent.Controls.Add(this.tabPageCharacters);
             this.tabControlMainContent.Controls.Add(this.tabPageDialogText);
             this.tabControlMainContent.Controls.Add(this.tabPageEnemies);
+            this.tabControlMainContent.Controls.Add(this.tabPageEnemyGroups);
             this.tabControlMainContent.Controls.Add(this.tabPageGraphics);
             this.tabControlMainContent.Controls.Add(this.tabPageItems);
             this.tabControlMainContent.Controls.Add(this.tabPageLevelTables);
@@ -1657,9 +1694,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelSelectEnemy
             // 
-            this.labelSelectEnemy.Location = new System.Drawing.Point(19, 18);
+            this.labelSelectEnemy.Location = new System.Drawing.Point(3, 18);
             this.labelSelectEnemy.Name = "labelSelectEnemy";
-            this.labelSelectEnemy.Size = new System.Drawing.Size(96, 25);
+            this.labelSelectEnemy.Size = new System.Drawing.Size(112, 25);
             this.labelSelectEnemy.TabIndex = 6;
             this.labelSelectEnemy.Text = "Select Enemy: ";
             this.labelSelectEnemy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2902,6 +2939,179 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.openFileRomDialog.Filter = "Phantasy Star III ROM Images (*.bin)|*.bin";
             this.openFileRomDialog.Title = "Open Phantasy Star III ROM";
             // 
+            // tabPageEnemyGroups
+            // 
+            this.tabPageEnemyGroups.Controls.Add(this.panelEnemyGroups);
+            this.tabPageEnemyGroups.Controls.Add(this.comboBoxEnemyGroupsSelectGeneration);
+            this.tabPageEnemyGroups.Controls.Add(this.labelEnemyGroupsSelectGeneration);
+            this.tabPageEnemyGroups.Location = new System.Drawing.Point(4, 55);
+            this.tabPageEnemyGroups.Name = "tabPageEnemyGroups";
+            this.tabPageEnemyGroups.Size = new System.Drawing.Size(700, 379);
+            this.tabPageEnemyGroups.TabIndex = 15;
+            this.tabPageEnemyGroups.Text = "Enemy Groups";
+            this.tabPageEnemyGroups.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxEnemyGroupsSelectGeneration
+            // 
+            this.comboBoxEnemyGroupsSelectGeneration.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxEnemyGroupsSelectGeneration.Location = new System.Drawing.Point(176, 13);
+            this.comboBoxEnemyGroupsSelectGeneration.Name = "comboBoxEnemyGroupsSelectGeneration";
+            this.comboBoxEnemyGroupsSelectGeneration.Size = new System.Drawing.Size(353, 24);
+            this.comboBoxEnemyGroupsSelectGeneration.TabIndex = 9;
+            // 
+            // labelEnemyGroupsSelectGeneration
+            // 
+            this.labelEnemyGroupsSelectGeneration.Location = new System.Drawing.Point(12, 13);
+            this.labelEnemyGroupsSelectGeneration.Name = "labelEnemyGroupsSelectGeneration";
+            this.labelEnemyGroupsSelectGeneration.Size = new System.Drawing.Size(158, 25);
+            this.labelEnemyGroupsSelectGeneration.TabIndex = 8;
+            this.labelEnemyGroupsSelectGeneration.Text = "Select Generation:";
+            this.labelEnemyGroupsSelectGeneration.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // panelEnemyGroups
+            // 
+            this.panelEnemyGroups.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelEnemyGroups.Controls.Add(this.comboBoxBackRowEnemyCount);
+            this.panelEnemyGroups.Controls.Add(this.labelBackRowEnemyCount);
+            this.panelEnemyGroups.Controls.Add(this.comboBoxBackRowEnemy);
+            this.panelEnemyGroups.Controls.Add(this.labelBackRowEnemy);
+            this.panelEnemyGroups.Controls.Add(this.comboBoxFrontRowEnemyCount);
+            this.panelEnemyGroups.Controls.Add(this.labelFrontRowEnemyCount);
+            this.panelEnemyGroups.Controls.Add(this.comboBoxFrontRowEnemy);
+            this.panelEnemyGroups.Controls.Add(this.labelFrontRowEnemy);
+            this.panelEnemyGroups.Controls.Add(this.labelBetaFeature);
+            this.panelEnemyGroups.Controls.Add(this.textBoxGroupAddress);
+            this.panelEnemyGroups.Controls.Add(this.labelGroupAddress);
+            this.panelEnemyGroups.Controls.Add(this.listBoxSelectEnemyGroup);
+            this.panelEnemyGroups.Controls.Add(this.labelSelectEnemyGroup);
+            this.panelEnemyGroups.Location = new System.Drawing.Point(40, 52);
+            this.panelEnemyGroups.Name = "panelEnemyGroups";
+            this.panelEnemyGroups.Size = new System.Drawing.Size(489, 261);
+            this.panelEnemyGroups.TabIndex = 10;
+            // 
+            // labelSelectEnemyGroup
+            // 
+            this.labelSelectEnemyGroup.Location = new System.Drawing.Point(3, 13);
+            this.labelSelectEnemyGroup.Name = "labelSelectEnemyGroup";
+            this.labelSelectEnemyGroup.Size = new System.Drawing.Size(108, 25);
+            this.labelSelectEnemyGroup.TabIndex = 11;
+            this.labelSelectEnemyGroup.Text = "Select Group";
+            this.labelSelectEnemyGroup.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // listBoxSelectEnemyGroup
+            // 
+            this.listBoxSelectEnemyGroup.FormattingEnabled = true;
+            this.listBoxSelectEnemyGroup.ItemHeight = 16;
+            this.listBoxSelectEnemyGroup.Location = new System.Drawing.Point(6, 41);
+            this.listBoxSelectEnemyGroup.Name = "listBoxSelectEnemyGroup";
+            this.listBoxSelectEnemyGroup.Size = new System.Drawing.Size(112, 212);
+            this.listBoxSelectEnemyGroup.TabIndex = 12;
+            // 
+            // textBoxGroupAddress
+            // 
+            this.textBoxGroupAddress.Location = new System.Drawing.Point(313, 43);
+            this.textBoxGroupAddress.Name = "textBoxGroupAddress";
+            this.textBoxGroupAddress.ReadOnly = true;
+            this.textBoxGroupAddress.Size = new System.Drawing.Size(156, 22);
+            this.textBoxGroupAddress.TabIndex = 15;
+            // 
+            // labelGroupAddress
+            // 
+            this.labelGroupAddress.Location = new System.Drawing.Point(169, 41);
+            this.labelGroupAddress.Name = "labelGroupAddress";
+            this.labelGroupAddress.Size = new System.Drawing.Size(138, 24);
+            this.labelGroupAddress.TabIndex = 14;
+            this.labelGroupAddress.Text = "Group Address:";
+            this.labelGroupAddress.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // labelBetaFeature
+            // 
+            this.labelBetaFeature.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelBetaFeature.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.labelBetaFeature.Location = new System.Drawing.Point(350, 0);
+            this.labelBetaFeature.Name = "labelBetaFeature";
+            this.labelBetaFeature.Size = new System.Drawing.Size(138, 24);
+            this.labelBetaFeature.TabIndex = 16;
+            this.labelBetaFeature.Text = "Beta Feature";
+            this.labelBetaFeature.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // comboBoxFrontRowEnemy
+            // 
+            this.comboBoxFrontRowEnemy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxFrontRowEnemy.Location = new System.Drawing.Point(313, 71);
+            this.comboBoxFrontRowEnemy.Name = "comboBoxFrontRowEnemy";
+            this.comboBoxFrontRowEnemy.Size = new System.Drawing.Size(156, 24);
+            this.comboBoxFrontRowEnemy.TabIndex = 23;
+            // 
+            // labelFrontRowEnemy
+            // 
+            this.labelFrontRowEnemy.Location = new System.Drawing.Point(161, 71);
+            this.labelFrontRowEnemy.Name = "labelFrontRowEnemy";
+            this.labelFrontRowEnemy.Size = new System.Drawing.Size(146, 24);
+            this.labelFrontRowEnemy.TabIndex = 24;
+            this.labelFrontRowEnemy.Text = "Front row enemy:";
+            this.labelFrontRowEnemy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // comboBoxFrontRowEnemyCount
+            // 
+            this.comboBoxFrontRowEnemyCount.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxFrontRowEnemyCount.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.comboBoxFrontRowEnemyCount.Location = new System.Drawing.Point(313, 101);
+            this.comboBoxFrontRowEnemyCount.Name = "comboBoxFrontRowEnemyCount";
+            this.comboBoxFrontRowEnemyCount.Size = new System.Drawing.Size(156, 24);
+            this.comboBoxFrontRowEnemyCount.TabIndex = 25;
+            // 
+            // labelFrontRowEnemyCount
+            // 
+            this.labelFrontRowEnemyCount.Location = new System.Drawing.Point(130, 101);
+            this.labelFrontRowEnemyCount.Name = "labelFrontRowEnemyCount";
+            this.labelFrontRowEnemyCount.Size = new System.Drawing.Size(177, 24);
+            this.labelFrontRowEnemyCount.TabIndex = 26;
+            this.labelFrontRowEnemyCount.Text = "Front row enemy count:";
+            this.labelFrontRowEnemyCount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // comboBoxBackRowEnemyCount
+            // 
+            this.comboBoxBackRowEnemyCount.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxBackRowEnemyCount.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2"});
+            this.comboBoxBackRowEnemyCount.Location = new System.Drawing.Point(313, 161);
+            this.comboBoxBackRowEnemyCount.Name = "comboBoxBackRowEnemyCount";
+            this.comboBoxBackRowEnemyCount.Size = new System.Drawing.Size(156, 24);
+            this.comboBoxBackRowEnemyCount.TabIndex = 29;
+            // 
+            // labelBackRowEnemyCount
+            // 
+            this.labelBackRowEnemyCount.Location = new System.Drawing.Point(130, 161);
+            this.labelBackRowEnemyCount.Name = "labelBackRowEnemyCount";
+            this.labelBackRowEnemyCount.Size = new System.Drawing.Size(177, 24);
+            this.labelBackRowEnemyCount.TabIndex = 30;
+            this.labelBackRowEnemyCount.Text = "Back row enemy count:";
+            this.labelBackRowEnemyCount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // comboBoxBackRowEnemy
+            // 
+            this.comboBoxBackRowEnemy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxBackRowEnemy.Location = new System.Drawing.Point(313, 131);
+            this.comboBoxBackRowEnemy.Name = "comboBoxBackRowEnemy";
+            this.comboBoxBackRowEnemy.Size = new System.Drawing.Size(156, 24);
+            this.comboBoxBackRowEnemy.TabIndex = 27;
+            // 
+            // labelBackRowEnemy
+            // 
+            this.labelBackRowEnemy.Location = new System.Drawing.Point(161, 131);
+            this.labelBackRowEnemy.Name = "labelBackRowEnemy";
+            this.labelBackRowEnemy.Size = new System.Drawing.Size(146, 24);
+            this.labelBackRowEnemy.TabIndex = 28;
+            this.labelBackRowEnemy.Text = "Back row enemy:";
+            this.labelBackRowEnemy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // MainForm
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
@@ -2947,6 +3157,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabPageTreasure.ResumeLayout(false);
             this.tabPageTreasure.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.statusBarPanel)).EndInit();
+            this.tabPageEnemyGroups.ResumeLayout(false);
+            this.panelEnemyGroups.ResumeLayout(false);
+            this.panelEnemyGroups.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3253,6 +3466,12 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 								AridiaUtils.loadStatGrowthValues(this.comboBoxLevelTableTP);
 							}
 							break;
+                        case "Enemy Groups":
+                            if(this.comboBoxEnemyGroupsSelectGeneration.Items.Count<1)
+                            { 
+								AridiaUtils.loadLookupValues(this.comboBoxLevelTable,"EnemyGroup-Generations");
+                            }
+                            break;
 					}
 				} 
 				catch(Exception x)
