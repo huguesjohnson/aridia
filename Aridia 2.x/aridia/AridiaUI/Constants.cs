@@ -178,5 +178,15 @@ namespace com.huguesjohnson.aridia.ui
 			Y=2,
 			ItemCode=4
 		}
+
+		/// <summary>Where enemy group attributes are located relative to their starting address.</summary>
+		public enum EnemyGroupOffsets:int
+		{
+			FrontRowEnemyId=0,
+			FrontRowEnemyCount=1,
+			BackRowEnemyId=2,
+			BackRowEnemyCount=3
+		}
+
     }
 }
