@@ -188,5 +188,11 @@ namespace com.huguesjohnson.aridia.ui
 			BackRowEnemyCount=3
 		}
 
+		/// <summary>Location where enemy groups start.</summary>
+		public const int EnemyGroupStartAddress=495630;
+
+        /// <summary>Location where enemy groups start.</summary>
+		public const int EnemyGroupCount=255;
+
     }
 }
