@@ -16,6 +16,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 using System;
+using System.Reflection;
 using System.Collections;
 using System.ComponentModel;
 using System.Data;
@@ -3118,7 +3119,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.MaximizeBox = false;
             this.Menu = this.mainMenu;
             this.Name = "MainForm";
-            this.Text = "Aridia 2.3";
+            this.Text = "Aridia "+Assembly.GetExecutingAssembly().GetName().Version.Major.ToString()+"."+Assembly.GetExecutingAssembly().GetName().Version.Minor.ToString();
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.tabControlMainContent.ResumeLayout(false);
             this.tabPageMain.ResumeLayout(false);

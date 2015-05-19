@@ -169,7 +169,7 @@ namespace com.huguesjohnson.aridia.ui
 		/// <summary>Address where enemy names start.</summary>
 		public const int EnemyNameOffset=245268;
 
-         /// <summary>
+        /// <summary>
 		/// Where treause attributes are located relative to their starting address.
 		/// </summary>
 		public enum TreasureOffsets : int
@@ -194,5 +194,15 @@ namespace com.huguesjohnson.aridia.ui
         /// <summary>Location where enemy groups start.</summary>
 		public const int EnemyGroupCount=255;
 
+		/// <summary>Where NPC attributes are located relative to their starting address.</summary>
+		public enum NPCOffsets:int
+		{
+			SpriteObjectTableIndex=0,
+            /*TODO - ; Byte 2 = index of the loc_34DAE table */
+            XCoordinate=2,
+            YCoordinate=4,
+            GameScriptIndex=6,
+            UpdateRate=8
+		}
     }
 }
