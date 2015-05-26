@@ -10,55 +10,55 @@
       <IntValue>212328</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_33D9C</Description>
+      <Description>Cille town - 1st Generation (duplicate?)</Description>
       <IntValue>212380</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_33DDC</Description>
+      <Description>Shusoran town - 1st Generation - Before fighting Lyle</Description>
       <IntValue>212444</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_33E06</Description>
+      <Description>Landen town - 1st Generation - Before Maia is kidnapped</Description>
       <IntValue>212486</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_33E62</Description>
+      <Description>Yaata town - 1st Generation</Description>
       <IntValue>212578</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_33EA0</Description>
+      <Description>Ilan town - 1st Generation</Description>
       <IntValue>212640</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_33ECA</Description>
+      <Description>Rysel town - 1st Generation - Before repairing weather system</Description>
       <IntValue>212682</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_33EF4</Description>
+      <Description>Hazatak town - 1st Generation</Description>
       <IntValue>212724</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_33F28</Description>
+      <Description>Hazatak town - 2nd-3rd Generation</Description>
       <IntValue>212776</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_33F5C</Description>
+      <Description>Agoe town - 1st Generation</Description>
       <IntValue>212828</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_33F7E</Description>
+      <Description>Cille town - 1st Generation</Description>
       <IntValue>212862</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_33F9E</Description>
+      <Description>Shusoran town - 1st Generation - After fighting Lyle</Description>
       <IntValue>212894</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_33FC8</Description>
+      <Description>Landen town - 1st Generation - Before Maia is kidnapped (duplicate?)</Description>
       <IntValue>212936</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3401C</Description>
+      <Description>Landen technique redistribution shop</Description>
       <IntValue>213020</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -274,11 +274,11 @@
       <IntValue>213666</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_342AE</Description>
+      <Description>loc_342AE ("have you found the princesss")</Description>
       <IntValue>213678</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_342BA</Description>
+      <Description>loc_342BA ("May Orakio's power protect you from Laya.")</Description>
       <IntValue>213690</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -286,179 +286,175 @@
       <IntValue>213704</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_342DE</Description>
+      <Description>Landen castle - 1st Generation - Before Maia is kidnapped</Description>
       <IntValue>213726</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34362</Description>
-      <IntValue>213858</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>loc_34364</Description>
+      <Description>loc_34364 ("As long as you're here, Landen will be safe!")</Description>
       <IntValue>213860</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3437A</Description>
+      <Description>loc_3437A ("Landen - either Sean or Ayn")</Description>
       <IntValue>213882</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_343A6</Description>
+      <Description>loc_343A6 (dialog about Lune - maybe start of Nial's generation?)</Description>
       <IntValue>213926</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_343C6</Description>
+      <Description>loc_343C6 (Yaata - 2nd or 3rd generation?)</Description>
       <IntValue>213958</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_343E8</Description>
+      <Description>loc_343E8 (Ilan - Nial's generation?)</Description>
       <IntValue>213992</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34408</Description>
+      <Description>loc_343E8 (Ilan - probably all 3rd generation)</Description>
       <IntValue>214024</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3441E</Description>
+      <Description>Rysel villige - Ayn's Generation - Before messenger arrives</Description>
       <IntValue>214046</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34434</Description>
+      <Description>Rysel town - 3rd Generation</Description>
       <IntValue>214068</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34440</Description>
+      <Description>Agoe town - Ayn's Generation</Description>
       <IntValue>214080</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34460</Description>
+      <Description>loc_34460 (Agoe town or castle, 2nd or 3rd generation?)</Description>
       <IntValue>214112</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34476</Description>
+      <Description>Shusoran town - Ayn's Generation - before Rhys flees</Description>
       <IntValue>214134</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34496</Description>
+      <Description>Shusoran town - Ayn's Generation - after Rhys flees</Description>
       <IntValue>214166</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_344C0</Description>
+      <Description>loc_344C0 ("The cyborgs were too powerful to be resisted. Everyone fled to Aridia, but I refuse to leave!")</Description>
       <IntValue>214208</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_344CC</Description>
+      <Description>Techna town - Ayn's Generation</Description>
       <IntValue>214220</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34500</Description>
+      <Description>Techna castle - Ayn's Generation</Description>
       <IntValue>214272</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34516</Description>
+      <Description>Lashute - before freeing Dark Force</Description>
       <IntValue>214294</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3454A</Description>
+      <Description>Mystoke castle</Description>
       <IntValue>214346</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3457E</Description>
+      <Description>Skyhaven</Description>
       <IntValue>214398</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_345C6</Description>
+      <Description>Skyhaven (duplicate?)</Description>
       <IntValue>214470</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_345DC</Description>
+      <Description>loc_345DC ("A rebel army trains in a cave far to the west")</Description>
       <IntValue>214492</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_345F2</Description>
+      <Description>loc_345F2 (South Divisia? - Nial's generation)</Description>
       <IntValue>214514</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34608</Description>
+      <Description>loc_34608 (South Divisia? - Nial's generation)</Description>
       <IntValue>214536</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34628</Description>
+      <Description>North Divisia - Nial's Generation</Description>
       <IntValue>214568</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3463E</Description>
+      <Description>Aerone - Nial's Generation</Description>
       <IntValue>214590</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34672</Description>
+      <Description>Aerone - 3rd Generation</Description>
       <IntValue>214642</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_346A6</Description>
+      <Description>New Mota (need to fix some entries)</Description>
       <IntValue>214694</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_346EE</Description>
+      <Description>Endora - Ayn's Generation - Before rescuing Thea</Description>
       <IntValue>214766</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34718</Description>
+      <Description>Endora - Ayn's Generation - After rescuing Thea</Description>
       <IntValue>214808</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34776</Description>
+      <Description>Lensol town - 3rd Generation?</Description>
       <IntValue>214902</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3478C</Description>
+      <Description>Dahlia - Aron's intro (1)</Description>
       <IntValue>214924</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_347A4</Description>
+      <Description>Dahlia - 3rd Generation - Crys' and Sean's Generation</Description>
       <IntValue>214948</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_347D8</Description>
+      <Description>Dahlia - 3rd Generation - Adan's Generation</Description>
       <IntValue>215000</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34802</Description>
+      <Description>Dahlia - Aron's intro (2)</Description>
       <IntValue>215042</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3484C</Description>
+      <Description>Landen castle - Nial's intro</Description>
       <IntValue>215116</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3489E</Description>
+      <Description>Landen castle - Sean's Generation</Description>
       <IntValue>215198</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_348D2</Description>
+      <Description>Landen castle - Crys' intro</Description>
       <IntValue>215250</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34906</Description>
+      <Description>Landen castle - Adan's intro</Description>
       <IntValue>215302</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3493A</Description>
+      <Description>loc_3493A ("Hurry back Aron")</Description>
       <IntValue>215354</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34946</Description>
+      <Description>loc_34946 ("Price Nial run before Lune's army finds you!")</Description>
       <IntValue>215366</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34954</Description>
+      <Description>loc_34954 (from Sean's intro?)</Description>
       <IntValue>215380</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3497E</Description>
+      <Description>Agoe - 3rd Generation?</Description>
       <IntValue>215422</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_349A8</Description>
+      <Description>Cille - Ayn's Generation? ("Hello, I'm Thea dialog")</Description>
       <IntValue>215464</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">

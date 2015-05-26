@@ -294,6 +294,26 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private ComboBox comboBoxFrontRowEnemy;
         private Label labelFrontRowEnemy;
         private MenuItem menuItemHelp;
+        private TabPage tabPageNPCs;
+        private ComboBox comboBoxNPCsSelectLocation;
+        private Label labelNPCsSelectLocation;
+        private Panel panelNPCs;
+        private ListBox listBoxNPCs;
+        private Label labelNPCs;
+        private ComboBox comboBoxNPCSprite;
+        private Label labelNPCSprite;
+        private TextBox textBoxNPCY;
+        private Label labelNPCY;
+        private TextBox textBoxNPCX;
+        private Label labelNPCX;
+        private TextBox textBoxNPCUpdateRate;
+        private Label labelNPCUpdateRate;
+        private TextBox textBoxNPCScriptAddress;
+        private Label labelNPCScriptAddress;
+        private TextBox textBoxNPCScriptPreview;
+        private Label labelNPCScriptPreview;
+        private TextBox textBoxNPCAddress;
+        private Label labelNPCAddress;
 		private int paletteFindIndex;
 
 		public MainForm()
@@ -535,6 +555,26 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.columnHeaderLevelTableAddress = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.comboBoxLevelTable = new System.Windows.Forms.ComboBox();
             this.labelSelectLevelTable = new System.Windows.Forms.Label();
+            this.tabPageNPCs = new System.Windows.Forms.TabPage();
+            this.panelNPCs = new System.Windows.Forms.Panel();
+            this.textBoxNPCAddress = new System.Windows.Forms.TextBox();
+            this.labelNPCAddress = new System.Windows.Forms.Label();
+            this.textBoxNPCScriptPreview = new System.Windows.Forms.TextBox();
+            this.labelNPCScriptPreview = new System.Windows.Forms.Label();
+            this.textBoxNPCScriptAddress = new System.Windows.Forms.TextBox();
+            this.labelNPCScriptAddress = new System.Windows.Forms.Label();
+            this.textBoxNPCUpdateRate = new System.Windows.Forms.TextBox();
+            this.labelNPCUpdateRate = new System.Windows.Forms.Label();
+            this.textBoxNPCY = new System.Windows.Forms.TextBox();
+            this.labelNPCY = new System.Windows.Forms.Label();
+            this.textBoxNPCX = new System.Windows.Forms.TextBox();
+            this.labelNPCX = new System.Windows.Forms.Label();
+            this.comboBoxNPCSprite = new System.Windows.Forms.ComboBox();
+            this.labelNPCSprite = new System.Windows.Forms.Label();
+            this.listBoxNPCs = new System.Windows.Forms.ListBox();
+            this.labelNPCs = new System.Windows.Forms.Label();
+            this.comboBoxNPCsSelectLocation = new System.Windows.Forms.ComboBox();
+            this.labelNPCsSelectLocation = new System.Windows.Forms.Label();
             this.tabPagePalettes = new System.Windows.Forms.TabPage();
             this.labelPaletteFind = new System.Windows.Forms.Label();
             this.buttonPalettePrevious = new System.Windows.Forms.Button();
@@ -602,6 +642,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.panelItem.SuspendLayout();
             this.tabPageLevelTables.SuspendLayout();
             this.groupBoxStatisticGrowth.SuspendLayout();
+            this.tabPageNPCs.SuspendLayout();
+            this.panelNPCs.SuspendLayout();
             this.tabPagePalettes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPalettePreview)).BeginInit();
             this.tabPageScript.SuspendLayout();
@@ -709,6 +751,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabControlMainContent.Controls.Add(this.tabPageGraphics);
             this.tabControlMainContent.Controls.Add(this.tabPageItems);
             this.tabControlMainContent.Controls.Add(this.tabPageLevelTables);
+            this.tabControlMainContent.Controls.Add(this.tabPageNPCs);
             this.tabControlMainContent.Controls.Add(this.tabPagePalettes);
             this.tabControlMainContent.Controls.Add(this.tabPageScript);
             this.tabControlMainContent.Controls.Add(this.tabPageShops);
@@ -2596,6 +2639,207 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.labelSelectLevelTable.Text = "Select Level Table: ";
             this.labelSelectLevelTable.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // tabPageNPCs
+            // 
+            this.tabPageNPCs.Controls.Add(this.panelNPCs);
+            this.tabPageNPCs.Controls.Add(this.comboBoxNPCsSelectLocation);
+            this.tabPageNPCs.Controls.Add(this.labelNPCsSelectLocation);
+            this.tabPageNPCs.Location = new System.Drawing.Point(4, 55);
+            this.tabPageNPCs.Name = "tabPageNPCs";
+            this.tabPageNPCs.Size = new System.Drawing.Size(700, 379);
+            this.tabPageNPCs.TabIndex = 16;
+            this.tabPageNPCs.Text = "NPCs";
+            this.tabPageNPCs.UseVisualStyleBackColor = true;
+            // 
+            // panelNPCs
+            // 
+            this.panelNPCs.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelNPCs.Controls.Add(this.textBoxNPCAddress);
+            this.panelNPCs.Controls.Add(this.labelNPCAddress);
+            this.panelNPCs.Controls.Add(this.textBoxNPCScriptPreview);
+            this.panelNPCs.Controls.Add(this.labelNPCScriptPreview);
+            this.panelNPCs.Controls.Add(this.textBoxNPCScriptAddress);
+            this.panelNPCs.Controls.Add(this.labelNPCScriptAddress);
+            this.panelNPCs.Controls.Add(this.textBoxNPCUpdateRate);
+            this.panelNPCs.Controls.Add(this.labelNPCUpdateRate);
+            this.panelNPCs.Controls.Add(this.textBoxNPCY);
+            this.panelNPCs.Controls.Add(this.labelNPCY);
+            this.panelNPCs.Controls.Add(this.textBoxNPCX);
+            this.panelNPCs.Controls.Add(this.labelNPCX);
+            this.panelNPCs.Controls.Add(this.comboBoxNPCSprite);
+            this.panelNPCs.Controls.Add(this.labelNPCSprite);
+            this.panelNPCs.Controls.Add(this.listBoxNPCs);
+            this.panelNPCs.Controls.Add(this.labelNPCs);
+            this.panelNPCs.Location = new System.Drawing.Point(28, 56);
+            this.panelNPCs.Name = "panelNPCs";
+            this.panelNPCs.Size = new System.Drawing.Size(399, 296);
+            this.panelNPCs.TabIndex = 4;
+            // 
+            // textBoxNPCAddress
+            // 
+            this.textBoxNPCAddress.Enabled = false;
+            this.textBoxNPCAddress.Location = new System.Drawing.Point(239, 38);
+            this.textBoxNPCAddress.MaxLength = 5;
+            this.textBoxNPCAddress.Name = "textBoxNPCAddress";
+            this.textBoxNPCAddress.Size = new System.Drawing.Size(131, 22);
+            this.textBoxNPCAddress.TabIndex = 5;
+            // 
+            // labelNPCAddress
+            // 
+            this.labelNPCAddress.AutoSize = true;
+            this.labelNPCAddress.Location = new System.Drawing.Point(130, 41);
+            this.labelNPCAddress.Name = "labelNPCAddress";
+            this.labelNPCAddress.Size = new System.Drawing.Size(96, 17);
+            this.labelNPCAddress.TabIndex = 27;
+            this.labelNPCAddress.Text = "NPC Address:";
+            this.labelNPCAddress.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxNPCScriptPreview
+            // 
+            this.textBoxNPCScriptPreview.Enabled = false;
+            this.textBoxNPCScriptPreview.Location = new System.Drawing.Point(239, 211);
+            this.textBoxNPCScriptPreview.MaxLength = 5;
+            this.textBoxNPCScriptPreview.Name = "textBoxNPCScriptPreview";
+            this.textBoxNPCScriptPreview.Size = new System.Drawing.Size(131, 22);
+            this.textBoxNPCScriptPreview.TabIndex = 11;
+            // 
+            // labelNPCScriptPreview
+            // 
+            this.labelNPCScriptPreview.AutoSize = true;
+            this.labelNPCScriptPreview.Location = new System.Drawing.Point(130, 214);
+            this.labelNPCScriptPreview.Name = "labelNPCScriptPreview";
+            this.labelNPCScriptPreview.Size = new System.Drawing.Size(101, 17);
+            this.labelNPCScriptPreview.TabIndex = 25;
+            this.labelNPCScriptPreview.Text = "Script Preview:";
+            this.labelNPCScriptPreview.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxNPCScriptAddress
+            // 
+            this.textBoxNPCScriptAddress.Location = new System.Drawing.Point(239, 183);
+            this.textBoxNPCScriptAddress.MaxLength = 5;
+            this.textBoxNPCScriptAddress.Name = "textBoxNPCScriptAddress";
+            this.textBoxNPCScriptAddress.Size = new System.Drawing.Size(131, 22);
+            this.textBoxNPCScriptAddress.TabIndex = 10;
+            // 
+            // labelNPCScriptAddress
+            // 
+            this.labelNPCScriptAddress.AutoSize = true;
+            this.labelNPCScriptAddress.Location = new System.Drawing.Point(130, 186);
+            this.labelNPCScriptAddress.Name = "labelNPCScriptAddress";
+            this.labelNPCScriptAddress.Size = new System.Drawing.Size(104, 17);
+            this.labelNPCScriptAddress.TabIndex = 23;
+            this.labelNPCScriptAddress.Text = "Script Address:";
+            this.labelNPCScriptAddress.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxNPCUpdateRate
+            // 
+            this.textBoxNPCUpdateRate.Location = new System.Drawing.Point(239, 155);
+            this.textBoxNPCUpdateRate.MaxLength = 5;
+            this.textBoxNPCUpdateRate.Name = "textBoxNPCUpdateRate";
+            this.textBoxNPCUpdateRate.Size = new System.Drawing.Size(131, 22);
+            this.textBoxNPCUpdateRate.TabIndex = 9;
+            // 
+            // labelNPCUpdateRate
+            // 
+            this.labelNPCUpdateRate.AutoSize = true;
+            this.labelNPCUpdateRate.Location = new System.Drawing.Point(141, 158);
+            this.labelNPCUpdateRate.Name = "labelNPCUpdateRate";
+            this.labelNPCUpdateRate.Size = new System.Drawing.Size(92, 17);
+            this.labelNPCUpdateRate.TabIndex = 21;
+            this.labelNPCUpdateRate.Text = "Update Rate:";
+            this.labelNPCUpdateRate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxNPCY
+            // 
+            this.textBoxNPCY.Location = new System.Drawing.Point(239, 125);
+            this.textBoxNPCY.MaxLength = 5;
+            this.textBoxNPCY.Name = "textBoxNPCY";
+            this.textBoxNPCY.Size = new System.Drawing.Size(131, 22);
+            this.textBoxNPCY.TabIndex = 8;
+            // 
+            // labelNPCY
+            // 
+            this.labelNPCY.AutoSize = true;
+            this.labelNPCY.Location = new System.Drawing.Point(212, 130);
+            this.labelNPCY.Name = "labelNPCY";
+            this.labelNPCY.Size = new System.Drawing.Size(21, 17);
+            this.labelNPCY.TabIndex = 19;
+            this.labelNPCY.Text = "Y:";
+            this.labelNPCY.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxNPCX
+            // 
+            this.textBoxNPCX.Location = new System.Drawing.Point(239, 96);
+            this.textBoxNPCX.MaxLength = 5;
+            this.textBoxNPCX.Name = "textBoxNPCX";
+            this.textBoxNPCX.Size = new System.Drawing.Size(131, 22);
+            this.textBoxNPCX.TabIndex = 7;
+            // 
+            // labelNPCX
+            // 
+            this.labelNPCX.AutoSize = true;
+            this.labelNPCX.Location = new System.Drawing.Point(212, 99);
+            this.labelNPCX.Name = "labelNPCX";
+            this.labelNPCX.Size = new System.Drawing.Size(21, 17);
+            this.labelNPCX.TabIndex = 17;
+            this.labelNPCX.Text = "X:";
+            this.labelNPCX.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // comboBoxNPCSprite
+            // 
+            this.comboBoxNPCSprite.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxNPCSprite.Location = new System.Drawing.Point(239, 65);
+            this.comboBoxNPCSprite.Name = "comboBoxNPCSprite";
+            this.comboBoxNPCSprite.Size = new System.Drawing.Size(131, 24);
+            this.comboBoxNPCSprite.TabIndex = 6;
+            // 
+            // labelNPCSprite
+            // 
+            this.labelNPCSprite.Location = new System.Drawing.Point(144, 65);
+            this.labelNPCSprite.Name = "labelNPCSprite";
+            this.labelNPCSprite.Size = new System.Drawing.Size(89, 25);
+            this.labelNPCSprite.TabIndex = 15;
+            this.labelNPCSprite.Text = "Sprite:";
+            this.labelNPCSprite.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // listBoxNPCs
+            // 
+            this.listBoxNPCs.FormattingEnabled = true;
+            this.listBoxNPCs.ItemHeight = 16;
+            this.listBoxNPCs.Location = new System.Drawing.Point(10, 38);
+            this.listBoxNPCs.Name = "listBoxNPCs";
+            this.listBoxNPCs.Size = new System.Drawing.Size(112, 212);
+            this.listBoxNPCs.TabIndex = 4;
+            this.listBoxNPCs.SelectedIndexChanged += new System.EventHandler(this.listBoxNPCs_SelectedIndexChanged);
+            // 
+            // labelNPCs
+            // 
+            this.labelNPCs.Location = new System.Drawing.Point(7, 10);
+            this.labelNPCs.Name = "labelNPCs";
+            this.labelNPCs.Size = new System.Drawing.Size(108, 25);
+            this.labelNPCs.TabIndex = 13;
+            this.labelNPCs.Text = "Select NPC";
+            this.labelNPCs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // comboBoxNPCsSelectLocation
+            // 
+            this.comboBoxNPCsSelectLocation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxNPCsSelectLocation.Location = new System.Drawing.Point(149, 14);
+            this.comboBoxNPCsSelectLocation.Name = "comboBoxNPCsSelectLocation";
+            this.comboBoxNPCsSelectLocation.Size = new System.Drawing.Size(278, 24);
+            this.comboBoxNPCsSelectLocation.Sorted = true;
+            this.comboBoxNPCsSelectLocation.TabIndex = 3;
+            this.comboBoxNPCsSelectLocation.SelectedIndexChanged += new System.EventHandler(this.comboBoxNPCsSelectLocation_SelectedIndexChanged);
+            // 
+            // labelNPCsSelectLocation
+            // 
+            this.labelNPCsSelectLocation.Location = new System.Drawing.Point(7, 14);
+            this.labelNPCsSelectLocation.Name = "labelNPCsSelectLocation";
+            this.labelNPCsSelectLocation.Size = new System.Drawing.Size(136, 25);
+            this.labelNPCsSelectLocation.TabIndex = 2;
+            this.labelNPCsSelectLocation.Text = "Select Location: ";
+            this.labelNPCsSelectLocation.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // tabPagePalettes
             // 
             this.tabPagePalettes.Controls.Add(this.labelPaletteFind);
@@ -2940,9 +3184,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // comboBoxSelectShop
             // 
             this.comboBoxSelectShop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxSelectShop.Location = new System.Drawing.Point(115, 18);
+            this.comboBoxSelectShop.Location = new System.Drawing.Point(133, 18);
             this.comboBoxSelectShop.Name = "comboBoxSelectShop";
-            this.comboBoxSelectShop.Size = new System.Drawing.Size(341, 24);
+            this.comboBoxSelectShop.Size = new System.Drawing.Size(323, 24);
             this.comboBoxSelectShop.TabIndex = 9;
             this.comboBoxSelectShop.SelectedIndexChanged += new System.EventHandler(this.comboBoxSelectShop_SelectedIndexChanged);
             // 
@@ -2950,7 +3194,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             this.labelSelectShop.Location = new System.Drawing.Point(19, 18);
             this.labelSelectShop.Name = "labelSelectShop";
-            this.labelSelectShop.Size = new System.Drawing.Size(87, 25);
+            this.labelSelectShop.Size = new System.Drawing.Size(108, 25);
             this.labelSelectShop.TabIndex = 8;
             this.labelSelectShop.Text = "Select Shop: ";
             this.labelSelectShop.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3119,7 +3363,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.MaximizeBox = false;
             this.Menu = this.mainMenu;
             this.Name = "MainForm";
-            this.Text = "Aridia "+Assembly.GetExecutingAssembly().GetName().Version.Major.ToString()+"."+Assembly.GetExecutingAssembly().GetName().Version.Minor.ToString();
+            this.Text = "Aridia 12.0";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.tabControlMainContent.ResumeLayout(false);
             this.tabPageMain.ResumeLayout(false);
@@ -3141,6 +3385,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.panelItem.PerformLayout();
             this.tabPageLevelTables.ResumeLayout(false);
             this.groupBoxStatisticGrowth.ResumeLayout(false);
+            this.tabPageNPCs.ResumeLayout(false);
+            this.panelNPCs.ResumeLayout(false);
+            this.panelNPCs.PerformLayout();
             this.tabPagePalettes.ResumeLayout(false);
             this.tabPagePalettes.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPalettePreview)).EndInit();
@@ -3471,6 +3718,12 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 								AridiaUtils.loadLookupValues(this.comboBoxBackRowEnemy,"Enemy-IDs-BackRow");
                                 //previous experimental method - save this code in case it's brought back
 								//AridiaUtils.loadLookupValues(this.comboBoxEnemyGroupsSelectGeneration,"EnemyGroup-Generations");
+                            }
+                            break;
+                        case "NPCs":
+                            if(this.comboBoxNPCsSelectLocation.Items.Count<1)
+                            { 
+								AridiaUtils.loadLookupValues(this.comboBoxNPCsSelectLocation,"NPC-Addresses");
                             }
                             break;
 					}
@@ -6064,6 +6317,61 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 			catch(Exception x)
 			{
 				this.errorHandler("opening the online help",x);
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+        private void comboBoxNPCsSelectLocation_SelectedIndexChanged(object sender,EventArgs e)
+        {
+			if(this.comboBoxNPCsSelectLocation.Text.Length<1){ return; }
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+                this.listBoxNPCs.Items.Clear();
+				LookupValue selectedItem=(LookupValue)this.comboBoxNPCsSelectLocation.SelectedItem;
+				int address=selectedItem.IntValue;
+                int npcCount=this.romIO.readInteger(address,2);
+                address+=2;
+                for(int npcIndex=0;npcIndex<=npcCount;npcIndex++) 
+                { 
+                    LookupValue lv=new LookupValue("NPC ["+npcIndex+"]",address);
+                    this.listBoxNPCs.Items.Add(lv);
+                    address+=10;
+                }
+                this.listBoxNPCs.SelectedIndex=0;
+			}
+			catch(Exception x)
+			{
+				this.errorHandler("selecting a NPC location",x);
+			}
+			this.Cursor=Cursors.Default;		
+        }
+
+        private void listBoxNPCs_SelectedIndexChanged(object sender,EventArgs e)
+        {
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+				LookupValue selectedItem=(LookupValue)this.listBoxNPCs.SelectedItem;
+				int address=selectedItem.IntValue;
+                this.textBoxNPCAddress.Text=address.ToString();
+                //sprite
+
+                //x
+                this.textBoxNPCX.Text=this.romIO.readInteger(address+(int)Constants.NPCOffsets.XCoordinate,2).ToString();
+                //y
+                this.textBoxNPCY.Text=this.romIO.readInteger(address+(int)Constants.NPCOffsets.YCoordinate,2).ToString();
+                //update rate
+                this.textBoxNPCUpdateRate.Text=this.romIO.readInteger(address+(int)Constants.NPCOffsets.UpdateRate,2).ToString();
+                //script
+                int scriptAddress=this.romIO.readInteger(address+(int)Constants.NPCOffsets.GameScriptIndex,2);
+                scriptAddress+=Constants.NPCScriptOffset;
+                this.textBoxNPCScriptAddress.Text=scriptAddress.ToString();
+                this.textBoxNPCScriptPreview.Text=this.romIO.readString(scriptAddress+4,65535);
+            }
+			catch(Exception x)
+			{
+				this.errorHandler("selecting a NPC",x);
 			}
 			this.Cursor=Cursors.Default;
         }

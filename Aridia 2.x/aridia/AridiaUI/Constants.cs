@@ -193,6 +193,9 @@ namespace com.huguesjohnson.aridia.ui
 
         /// <summary>Location where enemy groups start.</summary>
 		public const int EnemyGroupCount=255;
+        
+        /// <summary>Starting offset for game script entries.</summary>
+		public const int NPCScriptOffset=155402;
 
 		/// <summary>Where NPC attributes are located relative to their starting address.</summary>
 		public enum NPCOffsets:int
