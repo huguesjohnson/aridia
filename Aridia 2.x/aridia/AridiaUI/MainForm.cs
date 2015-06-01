@@ -2756,6 +2756,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.textBoxNPCY.Name = "textBoxNPCY";
             this.textBoxNPCY.Size = new System.Drawing.Size(131, 22);
             this.textBoxNPCY.TabIndex = 8;
+            this.textBoxNPCY.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxNPCY_Validating);
             // 
             // labelNPCY
             // 
@@ -2774,6 +2775,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.textBoxNPCX.Name = "textBoxNPCX";
             this.textBoxNPCX.Size = new System.Drawing.Size(131, 22);
             this.textBoxNPCX.TabIndex = 7;
+            this.textBoxNPCX.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxNPCX_Validating);
             // 
             // labelNPCX
             // 
@@ -6356,7 +6358,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 				int address=selectedItem.IntValue;
                 this.textBoxNPCAddress.Text=address.ToString();
                 //sprite
-
+                Console.WriteLine(this.romIO.readInteger(address+(int)Constants.NPCOffsets.SpriteObjectTableIndex,2).ToString());
                 //x
                 this.textBoxNPCX.Text=this.romIO.readInteger(address+(int)Constants.NPCOffsets.XCoordinate,2).ToString();
                 //y
@@ -6374,6 +6376,85 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 				this.errorHandler("selecting a NPC",x);
 			}
 			this.Cursor=Cursors.Default;
+        }
+
+        private void textBoxNPCX_Validating(object sender,CancelEventArgs e)
+        {
+			if((this.comboBoxNPCsSelectLocation.Text.Length<1)||(this.textBoxNPCAddress.Text.Length<1)){return;}
+			this.Cursor=Cursors.WaitCursor;
+			MDInteger mdInt=new MDInteger();
+			try
+			{
+				string newValue=this.textBoxNPCX.Text;
+				mdInt.NumBytes=2;
+				mdInt.CurrentValue=Convert.ToInt32(newValue);
+				mdInt.Address=(Convert.ToInt32(this.textBoxNPCAddress.Text))+(int)Constants.NPCOffsets.XCoordinate;
+				try
+				{
+					if(AridiaUtils.validateMDInteger(mdInt))
+					{
+						this.romIO.writeInt(mdInt);
+						this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
+					}
+					else
+					{
+						this.validationFailed(mdInt);
+						e.Cancel=true;
+					}
+				}
+				catch(Exception x)
+				{
+					this.errorHandler("save the X value for an NPC",x);
+					e.Cancel=true;
+				}
+			}
+			catch
+			{
+				//can be thrown from Convert.ToInt call
+				this.validationFailed(mdInt);
+				e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+        private void textBoxNPCY_Validating(object sender,CancelEventArgs e)
+        {
+			if((this.comboBoxNPCsSelectLocation.Text.Length<1)||(this.textBoxNPCAddress.Text.Length<1)){return;}
+			this.Cursor=Cursors.WaitCursor;
+			MDInteger mdInt=new MDInteger();
+			try
+			{
+				string newValue=this.textBoxNPCY.Text;
+				mdInt.NumBytes=2;
+				mdInt.CurrentValue=Convert.ToInt32(newValue);
+				mdInt.Address=(Convert.ToInt32(this.textBoxNPCAddress.Text))+(int)Constants.NPCOffsets.YCoordinate;
+				try
+				{
+					if(AridiaUtils.validateMDInteger(mdInt))
+					{
+						this.romIO.writeInt(mdInt);
+						this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
+					}
+					else
+					{
+						this.validationFailed(mdInt);
+						e.Cancel=true;
+					}
+				}
+				catch(Exception x)
+				{
+					this.errorHandler("save the Y value for an NPC",x);
+					e.Cancel=true;
+				}
+			}
+			catch
+			{
+				//can be thrown from Convert.ToInt call
+				this.validationFailed(mdInt);
+				e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+
         }
 
     }
