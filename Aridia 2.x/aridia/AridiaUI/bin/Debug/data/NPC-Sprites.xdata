@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>0</Description>
+      <IntValue>0</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>4</Description>
+      <IntValue>4</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Old man</Description>
+      <IntValue>8</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Kid in red shirt</Description>
+      <IntValue>12</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Man in blue</Description>
+      <IntValue>16</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Woman in yellow dress</Description>
+      <IntValue>20</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>20</Description>
+      <IntValue>20</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>24</Description>
+      <IntValue>24</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>32</Description>
+      <IntValue>32</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>36</Description>
+      <IntValue>36</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>40</Description>
+      <IntValue>40</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>(used for Laya and Sari, maybe queen?)</Description>
+      <IntValue>44</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>(also Nial, maybe king?)</Description>
+      <IntValue>48</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>52</Description>
+      <IntValue>52</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>56 (Cyborg)</Description>
+      <IntValue>56</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>60 (Cyborg)</Description>
+      <IntValue>60</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>64 (Cyborg)</Description>
+      <IntValue>64</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>72 (Used in Western Cave)</Description>
+      <IntValue>72</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>84 (Used in Western Cave)</Description>
+      <IntValue>84</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>96 (Maia in Western Cave)</Description>
+      <IntValue>96</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>100 (Rhys in Western Cave)</Description>
+      <IntValue>100</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>104 (Used in Western Cave)</Description>
+      <IntValue>104</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>108 (You can not enter sprite)</Description>
+      <IntValue>108</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>112 (attendants in Laya's palace)</Description>
+      <IntValue>112</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>116 (Lune, Nial)</Description>
+      <IntValue>116</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>120 (used in Lashute)</Description>
+      <IntValue>120</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>124 (used in Lashute)</Description>
+      <IntValue>124</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>128 (used in Dahlia)</Description>
+      <IntValue>128</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>136 (Alair)</Description>
+      <IntValue>136</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>140 (Used in Skyhaven)</Description>
+      <IntValue>140</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>144 (Used in Skyhaven)</Description>
+      <IntValue>144</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>148 (Used in Skyhaven)</Description>
+      <IntValue>148</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>

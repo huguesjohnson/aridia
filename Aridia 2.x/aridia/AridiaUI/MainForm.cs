@@ -6358,7 +6358,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 				int address=selectedItem.IntValue;
                 this.textBoxNPCAddress.Text=address.ToString();
                 //sprite
-                Console.WriteLine(this.romIO.readInteger(address+(int)Constants.NPCOffsets.SpriteObjectTableIndex,2).ToString());
+                String sprite=(this.romIO.readInteger(address+(int)Constants.NPCOffsets.SpriteObjectTableIndex,1).ToString());
+                if(!this.comboBoxNPCSprite.Items.Contains(sprite)){this.comboBoxNPCSprite.Items.Add(sprite);}
+                this.comboBoxNPCSprite.Text=sprite;
                 //x
                 this.textBoxNPCX.Text=this.romIO.readInteger(address+(int)Constants.NPCOffsets.XCoordinate,2).ToString();
                 //y

@@ -200,7 +200,7 @@ namespace com.huguesjohnson.aridia.ui
 		/// <summary>Where NPC attributes are located relative to their starting address.</summary>
 		public enum NPCOffsets:int
 		{
-			SpriteObjectTableIndex=0,
+			SpriteObjectTableIndex=1,
             /*TODO - ; Byte 2 = index of the loc_34DAE table */
             XCoordinate=2,
             YCoordinate=4,
