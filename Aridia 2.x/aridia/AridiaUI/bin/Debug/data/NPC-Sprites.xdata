@@ -2,7 +2,7 @@
 <LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Collection>
     <anyType xsi:type="LookupValue">
-      <Description>0</Description>
+      <Description>Guard</Description>
       <IntValue>0</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">

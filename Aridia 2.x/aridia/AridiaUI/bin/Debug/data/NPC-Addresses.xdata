@@ -2,7 +2,7 @@
 <LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Collection>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_33D16</Description>
+      <Description>zUnknown_loc_33D16</Description>
       <IntValue>212246</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -62,227 +62,227 @@
       <IntValue>213020</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34032</Description>
+      <Description>zUnknown_loc_34032</Description>
       <IntValue>213042</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3403E</Description>
+      <Description>zUnknown_loc_3403E</Description>
       <IntValue>213054</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3404A</Description>
+      <Description>zUnknown_loc_3404A</Description>
       <IntValue>213066</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34056</Description>
+      <Description>zUnknown_loc_34056</Description>
       <IntValue>213078</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34062</Description>
+      <Description>zUnknown_loc_34062</Description>
       <IntValue>213090</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3406E</Description>
+      <Description>zUnknown_loc_3406E</Description>
       <IntValue>213102</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3407A</Description>
+      <Description>zUnknown_loc_3407A</Description>
       <IntValue>213114</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34086</Description>
+      <Description>zUnknown_loc_34086</Description>
       <IntValue>213126</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34092</Description>
+      <Description>zUnknown_loc_34092</Description>
       <IntValue>213138</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3409E</Description>
+      <Description>zUnknown_loc_3409E</Description>
       <IntValue>213150</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_340AA</Description>
+      <Description>zUnknown_loc_340AA</Description>
       <IntValue>213162</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_340B6</Description>
+      <Description>zUnknown_loc_340B6</Description>
       <IntValue>213174</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_340C2</Description>
+      <Description>zUnknown_loc_340C2</Description>
       <IntValue>213186</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_340CE</Description>
+      <Description>zUnknown_loc_340CE</Description>
       <IntValue>213198</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_340DA</Description>
+      <Description>zUnknown_loc_340DA</Description>
       <IntValue>213210</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_340E6</Description>
+      <Description>zUnknown_loc_340E6</Description>
       <IntValue>213222</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_340F2</Description>
+      <Description>zUnknown_loc_340F2</Description>
       <IntValue>213234</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_340FE</Description>
+      <Description>zUnknown_loc_340FE</Description>
       <IntValue>213246</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3410A</Description>
+      <Description>zUnknown_loc_3410A</Description>
       <IntValue>213258</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34116</Description>
+      <Description>zUnknown_loc_34116</Description>
       <IntValue>213270</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34122</Description>
+      <Description>zUnknown_loc_34122</Description>
       <IntValue>213282</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3412E</Description>
+      <Description>zUnknown_loc_3412E</Description>
       <IntValue>213294</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3413A</Description>
+      <Description>zUnknown_loc_3413A</Description>
       <IntValue>213306</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34146</Description>
+      <Description>zUnknown_loc_34146</Description>
       <IntValue>213318</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34152</Description>
+      <Description>zUnknown_loc_34152</Description>
       <IntValue>213330</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3415E</Description>
+      <Description>zUnknown_loc_3415E</Description>
       <IntValue>213342</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3416A</Description>
+      <Description>zUnknown_loc_3416A</Description>
       <IntValue>213354</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34176</Description>
+      <Description>zUnknown_loc_34176</Description>
       <IntValue>213366</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34182</Description>
+      <Description>zUnknown_loc_34182</Description>
       <IntValue>213378</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3418E</Description>
+      <Description>zUnknown_loc_3418E</Description>
       <IntValue>213390</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3419A</Description>
+      <Description>zUnknown_loc_3419A</Description>
       <IntValue>213402</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_341A6</Description>
+      <Description>zUnknown_loc_341A6</Description>
       <IntValue>213414</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_341B2</Description>
+      <Description>zUnknown_loc_341B2</Description>
       <IntValue>213426</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_341BE</Description>
+      <Description>zUnknown_loc_341BE</Description>
       <IntValue>213438</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_341CA</Description>
+      <Description>zUnknown_loc_341CA</Description>
       <IntValue>213450</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_341D6</Description>
+      <Description>zUnknown_loc_341D6</Description>
       <IntValue>213462</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_341E2</Description>
+      <Description>zUnknown_loc_341E2</Description>
       <IntValue>213474</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_341EE</Description>
+      <Description>zUnknown_loc_341EE</Description>
       <IntValue>213486</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_341FA</Description>
+      <Description>zUnknown_loc_341FA</Description>
       <IntValue>213498</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34206</Description>
+      <Description>zUnknown_loc_34206</Description>
       <IntValue>213510</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34212</Description>
+      <Description>zUnknown_loc_34212</Description>
       <IntValue>213522</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3421E</Description>
+      <Description>zUnknown_loc_3421E</Description>
       <IntValue>213534</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3422A</Description>
+      <Description>zUnknown_loc_3422A</Description>
       <IntValue>213546</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34236</Description>
+      <Description>zUnknown_loc_34236</Description>
       <IntValue>213558</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34242</Description>
+      <Description>zUnknown_loc_34242</Description>
       <IntValue>213570</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3424E</Description>
+      <Description>zUnknown_loc_3424E</Description>
       <IntValue>213582</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3425A</Description>
+      <Description>zUnknown_loc_3425A</Description>
       <IntValue>213594</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34266</Description>
+      <Description>zUnknown_loc_34266</Description>
       <IntValue>213606</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34272</Description>
+      <Description>zUnknown_loc_34272</Description>
       <IntValue>213618</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3427E</Description>
+      <Description>zUnknown_loc_3427E</Description>
       <IntValue>213630</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_3428A</Description>
+      <Description>zUnknown_loc_3428A</Description>
       <IntValue>213642</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34296</Description>
+      <Description>zUnknown_loc_34296</Description>
       <IntValue>213654</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_342A2</Description>
+      <Description>zUnknown_loc_342A2</Description>
       <IntValue>213666</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_342AE ("have you found the princesss")</Description>
+      <Description>zUnknown_loc_342AE ("have you found the princesss?")</Description>
       <IntValue>213678</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_342BA ("May Orakio's power protect you from Laya.")</Description>
+      <Description>zUnknown_loc_342BA ("May Orakio's power protect you from Laya.")</Description>
       <IntValue>213690</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_342C8</Description>
+      <Description>zUnknown_loc_342C8</Description>
       <IntValue>213704</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -290,27 +290,27 @@
       <IntValue>213726</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34364 ("As long as you're here, Landen will be safe!")</Description>
+      <Description>zUnknown_loc_34364 ("As long as you're here, Landen will be safe!")</Description>
       <IntValue>213860</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3437A ("Landen - either Sean or Ayn")</Description>
+      <Description>zUnknown_loc_3437A ("Landen - either Sean or Ayn")</Description>
       <IntValue>213882</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_343A6 (dialog about Lune - maybe start of Nial's generation?)</Description>
+      <Description>zUnknown_loc_343A6 (dialog about Lune - maybe start of Nial's generation?)</Description>
       <IntValue>213926</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_343C6 (Yaata - 2nd or 3rd generation?)</Description>
+      <Description>zUnknown_loc_343C6 (Yaata - 2nd or 3rd generation?)</Description>
       <IntValue>213958</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_343E8 (Ilan - Nial's generation?)</Description>
+      <Description>zUnknown_loc_343E8 (Ilan - Nial's generation?)</Description>
       <IntValue>213992</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_343E8 (Ilan - probably all 3rd generation)</Description>
+      <Description>zUnknown_loc_343E8 (Ilan - probably all 3rd generation)</Description>
       <IntValue>214024</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -326,7 +326,7 @@
       <IntValue>214080</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34460 (Agoe town or castle, 2nd or 3rd generation?)</Description>
+      <Description>zUnknown_loc_34460 (Agoe town or castle, 2nd or 3rd generation?)</Description>
       <IntValue>214112</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -338,7 +338,7 @@
       <IntValue>214166</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_344C0 ("The cyborgs were too powerful to be resisted. Everyone fled to Aridia, but I refuse to leave!")</Description>
+      <Description>zUnknown_loc_344C0 ("The cyborgs were too powerful to be resisted. Everyone fled to Aridia, but I refuse to leave!")</Description>
       <IntValue>214208</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -366,15 +366,15 @@
       <IntValue>214470</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_345DC ("A rebel army trains in a cave far to the west")</Description>
+      <Description>zUnknown_loc_345DC ("A rebel army trains in a cave far to the west")</Description>
       <IntValue>214492</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_345F2 (South Divisia? - Nial's generation)</Description>
+      <Description>zUnknown_loc_345F2 (South Divisia? - Nial's generation)</Description>
       <IntValue>214514</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34608 (South Divisia? - Nial's generation)</Description>
+      <Description>zUnknown_loc_34608 (South Divisia? - Nial's generation)</Description>
       <IntValue>214536</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -438,15 +438,15 @@
       <IntValue>215302</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_3493A ("Hurry back Aron")</Description>
+      <Description>zUnknown_loc_3493A ("Hurry back Aron")</Description>
       <IntValue>215354</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34946 ("Price Nial run before Lune's army finds you!")</Description>
+      <Description>zUnknown_loc_34946 ("Price Nial run before Lune's army finds you!")</Description>
       <IntValue>215366</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34954 (from Sean's intro?)</Description>
+      <Description>zUnknown_loc_34954 (from Sean's intro?)</Description>
       <IntValue>215380</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -482,7 +482,7 @@
       <IntValue>215836</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34B3C (Nial's Generation - dialog about Lune's army)</Description>
+      <Description>zUnknown_loc_34B3C (Nial's Generation - dialog about Lune's army)</Description>
       <IntValue>215868</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -490,11 +490,11 @@
       <IntValue>215920</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34BC2 ("You cannot enter, Lune forbids it!")</Description>
+      <Description>zUnknown_loc_34BC2 ("You cannot enter, Lune forbids it!")</Description>
       <IntValue>216002</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34BD8 ("You cannot enter, Lune forbids it!")</Description>
+      <Description>zUnknown_loc_34BD8 ("You cannot enter, Lune forbids it!")</Description>
       <IntValue>216024</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -506,19 +506,19 @@
       <IntValue>216098</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34C6A ("Maia is a mystery toøeveryone in Landen.")</Description>
+      <Description>zUnknown_loc_34C6A ("Maia is a mystery to everyone in Landen.")</Description>
       <IntValue>216170</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34C76 ("Congratulations, Prince Rhys! We wish you well.")</Description>
+      <Description>zUnknown_loc_34C76 ("Congratulations, Prince Rhys! We wish you well.")</Description>
       <IntValue>216182</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34C82 ("No time to chat, Prince. I really need a nap.")</Description>
+      <Description>zUnknown_loc_34C82 ("No time to chat, Prince. I really need a nap.")</Description>
       <IntValue>216194</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34C8E ("Lune is coming!")</Description>
+      <Description>zUnknown_loc_34C8E ("Lune is coming!")</Description>
       <IntValue>216206</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -526,67 +526,67 @@
       <IntValue>216218</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34CA6 ("Ages ago, people could fly.")</Description>
+      <Description>zUnknown_loc_34CA6 ("Ages ago, people could fly.")</Description>
       <IntValue>216230</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34CB2 ("They say Layans can create monsters.")</Description>
+      <Description>zUnknown_loc_34CB2 ("They say Layans can create monsters.")</Description>
       <IntValue>216242</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34CBE ("I'm too young to die!")</Description>
+      <Description>zUnknown_loc_34CBE ("I'm too young to die!")</Description>
       <IntValue>216254</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34CCA ("Orakio's fortresses once stood south of here")</Description>
+      <Description>zUnknown_loc_34CCA ("Orakio's fortresses once stood south of here")</Description>
       <IntValue>216266</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34CD6 ("Laya's lands across the sea are now gone.")</Description>
+      <Description>zUnknown_loc_34CD6 ("Laya's lands across the sea are now gone.")</Description>
       <IntValue>216278</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34CE2 ("Satellite? It's nothing more than a tall tale.")</Description>
+      <Description>zUnknown_loc_34CE2 ("Satellite? It's nothing more than a tall tale.")</Description>
       <IntValue>216290</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34CF8 ("Laya's people have an army of vile monsters.")</Description>
+      <Description>zUnknown_loc_34CF8 ("Laya's people have an army of vile monsters.")</Description>
       <IntValue>216312</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34D0E ("The worst part is that Layans look like us!")</Description>
+      <Description>zUnknown_loc_34D0E ("The worst part is that Layans look like us!")</Description>
       <IntValue>216334</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34D1A ("I hear that Orakio's people eat Layans!")</Description>
+      <Description>zUnknown_loc_34D1A ("I hear that Orakio's people eat Layans!")</Description>
       <IntValue>216346</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34D26 ("Ages ago, a sand bar connected our island to that of Cille")</Description>
+      <Description>zUnknown_loc_34D26 ("Ages ago, a sand bar connected our island to that of Cille")</Description>
       <IntValue>216358</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34D32 ("Let's wipe out those filthy Orakians!")</Description>
+      <Description>zUnknown_loc_34D32 ("Let's wipe out those filthy Orakians!")</Description>
       <IntValue>216370</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34D3E ("We Orakians sympathize with your plight.")</Description>
+      <Description>zUnknown_loc_34D3E ("We Orakians sympathize with your plight.")</Description>
       <IntValue>216382</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34D56 ("The island of Techna lies to the northeast")</Description>
+      <Description>zUnknown_loc_34D56 ("The island of Techna lies to the northeast")</Description>
       <IntValue>216406</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>loc_34D62 ("Technicians used to live in this dome-world.")</Description>
+      <Description>zUnknown_loc_34D62 ("Technicians used to live in this dome-world.")</Description>
       <IntValue>216418</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34D6E</Description>
+      <Description>zUnknown_loc_34D6E</Description>
       <IntValue>216430</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>z_loc_34D7A</Description>
+      <Description>zUnknown_loc_34D7A</Description>
       <IntValue>216442</IntValue>
     </anyType>
   </Collection>
