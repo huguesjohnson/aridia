@@ -38,6 +38,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 	{
 		private MDBinaryRomIO romIO;
         private const String GOOD_HEADER="SEGA MEGA DRIVE (C)SEGA 1991.APLTOKINO          KEISHOUSHA      PHANTASY STAR 3 PHANTASY STAR 3 GENERATIONS     OF DOOM         GM 1303-01";
+        //used to lookup which sprites are available in an area
+        private LookupValueCollection npcSprites=null;
         private System.Windows.Forms.MainMenu mainMenu;
 		private System.Windows.Forms.MenuItem menuItem1;
 		private System.Windows.Forms.MenuItem menuItem3;
@@ -282,7 +284,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private Panel panelEnemyGroups;
         private ListBox listBoxSelectEnemyGroup;
         private Label labelSelectEnemyGroup;
-        private Label labelBetaFeature;
+        private Label labelEnemyGroupBetaFeature;
         private TextBox textBoxGroupAddress;
         private Label labelGroupAddress;
         private ComboBox comboBoxBackRowEnemyCount;
@@ -314,6 +316,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private Label labelNPCScriptPreview;
         private TextBox textBoxNPCAddress;
         private Label labelNPCAddress;
+        private Label labelNPCsBetaFeature;
 		private int paletteFindIndex;
 
 		public MainForm()
@@ -480,7 +483,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.labelFrontRowEnemyCount = new System.Windows.Forms.Label();
             this.comboBoxFrontRowEnemy = new System.Windows.Forms.ComboBox();
             this.labelFrontRowEnemy = new System.Windows.Forms.Label();
-            this.labelBetaFeature = new System.Windows.Forms.Label();
+            this.labelEnemyGroupBetaFeature = new System.Windows.Forms.Label();
             this.textBoxGroupAddress = new System.Windows.Forms.TextBox();
             this.labelGroupAddress = new System.Windows.Forms.Label();
             this.listBoxSelectEnemyGroup = new System.Windows.Forms.ListBox();
@@ -627,6 +630,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.statusBar = new System.Windows.Forms.StatusBar();
             this.statusBarPanel = new System.Windows.Forms.StatusBarPanel();
             this.openFileRomDialog = new System.Windows.Forms.OpenFileDialog();
+            this.labelNPCsBetaFeature = new System.Windows.Forms.Label();
             this.tabControlMainContent.SuspendLayout();
             this.tabPageMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWarning)).BeginInit();
@@ -1771,14 +1775,14 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.panelEnemyGroups.Controls.Add(this.labelFrontRowEnemyCount);
             this.panelEnemyGroups.Controls.Add(this.comboBoxFrontRowEnemy);
             this.panelEnemyGroups.Controls.Add(this.labelFrontRowEnemy);
-            this.panelEnemyGroups.Controls.Add(this.labelBetaFeature);
+            this.panelEnemyGroups.Controls.Add(this.labelEnemyGroupBetaFeature);
             this.panelEnemyGroups.Controls.Add(this.textBoxGroupAddress);
             this.panelEnemyGroups.Controls.Add(this.labelGroupAddress);
             this.panelEnemyGroups.Controls.Add(this.listBoxSelectEnemyGroup);
             this.panelEnemyGroups.Controls.Add(this.labelSelectEnemyGroup);
             this.panelEnemyGroups.Location = new System.Drawing.Point(3, 3);
             this.panelEnemyGroups.Name = "panelEnemyGroups";
-            this.panelEnemyGroups.Size = new System.Drawing.Size(489, 261);
+            this.panelEnemyGroups.Size = new System.Drawing.Size(489, 290);
             this.panelEnemyGroups.TabIndex = 10;
             // 
             // comboBoxBackRowEnemyCount
@@ -1862,16 +1866,16 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.labelFrontRowEnemy.Text = "Front row enemy:";
             this.labelFrontRowEnemy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // labelBetaFeature
+            // labelEnemyGroupBetaFeature
             // 
-            this.labelBetaFeature.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBetaFeature.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.labelBetaFeature.Location = new System.Drawing.Point(350, 0);
-            this.labelBetaFeature.Name = "labelBetaFeature";
-            this.labelBetaFeature.Size = new System.Drawing.Size(138, 24);
-            this.labelBetaFeature.TabIndex = 16;
-            this.labelBetaFeature.Text = "Beta Feature";
-            this.labelBetaFeature.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelEnemyGroupBetaFeature.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelEnemyGroupBetaFeature.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.labelEnemyGroupBetaFeature.Location = new System.Drawing.Point(15, 256);
+            this.labelEnemyGroupBetaFeature.Name = "labelEnemyGroupBetaFeature";
+            this.labelEnemyGroupBetaFeature.Size = new System.Drawing.Size(454, 24);
+            this.labelEnemyGroupBetaFeature.TabIndex = 16;
+            this.labelEnemyGroupBetaFeature.Text = "Beta feature - see help file for usage and limitations";
+            this.labelEnemyGroupBetaFeature.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBoxGroupAddress
             // 
@@ -2654,6 +2658,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // panelNPCs
             // 
             this.panelNPCs.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelNPCs.Controls.Add(this.labelNPCsBetaFeature);
             this.panelNPCs.Controls.Add(this.textBoxNPCAddress);
             this.panelNPCs.Controls.Add(this.labelNPCAddress);
             this.panelNPCs.Controls.Add(this.textBoxNPCScriptPreview);
@@ -2715,6 +2720,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // textBoxNPCScriptAddress
             // 
+            this.textBoxNPCScriptAddress.Enabled = false;
             this.textBoxNPCScriptAddress.Location = new System.Drawing.Point(239, 183);
             this.textBoxNPCScriptAddress.MaxLength = 5;
             this.textBoxNPCScriptAddress.Name = "textBoxNPCScriptAddress";
@@ -2738,6 +2744,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.textBoxNPCUpdateRate.Name = "textBoxNPCUpdateRate";
             this.textBoxNPCUpdateRate.Size = new System.Drawing.Size(131, 22);
             this.textBoxNPCUpdateRate.TabIndex = 9;
+            this.textBoxNPCUpdateRate.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxNPCUpdateRate_Validating);
             // 
             // labelNPCUpdateRate
             // 
@@ -2794,6 +2801,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.comboBoxNPCSprite.Name = "comboBoxNPCSprite";
             this.comboBoxNPCSprite.Size = new System.Drawing.Size(131, 24);
             this.comboBoxNPCSprite.TabIndex = 6;
+            this.comboBoxNPCSprite.Validating += new System.ComponentModel.CancelEventHandler(this.comboBoxNPCSprite_Validating);
             // 
             // labelNPCSprite
             // 
@@ -3350,6 +3358,17 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.openFileRomDialog.Filter = "Phantasy Star III ROM Images (*.bin)|*.bin";
             this.openFileRomDialog.Title = "Open Phantasy Star III ROM";
             // 
+            // labelNPCsBetaFeature
+            // 
+            this.labelNPCsBetaFeature.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNPCsBetaFeature.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.labelNPCsBetaFeature.Location = new System.Drawing.Point(7, 270);
+            this.labelNPCsBetaFeature.Name = "labelNPCsBetaFeature";
+            this.labelNPCsBetaFeature.Size = new System.Drawing.Size(387, 24);
+            this.labelNPCsBetaFeature.TabIndex = 28;
+            this.labelNPCsBetaFeature.Text = "Beta feature - see help file for usage and limitations";
+            this.labelNPCsBetaFeature.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // MainForm
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
@@ -3711,7 +3730,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
                             if(this.listBoxSelectEnemyGroup.Items.Count<1)
                             { 
                                 int address=Constants.EnemyGroupStartAddress;
-                                for(int groupIndex=0;groupIndex<=Constants.EnemyGroupCount;groupIndex++){
+                                for(int groupIndex=0;groupIndex<Constants.EnemyGroupCount;groupIndex++)
+                                {
                                     LookupValue lv=new LookupValue("["+groupIndex.ToString()+"]",address);
                                     this.listBoxSelectEnemyGroup.Items.Add(lv);
                                     address+=4;
@@ -3726,6 +3746,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
                             if(this.comboBoxNPCsSelectLocation.Items.Count<1)
                             { 
 								AridiaUtils.loadLookupValues(this.comboBoxNPCsSelectLocation,"NPC-Addresses");
+                                this.npcSprites=AridiaUtils.getLookupValueCollection("NPC-Sprites");
                             }
                             break;
 					}
@@ -6325,18 +6346,27 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 
         private void comboBoxNPCsSelectLocation_SelectedIndexChanged(object sender,EventArgs e)
         {
-			if(this.comboBoxNPCsSelectLocation.Text.Length<1){ return; }
+			if(this.comboBoxNPCsSelectLocation.Text.Length<1){return;}
 			this.Cursor=Cursors.WaitCursor;
 			try
 			{
                 this.listBoxNPCs.Items.Clear();
+                this.comboBoxNPCSprite.Items.Clear();
 				LookupValue selectedItem=(LookupValue)this.comboBoxNPCsSelectLocation.SelectedItem;
 				int address=selectedItem.IntValue;
                 int npcCount=this.romIO.readInteger(address,2);
                 address+=2;
                 for(int npcIndex=0;npcIndex<=npcCount;npcIndex++) 
                 { 
-                    LookupValue lv=new LookupValue("NPC ["+npcIndex+"]",address);
+                    //find the sprite for this NPC
+                    int spriteId=this.romIO.readInteger(address+(int)Constants.NPCOffsets.SpriteObjectTableIndex,1);
+                    LookupValue spriteLV=this.npcSprites.getByValue(spriteId);
+                    if(!this.comboBoxNPCSprite.Items.Contains(spriteLV))
+                    {
+                        this.comboBoxNPCSprite.Items.Add(spriteLV);
+                    }
+                    //add the npc to the listview
+                    LookupValue lv=new LookupValue("NPC ["+npcIndex+"]: "+spriteLV.Description,address);
                     this.listBoxNPCs.Items.Add(lv);
                     address+=10;
                 }
@@ -6358,9 +6388,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 				int address=selectedItem.IntValue;
                 this.textBoxNPCAddress.Text=address.ToString();
                 //sprite
-                String sprite=(this.romIO.readInteger(address+(int)Constants.NPCOffsets.SpriteObjectTableIndex,1).ToString());
-                if(!this.comboBoxNPCSprite.Items.Contains(sprite)){this.comboBoxNPCSprite.Items.Add(sprite);}
-                this.comboBoxNPCSprite.Text=sprite;
+				int sprite=this.romIO.readInteger(address+(int)Constants.NPCOffsets.SpriteObjectTableIndex,1);
+				AridiaUtils.setComboBoxSelection(this.comboBoxNPCSprite,sprite);
                 //x
                 this.textBoxNPCX.Text=this.romIO.readInteger(address+(int)Constants.NPCOffsets.XCoordinate,2).ToString();
                 //y
@@ -6456,7 +6485,67 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 				e.Cancel=true;
 			}
 			this.Cursor=Cursors.Default;
+        }
 
+        private void comboBoxNPCSprite_Validating(object sender,CancelEventArgs e)
+        {
+			if((this.comboBoxNPCsSelectLocation.Text.Length<1)||(this.textBoxNPCAddress.Text.Length<1)){return;}
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+				LookupValue newValue=(LookupValue)this.comboBoxNPCSprite.SelectedItem;
+				MDInteger mdInt=new MDInteger();
+				mdInt.NumBytes=1;
+				mdInt.Address=(Convert.ToInt32(this.textBoxNPCAddress.Text))+(int)Constants.NPCOffsets.SpriteObjectTableIndex;
+				mdInt.CurrentValue=newValue.IntValue;
+				this.romIO.writeInt(mdInt);
+				this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
+			}				
+			catch(Exception x)
+			{
+				this.errorHandler("save the sprite for an NPC",x);
+				e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+        private void textBoxNPCUpdateRate_Validating(object sender,CancelEventArgs e)
+        {
+			if((this.comboBoxNPCsSelectLocation.Text.Length<1)||(this.textBoxNPCAddress.Text.Length<1)){return;}
+			this.Cursor=Cursors.WaitCursor;
+			MDInteger mdInt=new MDInteger();
+			try
+			{
+				string newValue=this.textBoxNPCUpdateRate.Text;
+				mdInt.NumBytes=2;
+				mdInt.CurrentValue=Convert.ToInt32(newValue);
+				mdInt.Address=(Convert.ToInt32(this.textBoxNPCAddress.Text))+(int)Constants.NPCOffsets.UpdateRate;
+				try
+				{
+					if(AridiaUtils.validateMDInteger(mdInt))
+					{
+						this.romIO.writeInt(mdInt);
+						this.statusBarPanel.Text="Wrote "+mdInt.CurrentValue+" to address "+mdInt.Address.ToString();
+					}
+					else
+					{
+						this.validationFailed(mdInt);
+						e.Cancel=true;
+					}
+				}
+				catch(Exception x)
+				{
+					this.errorHandler("save the update rate for an NPC",x);
+					e.Cancel=true;
+				}
+			}
+			catch
+			{
+				//can be thrown from Convert.ToInt call
+				this.validationFailed(mdInt);
+				e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
         }
 
     }
