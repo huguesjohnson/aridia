@@ -40,6 +40,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private const String GOOD_HEADER="SEGA MEGA DRIVE (C)SEGA 1991.APLTOKINO          KEISHOUSHA      PHANTASY STAR 3 PHANTASY STAR 3 GENERATIONS     OF DOOM         GM 1303-01";
         //used to lookup which sprites are available in an area
         private LookupValueCollection npcSprites=null;
+        //used to determine if the script tab needs to be reloaded due to a change in the NPC tab
+        private bool scriptDirtyFlag=false;
         private System.Windows.Forms.MainMenu mainMenu;
 		private System.Windows.Forms.MenuItem menuItem1;
 		private System.Windows.Forms.MenuItem menuItem3;
@@ -312,8 +314,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private Label labelNPCUpdateRate;
         private TextBox textBoxNPCScriptAddress;
         private Label labelNPCScriptAddress;
-        private TextBox textBoxNPCScriptPreview;
-        private Label labelNPCScriptPreview;
+        private TextBox textBoxNPCScriptText;
+        private Label labelNPCScriptText;
         private TextBox textBoxNPCAddress;
         private Label labelNPCAddress;
         private Label labelNPCsBetaFeature;
@@ -560,10 +562,11 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.labelSelectLevelTable = new System.Windows.Forms.Label();
             this.tabPageNPCs = new System.Windows.Forms.TabPage();
             this.panelNPCs = new System.Windows.Forms.Panel();
+            this.labelNPCsBetaFeature = new System.Windows.Forms.Label();
             this.textBoxNPCAddress = new System.Windows.Forms.TextBox();
             this.labelNPCAddress = new System.Windows.Forms.Label();
-            this.textBoxNPCScriptPreview = new System.Windows.Forms.TextBox();
-            this.labelNPCScriptPreview = new System.Windows.Forms.Label();
+            this.textBoxNPCScriptText = new System.Windows.Forms.TextBox();
+            this.labelNPCScriptText = new System.Windows.Forms.Label();
             this.textBoxNPCScriptAddress = new System.Windows.Forms.TextBox();
             this.labelNPCScriptAddress = new System.Windows.Forms.Label();
             this.textBoxNPCUpdateRate = new System.Windows.Forms.TextBox();
@@ -630,7 +633,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.statusBar = new System.Windows.Forms.StatusBar();
             this.statusBarPanel = new System.Windows.Forms.StatusBarPanel();
             this.openFileRomDialog = new System.Windows.Forms.OpenFileDialog();
-            this.labelNPCsBetaFeature = new System.Windows.Forms.Label();
             this.tabControlMainContent.SuspendLayout();
             this.tabPageMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWarning)).BeginInit();
@@ -2661,8 +2663,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.panelNPCs.Controls.Add(this.labelNPCsBetaFeature);
             this.panelNPCs.Controls.Add(this.textBoxNPCAddress);
             this.panelNPCs.Controls.Add(this.labelNPCAddress);
-            this.panelNPCs.Controls.Add(this.textBoxNPCScriptPreview);
-            this.panelNPCs.Controls.Add(this.labelNPCScriptPreview);
+            this.panelNPCs.Controls.Add(this.textBoxNPCScriptText);
+            this.panelNPCs.Controls.Add(this.labelNPCScriptText);
             this.panelNPCs.Controls.Add(this.textBoxNPCScriptAddress);
             this.panelNPCs.Controls.Add(this.labelNPCScriptAddress);
             this.panelNPCs.Controls.Add(this.textBoxNPCUpdateRate);
@@ -2679,6 +2681,17 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.panelNPCs.Name = "panelNPCs";
             this.panelNPCs.Size = new System.Drawing.Size(399, 296);
             this.panelNPCs.TabIndex = 4;
+            // 
+            // labelNPCsBetaFeature
+            // 
+            this.labelNPCsBetaFeature.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNPCsBetaFeature.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.labelNPCsBetaFeature.Location = new System.Drawing.Point(7, 270);
+            this.labelNPCsBetaFeature.Name = "labelNPCsBetaFeature";
+            this.labelNPCsBetaFeature.Size = new System.Drawing.Size(387, 24);
+            this.labelNPCsBetaFeature.TabIndex = 28;
+            this.labelNPCsBetaFeature.Text = "Beta feature - see help file for usage and limitations";
+            this.labelNPCsBetaFeature.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBoxNPCAddress
             // 
@@ -2699,24 +2712,24 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.labelNPCAddress.Text = "NPC Address:";
             this.labelNPCAddress.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBoxNPCScriptPreview
+            // textBoxNPCScriptText
             // 
-            this.textBoxNPCScriptPreview.Enabled = false;
-            this.textBoxNPCScriptPreview.Location = new System.Drawing.Point(239, 211);
-            this.textBoxNPCScriptPreview.MaxLength = 5;
-            this.textBoxNPCScriptPreview.Name = "textBoxNPCScriptPreview";
-            this.textBoxNPCScriptPreview.Size = new System.Drawing.Size(131, 22);
-            this.textBoxNPCScriptPreview.TabIndex = 11;
+            this.textBoxNPCScriptText.Location = new System.Drawing.Point(239, 211);
+            this.textBoxNPCScriptText.MaxLength = 5;
+            this.textBoxNPCScriptText.Name = "textBoxNPCScriptText";
+            this.textBoxNPCScriptText.Size = new System.Drawing.Size(131, 22);
+            this.textBoxNPCScriptText.TabIndex = 11;
+            this.textBoxNPCScriptText.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxNPCScriptText_Validating);
             // 
-            // labelNPCScriptPreview
+            // labelNPCScriptText
             // 
-            this.labelNPCScriptPreview.AutoSize = true;
-            this.labelNPCScriptPreview.Location = new System.Drawing.Point(130, 214);
-            this.labelNPCScriptPreview.Name = "labelNPCScriptPreview";
-            this.labelNPCScriptPreview.Size = new System.Drawing.Size(101, 17);
-            this.labelNPCScriptPreview.TabIndex = 25;
-            this.labelNPCScriptPreview.Text = "Script Preview:";
-            this.labelNPCScriptPreview.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.labelNPCScriptText.AutoSize = true;
+            this.labelNPCScriptText.Location = new System.Drawing.Point(154, 214);
+            this.labelNPCScriptText.Name = "labelNPCScriptText";
+            this.labelNPCScriptText.Size = new System.Drawing.Size(79, 17);
+            this.labelNPCScriptText.TabIndex = 25;
+            this.labelNPCScriptText.Text = "Script Text:";
+            this.labelNPCScriptText.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // textBoxNPCScriptAddress
             // 
@@ -3358,17 +3371,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.openFileRomDialog.Filter = "Phantasy Star III ROM Images (*.bin)|*.bin";
             this.openFileRomDialog.Title = "Open Phantasy Star III ROM";
             // 
-            // labelNPCsBetaFeature
-            // 
-            this.labelNPCsBetaFeature.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNPCsBetaFeature.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.labelNPCsBetaFeature.Location = new System.Drawing.Point(7, 270);
-            this.labelNPCsBetaFeature.Name = "labelNPCsBetaFeature";
-            this.labelNPCsBetaFeature.Size = new System.Drawing.Size(387, 24);
-            this.labelNPCsBetaFeature.TabIndex = 28;
-            this.labelNPCsBetaFeature.Text = "Beta feature - see help file for usage and limitations";
-            this.labelNPCsBetaFeature.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // MainForm
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
@@ -3629,6 +3631,10 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 							}
 							break;
 						case "Script":
+                            if(this.scriptDirtyFlag) 
+                            { 
+                                this.listViewScript.Items.Clear();
+                            }
 							if(this.listViewScript.Items.Count<1)
 							{
 								this.listViewScript.Items.AddRange(AridiaUtils.getScriptItems(107326,107857,this.romIO));
@@ -6397,10 +6403,12 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
                 //update rate
                 this.textBoxNPCUpdateRate.Text=this.romIO.readInteger(address+(int)Constants.NPCOffsets.UpdateRate,2).ToString();
                 //script
-                int scriptAddress=this.romIO.readInteger(address+(int)Constants.NPCOffsets.GameScriptIndex,2);
+                int scriptAddress=this.romIO.readInteger(address+(int)Constants.NPCOffsets.GameScriptIndex,2)+Constants.NPCScriptStartPad;
                 scriptAddress+=Constants.NPCScriptOffset;
                 this.textBoxNPCScriptAddress.Text=scriptAddress.ToString();
-                this.textBoxNPCScriptPreview.Text=this.romIO.readString(scriptAddress+4,65535);
+                String scriptText=this.romIO.readString(scriptAddress,65535);
+                this.textBoxNPCScriptText.Text=scriptText;
+                this.textBoxNPCScriptText.MaxLength=scriptText.Length;
             }
 			catch(Exception x)
 			{
@@ -6543,6 +6551,36 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 			{
 				//can be thrown from Convert.ToInt call
 				this.validationFailed(mdInt);
+				e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+        private void textBoxNPCScriptText_Validating(object sender,CancelEventArgs e)
+        {
+			if((this.comboBoxNPCsSelectLocation.Text.Length<1)||(this.textBoxNPCScriptAddress.Text.Length<1)){return;}
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+                MDString mdString=new MDString();
+                mdString.CurrentValue=textBoxNPCScriptText.Text;
+                mdString.Address=int.Parse(textBoxNPCScriptAddress.Text);
+                mdString.NumBytes=textBoxNPCScriptText.MaxLength;
+                if(AridiaUtils.validateMDString(mdString))
+                {
+                    this.romIO.writeString(mdString,AridiaUtils.STRING_TERMINATOR);
+                    this.statusBarPanel.Text="Wrote "+mdString.CurrentValue+" to address "+mdString.Address.ToString();
+                    this.scriptDirtyFlag=true;
+                }
+                else
+                {
+                    this.validationFailed(mdString);
+                    e.Cancel=true;
+                }
+			}
+			catch(Exception x)
+			{
+				this.errorHandler("save the script text for an NPC",x);
 				e.Cancel=true;
 			}
 			this.Cursor=Cursors.Default;

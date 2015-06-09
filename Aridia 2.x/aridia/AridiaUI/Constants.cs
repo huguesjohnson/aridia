@@ -207,5 +207,9 @@ namespace com.huguesjohnson.aridia.ui
             GameScriptIndex=6,
             UpdateRate=8
 		}
+
+        /// <summary>How many characters after the start address for the NPC script until we reach actual text.</summary>
+		public const int NPCScriptStartPad=4;
+    
     }
 }
