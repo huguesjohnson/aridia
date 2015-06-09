@@ -6,7 +6,7 @@
       <IntValue>0</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>4</Description>
+      <Description>Guard</Description>
       <IntValue>4</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -30,15 +30,15 @@
       <IntValue>20</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>24</Description>
+      <Description>Old man</Description>
       <IntValue>24</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>32</Description>
+      <Description>Man in yellow</Description>
       <IntValue>32</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>36</Description>
+      <Description>Woman in blue dress</Description>
       <IntValue>36</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -58,15 +58,15 @@
       <IntValue>52</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>56 (Cyborg)</Description>
+      <Description>Tall cyborg</Description>
       <IntValue>56</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>60 (Cyborg)</Description>
+      <Description>Short cyborg</Description>
       <IntValue>60</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>64 (Cyborg)</Description>
+      <Description>Female cyborg</Description>
       <IntValue>64</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">

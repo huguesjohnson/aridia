@@ -274,11 +274,11 @@
       <IntValue>213666</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_342AE ("have you found the princesss?")</Description>
+      <Description>Landen town - 1st Generation - 2nd eastmost house 1st floor</Description>
       <IntValue>213678</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_342BA ("May Orakio's power protect you from Laya.")</Description>
+      <Description>Landen town - 1st Generation - eastmost house 1st floor - before Maia is kidnapped</Description>
       <IntValue>213690</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -506,15 +506,15 @@
       <IntValue>216098</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34C6A ("Maia is a mystery to everyone in Landen.")</Description>
+      <Description>Landen - 1st Generation - Technique Redistribution Shop - 2nd floor</Description>
       <IntValue>216170</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34C76 ("Congratulations, Prince Rhys! We wish you well.")</Description>
+      <Description>Landen - 1st Generation - Weapon Shop - 2nd floor - Before Maia is kidnapped</Description>
       <IntValue>216182</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34C82 ("No time to chat, Prince. I really need a nap.")</Description>
+      <Description>Landen - 1st Generation - Fortune Teller Shop - 2nd floor</Description>
       <IntValue>216194</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -526,19 +526,19 @@
       <IntValue>216218</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34CA6 ("Ages ago, people could fly.")</Description>
+      <Description>Yaata town - 1st generation - Item Shop - 2nd floor</Description>
       <IntValue>216230</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34CB2 ("They say Layans can create monsters.")</Description>
+      <Description>Yaata town - 1st generation - Armor Shop - 2nd floor</Description>
       <IntValue>216242</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34CBE ("I'm too young to die!")</Description>
+      <Description>Rysel Village - Item Shop - 1st Generation - Before repairing weather</Description>
       <IntValue>216254</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34CCA ("Orakio's fortresses once stood south of here")</Description>
+      <Description>Rysel Village - Armor Shop - 1st Generation - Before repairing weather</Description>
       <IntValue>216266</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
