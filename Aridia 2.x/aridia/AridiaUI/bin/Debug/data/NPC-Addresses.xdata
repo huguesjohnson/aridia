@@ -2,7 +2,7 @@
 <LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Collection>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_33D16</Description>
+      <Description>zUnknown_loc_33D16 (unused town?)</Description>
       <IntValue>212246</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -62,218 +62,6 @@
       <IntValue>213020</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34032</Description>
-      <IntValue>213042</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3403E</Description>
-      <IntValue>213054</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3404A</Description>
-      <IntValue>213066</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34056</Description>
-      <IntValue>213078</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34062</Description>
-      <IntValue>213090</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3406E</Description>
-      <IntValue>213102</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3407A</Description>
-      <IntValue>213114</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34086</Description>
-      <IntValue>213126</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34092</Description>
-      <IntValue>213138</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3409E</Description>
-      <IntValue>213150</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_340AA</Description>
-      <IntValue>213162</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_340B6</Description>
-      <IntValue>213174</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_340C2</Description>
-      <IntValue>213186</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_340CE</Description>
-      <IntValue>213198</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_340DA</Description>
-      <IntValue>213210</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_340E6</Description>
-      <IntValue>213222</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_340F2</Description>
-      <IntValue>213234</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_340FE</Description>
-      <IntValue>213246</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3410A</Description>
-      <IntValue>213258</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34116</Description>
-      <IntValue>213270</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34122</Description>
-      <IntValue>213282</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3412E</Description>
-      <IntValue>213294</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3413A</Description>
-      <IntValue>213306</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34146</Description>
-      <IntValue>213318</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34152</Description>
-      <IntValue>213330</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3415E</Description>
-      <IntValue>213342</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3416A</Description>
-      <IntValue>213354</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34176</Description>
-      <IntValue>213366</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34182</Description>
-      <IntValue>213378</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3418E</Description>
-      <IntValue>213390</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3419A</Description>
-      <IntValue>213402</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_341A6</Description>
-      <IntValue>213414</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_341B2</Description>
-      <IntValue>213426</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_341BE</Description>
-      <IntValue>213438</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_341CA</Description>
-      <IntValue>213450</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_341D6</Description>
-      <IntValue>213462</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_341E2</Description>
-      <IntValue>213474</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_341EE</Description>
-      <IntValue>213486</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_341FA</Description>
-      <IntValue>213498</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34206</Description>
-      <IntValue>213510</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34212</Description>
-      <IntValue>213522</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3421E</Description>
-      <IntValue>213534</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3422A</Description>
-      <IntValue>213546</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34236</Description>
-      <IntValue>213558</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34242</Description>
-      <IntValue>213570</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3424E</Description>
-      <IntValue>213582</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3425A</Description>
-      <IntValue>213594</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34266</Description>
-      <IntValue>213606</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34272</Description>
-      <IntValue>213618</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3427E</Description>
-      <IntValue>213630</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3428A</Description>
-      <IntValue>213642</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34296</Description>
-      <IntValue>213654</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_342A2</Description>
-      <IntValue>213666</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
       <Description>Landen town - 1st Generation - 2nd eastmost house 1st floor</Description>
       <IntValue>213678</IntValue>
     </anyType>
@@ -282,7 +70,7 @@
       <IntValue>213690</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_342C8</Description>
+      <Description>zUnknown_loc_342C8 (Area with two guards)</Description>
       <IntValue>213704</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -294,7 +82,7 @@
       <IntValue>213860</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3437A ("Landen - either Sean or Ayn")</Description>
+      <Description>Landen - Sean's Generation</Description>
       <IntValue>213882</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -310,7 +98,7 @@
       <IntValue>213992</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_343E8 (Ilan - probably all 3rd generation)</Description>
+      <Description>Yaata - 3rd Generation</Description>
       <IntValue>214024</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -334,11 +122,11 @@
       <IntValue>214134</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Shusoran town - Ayn's Generation - after Rhys flees</Description>
+      <Description>Cille town - Ayn's Generation - before Rhys flees</Description>
       <IntValue>214166</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_344C0 ("The cyborgs were too powerful to be resisted. Everyone fled to Aridia, but I refuse to leave!")</Description>
+      <Description>Cille Town - Ayn's Generation - After attack</Description>
       <IntValue>214208</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -346,7 +134,7 @@
       <IntValue>214220</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Techna castle - Ayn's Generation</Description>
+      <Description>zUnknown ("The Castle of Power is a good name for Techna.)</Description>
       <IntValue>214272</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -398,7 +186,7 @@
       <IntValue>214766</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Endora - Ayn's Generation - After rescuing Thea</Description>
+      <Description>Endora - 3rd Generation</Description>
       <IntValue>214808</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -446,7 +234,7 @@
       <IntValue>215366</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34954 (from Sean's intro?)</Description>
+      <Description>Agoe Castle - Ayn's Generation</Description>
       <IntValue>215380</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -454,7 +242,7 @@
       <IntValue>215422</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Cille - Ayn's Generation? ("Hello, I'm Thea dialog")</Description>
+      <Description>Shusoran castle - Ayn's Generation - Before city is attacked</Description>
       <IntValue>215464</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -518,11 +306,11 @@
       <IntValue>216194</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34C8E ("Lune is coming!")</Description>
+      <Description>Landen town - 2nd eastmost house 2nd floor - Sean's Generation</Description>
       <IntValue>216206</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Landen town (which bulding?) - Sean's Generation ("If Ayn had married Sari")</Description>
+      <Description>Landen town - eastmost house 2nd floor - Sean's Generation</Description>
       <IntValue>216218</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -546,7 +334,7 @@
       <IntValue>216278</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34CE2 ("Satellite? It's nothing more than a tall tale.")</Description>
+      <Description>Rysel Village - House 2nd floor - Ayn's Generation</Description>
       <IntValue>216290</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -570,24 +358,16 @@
       <IntValue>216370</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34D3E ("We Orakians sympathize with your plight.")</Description>
+      <Description>Techna - Weapon Shop 2nd Floor - Ayn's Generation</Description>
       <IntValue>216382</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34D56 ("The island of Techna lies to the northeast")</Description>
+      <Description>Lensol - Item Shop 2nd Floor - Ayn's Generation</Description>
       <IntValue>216406</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
       <Description>zUnknown_loc_34D62 ("Technicians used to live in this dome-world.")</Description>
       <IntValue>216418</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34D6E</Description>
-      <IntValue>216430</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34D7A</Description>
-      <IntValue>216442</IntValue>
     </anyType>
   </Collection>
 </LookupValueCollection>

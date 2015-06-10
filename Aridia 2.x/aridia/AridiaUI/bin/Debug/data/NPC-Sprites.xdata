@@ -46,15 +46,15 @@
       <IntValue>40</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>(used for Laya and Sari, maybe queen?)</Description>
+      <Description>Queen</Description>
       <IntValue>44</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>(also Nial, maybe king?)</Description>
+      <Description>King at throne</Description>
       <IntValue>48</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>52</Description>
+      <Description>Woman in yellow dress and robe</Description>
       <IntValue>52</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
