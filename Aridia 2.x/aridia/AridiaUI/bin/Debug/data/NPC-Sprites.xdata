@@ -42,7 +42,7 @@
       <IntValue>36</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>40</Description>
+      <Description>Maia</Description>
       <IntValue>40</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -70,7 +70,7 @@
       <IntValue>64</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>72 (Used in Western Cave)</Description>
+      <Description>Guard</Description>
       <IntValue>72</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">

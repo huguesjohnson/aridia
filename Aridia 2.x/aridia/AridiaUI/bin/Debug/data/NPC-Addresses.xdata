@@ -6,15 +6,15 @@
       <IntValue>212246</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Agoe town - 1st Generation (duplicate?)</Description>
+      <Description>Agoe castle - 1st Generation</Description>
       <IntValue>212328</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Cille town - 1st Generation (duplicate?)</Description>
+      <Description>Cille castle - 1st Generation (duplicate?)</Description>
       <IntValue>212380</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Shusoran town - 1st Generation - Before fighting Lyle</Description>
+      <Description>Shusoran castle - 1st Generation</Description>
       <IntValue>212444</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -50,7 +50,7 @@
       <IntValue>212862</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Shusoran town - 1st Generation - After fighting Lyle</Description>
+      <Description>Shusoran town - 1st Generation</Description>
       <IntValue>212894</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -90,11 +90,11 @@
       <IntValue>213926</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_343C6 (Yaata - 2nd or 3rd generation?)</Description>
+      <Description>Yaata town - 3rd generation</Description>
       <IntValue>213958</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_343E8 (Ilan - Nial's generation?)</Description>
+      <Description>Ilan town - Nial's generation</Description>
       <IntValue>213992</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -154,7 +154,7 @@
       <IntValue>214470</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_345DC ("A rebel army trains in a cave far to the west")</Description>
+      <Description>South Divisia - Nial's Generation</Description>
       <IntValue>214492</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -162,11 +162,11 @@
       <IntValue>214514</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34608 (South Divisia? - Nial's generation)</Description>
+      <Description>North Divisia - Nial's generation</Description>
       <IntValue>214536</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>North Divisia - Nial's Generation</Description>
+      <Description>North Divisia - 3rd Generation (all?)</Description>
       <IntValue>214568</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -262,7 +262,7 @@
       <IntValue>215742</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Divisia (North, South or Castle?) - Nial's Generation</Description>
+      <Description>Divisia Castle - Nial's Generation</Description>
       <IntValue>215784</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -270,7 +270,7 @@
       <IntValue>215836</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34B3C (Nial's Generation - dialog about Lune's army)</Description>
+      <Description>Rebel Cave - Nial's Generation</Description>
       <IntValue>215868</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -338,23 +338,23 @@
       <IntValue>216290</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34CF8 ("Laya's people have an army of vile monsters.")</Description>
+      <Description>Agoe town - Southeast House 2nd Floor - 1st Generation</Description>
       <IntValue>216312</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34D0E ("The worst part is that Layans look like us!")</Description>
+      <Description>Agoe town - Armor Shop 2nd Floor - 1st Generation</Description>
       <IntValue>216334</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34D1A ("I hear that Orakio's people eat Layans!")</Description>
+      <Description>Shusoran town - Technique Shop 2nd floor - 1st Generation</Description>
       <IntValue>216346</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34D26 ("Ages ago, a sand bar connected our island to that of Cille")</Description>
+      <Description>Shusoran town - Weapon Shop 2nd floor - 1st Generation</Description>
       <IntValue>216358</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34D32 ("Let's wipe out those filthy Orakians!")</Description>
+      <Description>Shusoran town - Armor Shop 2nd floor - 1st Generation</Description>
       <IntValue>216370</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
