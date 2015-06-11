@@ -10,7 +10,7 @@
       <IntValue>212328</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Cille castle - 1st Generation (duplicate?)</Description>
+      <Description>Cille castle - 1st Generation</Description>
       <IntValue>212380</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -98,7 +98,7 @@
       <IntValue>213992</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Yaata - 3rd Generation</Description>
+      <Description>Ilan - 3rd Generation</Description>
       <IntValue>214024</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -114,7 +114,7 @@
       <IntValue>214080</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34460 (Agoe town or castle, 2nd or 3rd generation?)</Description>
+      <Description>Agoe Town - 3rd generation</Description>
       <IntValue>214112</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -190,7 +190,7 @@
       <IntValue>214808</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Lensol town - 3rd Generation?</Description>
+      <Description>Lensol town - 3rd Generation</Description>
       <IntValue>214902</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -226,11 +226,11 @@
       <IntValue>215302</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_3493A ("Hurry back Aron")</Description>
+      <Description>Landen castle - Aron's Generation</Description>
       <IntValue>215354</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34946 ("Price Nial run before Lune's army finds you!")</Description>
+      <Description>Satera Castle - Nial's Generation</Description>
       <IntValue>215366</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -238,7 +238,7 @@
       <IntValue>215380</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Agoe - 3rd Generation?</Description>
+      <Description>Agoe Castle - 3rd Generation</Description>
       <IntValue>215422</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -254,7 +254,7 @@
       <IntValue>215618</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Lensol - 3rd Generation?</Description>
+      <Description>Lensol Castle - 3rd Generation</Description>
       <IntValue>215680</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -266,7 +266,7 @@
       <IntValue>215784</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Divisia (North, South or Castle?) - ? Generation</Description>
+      <Description>Divisia Castle - 3rd Generation</Description>
       <IntValue>215836</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -330,7 +330,7 @@
       <IntValue>216266</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34CD6 ("Laya's lands across the sea are now gone.")</Description>
+      <Description>Rysel Village - Technique Shop 2nd floor - 3rd Generation</Description>
       <IntValue>216278</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">

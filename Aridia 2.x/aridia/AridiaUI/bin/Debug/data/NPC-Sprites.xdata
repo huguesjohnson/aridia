@@ -26,10 +26,6 @@
       <IntValue>20</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>20</Description>
-      <IntValue>20</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
       <Description>Old man</Description>
       <IntValue>24</IntValue>
     </anyType>
@@ -118,15 +114,15 @@
       <IntValue>136</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>140 (Used in Skyhaven)</Description>
+      <Description>Old man (Skyhaven)</Description>
       <IntValue>140</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>144 (Used in Skyhaven)</Description>
+      <Description>Tall green cyborg</Description>
       <IntValue>144</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>148 (Used in Skyhaven)</Description>
+      <Description>Short green cyborg</Description>
       <IntValue>148</IntValue>
     </anyType>
   </Collection>
