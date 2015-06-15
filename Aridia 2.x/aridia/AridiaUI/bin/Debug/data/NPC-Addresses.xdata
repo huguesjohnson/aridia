@@ -278,11 +278,11 @@
       <IntValue>215920</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34BC2 ("You cannot enter, Lune forbids it!")</Description>
+      <Description>Passage in 2nd Generation (which?)</Description>
       <IntValue>216002</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34BD8 ("You cannot enter, Lune forbids it!")</Description>
+      <Description>Passage in 2nd Generation (which?) (duplicate?)</Description>
       <IntValue>216024</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">

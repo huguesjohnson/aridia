@@ -74,11 +74,11 @@
       <IntValue>84</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>96 (Maia in Western Cave)</Description>
+      <Description>Maia in Western Cave</Description>
       <IntValue>96</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>100 (Rhys in Western Cave)</Description>
+      <Description>Rhys in Western Cave</Description>
       <IntValue>100</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -86,31 +86,31 @@
       <IntValue>104</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>108 (You can not enter sprite)</Description>
+      <Description>Guard (You can not enter sprite)</Description>
       <IntValue>108</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>112 (attendants in Laya's palace)</Description>
+      <Description>Attendants in Laya's palace</Description>
       <IntValue>112</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>116 (Lune, Nial)</Description>
+      <Description>Lune/Nial in intros</Description>
       <IntValue>116</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>120 (used in Lashute)</Description>
+      <Description>Woman in yellow dress (Lashute)</Description>
       <IntValue>120</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>124 (used in Lashute)</Description>
+      <Description>Man in red (Lashute)</Description>
       <IntValue>124</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>128 (used in Dahlia)</Description>
+      <Description>Guard (used in Dahlia)</Description>
       <IntValue>128</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>136 (Alair)</Description>
+      <Description>Alair (Dahlia)</Description>
       <IntValue>136</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
