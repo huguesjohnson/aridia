@@ -70,7 +70,7 @@
       <IntValue>72</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>84 (Used in Western Cave)</Description>
+      <Description>Kid (Western Cave)</Description>
       <IntValue>84</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -82,7 +82,7 @@
       <IntValue>100</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>104 (Used in Western Cave)</Description>
+      <Description>Woman in yellow dress (Western Cave)</Description>
       <IntValue>104</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
