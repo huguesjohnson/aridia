@@ -2,7 +2,7 @@
 <LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Collection>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_33D16 (unused town?)</Description>
+      <Description>Unused town?</Description>
       <IntValue>212246</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -58,7 +58,7 @@
       <IntValue>212936</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Landen technique redistribution shop</Description>
+      <Description>Landen town - 1st Generation - Technique redistribution shop - 1st floor</Description>
       <IntValue>213020</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -66,11 +66,11 @@
       <IntValue>213678</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Landen town - 1st Generation - eastmost house 1st floor - before Maia is kidnapped</Description>
+      <Description>Landen town - 1st Generation - Wastmost house 1st floor - before Maia is kidnapped</Description>
       <IntValue>213690</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_342C8 (Area with two guards)</Description>
+      <Description>Passage in 2nd Generation (which one?) (1)</Description>
       <IntValue>213704</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -78,15 +78,15 @@
       <IntValue>213726</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34364 ("As long as you're here, Landen will be safe!")</Description>
+      <Description>Landen town - Nial's Generation</Description>
       <IntValue>213860</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Landen - Sean's Generation</Description>
+      <Description>Landen town - Sean's Generation</Description>
       <IntValue>213882</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_343A6 (dialog about Lune - maybe start of Nial's generation?)</Description>
+      <Description>Yaata town - Nial's Generation</Description>
       <IntValue>213926</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -98,11 +98,11 @@
       <IntValue>213992</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Ilan - 3rd Generation</Description>
+      <Description>Ilan town - 3rd Generation</Description>
       <IntValue>214024</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Rysel villige - Ayn's Generation - Before messenger arrives</Description>
+      <Description>Rysel town - Ayn's Generation - Before messenger arrives</Description>
       <IntValue>214046</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -114,19 +114,19 @@
       <IntValue>214080</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Agoe Town - 3rd generation</Description>
+      <Description>Agoe town - 3rd generation</Description>
       <IntValue>214112</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Shusoran town - Ayn's Generation - before Rhys flees</Description>
+      <Description>Shusoran town - Ayn's Generation - Before Rhys flees</Description>
       <IntValue>214134</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Cille town - Ayn's Generation - before Rhys flees</Description>
+      <Description>Cille town - Ayn's Generation - Before Rhys flees</Description>
       <IntValue>214166</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Cille Town - Ayn's Generation - After attack</Description>
+      <Description>Cille town - Ayn's Generation - After attack</Description>
       <IntValue>214208</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -134,11 +134,11 @@
       <IntValue>214220</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown ("The Castle of Power is a good name for Techna.)</Description>
+      <Description>Techna town - Aron and Sean's Generation</Description>
       <IntValue>214272</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Lashute - before freeing Dark Force</Description>
+      <Description>Lashute - Before freeing Dark Force</Description>
       <IntValue>214294</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -158,7 +158,7 @@
       <IntValue>214492</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_345F2 (South Divisia? - Nial's generation)</Description>
+      <Description>South Divisia - Aron's Generation (and other 3rd gen?)</Description>
       <IntValue>214514</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -178,7 +178,7 @@
       <IntValue>214642</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>New Mota (need to fix some entries)</Description>
+      <Description>New Mota (some bad entries)</Description>
       <IntValue>214694</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -230,15 +230,15 @@
       <IntValue>215354</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Satera Castle - Nial's Generation</Description>
+      <Description>Satera castle - Nial's Generation</Description>
       <IntValue>215366</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Agoe Castle - Ayn's Generation</Description>
+      <Description>Agoe castle - Ayn's Generation</Description>
       <IntValue>215380</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Agoe Castle - 3rd Generation</Description>
+      <Description>Agoe castle - 3rd Generation</Description>
       <IntValue>215422</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -254,7 +254,7 @@
       <IntValue>215618</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Lensol Castle - 3rd Generation</Description>
+      <Description>Lensol castle - 3rd Generation</Description>
       <IntValue>215680</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -262,11 +262,11 @@
       <IntValue>215742</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Divisia Castle - Nial's Generation</Description>
+      <Description>Divisia castle - Nial's Generation</Description>
       <IntValue>215784</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Divisia Castle - 3rd Generation</Description>
+      <Description>Divisia castle - 3rd Generation</Description>
       <IntValue>215836</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -278,11 +278,11 @@
       <IntValue>215920</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Passage in 2nd Generation (which?)</Description>
+      <Description>Passage in 2nd Generation (which?) (2)</Description>
       <IntValue>216002</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Passage in 2nd Generation (which?) (duplicate?)</Description>
+      <Description>Passage in 2nd Generation (which?) (3)</Description>
       <IntValue>216024</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -294,7 +294,7 @@
       <IntValue>216098</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Landen - 1st Generation - Technique Redistribution Shop - 2nd floor</Description>
+      <Description>Landen village - 1st Generation - Technique Redistribution Shop - 2nd floor</Description>
       <IntValue>216170</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -310,31 +310,31 @@
       <IntValue>216206</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Landen town - eastmost house 2nd floor - Sean's Generation</Description>
+      <Description>Landen town - Eastmost house 2nd floor - Sean's Generation</Description>
       <IntValue>216218</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Yaata town - 1st generation - Item Shop - 2nd floor</Description>
+      <Description>Yaata town - 1st Generation - Item Shop - 2nd floor</Description>
       <IntValue>216230</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Yaata town - 1st generation - Armor Shop - 2nd floor</Description>
+      <Description>Yaata town - 1st Generation - Armor Shop - 2nd floor</Description>
       <IntValue>216242</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Rysel Village - Item Shop - 1st Generation - Before repairing weather</Description>
+      <Description>Rysel town - Item Shop - 1st Generation - Before repairing weather</Description>
       <IntValue>216254</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Rysel Village - Armor Shop - 1st Generation - Before repairing weather</Description>
+      <Description>Rysel town - Armor Shop - 1st Generation - Before repairing weather</Description>
       <IntValue>216266</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Rysel Village - Technique Shop 2nd floor - 3rd Generation</Description>
+      <Description>Rysel town - Technique Shop 2nd floor - 3rd Generation</Description>
       <IntValue>216278</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Rysel Village - House 2nd floor - Ayn's Generation</Description>
+      <Description>Rysel town - House 2nd floor - Ayn's Generation</Description>
       <IntValue>216290</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -366,7 +366,7 @@
       <IntValue>216406</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown_loc_34D62 ("Technicians used to live in this dome-world.")</Description>
+      <Description>Techna (house in 3rd generation?)</Description>
       <IntValue>216418</IntValue>
     </anyType>
   </Collection>
