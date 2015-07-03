@@ -238,7 +238,7 @@
       <IntValue>237936</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Technique redistribution shop - shopkeeper sprite</Description>
+      <Description>Technique redistribution shop - shopkeeper sprite, also used for other sprites in buildings</Description>
       <IntValue>237968</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1250,11 +1250,11 @@
       <IntValue>207990</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette312 (????)</Description>
+      <Description>Rysel town - frozen - water, walls, paths, signs</Description>
       <IntValue>208022</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette313 (????)</Description>
+      <Description>Rysel town - frozen - ground, roofs, trees</Description>
       <IntValue>208054</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1664,6 +1664,26 @@
     <anyType xsi:type="LookupValue">
       <Description>Lashute - sprites</Description>
       <IntValue>211318</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Battle backgrounds (slightly experimental) (1)</Description>
+      <IntValue>491544</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Battle backgrounds (slightly experimental) (2)</Description>
+      <IntValue>491576</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Battle backgrounds (slightly experimental) (3)</Description>
+      <IntValue>491608</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Battle backgrounds (slightly experimental) (4)</Description>
+      <IntValue>491640</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Battle backgrounds (slightly experimental) (5)</Description>
+      <IntValue>491672</IntValue>
     </anyType>
   </Collection>
 </LookupValueCollection>
