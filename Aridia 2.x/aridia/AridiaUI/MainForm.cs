@@ -3386,7 +3386,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.MaximizeBox = false;
             this.Menu = this.mainMenu;
             this.Name = "MainForm";
-            this.Text = "Aridia 12.0";
+            this.Text = "Aridia 2.4";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.tabControlMainContent.ResumeLayout(false);
             this.tabPageMain.ResumeLayout(false);
@@ -3634,6 +3634,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
                             if(this.scriptDirtyFlag) 
                             { 
                                 this.listViewScript.Items.Clear();
+                                this.scriptDirtyFlag=false;
                             }
 							if(this.listViewScript.Items.Count<1)
 							{
@@ -4988,7 +4989,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 
 		private void menuItemThanks_Click(object sender, System.EventArgs e)
 		{
-			System.Windows.Forms.MessageBox.Show(this,"Thanks to mr2 and TheKomrade for finding the enemy and character data. This program would not have started without these invaluable contributions.\n\nThanks to Nic Olas for all the testing and feedback.\n\nThanks to Tony Hedstrom for finding the location of the treasure chest data.\n\n'Sega Programming FAQ October 18, 1995, Sixth Edition - Final' by Henry Rieke was consulted for palette editing.\n\nThanks to lorenzo for creating the Phantasy Star III disassembly.","Thanks!",System.Windows.Forms.MessageBoxButtons.OK,System.Windows.Forms.MessageBoxIcon.Information);
+			System.Windows.Forms.MessageBox.Show(this,"Thanks to mr2 and TheKomrade for finding the enemy and character data. This program would not have started without these invaluable contributions.\n\nThanks to Nic Olas for all the testing and feedback.\n\nThanks to Tony Hedstrom for finding the location of the treasure chest data.\n\n'Sega Programming FAQ October 18, 1995, Sixth Edition - Final' by Henry Rieke was consulted for palette editing.\n\nThanks to lorenzo for creating the Phantasy Star III disassembly which has been incredibly valuable for finding new features.\n\nThanks to Alianger for identifying several palettes.","Thanks!",System.Windows.Forms.MessageBoxButtons.OK,System.Windows.Forms.MessageBoxIcon.Information);
 		}
 
 		private void textBoxFindScript_TextChanged(object sender, System.EventArgs e)
