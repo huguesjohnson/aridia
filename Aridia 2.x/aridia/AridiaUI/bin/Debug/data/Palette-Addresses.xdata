@@ -10,7 +10,7 @@
       <IntValue>236112</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Status screen - empty slot (probably something else too?)</Description>
+      <Description>Status screen - empty slot and Lyle</Description>
       <IntValue>236144</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -98,11 +98,11 @@
       <IntValue>236816</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette024 (????)</Description>
+      <Description>Dialog - supply shop sell screen - equipped items marker</Description>
       <IntValue>236848</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette025 (????)</Description>
+      <Description>Dialog - supply shop sell screen - equipped items marker - blinking text</Description>
       <IntValue>236880</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -114,11 +114,11 @@
       <IntValue>236944</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette028 (????)</Description>
+      <Description>Dialog - weapon shop sell screen - equipped items marker</Description>
       <IntValue>236976</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette029 (????)</Description>
+      <Description>Dialog - weapon shop sell screen - equipped items marker - blinking text</Description>
       <IntValue>237008</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -130,11 +130,11 @@
       <IntValue>237072</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette032 (????)</Description>
+      <Description>Dialog - armor shop sell screen - equipped items marker</Description>
       <IntValue>237104</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette033 (????)</Description>
+      <Description>Dialog - armor shop sell screen - equipped items marker - blinking text</Description>
       <IntValue>237136</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -150,7 +150,7 @@
       <IntValue>237232</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette037 (????)</Description>
+      <Description>Hospital - nurse sprite (in which towns?)</Description>
       <IntValue>237264</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -166,7 +166,7 @@
       <IntValue>237360</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette041 (????)</Description>
+      <Description>Hospital - priest sprite (in which towns?)</Description>
       <IntValue>237392</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -226,15 +226,15 @@
       <IntValue>237840</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette056 (????)</Description>
+      <Description>Armor shop - shopkeeper sprite</Description>
       <IntValue>237872</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette057 (????)</Description>
+      <Description>Hospital - nurse sprite</Description>
       <IntValue>237904</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette058 (????)</Description>
+      <Description>Hospital - priest sprite</Description>
       <IntValue>237936</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -246,7 +246,7 @@
       <IntValue>238000</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette061 (????)</Description>
+      <Description>Innkeeper sprite</Description>
       <IntValue>238032</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1166,7 +1166,7 @@
       <IntValue>207318</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette291 (????)</Description>
+      <Description>Sprites inside of shops (not the shopkeeper)</Description>
       <IntValue>207350</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1262,7 +1262,7 @@
       <IntValue>208086</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette315 (????)</Description>
+      <Description>Rysel town - frozen - party sprites</Description>
       <IntValue>208118</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
