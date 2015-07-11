@@ -374,7 +374,7 @@
       <IntValue>239024</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette093 (????)</Description>
+      <Description>Lyle's human sprite in Draconia</Description>
       <IntValue>239056</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1118,7 +1118,7 @@
       <IntValue>206934</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Castle - sprites</Description>
+      <Description>Guard sprites</Description>
       <IntValue>206966</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1374,7 +1374,7 @@
       <IntValue>208982</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette343 (????)</Description>
+      <Description>Western cave</Description>
       <IntValue>209014</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1442,19 +1442,19 @@
       <IntValue>209526</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette360 (????)</Description>
+      <Description>Cinema - Sean intro - space background</Description>
       <IntValue>209558</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette361 (????)</Description>
+      <Description>Cinema - Sean intro - Azura</Description>
       <IntValue>209590</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette362 (????)</Description>
+      <Description>Cinema - Sean intro - Alisa III, laser, and explosion</Description>
       <IntValue>209622</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette363 (????)</Description>
+      <Description>Cinema - Sean intro - Shuttle</Description>
       <IntValue>209654</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1586,7 +1586,7 @@
       <IntValue>210678</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette396 (????)</Description>
+      <Description>Azura surface</Description>
       <IntValue>210710</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1646,7 +1646,7 @@
       <IntValue>211158</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>zUnknown - Palette411 (????)</Description>
+      <Description>Lyle's dragon sprite in Draconia</Description>
       <IntValue>211190</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
@@ -1682,7 +1682,7 @@
       <IntValue>491640</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Battle backgrounds (slightly experimental) (5)</Description>
+      <Description>Battle background - Rebel Cave</Description>
       <IntValue>491672</IntValue>
     </anyType>
   </Collection>

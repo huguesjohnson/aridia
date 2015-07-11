@@ -66,7 +66,7 @@
       <IntValue>213678</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>Landen town - 1st Generation - Wastmost house 1st floor - before Maia is kidnapped</Description>
+      <Description>Landen town - 1st Generation - eastmost house 1st floor - before Maia is kidnapped</Description>
       <IntValue>213690</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
