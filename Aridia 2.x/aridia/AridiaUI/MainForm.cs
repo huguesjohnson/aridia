@@ -3156,6 +3156,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // textBoxScriptedEventDelay
             // 
             this.textBoxScriptedEventDelay.Location = new System.Drawing.Point(299, 260);
+            this.textBoxScriptedEventDelay.MaxLength = 3;
             this.textBoxScriptedEventDelay.Name = "textBoxScriptedEventDelay";
             this.textBoxScriptedEventDelay.Size = new System.Drawing.Size(142, 22);
             this.textBoxScriptedEventDelay.TabIndex = 14;
@@ -3186,6 +3187,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // textBoxScriptedEventDuration
             // 
             this.textBoxScriptedEventDuration.Location = new System.Drawing.Point(299, 98);
+            this.textBoxScriptedEventDuration.MaxLength = 3;
             this.textBoxScriptedEventDuration.Name = "textBoxScriptedEventDuration";
             this.textBoxScriptedEventDuration.Size = new System.Drawing.Size(142, 22);
             this.textBoxScriptedEventDuration.TabIndex = 6;
@@ -6889,7 +6891,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 
         private void listBoxScriptedEventFrames_SelectedIndexChanged(object sender,EventArgs e)
         {
-            if(this.comboBoxSelectScriptedEvent.SelectedItem==null){return;}
+            if((this.comboBoxSelectScriptedEvent.SelectedItem==null)||(this.listBoxScriptedEventFrames.SelectedItem==null)){return;}
 			this.Cursor=Cursors.WaitCursor;
 			try
 			{
@@ -6924,29 +6926,93 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 
         private void radioButtonScriptedEventMovement_CheckedChanged(object sender,EventArgs e)
         {
-            this.comboBoxScriptedEventDirection.Enabled=true;
-            this.textBoxScriptedEventDuration.Enabled=true;
-            this.textBoxScriptedEventDialogValue.Enabled=false;
-            this.comboBoxScriptedEventDialogOffset.Enabled=false;
-            this.textBoxScriptedEventDelay.Enabled=false;
+            if(radioButtonScriptedEventMovement.Checked) 
+            { 
+                this.comboBoxScriptedEventDirection.Enabled=true;
+                this.textBoxScriptedEventDuration.Enabled=true;
+                if(this.textBoxScriptedEventDuration.Text.Length==0) 
+                { 
+                    this.textBoxScriptedEventDuration.Text="0";
+                }
+                this.textBoxScriptedEventDialogValue.Enabled=false;
+                this.comboBoxScriptedEventDialogOffset.Enabled=false;
+                this.textBoxScriptedEventDelay.Enabled=false;
+            }
         }
 
         private void radioButtonScriptedEventDialog_CheckedChanged(object sender,EventArgs e)
         {
-            this.comboBoxScriptedEventDirection.Enabled=false;
-            this.textBoxScriptedEventDuration.Enabled=false;
-            this.textBoxScriptedEventDialogValue.Enabled=true;
-            this.comboBoxScriptedEventDialogOffset.Enabled=true;
-            this.textBoxScriptedEventDelay.Enabled=false;
+            if(radioButtonScriptedEventDialog.Checked) 
+            { 
+                this.comboBoxScriptedEventDirection.Enabled=false;
+                this.textBoxScriptedEventDuration.Enabled=false;
+                this.textBoxScriptedEventDialogValue.Enabled=true;
+                this.comboBoxScriptedEventDialogOffset.Enabled=true;
+                this.textBoxScriptedEventDelay.Enabled=false;
+            }
         }
 
         private void radioButtonScriptedEventDelay_CheckedChanged(object sender,EventArgs e)
         {
-            this.comboBoxScriptedEventDirection.Enabled=false;
-            this.textBoxScriptedEventDuration.Enabled=false;
-            this.textBoxScriptedEventDialogValue.Enabled=false;
-            this.comboBoxScriptedEventDialogOffset.Enabled=false;
-            this.textBoxScriptedEventDelay.Enabled=true;
+            if(radioButtonScriptedEventDelay.Checked) 
+            { 
+                this.comboBoxScriptedEventDirection.Enabled=false;
+                this.textBoxScriptedEventDuration.Enabled=false;
+                this.textBoxScriptedEventDialogValue.Enabled=false;
+                this.comboBoxScriptedEventDialogOffset.Enabled=false;
+                this.textBoxScriptedEventDelay.Enabled=true;
+                if(this.textBoxScriptedEventDelay.Text.Length==0) 
+                { 
+                    this.textBoxScriptedEventDelay.Text="0";
+                }
+            }
+        }
+
+        private bool saveEventFrame(int byte1,int byte2)
+        { 
+            if((this.comboBoxSelectScriptedEvent.SelectedItem==null)||(this.listBoxScriptedEventFrames.SelectedItem==null)){return(false);}
+			try
+			{
+                MDInteger mdIntByte1=new MDInteger();
+                mdIntByte1.MaxValue=255;
+                mdIntByte1.MinValue=0;
+                mdIntByte1.NumBytes=1;
+                mdIntByte1.CurrentValue=byte1;
+                MDInteger mdIntByte2=new MDInteger();
+                mdIntByte2.MaxValue=255;
+                mdIntByte2.MinValue=0;
+                mdIntByte2.NumBytes=1;
+                mdIntByte2.CurrentValue=byte2;
+                //make sure both validate before saving
+                if(!AridiaUtils.validateMDInteger(mdIntByte1))
+                {
+                    this.validationFailed(mdIntByte1);
+                    return(false);
+                }
+                if(!AridiaUtils.validateMDInteger(mdIntByte2))
+                {
+                    this.validationFailed(mdIntByte2);
+                    return(false);
+                }
+                //figure out the address
+                int baseAddress=((LookupValue)this.comboBoxSelectScriptedEvent.SelectedItem).IntValue;
+                int frameNumber=((ScriptedEventFrame)this.listBoxScriptedEventFrames.SelectedItem).frameNumber;
+                mdIntByte1.Address=baseAddress+(frameNumber*2);
+                mdIntByte2.Address=mdIntByte1.Address+1;
+                this.romIO.writeInt(mdIntByte1);
+                this.romIO.writeInt(mdIntByte2);
+                this.statusBarPanel.Text="Wrote "+mdIntByte1.CurrentValue+","+mdIntByte2.CurrentValue+" to address "+mdIntByte1.Address.ToString();
+                //update the selected item in the listview
+                ((ScriptedEventFrame)this.listBoxScriptedEventFrames.SelectedItem).byte1=byte1;
+                ((ScriptedEventFrame)this.listBoxScriptedEventFrames.SelectedItem).byte2=byte2;
+                this.listBoxScriptedEventFrames.Items[this.listBoxScriptedEventFrames.SelectedIndex]=this.listBoxScriptedEventFrames.SelectedItem;
+            }
+			catch(Exception x)
+			{
+				this.errorHandler("save a scripted event frame",x);
+                return(false);
+			}
+            return(true);
         }
 
         private void comboBoxScriptedEventDirection_Validating(object sender,CancelEventArgs e)
@@ -6955,7 +7021,10 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 			this.Cursor=Cursors.WaitCursor;
 			try
 			{
-                //TODO
+                String duration=this.textBoxScriptedEventDuration.Text;
+                int byte1=Int32.Parse(duration);
+                int byte2=((LookupValue)this.comboBoxScriptedEventDirection.SelectedItem).IntValue;
+                e.Cancel=!this.saveEventFrame(byte1,byte2);
             }
 			catch(Exception x)
 			{
@@ -6968,10 +7037,12 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private void textBoxScriptedEventDuration_Validating(object sender,CancelEventArgs e)
         {
             if((this.comboBoxSelectScriptedEvent.SelectedItem==null)||(this.listBoxScriptedEventFrames.SelectedItem==null)){return;}
-			this.Cursor=Cursors.WaitCursor;
 			try
 			{
-                //TODO
+                String duration=this.textBoxScriptedEventDuration.Text;
+                int byte1=Int32.Parse(duration);
+                int byte2=((LookupValue)this.comboBoxScriptedEventDirection.SelectedItem).IntValue;
+                e.Cancel=!this.saveEventFrame(byte1,byte2);
             }
 			catch(Exception x)
 			{
@@ -7022,7 +7093,10 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 			this.Cursor=Cursors.WaitCursor;
 			try
 			{
-                //TODO
+                String duration=this.textBoxScriptedEventDelay.Text;
+                int byte1=Int32.Parse(duration);
+                int byte2=0;
+                e.Cancel=!this.saveEventFrame(byte1,byte2);
             }
 			catch(Exception x)
 			{
@@ -7039,16 +7113,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 			this.Cursor=Cursors.WaitCursor;
 			try
 			{
-                MDInteger newValue=new MDInteger();
-                newValue.NumBytes=1;
-                newValue.CurrentValue=comboBoxScriptedEventDialogOffset.SelectedIndex;
-                int address=((LookupValue)this.comboBoxSelectScriptedEvent.SelectedItem).IntValue;
-                ScriptedEventFrame frame=(ScriptedEventFrame)this.listBoxScriptedEventFrames.SelectedItem;
-                address+=(frame.frameNumber*2)+1;
-                newValue.Address=address;
-                this.romIO.writeInt(newValue);
-                //update the selected item in the listview
-                ((ScriptedEventFrame)this.listBoxScriptedEventFrames.SelectedItem).byte2=comboBoxScriptedEventDialogOffset.SelectedIndex;
+                e.Cancel=!this.saveEventFrame(0,comboBoxScriptedEventDialogOffset.SelectedIndex);
             }
 			catch(Exception x)
 			{
