@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>Up</Description>
+      <IntValue>1</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Down</Description>
+      <IntValue>2</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Left</Description>
+      <IntValue>4</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Right</Description>
+      <IntValue>8</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>A</Description>
+      <IntValue>64</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>B</Description>
+      <IntValue>16</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>C</Description>
+      <IntValue>32</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Start</Description>
+      <IntValue>128</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>

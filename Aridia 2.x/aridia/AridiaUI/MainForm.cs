@@ -319,6 +319,25 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private TextBox textBoxNPCAddress;
         private Label labelNPCAddress;
         private Label labelNPCsBetaFeature;
+        private TabPage tabPageScriptedEvents;
+        private ComboBox comboBoxSelectScriptedEvent;
+        private Label labelSelectScriptedEvent;
+        private Panel panelScriptedEvents;
+        private TextBox textBoxScriptedEventDialogValue;
+        private Label labelScriptedEventDialogValue;
+        private Label labelScriptedEventDialogAddress;
+        private RadioButton radioButtonScriptedEventDialog;
+        private Label labelScriptedEventDuration;
+        private ComboBox comboBoxScriptedEventDirection;
+        private Label labelScriptedEventDirection;
+        private RadioButton radioButtonScriptedEventMovement;
+        private ListBox listBoxScriptedEventFrames;
+        private Label labelScriptedEventFrames;
+        private TextBox textBoxScriptedEventDuration;
+        private TextBox textBoxScriptedEventDelay;
+        private Label labelScriptedEventDelay;
+        private RadioButton radioButtonScriptedEventDelay;
+        private ComboBox comboBoxScriptedEventDialogOffset;
 		private int paletteFindIndex;
 
 		public MainForm()
@@ -633,6 +652,25 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.statusBar = new System.Windows.Forms.StatusBar();
             this.statusBarPanel = new System.Windows.Forms.StatusBarPanel();
             this.openFileRomDialog = new System.Windows.Forms.OpenFileDialog();
+            this.tabPageScriptedEvents = new System.Windows.Forms.TabPage();
+            this.labelSelectScriptedEvent = new System.Windows.Forms.Label();
+            this.comboBoxSelectScriptedEvent = new System.Windows.Forms.ComboBox();
+            this.panelScriptedEvents = new System.Windows.Forms.Panel();
+            this.labelScriptedEventFrames = new System.Windows.Forms.Label();
+            this.listBoxScriptedEventFrames = new System.Windows.Forms.ListBox();
+            this.radioButtonScriptedEventMovement = new System.Windows.Forms.RadioButton();
+            this.labelScriptedEventDirection = new System.Windows.Forms.Label();
+            this.comboBoxScriptedEventDirection = new System.Windows.Forms.ComboBox();
+            this.labelScriptedEventDuration = new System.Windows.Forms.Label();
+            this.radioButtonScriptedEventDialog = new System.Windows.Forms.RadioButton();
+            this.labelScriptedEventDialogAddress = new System.Windows.Forms.Label();
+            this.labelScriptedEventDialogValue = new System.Windows.Forms.Label();
+            this.textBoxScriptedEventDialogValue = new System.Windows.Forms.TextBox();
+            this.textBoxScriptedEventDuration = new System.Windows.Forms.TextBox();
+            this.textBoxScriptedEventDelay = new System.Windows.Forms.TextBox();
+            this.labelScriptedEventDelay = new System.Windows.Forms.Label();
+            this.radioButtonScriptedEventDelay = new System.Windows.Forms.RadioButton();
+            this.comboBoxScriptedEventDialogOffset = new System.Windows.Forms.ComboBox();
             this.tabControlMainContent.SuspendLayout();
             this.tabPageMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWarning)).BeginInit();
@@ -657,6 +695,8 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.panelShop.SuspendLayout();
             this.tabPageTreasure.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.statusBarPanel)).BeginInit();
+            this.tabPageScriptedEvents.SuspendLayout();
+            this.panelScriptedEvents.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainMenu
@@ -760,6 +800,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabControlMainContent.Controls.Add(this.tabPageNPCs);
             this.tabControlMainContent.Controls.Add(this.tabPagePalettes);
             this.tabControlMainContent.Controls.Add(this.tabPageScript);
+            this.tabControlMainContent.Controls.Add(this.tabPageScriptedEvents);
             this.tabControlMainContent.Controls.Add(this.tabPageShops);
             this.tabControlMainContent.Controls.Add(this.tabPageTreasure);
             this.tabControlMainContent.Location = new System.Drawing.Point(5, 58);
@@ -1367,9 +1408,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // tabPageDialogText
             // 
             this.tabPageDialogText.Controls.Add(this.listViewDialogText);
-            this.tabPageDialogText.Location = new System.Drawing.Point(4, 55);
+            this.tabPageDialogText.Location = new System.Drawing.Point(4, 28);
             this.tabPageDialogText.Name = "tabPageDialogText";
-            this.tabPageDialogText.Size = new System.Drawing.Size(700, 379);
+            this.tabPageDialogText.Size = new System.Drawing.Size(700, 406);
             this.tabPageDialogText.TabIndex = 2;
             this.tabPageDialogText.Text = "Dialog Text";
             this.tabPageDialogText.ToolTipText = "Edit dialog messages";
@@ -1425,9 +1466,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabPageEnemies.Controls.Add(this.panelEnemy);
             this.tabPageEnemies.Controls.Add(this.comboBoxSelectEnemy);
             this.tabPageEnemies.Controls.Add(this.labelSelectEnemy);
-            this.tabPageEnemies.Location = new System.Drawing.Point(4, 55);
+            this.tabPageEnemies.Location = new System.Drawing.Point(4, 28);
             this.tabPageEnemies.Name = "tabPageEnemies";
-            this.tabPageEnemies.Size = new System.Drawing.Size(700, 379);
+            this.tabPageEnemies.Size = new System.Drawing.Size(700, 406);
             this.tabPageEnemies.TabIndex = 6;
             this.tabPageEnemies.Text = "Enemies";
             this.tabPageEnemies.ToolTipText = "Edit enemy names and properties";
@@ -1759,9 +1800,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // tabPageEnemyGroups
             // 
             this.tabPageEnemyGroups.Controls.Add(this.panelEnemyGroups);
-            this.tabPageEnemyGroups.Location = new System.Drawing.Point(4, 55);
+            this.tabPageEnemyGroups.Location = new System.Drawing.Point(4, 28);
             this.tabPageEnemyGroups.Name = "tabPageEnemyGroups";
-            this.tabPageEnemyGroups.Size = new System.Drawing.Size(700, 379);
+            this.tabPageEnemyGroups.Size = new System.Drawing.Size(700, 406);
             this.tabPageEnemyGroups.TabIndex = 15;
             this.tabPageEnemyGroups.Text = "Enemy Groups";
             this.tabPageEnemyGroups.UseVisualStyleBackColor = true;
@@ -1922,9 +1963,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabPageGraphics.Controls.Add(this.buttonEditBorders);
             this.tabPageGraphics.Controls.Add(this.buttonEditFont);
             this.tabPageGraphics.Controls.Add(this.buttonEditTitleLogo);
-            this.tabPageGraphics.Location = new System.Drawing.Point(4, 55);
+            this.tabPageGraphics.Location = new System.Drawing.Point(4, 28);
             this.tabPageGraphics.Name = "tabPageGraphics";
-            this.tabPageGraphics.Size = new System.Drawing.Size(700, 379);
+            this.tabPageGraphics.Size = new System.Drawing.Size(700, 406);
             this.tabPageGraphics.TabIndex = 8;
             this.tabPageGraphics.Text = "Graphics";
             this.tabPageGraphics.ToolTipText = "Edit graphics";
@@ -1999,9 +2040,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabPageItems.Controls.Add(this.panelItem);
             this.tabPageItems.Controls.Add(this.comboBoxSelectItem);
             this.tabPageItems.Controls.Add(this.labelSelectItem);
-            this.tabPageItems.Location = new System.Drawing.Point(4, 55);
+            this.tabPageItems.Location = new System.Drawing.Point(4, 28);
             this.tabPageItems.Name = "tabPageItems";
-            this.tabPageItems.Size = new System.Drawing.Size(700, 379);
+            this.tabPageItems.Size = new System.Drawing.Size(700, 406);
             this.tabPageItems.TabIndex = 3;
             this.tabPageItems.Text = "Items";
             this.tabPageItems.ToolTipText = "Edit item names and properties";
@@ -2439,9 +2480,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabPageLevelTables.Controls.Add(this.listViewLevelTable);
             this.tabPageLevelTables.Controls.Add(this.comboBoxLevelTable);
             this.tabPageLevelTables.Controls.Add(this.labelSelectLevelTable);
-            this.tabPageLevelTables.Location = new System.Drawing.Point(4, 55);
+            this.tabPageLevelTables.Location = new System.Drawing.Point(4, 28);
             this.tabPageLevelTables.Name = "tabPageLevelTables";
-            this.tabPageLevelTables.Size = new System.Drawing.Size(700, 379);
+            this.tabPageLevelTables.Size = new System.Drawing.Size(700, 406);
             this.tabPageLevelTables.TabIndex = 13;
             this.tabPageLevelTables.Text = "Level Tables";
             // 
@@ -3371,6 +3412,210 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.openFileRomDialog.Filter = "Phantasy Star III ROM Images (*.bin)|*.bin";
             this.openFileRomDialog.Title = "Open Phantasy Star III ROM";
             // 
+            // tabPageScriptedEvents
+            // 
+            this.tabPageScriptedEvents.Controls.Add(this.panelScriptedEvents);
+            this.tabPageScriptedEvents.Controls.Add(this.comboBoxSelectScriptedEvent);
+            this.tabPageScriptedEvents.Controls.Add(this.labelSelectScriptedEvent);
+            this.tabPageScriptedEvents.Location = new System.Drawing.Point(4, 55);
+            this.tabPageScriptedEvents.Name = "tabPageScriptedEvents";
+            this.tabPageScriptedEvents.Size = new System.Drawing.Size(700, 379);
+            this.tabPageScriptedEvents.TabIndex = 17;
+            this.tabPageScriptedEvents.Text = "Scripted Events";
+            this.tabPageScriptedEvents.UseVisualStyleBackColor = true;
+            // 
+            // labelSelectScriptedEvent
+            // 
+            this.labelSelectScriptedEvent.AutoSize = true;
+            this.labelSelectScriptedEvent.Location = new System.Drawing.Point(27, 33);
+            this.labelSelectScriptedEvent.Name = "labelSelectScriptedEvent";
+            this.labelSelectScriptedEvent.Size = new System.Drawing.Size(95, 17);
+            this.labelSelectScriptedEvent.TabIndex = 0;
+            this.labelSelectScriptedEvent.Text = "Select Event: ";
+            this.labelSelectScriptedEvent.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // comboBoxSelectScriptedEvent
+            // 
+            this.comboBoxSelectScriptedEvent.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxSelectScriptedEvent.FormattingEnabled = true;
+            this.comboBoxSelectScriptedEvent.Location = new System.Drawing.Point(128, 30);
+            this.comboBoxSelectScriptedEvent.Name = "comboBoxSelectScriptedEvent";
+            this.comboBoxSelectScriptedEvent.Size = new System.Drawing.Size(243, 24);
+            this.comboBoxSelectScriptedEvent.TabIndex = 1;
+            this.comboBoxSelectScriptedEvent.SelectedIndexChanged += new System.EventHandler(this.comboBoxSelectScriptedEvent_SelectedIndexChanged);
+            // 
+            // panelScriptedEvents
+            // 
+            this.panelScriptedEvents.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelScriptedEvents.Controls.Add(this.comboBoxScriptedEventDialogOffset);
+            this.panelScriptedEvents.Controls.Add(this.textBoxScriptedEventDelay);
+            this.panelScriptedEvents.Controls.Add(this.labelScriptedEventDelay);
+            this.panelScriptedEvents.Controls.Add(this.radioButtonScriptedEventDelay);
+            this.panelScriptedEvents.Controls.Add(this.textBoxScriptedEventDuration);
+            this.panelScriptedEvents.Controls.Add(this.textBoxScriptedEventDialogValue);
+            this.panelScriptedEvents.Controls.Add(this.labelScriptedEventDialogValue);
+            this.panelScriptedEvents.Controls.Add(this.labelScriptedEventDialogAddress);
+            this.panelScriptedEvents.Controls.Add(this.radioButtonScriptedEventDialog);
+            this.panelScriptedEvents.Controls.Add(this.labelScriptedEventDuration);
+            this.panelScriptedEvents.Controls.Add(this.comboBoxScriptedEventDirection);
+            this.panelScriptedEvents.Controls.Add(this.labelScriptedEventDirection);
+            this.panelScriptedEvents.Controls.Add(this.radioButtonScriptedEventMovement);
+            this.panelScriptedEvents.Controls.Add(this.listBoxScriptedEventFrames);
+            this.panelScriptedEvents.Controls.Add(this.labelScriptedEventFrames);
+            this.panelScriptedEvents.Location = new System.Drawing.Point(30, 70);
+            this.panelScriptedEvents.Name = "panelScriptedEvents";
+            this.panelScriptedEvents.Size = new System.Drawing.Size(457, 294);
+            this.panelScriptedEvents.TabIndex = 2;
+            // 
+            // labelScriptedEventFrames
+            // 
+            this.labelScriptedEventFrames.AutoSize = true;
+            this.labelScriptedEventFrames.Location = new System.Drawing.Point(10, 13);
+            this.labelScriptedEventFrames.Name = "labelScriptedEventFrames";
+            this.labelScriptedEventFrames.Size = new System.Drawing.Size(91, 17);
+            this.labelScriptedEventFrames.TabIndex = 0;
+            this.labelScriptedEventFrames.Text = "Select Frame";
+            // 
+            // listBoxScriptedEventFrames
+            // 
+            this.listBoxScriptedEventFrames.FormattingEnabled = true;
+            this.listBoxScriptedEventFrames.ItemHeight = 16;
+            this.listBoxScriptedEventFrames.Location = new System.Drawing.Point(12, 39);
+            this.listBoxScriptedEventFrames.Name = "listBoxScriptedEventFrames";
+            this.listBoxScriptedEventFrames.Size = new System.Drawing.Size(147, 244);
+            this.listBoxScriptedEventFrames.TabIndex = 1;
+            this.listBoxScriptedEventFrames.SelectedIndexChanged += new System.EventHandler(this.listBoxScriptedEventFrames_SelectedIndexChanged);
+            // 
+            // radioButtonScriptedEventMovement
+            // 
+            this.radioButtonScriptedEventMovement.AutoSize = true;
+            this.radioButtonScriptedEventMovement.Location = new System.Drawing.Point(173, 47);
+            this.radioButtonScriptedEventMovement.Name = "radioButtonScriptedEventMovement";
+            this.radioButtonScriptedEventMovement.Size = new System.Drawing.Size(94, 21);
+            this.radioButtonScriptedEventMovement.TabIndex = 2;
+            this.radioButtonScriptedEventMovement.TabStop = true;
+            this.radioButtonScriptedEventMovement.Text = "Movement";
+            this.radioButtonScriptedEventMovement.UseVisualStyleBackColor = true;
+            this.radioButtonScriptedEventMovement.CheckedChanged += new System.EventHandler(this.radioButtonScriptedEventMovement_CheckedChanged);
+            // 
+            // labelScriptedEventDirection
+            // 
+            this.labelScriptedEventDirection.AutoSize = true;
+            this.labelScriptedEventDirection.Location = new System.Drawing.Point(226, 71);
+            this.labelScriptedEventDirection.Name = "labelScriptedEventDirection";
+            this.labelScriptedEventDirection.Size = new System.Drawing.Size(68, 17);
+            this.labelScriptedEventDirection.TabIndex = 3;
+            this.labelScriptedEventDirection.Text = "Direction:";
+            this.labelScriptedEventDirection.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // comboBoxScriptedEventDirection
+            // 
+            this.comboBoxScriptedEventDirection.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxScriptedEventDirection.FormattingEnabled = true;
+            this.comboBoxScriptedEventDirection.Location = new System.Drawing.Point(299, 68);
+            this.comboBoxScriptedEventDirection.Name = "comboBoxScriptedEventDirection";
+            this.comboBoxScriptedEventDirection.Size = new System.Drawing.Size(142, 24);
+            this.comboBoxScriptedEventDirection.TabIndex = 4;
+            this.comboBoxScriptedEventDirection.Validating += new System.ComponentModel.CancelEventHandler(this.comboBoxScriptedEventDirection_Validating);
+            // 
+            // labelScriptedEventDuration
+            // 
+            this.labelScriptedEventDuration.AutoSize = true;
+            this.labelScriptedEventDuration.Location = new System.Drawing.Point(228, 101);
+            this.labelScriptedEventDuration.Name = "labelScriptedEventDuration";
+            this.labelScriptedEventDuration.Size = new System.Drawing.Size(66, 17);
+            this.labelScriptedEventDuration.TabIndex = 5;
+            this.labelScriptedEventDuration.Text = "Duration:";
+            this.labelScriptedEventDuration.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // radioButtonScriptedEventDialog
+            // 
+            this.radioButtonScriptedEventDialog.AutoSize = true;
+            this.radioButtonScriptedEventDialog.Location = new System.Drawing.Point(173, 152);
+            this.radioButtonScriptedEventDialog.Name = "radioButtonScriptedEventDialog";
+            this.radioButtonScriptedEventDialog.Size = new System.Drawing.Size(69, 21);
+            this.radioButtonScriptedEventDialog.TabIndex = 7;
+            this.radioButtonScriptedEventDialog.TabStop = true;
+            this.radioButtonScriptedEventDialog.Text = "Dialog";
+            this.radioButtonScriptedEventDialog.UseVisualStyleBackColor = true;
+            this.radioButtonScriptedEventDialog.CheckedChanged += new System.EventHandler(this.radioButtonScriptedEventDialog_CheckedChanged);
+            // 
+            // labelScriptedEventDialogAddress
+            // 
+            this.labelScriptedEventDialogAddress.AutoSize = true;
+            this.labelScriptedEventDialogAddress.Location = new System.Drawing.Point(188, 176);
+            this.labelScriptedEventDialogAddress.Name = "labelScriptedEventDialogAddress";
+            this.labelScriptedEventDialogAddress.Size = new System.Drawing.Size(106, 17);
+            this.labelScriptedEventDialogAddress.TabIndex = 8;
+            this.labelScriptedEventDialogAddress.Text = "Address Offset:";
+            this.labelScriptedEventDialogAddress.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // labelScriptedEventDialogValue
+            // 
+            this.labelScriptedEventDialogValue.AutoSize = true;
+            this.labelScriptedEventDialogValue.Location = new System.Drawing.Point(246, 204);
+            this.labelScriptedEventDialogValue.Name = "labelScriptedEventDialogValue";
+            this.labelScriptedEventDialogValue.Size = new System.Drawing.Size(48, 17);
+            this.labelScriptedEventDialogValue.TabIndex = 10;
+            this.labelScriptedEventDialogValue.Text = "Value:";
+            this.labelScriptedEventDialogValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxScriptedEventDialogValue
+            // 
+            this.textBoxScriptedEventDialogValue.Location = new System.Drawing.Point(299, 201);
+            this.textBoxScriptedEventDialogValue.Name = "textBoxScriptedEventDialogValue";
+            this.textBoxScriptedEventDialogValue.Size = new System.Drawing.Size(142, 22);
+            this.textBoxScriptedEventDialogValue.TabIndex = 11;
+            this.textBoxScriptedEventDialogValue.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxScriptedEventDialogValue_Validating);
+            // 
+            // textBoxScriptedEventDuration
+            // 
+            this.textBoxScriptedEventDuration.Location = new System.Drawing.Point(299, 98);
+            this.textBoxScriptedEventDuration.Name = "textBoxScriptedEventDuration";
+            this.textBoxScriptedEventDuration.Size = new System.Drawing.Size(142, 22);
+            this.textBoxScriptedEventDuration.TabIndex = 6;
+            this.textBoxScriptedEventDuration.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxScriptedEventDuration_Validating);
+            // 
+            // textBoxScriptedEventDelay
+            // 
+            this.textBoxScriptedEventDelay.Location = new System.Drawing.Point(299, 260);
+            this.textBoxScriptedEventDelay.Name = "textBoxScriptedEventDelay";
+            this.textBoxScriptedEventDelay.Size = new System.Drawing.Size(142, 22);
+            this.textBoxScriptedEventDelay.TabIndex = 14;
+            this.textBoxScriptedEventDelay.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxScriptedEventDelay_Validating);
+            // 
+            // labelScriptedEventDelay
+            // 
+            this.labelScriptedEventDelay.AutoSize = true;
+            this.labelScriptedEventDelay.Location = new System.Drawing.Point(228, 263);
+            this.labelScriptedEventDelay.Name = "labelScriptedEventDelay";
+            this.labelScriptedEventDelay.Size = new System.Drawing.Size(66, 17);
+            this.labelScriptedEventDelay.TabIndex = 13;
+            this.labelScriptedEventDelay.Text = "Duration:";
+            this.labelScriptedEventDelay.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // radioButtonScriptedEventDelay
+            // 
+            this.radioButtonScriptedEventDelay.AutoSize = true;
+            this.radioButtonScriptedEventDelay.Location = new System.Drawing.Point(173, 239);
+            this.radioButtonScriptedEventDelay.Name = "radioButtonScriptedEventDelay";
+            this.radioButtonScriptedEventDelay.Size = new System.Drawing.Size(65, 21);
+            this.radioButtonScriptedEventDelay.TabIndex = 12;
+            this.radioButtonScriptedEventDelay.TabStop = true;
+            this.radioButtonScriptedEventDelay.Text = "Delay";
+            this.radioButtonScriptedEventDelay.UseVisualStyleBackColor = true;
+            this.radioButtonScriptedEventDelay.CheckedChanged += new System.EventHandler(this.radioButtonScriptedEventDelay_CheckedChanged);
+            // 
+            // comboBoxScriptedEventDialogOffset
+            // 
+            this.comboBoxScriptedEventDialogOffset.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxScriptedEventDialogOffset.FormattingEnabled = true;
+            this.comboBoxScriptedEventDialogOffset.Location = new System.Drawing.Point(299, 173);
+            this.comboBoxScriptedEventDialogOffset.Name = "comboBoxScriptedEventDialogOffset";
+            this.comboBoxScriptedEventDialogOffset.Size = new System.Drawing.Size(146, 24);
+            this.comboBoxScriptedEventDialogOffset.TabIndex = 9;
+            this.comboBoxScriptedEventDialogOffset.Validating += new System.ComponentModel.CancelEventHandler(this.comboBoxScriptedEventDialogOffset_Validating);
+            // 
             // MainForm
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
@@ -3386,8 +3631,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.MaximizeBox = false;
             this.Menu = this.mainMenu;
             this.Name = "MainForm";
-            this.Text = "Aridia 2.4";
+            this.Text = "Aridia";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.tabControlMainContent.ResumeLayout(false);
             this.tabPageMain.ResumeLayout(false);
             this.tabPageMain.PerformLayout();
@@ -3422,6 +3668,10 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.tabPageTreasure.ResumeLayout(false);
             this.tabPageTreasure.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.statusBarPanel)).EndInit();
+            this.tabPageScriptedEvents.ResumeLayout(false);
+            this.tabPageScriptedEvents.PerformLayout();
+            this.panelScriptedEvents.ResumeLayout(false);
+            this.panelScriptedEvents.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3437,7 +3687,15 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 			Application.Run(new MainForm());
 		}
 
-		private void errorHandler(String action,Exception x)
+        private void MainForm_Load(object sender,EventArgs e)
+        {
+            Version v=Assembly.GetEntryAssembly().GetName().Version;
+            String major=v.Major.ToString();
+            String minor=v.Minor.ToString();
+            this.Text="Aridia "+major+"."+minor;
+        }
+
+        private void errorHandler(String action,Exception x)
 		{
 			ErrorDialog errorDialog=new ErrorDialog(action,x);
 			this.Cursor=Cursors.Default;
@@ -3754,6 +4012,17 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
                             { 
 								AridiaUtils.loadLookupValues(this.comboBoxNPCsSelectLocation,"NPC-Addresses");
                                 this.npcSprites=AridiaUtils.getLookupValueCollection("NPC-Sprites");
+                            }
+                            break;
+                        case "Scripted Events":
+                            if(this.comboBoxSelectScriptedEvent.Items.Count<1)
+                            { 
+								AridiaUtils.loadLookupValues(this.comboBoxSelectScriptedEvent,"ScriptedEvent-Addresses");
+								AridiaUtils.loadLookupValues(this.comboBoxScriptedEventDirection,"ButtonMask-Codes");
+                                for(int dialogAddressOffset=0;dialogAddressOffset<16;dialogAddressOffset++) 
+                                { 
+                                    this.comboBoxScriptedEventDialogOffset.Items.Add(dialogAddressOffset);
+                                }
                             }
                             break;
 					}
@@ -6585,6 +6854,181 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 				e.Cancel=true;
 			}
 			this.Cursor=Cursors.Default;
+        }
+
+        private void comboBoxSelectScriptedEvent_SelectedIndexChanged(object sender,EventArgs e)
+        {
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+                this.listBoxScriptedEventFrames.Items.Clear();
+				LookupValue selectedItem=(LookupValue)this.comboBoxSelectScriptedEvent.SelectedItem;
+				int address=selectedItem.IntValue;
+                int frameNumber=0;
+                int byte1=this.romIO.readInteger(address,1);
+                while(byte1<255)
+                { 
+                    ScriptedEventFrame frame=new ScriptedEventFrame();
+                    frame.frameNumber=frameNumber;
+                    frame.byte1=byte1;
+                    address++;
+                    frame.byte2=this.romIO.readInteger(address,1);
+                    this.listBoxScriptedEventFrames.Items.Add(frame);
+                    address++;
+                    byte1=this.romIO.readInteger(address,1);
+                    frameNumber++;
+                }
+            }
+			catch(Exception x)
+			{
+				this.errorHandler("select a scripted event",x);
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+        private void listBoxScriptedEventFrames_SelectedIndexChanged(object sender,EventArgs e)
+        {
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+                if(this.comboBoxSelectScriptedEvent.SelectedItem==null){return;}
+                ScriptedEventFrame frame=(ScriptedEventFrame)this.listBoxScriptedEventFrames.SelectedItem;
+                if(frame.byte1==0) //dialog event
+                { 
+                    this.radioButtonScriptedEventDialog.Select();
+                    this.comboBoxScriptedEventDialogOffset.SelectedIndex=frame.byte2;
+                    int offsetAddress=Constants.ScriptedEventDialogOffsetsStart+(frame.byte2*2);
+                    int offset=this.romIO.readInteger(offsetAddress,2);
+                    int dialogAddress=Constants.ScriptStartAddress+offset+Constants.NPCScriptStartPad;
+                    String dialog=this.romIO.readString(dialogAddress,65535);
+                    this.textBoxScriptedEventDialogValue.Text=dialog;
+                }
+                else
+                { 
+                    if(frame.byte2==0) //delay event
+                    {
+                        this.radioButtonScriptedEventDelay.Select();
+                        this.textBoxScriptedEventDelay.Text=frame.byte1.ToString();
+                    }
+                    else //movement
+                    { 
+                        this.radioButtonScriptedEventMovement.Select();
+                        AridiaUtils.setComboBoxSelection(comboBoxScriptedEventDirection,frame.byte2);
+                        this.textBoxScriptedEventDuration.Text=frame.byte1.ToString();
+                    }
+                
+                }
+            }
+			catch(Exception x)
+			{
+				this.errorHandler("select a scripted event frame",x);
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+        private void radioButtonScriptedEventMovement_CheckedChanged(object sender,EventArgs e)
+        {
+            this.comboBoxScriptedEventDirection.Enabled=true;
+            this.textBoxScriptedEventDuration.Enabled=true;
+            this.textBoxScriptedEventDialogValue.Enabled=false;
+            this.comboBoxScriptedEventDialogOffset.Enabled=false;
+            this.textBoxScriptedEventDelay.Enabled=false;
+        }
+
+        private void radioButtonScriptedEventDialog_CheckedChanged(object sender,EventArgs e)
+        {
+            this.comboBoxScriptedEventDirection.Enabled=false;
+            this.textBoxScriptedEventDuration.Enabled=false;
+            this.textBoxScriptedEventDialogValue.Enabled=true;
+            this.comboBoxScriptedEventDialogOffset.Enabled=true;
+            this.textBoxScriptedEventDelay.Enabled=false;
+        }
+
+        private void radioButtonScriptedEventDelay_CheckedChanged(object sender,EventArgs e)
+        {
+            this.comboBoxScriptedEventDirection.Enabled=false;
+            this.textBoxScriptedEventDuration.Enabled=false;
+            this.textBoxScriptedEventDialogValue.Enabled=false;
+            this.comboBoxScriptedEventDialogOffset.Enabled=false;
+            this.textBoxScriptedEventDelay.Enabled=true;
+        }
+
+        private void comboBoxScriptedEventDirection_Validating(object sender,CancelEventArgs e)
+        {
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+                //TODO
+            }
+			catch(Exception x)
+			{
+				this.errorHandler("edit the direction for a scripted event frame",x);
+                e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+        private void textBoxScriptedEventDuration_Validating(object sender,CancelEventArgs e)
+        {
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+                //TODO
+            }
+			catch(Exception x)
+			{
+				this.errorHandler("edit the duration for a scripted event frame",x);
+                e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+        }
+
+        private void textBoxScriptedEventDialogValue_Validating(object sender,CancelEventArgs e)
+        {
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+                //TODO
+            }
+			catch(Exception x)
+			{
+				this.errorHandler("edit the dialog for a scripted event frame",x);
+                e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+
+        }
+
+        private void textBoxScriptedEventDelay_Validating(object sender,CancelEventArgs e)
+        {
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+                //TODO
+            }
+			catch(Exception x)
+			{
+				this.errorHandler("edit the delay for a scripted event frame",x);
+                e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+
+        }
+
+        private void comboBoxScriptedEventDialogOffset_Validating(object sender,CancelEventArgs e)
+        {
+			this.Cursor=Cursors.WaitCursor;
+			try
+			{
+                //TODO
+            }
+			catch(Exception x)
+			{
+				this.errorHandler("edit the dialog offset for a scripted event frame",x);
+                e.Cancel=true;
+			}
+			this.Cursor=Cursors.Default;
+
         }
 
     }

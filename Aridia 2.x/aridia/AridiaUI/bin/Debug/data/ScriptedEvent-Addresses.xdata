@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<LookupValueCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="LookupValue">
+      <Description>Marriage of Rhys and Maia, Maia's kidnapping</Description>
+      <IntValue>257232</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Lena leads Rhys out of the prison</Description>
+      <IntValue>257338</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>3ED54</Description>
+      <IntValue>257364</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Ayn's intro</Description>
+      <IntValue>257378</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>3ED80</Description>
+      <IntValue>257402</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>Nial's intro</Description>
+      <IntValue>257414</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>3EDA0</Description>
+      <IntValue>257434</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>3EDA6</Description>
+      <IntValue>257446</IntValue>
+    </anyType>
+  </Collection>
+</LookupValueCollection>

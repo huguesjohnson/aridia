@@ -210,6 +210,36 @@ namespace com.huguesjohnson.aridia.ui
 
         /// <summary>How many characters after the start address for the NPC script until we reach actual text.</summary>
 		public const int NPCScriptStartPad=4;
-    
+
+        public enum Buttons:int
+        {
+            Up=0,
+            Down=1,
+            Left=2,
+            Right=3,
+            A=6,
+            B=4,
+            C=5,
+            Start=7
+        }
+
+        public enum ButtonsMasks:int
+        {
+            Up=1,
+            Down=2,
+            Left=4,
+            Right=8,
+            A=64,
+            B=16,
+            C=32,
+            Start=128
+        }
+
+		/// <summary>Address where scripted event dialog start.</summary>
+        public const int ScriptedEventDialogOffsetsStart=257694;
+        
+        /// <summary>Address where script text starts.</summary>
+        public const int ScriptStartAddress=155402;
+
     }
 }
