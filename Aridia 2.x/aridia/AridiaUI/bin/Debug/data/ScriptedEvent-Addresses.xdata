@@ -18,20 +18,20 @@
       <IntValue>257378</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>3ED80</Description>
-      <IntValue>257402</IntValue>
-    </anyType>
-    <anyType xsi:type="LookupValue">
       <Description>Nial's intro</Description>
       <IntValue>257414</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>3EDA0</Description>
-      <IntValue>257434</IntValue>
+      <Description>Nial in Rebel Cave</Description>
+      <IntValue>257446</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
-      <Description>3EDA6</Description>
-      <IntValue>257446</IntValue>
+      <Description>zUnused (after Ayn's intro)</Description>
+      <IntValue>257402</IntValue>
+    </anyType>
+    <anyType xsi:type="LookupValue">
+      <Description>zUnused (between Nial's intro and Rebel Cave scene)</Description>
+      <IntValue>257440</IntValue>
     </anyType>
   </Collection>
 </LookupValueCollection>
