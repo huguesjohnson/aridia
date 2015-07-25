@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<TileSetDefinitionCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <anyType xsi:type="TileSetDefinition">
+      <name>Title logo</name>
+      <startAddress>425984</startAddress>
+      <endAddress>429055</endAddress>
+      <columns>24</columns>
+      <rows>4</rows>
+      <tileWidth>16</tileWidth>
+      <tileHeight>0</tileHeight>
+    </anyType>
+    <anyType xsi:type="TileSetDefinition">
+      <name>Main font</name>
+      <startAddress>417824</startAddress>
+      <endAddress>421727</endAddress>
+      <columns>32</columns>
+      <rows>4</rows>
+      <tileWidth>16</tileWidth>
+      <tileHeight>0</tileHeight>
+    </anyType>
+    <anyType xsi:type="TileSetDefinition">
+      <name>Credits font</name>
+      <startAddress>422912</startAddress>
+      <endAddress>423743</endAddress>
+      <columns>26</columns>
+      <rows>1</rows>
+      <tileWidth>16</tileWidth>
+      <tileHeight>0</tileHeight>
+    </anyType>
+    <anyType xsi:type="TileSetDefinition">
+      <name>Status screen font</name>
+      <startAddress>422400</startAddress>
+      <endAddress>422561</endAddress>
+      <columns>6</columns>
+      <rows>1</rows>
+      <tileWidth>16</tileWidth>
+      <tileHeight>0</tileHeight>
+    </anyType>
+    <anyType xsi:type="TileSetDefinition">
+      <name>Dialog borders</name>
+      <startAddress>422592</startAddress>
+      <endAddress>422911</endAddress>
+      <columns>10</columns>
+      <rows>1</rows>
+      <tileWidth>16</tileWidth>
+      <tileHeight>16</tileHeight>
+    </anyType>
+  </Collection>
+</TileSetDefinitionCollection>
