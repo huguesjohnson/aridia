@@ -130,6 +130,7 @@
   <ItemGroup>
     <Compile Include="types\ScriptedEventFrame.cs" />
     <Compile Include="types\TileSetDefinition.cs" />
+    <Compile Include="types\TileSetDefinitionCollection.cs" />
     <Content Include="App.ico" />
     <Compile Include="AridiaUtils.cs">
       <SubType>Code</SubType>
