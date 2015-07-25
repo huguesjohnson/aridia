@@ -128,6 +128,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="types\ScriptedEventFrame.cs" />
+    <Compile Include="types\TileSetDefinition.cs" />
     <Content Include="App.ico" />
     <Compile Include="AridiaUtils.cs">
       <SubType>Code</SubType>
@@ -147,6 +149,7 @@
     <Compile Include="ItemEditingLimitations.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="types\PS3Item.cs" />
     <Compile Include="ListViewColumnSorter.cs">
       <SubType>Code</SubType>
     </Compile>

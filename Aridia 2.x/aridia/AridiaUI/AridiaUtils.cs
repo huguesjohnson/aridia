@@ -14,71 +14,20 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>. 
 */
+
 using System;
 using System.Collections;
 using System.IO;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 
+using com.huguesjohnson.aridia.types;
 using com.huguesjohnson.MegaDriveIO;
-using System.Text;
 
 namespace com.huguesjohnson.aridia.ui
 {
-	/// <summary>
-	/// Extremely simple class to transport items.
-	/// </summary>
-	public class PS3Item
-	{
-		public string hexString;
-		public bool isEquipped;
-		public LookupValue itemLookup;
-		public LookupValue whereEquipped;
-	}
-
-    /// <summary>
-    /// Extremely simply class to transport the indivual frames in a scripted event.
-    /// </summary>
-    public class ScriptedEventFrame 
-    { 
-        public int frameNumber;
-        public int byte1;
-        public int byte2;
-        public override string ToString()
-        {
-            StringBuilder tostring=new StringBuilder();
-            tostring.Append("[");
-            if(this.frameNumber<10){tostring.Append("0");}
-            tostring.Append(frameNumber);
-            tostring.Append("] - ");
-            if(byte1==0)
-            {
-                tostring.Append("Dialog[");
-                tostring.Append(byte2);
-                tostring.Append("]");
-            }
-            else
-            {
-                switch(byte2)
-                {
-                    case 0: tostring.Append("Delay["); break;
-                    case (int)Constants.ButtonsMasks.Up: tostring.Append("Up["); break;
-                    case (int)Constants.ButtonsMasks.Down: tostring.Append("Down["); break;
-                    case (int)Constants.ButtonsMasks.Left: tostring.Append("Left["); break;
-                    case (int)Constants.ButtonsMasks.Right: tostring.Append("Right["); break;
-                    case (int)Constants.ButtonsMasks.A: tostring.Append("A["); break;
-                    case (int)Constants.ButtonsMasks.B: tostring.Append("B["); break;
-                    case (int)Constants.ButtonsMasks.C: tostring.Append("C["); break;
-                    case (int)Constants.ButtonsMasks.Start: tostring.Append("Start["); break;
-                }
-                tostring.Append(byte1);
-                tostring.Append("]");
-            }
-            return(tostring.ToString());
-        }
-    }
-
 	/// <summary>
 	/// Contains static utility methods used by AridiaUI.
 	/// </summary>

@@ -21,6 +21,7 @@ using System.Collections;
 using System.ComponentModel;
 using System.Windows.Forms;
 
+using com.huguesjohnson.aridia.types;
 using com.huguesjohnson.MegaDriveIO;
 
 namespace com.huguesjohnson.aridia.ui

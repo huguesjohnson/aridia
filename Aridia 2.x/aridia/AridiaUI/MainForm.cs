@@ -24,6 +24,7 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
+using com.huguesjohnson.aridia.types;
 using com.huguesjohnson.IPSCreator;
 using com.huguesjohnson.MegaDriveIO;
 using com.huguesjohnson.PaletteEditor;
