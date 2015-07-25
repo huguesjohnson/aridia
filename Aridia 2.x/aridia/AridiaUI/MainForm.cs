@@ -36,7 +36,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 	/// </summary>
 	public class MainForm : System.Windows.Forms.Form
 	{
-		private MDBinaryRomIO romIO;
+		private IMegaDriveIO romIO;
         private const String GOOD_HEADER="SEGA MEGA DRIVE (C)SEGA 1991.APLTOKINO          KEISHOUSHA      PHANTASY STAR 3 PHANTASY STAR 3 GENERATIONS     OF DOOM         GM 1303-01";
         //used to lookup which sprites are available in an area
         private LookupValueCollection npcSprites=null;

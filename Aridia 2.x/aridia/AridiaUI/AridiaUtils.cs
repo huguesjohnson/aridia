@@ -172,8 +172,8 @@ namespace com.huguesjohnson.aridia.ui
 		/// Loads a level table.
 		/// </summary>
 		/// <param name="address">The address to start reading from.</param>
-		/// <param name="romIO">The MDBinaryRomIO to load values from.</param>
-		public static ListViewItem[] getLevelTable(int address,MDBinaryRomIO romIO)
+		/// <param name="romIO">The IMegaDriveIO to load values from.</param>
+		public static ListViewItem[] getLevelTable(int address,IMegaDriveIO romIO)
 		{
 			ArrayList items=new ArrayList();
 			int entryCount=romIO.readInteger(address,1);
@@ -193,8 +193,8 @@ namespace com.huguesjohnson.aridia.ui
 		/// </summary>
 		/// <param name="startAddress">The address to start reading from.</param>
 		/// <param name="endAddress">The address to stop reading at.</param>
-		/// <param name="romIO">The MDBinaryRomIO to load values from.</param>
-		public static ListViewItem[] getScriptItems(int startAddress,int endAddress,MDBinaryRomIO romIO)
+		/// <param name="romIO">The IMegaDriveIO to load values from.</param>
+		public static ListViewItem[] getScriptItems(int startAddress,int endAddress,IMegaDriveIO romIO)
 		{
 			ArrayList items=new ArrayList();
 			int currentOffset=startAddress-1;
@@ -221,9 +221,9 @@ namespace com.huguesjohnson.aridia.ui
 		/// Load list items for the dialog list view.
 		/// </summary>
 		/// <param name="categoryName">The category to load (i.e. "Technques")</param>
-		/// <param name="romIO">The MDBinaryRomIO to load values from.</param>
+		/// <param name="romIO">The IMegaDriveIO to load values from.</param>
 		/// <returns>ListViewItem[]</returns>
-		public static ListViewItem[] getDialogListItems(string categoryName,MDBinaryRomIO romIO)
+		public static ListViewItem[] getDialogListItems(string categoryName,IMegaDriveIO romIO)
 		{
 			BaseMDDataCollection collection=(BaseMDDataCollection)deserialize(getBaseMDDataCollectionSerializer(),"Dialog-"+categoryName);
 			BaseMDData[] allItems=collection.getAll();
@@ -402,9 +402,9 @@ namespace com.huguesjohnson.aridia.ui
 		/// Reads an item.
 		/// </summary>
 		/// <param name="address">The starting address for the item.</param>
-		/// <param name="romIO">The MDBinaryRomIO to load values from.</param>
+		/// <param name="romIO">The IMegaDriveIO to load values from.</param>
 		/// <returns>The item stored at the specified address.</returns>
-		public static PS3Item readItem(int address,MDBinaryRomIO romIO)
+		public static PS3Item readItem(int address,IMegaDriveIO romIO)
 		{
 			PS3Item item=new PS3Item();
 			int itemValue=romIO.readInteger(address,2);
@@ -436,8 +436,8 @@ namespace com.huguesjohnson.aridia.ui
 		/// </summary>
 		/// <param name="baseAddress">The base address for the character.</param>
 		/// <param name="listView">The ListView to read items from - assumes listview has items in the following order: hex value, item, equipped, equipped where</param>
-		/// <param name="romIO">The MDBinaryRomIO to use to write.</param>
-		public static void saveCharacterEquipment(int baseAddress,ListView listView,MDBinaryRomIO romIO)
+		/// <param name="romIO">The IMegaDriveIO to use to write.</param>
+		public static void saveCharacterEquipment(int baseAddress,ListView listView,IMegaDriveIO romIO)
 		{
 			int itemCount=listView.Items.Count;
 			//write the inventory count
@@ -458,8 +458,8 @@ namespace com.huguesjohnson.aridia.ui
 		/// </summary>
 		/// <param name="hexString">The hex string of the item being saved.</param>
 		/// <param name="address">The address to save at.</param>
-		/// <param name="romIO">The MDBinaryRomIO to use to write.</param>
-		public static void saveInventoryItem(string hexString,int address,MDBinaryRomIO romIO)
+		/// <param name="romIO">The IMegaDriveIO to use to write.</param>
+		public static void saveInventoryItem(string hexString,int address,IMegaDriveIO romIO)
 		{
 			MDInteger mdInt=new MDInteger();
 			//convert the hex string to an int
