@@ -45,23 +45,6 @@ namespace com.huguesjohnson.aridia.ui
 		public const int TechniqueGroupSize=4;
 		
 		/// <summary>
-		/// Where various tiles are stored.
-		/// </summary>
-		public enum TileAddresses : int
-		{
-			LogoStart=425984,
-			LogoEnd=429055,
-			FontStart=417824,
-			FontEnd=421727,
-			BorderStart=422592,
-			BorderEnd=422911,
-			CreditFontStart=422912,
-			CreditFontEnd=423743,
-			StatusFontStart=422400,
-			StatusFontEnd=422561
-		}
-
-		/// <summary>
 		/// Where item attributes are located relative to their starting address.
 		/// </summary>
 		public enum ItemOffsets : int

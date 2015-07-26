@@ -39,6 +39,7 @@ namespace com.huguesjohnson.aridia.ui
 		private static LookupValueCollection itemCodes;
 		private static LookupValueCollection statGrowthCodes;
 		private static LookupValueCollection buttonMaskCodes;
+        private static TileSetDefinitionCollection tileSetDefinitions;
 
 		/// <summary>
 		/// The full path to where data files are stored.
@@ -116,7 +117,22 @@ namespace com.huguesjohnson.aridia.ui
 				return(buttonMaskCodes);
 			}
 		}
-        
+
+        /// <summary>
+		/// List of tile sets that can be edited.
+		/// </summary>
+		public static TileSetDefinitionCollection TileSetDefinitions
+		{
+			get
+			{
+				if(tileSetDefinitions==null)
+				{
+					tileSetDefinitions=(TileSetDefinitionCollection)deserialize(getTileSetDefinitionCollectionSerializer(),"TileSets");
+				}
+				return(tileSetDefinitions);
+			}
+		}
+
         /// <summary>
 		/// Loads a level table.
 		/// </summary>
@@ -312,6 +328,15 @@ namespace com.huguesjohnson.aridia.ui
 		private static XmlSerializer getLookupValueCollectionSerializer()
 		{
 			return(new XmlSerializer(typeof(LookupValueCollection),new Type[]{(typeof(LookupValue))}));
+		}
+
+		/// <summary>
+		/// Creates an XmlSerializer for collections of TileSetDefinition.
+		/// </summary>
+		/// <returns>An XmlSerializer for collections of TileSetDefinition.</returns>
+		private static XmlSerializer getTileSetDefinitionCollectionSerializer()
+		{
+			return(new XmlSerializer(typeof(TileSetDefinitionCollection),new Type[]{(typeof(TileSetDefinition))}));
 		}
 
 		/// <summary>

@@ -74,5 +74,10 @@ namespace com.huguesjohnson.aridia.types
             set{_tileHeight=value;}
         }
 
+        public override string ToString()
+        {
+            return(_name);
+        }
+
     }
 }

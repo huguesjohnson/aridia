@@ -160,12 +160,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 		private System.Windows.Forms.Label labelEnemyName;
 		private System.Windows.Forms.TextBox textBoxCalculatedChecksum;
 		private System.Windows.Forms.Label labelCalculatedChecksum;
-		private System.Windows.Forms.TabPage tabPageGraphics;
-		private System.Windows.Forms.Button buttonEditTitleLogo;
-		private System.Windows.Forms.Button buttonEditFont;
-        private System.Windows.Forms.Button buttonEditBorders;
-		private System.Windows.Forms.Button buttonCreditFont;
-		private System.Windows.Forms.Button buttonEditStatusFont;
+        private System.Windows.Forms.TabPage tabPageGraphics;
 		private System.Windows.Forms.MenuItem menuItemThanks;
 		private System.Windows.Forms.TextBox textBoxFindScript;
 		private System.Windows.Forms.Button buttonFindScriptNext;
@@ -339,6 +334,21 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
         private Label labelScriptedEventDelay;
         private RadioButton radioButtonScriptedEventDelay;
         private ComboBox comboBoxScriptedEventDialogOffset;
+        private Label labelSelectTileset;
+        private ListBox listBoxTileSets;
+        private TextBox textBoxTilesetStartAddress;
+        private Label labelTilesetStartAddress;
+        private Button buttonLaunchTileEditor;
+        private TextBox textBoxTilesetEndAddress;
+        private Label labelTilesetEndAddress;
+        private TextBox textBoxTilesetHeight;
+        private Label labelTilesetHeight;
+        private TextBox textBoxTilesetWidth;
+        private Label labelTilesetWidth;
+        private TextBox textBoxTilesetRows;
+        private Label labelTilesetRows;
+        private TextBox textBoxTilesetColumns;
+        private Label labelTilesetColumns;
 		private int paletteFindIndex;
 
 		public MainForm()
@@ -511,11 +521,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.listBoxSelectEnemyGroup = new System.Windows.Forms.ListBox();
             this.labelSelectEnemyGroup = new System.Windows.Forms.Label();
             this.tabPageGraphics = new System.Windows.Forms.TabPage();
-            this.buttonEditStatusFont = new System.Windows.Forms.Button();
-            this.buttonCreditFont = new System.Windows.Forms.Button();
-            this.buttonEditBorders = new System.Windows.Forms.Button();
-            this.buttonEditFont = new System.Windows.Forms.Button();
-            this.buttonEditTitleLogo = new System.Windows.Forms.Button();
             this.tabPageItems = new System.Windows.Forms.TabPage();
             this.panelItem = new System.Windows.Forms.Panel();
             this.comboBoxItemEquipWhere = new System.Windows.Forms.ComboBox();
@@ -672,6 +677,21 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.statusBar = new System.Windows.Forms.StatusBar();
             this.statusBarPanel = new System.Windows.Forms.StatusBarPanel();
             this.openFileRomDialog = new System.Windows.Forms.OpenFileDialog();
+            this.listBoxTileSets = new System.Windows.Forms.ListBox();
+            this.labelSelectTileset = new System.Windows.Forms.Label();
+            this.buttonLaunchTileEditor = new System.Windows.Forms.Button();
+            this.textBoxTilesetStartAddress = new System.Windows.Forms.TextBox();
+            this.labelTilesetStartAddress = new System.Windows.Forms.Label();
+            this.textBoxTilesetEndAddress = new System.Windows.Forms.TextBox();
+            this.labelTilesetEndAddress = new System.Windows.Forms.Label();
+            this.textBoxTilesetColumns = new System.Windows.Forms.TextBox();
+            this.labelTilesetColumns = new System.Windows.Forms.Label();
+            this.textBoxTilesetRows = new System.Windows.Forms.TextBox();
+            this.labelTilesetRows = new System.Windows.Forms.Label();
+            this.textBoxTilesetWidth = new System.Windows.Forms.TextBox();
+            this.labelTilesetWidth = new System.Windows.Forms.Label();
+            this.textBoxTilesetHeight = new System.Windows.Forms.TextBox();
+            this.labelTilesetHeight = new System.Windows.Forms.Label();
             this.tabControlMainContent.SuspendLayout();
             this.tabPageMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWarning)).BeginInit();
@@ -869,9 +889,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelCalculatedChecksum
             // 
-            this.labelCalculatedChecksum.Location = new System.Drawing.Point(352, 134);
+            this.labelCalculatedChecksum.Location = new System.Drawing.Point(330, 134);
             this.labelCalculatedChecksum.Name = "labelCalculatedChecksum";
-            this.labelCalculatedChecksum.Size = new System.Drawing.Size(144, 23);
+            this.labelCalculatedChecksum.Size = new System.Drawing.Size(166, 23);
             this.labelCalculatedChecksum.TabIndex = 11;
             this.labelCalculatedChecksum.Text = "Calculated Checksum: ";
             this.labelCalculatedChecksum.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1035,9 +1055,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelCharacterTechniqueOrder
             // 
-            this.labelCharacterTechniqueOrder.Location = new System.Drawing.Point(420, 173);
+            this.labelCharacterTechniqueOrder.Location = new System.Drawing.Point(414, 173);
             this.labelCharacterTechniqueOrder.Name = "labelCharacterTechniqueOrder";
-            this.labelCharacterTechniqueOrder.Size = new System.Drawing.Size(48, 24);
+            this.labelCharacterTechniqueOrder.Size = new System.Drawing.Size(54, 24);
             this.labelCharacterTechniqueOrder.TabIndex = 48;
             this.labelCharacterTechniqueOrder.Text = "Order:";
             this.labelCharacterTechniqueOrder.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1085,9 +1105,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelCharacterTechniqueHeal
             // 
-            this.labelCharacterTechniqueHeal.Location = new System.Drawing.Point(182, 174);
+            this.labelCharacterTechniqueHeal.Location = new System.Drawing.Point(172, 174);
             this.labelCharacterTechniqueHeal.Name = "labelCharacterTechniqueHeal";
-            this.labelCharacterTechniqueHeal.Size = new System.Drawing.Size(39, 24);
+            this.labelCharacterTechniqueHeal.Size = new System.Drawing.Size(49, 24);
             this.labelCharacterTechniqueHeal.TabIndex = 44;
             this.labelCharacterTechniqueHeal.Text = "Heal:";
             this.labelCharacterTechniqueHeal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1110,9 +1130,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelCharacterTechniqueMelee
             // 
-            this.labelCharacterTechniqueMelee.Location = new System.Drawing.Point(58, 175);
+            this.labelCharacterTechniqueMelee.Location = new System.Drawing.Point(35, 175);
             this.labelCharacterTechniqueMelee.Name = "labelCharacterTechniqueMelee";
-            this.labelCharacterTechniqueMelee.Size = new System.Drawing.Size(48, 25);
+            this.labelCharacterTechniqueMelee.Size = new System.Drawing.Size(71, 25);
             this.labelCharacterTechniqueMelee.TabIndex = 42;
             this.labelCharacterTechniqueMelee.Text = "Melee:";
             this.labelCharacterTechniqueMelee.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1309,7 +1329,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelCharacterHitPoints
             // 
-            this.labelCharacterHitPoints.Location = new System.Drawing.Point(8, 65);
+            this.labelCharacterHitPoints.Location = new System.Drawing.Point(19, 65);
             this.labelCharacterHitPoints.Name = "labelCharacterHitPoints";
             this.labelCharacterHitPoints.Size = new System.Drawing.Size(87, 24);
             this.labelCharacterHitPoints.TabIndex = 20;
@@ -1541,9 +1561,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelEnemyTechniqueCastPercent
             // 
-            this.labelEnemyTechniqueCastPercent.Location = new System.Drawing.Point(286, 65);
+            this.labelEnemyTechniqueCastPercent.Location = new System.Drawing.Point(277, 65);
             this.labelEnemyTechniqueCastPercent.Name = "labelEnemyTechniqueCastPercent";
-            this.labelEnemyTechniqueCastPercent.Size = new System.Drawing.Size(87, 24);
+            this.labelEnemyTechniqueCastPercent.Size = new System.Drawing.Size(96, 24);
             this.labelEnemyTechniqueCastPercent.TabIndex = 44;
             this.labelEnemyTechniqueCastPercent.Text = "Tech Cast %:";
             this.labelEnemyTechniqueCastPercent.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1594,9 +1614,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelEnemyNameOffset
             // 
-            this.labelEnemyNameOffset.Location = new System.Drawing.Point(19, 175);
+            this.labelEnemyNameOffset.Location = new System.Drawing.Point(3, 175);
             this.labelEnemyNameOffset.Name = "labelEnemyNameOffset";
-            this.labelEnemyNameOffset.Size = new System.Drawing.Size(87, 25);
+            this.labelEnemyNameOffset.Size = new System.Drawing.Size(103, 25);
             this.labelEnemyNameOffset.TabIndex = 38;
             this.labelEnemyNameOffset.Text = "Name Offset:";
             this.labelEnemyNameOffset.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1959,82 +1979,27 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // tabPageGraphics
             // 
-            this.tabPageGraphics.Controls.Add(this.buttonEditStatusFont);
-            this.tabPageGraphics.Controls.Add(this.buttonCreditFont);
-            this.tabPageGraphics.Controls.Add(this.buttonEditBorders);
-            this.tabPageGraphics.Controls.Add(this.buttonEditFont);
-            this.tabPageGraphics.Controls.Add(this.buttonEditTitleLogo);
+            this.tabPageGraphics.Controls.Add(this.textBoxTilesetHeight);
+            this.tabPageGraphics.Controls.Add(this.labelTilesetHeight);
+            this.tabPageGraphics.Controls.Add(this.textBoxTilesetWidth);
+            this.tabPageGraphics.Controls.Add(this.labelTilesetWidth);
+            this.tabPageGraphics.Controls.Add(this.textBoxTilesetRows);
+            this.tabPageGraphics.Controls.Add(this.labelTilesetRows);
+            this.tabPageGraphics.Controls.Add(this.textBoxTilesetColumns);
+            this.tabPageGraphics.Controls.Add(this.labelTilesetColumns);
+            this.tabPageGraphics.Controls.Add(this.textBoxTilesetEndAddress);
+            this.tabPageGraphics.Controls.Add(this.labelTilesetEndAddress);
+            this.tabPageGraphics.Controls.Add(this.textBoxTilesetStartAddress);
+            this.tabPageGraphics.Controls.Add(this.labelTilesetStartAddress);
+            this.tabPageGraphics.Controls.Add(this.buttonLaunchTileEditor);
+            this.tabPageGraphics.Controls.Add(this.labelSelectTileset);
+            this.tabPageGraphics.Controls.Add(this.listBoxTileSets);
             this.tabPageGraphics.Location = new System.Drawing.Point(4, 55);
             this.tabPageGraphics.Name = "tabPageGraphics";
             this.tabPageGraphics.Size = new System.Drawing.Size(700, 379);
             this.tabPageGraphics.TabIndex = 8;
             this.tabPageGraphics.Text = "Graphics";
             this.tabPageGraphics.ToolTipText = "Edit graphics";
-            // 
-            // buttonEditStatusFont
-            // 
-            this.buttonEditStatusFont.Enabled = false;
-            this.buttonEditStatusFont.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonEditStatusFont.Image = ((System.Drawing.Image)(resources.GetObject("buttonEditStatusFont.Image")));
-            this.buttonEditStatusFont.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonEditStatusFont.Location = new System.Drawing.Point(29, 166);
-            this.buttonEditStatusFont.Name = "buttonEditStatusFont";
-            this.buttonEditStatusFont.Size = new System.Drawing.Size(182, 56);
-            this.buttonEditStatusFont.TabIndex = 4;
-            this.buttonEditStatusFont.Text = "Status Font";
-            this.buttonEditStatusFont.Click += new System.EventHandler(this.buttonEditStatusFont_Click);
-            // 
-            // buttonCreditFont
-            // 
-            this.buttonCreditFont.Enabled = false;
-            this.buttonCreditFont.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonCreditFont.Image = ((System.Drawing.Image)(resources.GetObject("buttonCreditFont.Image")));
-            this.buttonCreditFont.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonCreditFont.Location = new System.Drawing.Point(221, 102);
-            this.buttonCreditFont.Name = "buttonCreditFont";
-            this.buttonCreditFont.Size = new System.Drawing.Size(182, 55);
-            this.buttonCreditFont.TabIndex = 3;
-            this.buttonCreditFont.Text = "Credit Font";
-            this.buttonCreditFont.Click += new System.EventHandler(this.buttonCreditFont_Click);
-            // 
-            // buttonEditBorders
-            // 
-            this.buttonEditBorders.Enabled = false;
-            this.buttonEditBorders.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonEditBorders.Image = ((System.Drawing.Image)(resources.GetObject("buttonEditBorders.Image")));
-            this.buttonEditBorders.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonEditBorders.Location = new System.Drawing.Point(29, 102);
-            this.buttonEditBorders.Name = "buttonEditBorders";
-            this.buttonEditBorders.Size = new System.Drawing.Size(182, 55);
-            this.buttonEditBorders.TabIndex = 2;
-            this.buttonEditBorders.Text = "Borders";
-            this.buttonEditBorders.Click += new System.EventHandler(this.buttonEditBorders_Click);
-            // 
-            // buttonEditFont
-            // 
-            this.buttonEditFont.Enabled = false;
-            this.buttonEditFont.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonEditFont.Image = ((System.Drawing.Image)(resources.GetObject("buttonEditFont.Image")));
-            this.buttonEditFont.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonEditFont.Location = new System.Drawing.Point(221, 37);
-            this.buttonEditFont.Name = "buttonEditFont";
-            this.buttonEditFont.Size = new System.Drawing.Size(182, 55);
-            this.buttonEditFont.TabIndex = 1;
-            this.buttonEditFont.Text = "Font";
-            this.buttonEditFont.Click += new System.EventHandler(this.buttonEditFont_Click);
-            // 
-            // buttonEditTitleLogo
-            // 
-            this.buttonEditTitleLogo.Enabled = false;
-            this.buttonEditTitleLogo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonEditTitleLogo.Image = ((System.Drawing.Image)(resources.GetObject("buttonEditTitleLogo.Image")));
-            this.buttonEditTitleLogo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonEditTitleLogo.Location = new System.Drawing.Point(29, 37);
-            this.buttonEditTitleLogo.Name = "buttonEditTitleLogo";
-            this.buttonEditTitleLogo.Size = new System.Drawing.Size(182, 55);
-            this.buttonEditTitleLogo.TabIndex = 0;
-            this.buttonEditTitleLogo.Text = "Title Logo";
-            this.buttonEditTitleLogo.Click += new System.EventHandler(this.buttonEditTitleLogo_Click);
             // 
             // tabPageItems
             // 
@@ -2923,9 +2888,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelPaletteFind
             // 
-            this.labelPaletteFind.Location = new System.Drawing.Point(10, 351);
+            this.labelPaletteFind.Location = new System.Drawing.Point(3, 351);
             this.labelPaletteFind.Name = "labelPaletteFind";
-            this.labelPaletteFind.Size = new System.Drawing.Size(38, 23);
+            this.labelPaletteFind.Size = new System.Drawing.Size(45, 23);
             this.labelPaletteFind.TabIndex = 14;
             this.labelPaletteFind.Text = "Find:";
             this.labelPaletteFind.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3036,9 +3001,9 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             // 
             // labelFindScript
             // 
-            this.labelFindScript.Location = new System.Drawing.Point(10, 351);
+            this.labelFindScript.Location = new System.Drawing.Point(3, 351);
             this.labelFindScript.Name = "labelFindScript";
-            this.labelFindScript.Size = new System.Drawing.Size(38, 23);
+            this.labelFindScript.Size = new System.Drawing.Size(45, 23);
             this.labelFindScript.TabIndex = 10;
             this.labelFindScript.Text = "Find:";
             this.labelFindScript.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3620,6 +3585,141 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.openFileRomDialog.Filter = "Phantasy Star III ROM Images (*.bin)|*.bin";
             this.openFileRomDialog.Title = "Open Phantasy Star III ROM";
             // 
+            // listBoxTileSets
+            // 
+            this.listBoxTileSets.FormattingEnabled = true;
+            this.listBoxTileSets.ItemHeight = 16;
+            this.listBoxTileSets.Location = new System.Drawing.Point(18, 48);
+            this.listBoxTileSets.Name = "listBoxTileSets";
+            this.listBoxTileSets.Size = new System.Drawing.Size(159, 260);
+            this.listBoxTileSets.TabIndex = 0;
+            this.listBoxTileSets.SelectedIndexChanged += new System.EventHandler(this.listBoxTileSets_SelectedIndexChanged);
+            // 
+            // labelSelectTileset
+            // 
+            this.labelSelectTileset.AutoSize = true;
+            this.labelSelectTileset.Location = new System.Drawing.Point(15, 19);
+            this.labelSelectTileset.Name = "labelSelectTileset";
+            this.labelSelectTileset.Size = new System.Drawing.Size(93, 17);
+            this.labelSelectTileset.TabIndex = 1;
+            this.labelSelectTileset.Text = "Select Tileset";
+            // 
+            // buttonLaunchTileEditor
+            // 
+            this.buttonLaunchTileEditor.Enabled = false;
+            this.buttonLaunchTileEditor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonLaunchTileEditor.Image = ((System.Drawing.Image)(resources.GetObject("buttonLaunchTileEditor.Image")));
+            this.buttonLaunchTileEditor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonLaunchTileEditor.Location = new System.Drawing.Point(18, 314);
+            this.buttonLaunchTileEditor.Name = "buttonLaunchTileEditor";
+            this.buttonLaunchTileEditor.Size = new System.Drawing.Size(159, 37);
+            this.buttonLaunchTileEditor.TabIndex = 1;
+            this.buttonLaunchTileEditor.Text = "Launch Tile Editor";
+            this.buttonLaunchTileEditor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonLaunchTileEditor.Click += new System.EventHandler(this.buttonLaunchTileEditor_Click);
+            // 
+            // textBoxTilesetStartAddress
+            // 
+            this.textBoxTilesetStartAddress.Location = new System.Drawing.Point(315, 48);
+            this.textBoxTilesetStartAddress.Name = "textBoxTilesetStartAddress";
+            this.textBoxTilesetStartAddress.ReadOnly = true;
+            this.textBoxTilesetStartAddress.Size = new System.Drawing.Size(156, 22);
+            this.textBoxTilesetStartAddress.TabIndex = 2;
+            // 
+            // labelTilesetStartAddress
+            // 
+            this.labelTilesetStartAddress.Location = new System.Drawing.Point(184, 48);
+            this.labelTilesetStartAddress.Name = "labelTilesetStartAddress";
+            this.labelTilesetStartAddress.Size = new System.Drawing.Size(125, 25);
+            this.labelTilesetStartAddress.TabIndex = 40;
+            this.labelTilesetStartAddress.Text = "Start Address:";
+            this.labelTilesetStartAddress.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxTilesetEndAddress
+            // 
+            this.textBoxTilesetEndAddress.Location = new System.Drawing.Point(315, 76);
+            this.textBoxTilesetEndAddress.Name = "textBoxTilesetEndAddress";
+            this.textBoxTilesetEndAddress.ReadOnly = true;
+            this.textBoxTilesetEndAddress.Size = new System.Drawing.Size(156, 22);
+            this.textBoxTilesetEndAddress.TabIndex = 3;
+            // 
+            // labelTilesetEndAddress
+            // 
+            this.labelTilesetEndAddress.Location = new System.Drawing.Point(184, 76);
+            this.labelTilesetEndAddress.Name = "labelTilesetEndAddress";
+            this.labelTilesetEndAddress.Size = new System.Drawing.Size(125, 25);
+            this.labelTilesetEndAddress.TabIndex = 42;
+            this.labelTilesetEndAddress.Text = "End Address:";
+            this.labelTilesetEndAddress.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxTilesetColumns
+            // 
+            this.textBoxTilesetColumns.Location = new System.Drawing.Point(315, 104);
+            this.textBoxTilesetColumns.Name = "textBoxTilesetColumns";
+            this.textBoxTilesetColumns.ReadOnly = true;
+            this.textBoxTilesetColumns.Size = new System.Drawing.Size(156, 22);
+            this.textBoxTilesetColumns.TabIndex = 4;
+            // 
+            // labelTilesetColumns
+            // 
+            this.labelTilesetColumns.Location = new System.Drawing.Point(184, 104);
+            this.labelTilesetColumns.Name = "labelTilesetColumns";
+            this.labelTilesetColumns.Size = new System.Drawing.Size(125, 25);
+            this.labelTilesetColumns.TabIndex = 44;
+            this.labelTilesetColumns.Text = "Editor Columns:";
+            this.labelTilesetColumns.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxTilesetRows
+            // 
+            this.textBoxTilesetRows.Location = new System.Drawing.Point(315, 132);
+            this.textBoxTilesetRows.Name = "textBoxTilesetRows";
+            this.textBoxTilesetRows.ReadOnly = true;
+            this.textBoxTilesetRows.Size = new System.Drawing.Size(156, 22);
+            this.textBoxTilesetRows.TabIndex = 5;
+            // 
+            // labelTilesetRows
+            // 
+            this.labelTilesetRows.Location = new System.Drawing.Point(184, 132);
+            this.labelTilesetRows.Name = "labelTilesetRows";
+            this.labelTilesetRows.Size = new System.Drawing.Size(125, 25);
+            this.labelTilesetRows.TabIndex = 46;
+            this.labelTilesetRows.Text = "Editor Rows:";
+            this.labelTilesetRows.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxTilesetWidth
+            // 
+            this.textBoxTilesetWidth.Location = new System.Drawing.Point(315, 160);
+            this.textBoxTilesetWidth.Name = "textBoxTilesetWidth";
+            this.textBoxTilesetWidth.ReadOnly = true;
+            this.textBoxTilesetWidth.Size = new System.Drawing.Size(156, 22);
+            this.textBoxTilesetWidth.TabIndex = 6;
+            // 
+            // labelTilesetWidth
+            // 
+            this.labelTilesetWidth.Location = new System.Drawing.Point(184, 160);
+            this.labelTilesetWidth.Name = "labelTilesetWidth";
+            this.labelTilesetWidth.Size = new System.Drawing.Size(125, 25);
+            this.labelTilesetWidth.TabIndex = 48;
+            this.labelTilesetWidth.Text = "Tile Width:";
+            this.labelTilesetWidth.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBoxTilesetHeight
+            // 
+            this.textBoxTilesetHeight.Location = new System.Drawing.Point(315, 188);
+            this.textBoxTilesetHeight.Name = "textBoxTilesetHeight";
+            this.textBoxTilesetHeight.ReadOnly = true;
+            this.textBoxTilesetHeight.Size = new System.Drawing.Size(156, 22);
+            this.textBoxTilesetHeight.TabIndex = 7;
+            // 
+            // labelTilesetHeight
+            // 
+            this.labelTilesetHeight.Location = new System.Drawing.Point(184, 188);
+            this.labelTilesetHeight.Name = "labelTilesetHeight";
+            this.labelTilesetHeight.Size = new System.Drawing.Size(125, 25);
+            this.labelTilesetHeight.TabIndex = 50;
+            this.labelTilesetHeight.Text = "Tile Height:";
+            this.labelTilesetHeight.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // MainForm
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
@@ -3653,6 +3753,7 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
             this.panelEnemyGroups.ResumeLayout(false);
             this.panelEnemyGroups.PerformLayout();
             this.tabPageGraphics.ResumeLayout(false);
+            this.tabPageGraphics.PerformLayout();
             this.tabPageItems.ResumeLayout(false);
             this.panelItem.ResumeLayout(false);
             this.panelItem.PerformLayout();
@@ -3959,11 +4060,11 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 							}
 							break;
 						case "Graphics":
-							this.buttonEditBorders.Enabled=true;
-							this.buttonEditFont.Enabled=true;
-							this.buttonCreditFont.Enabled=true;
-							this.buttonEditTitleLogo.Enabled=true;
-							this.buttonEditStatusFont.Enabled=true;
+                            if(this.listBoxTileSets.Items.Count<1)
+                            {
+                                TileSetDefinition[] defs=AridiaUtils.TileSetDefinitions.getAll();
+                                this.listBoxTileSets.Items.AddRange(defs);
+                            }
 							break;
 						case "Palettes":
 							if(this.listViewPalettes.Items.Count<1)
@@ -5183,81 +5284,6 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 				this.errorHandler("save the name for an enemy",x);
 			}
 			this.Cursor=Cursors.Default;
-		}
-
-		private void buttonEditTitleLogo_Click(object sender, System.EventArgs e)
-		{
-			try
-			{
-				this.Cursor=Cursors.WaitCursor;
-				TileEditorForm tileEditor=new TileEditorForm(this.romIO,(int)Constants.TileAddresses.LogoStart,(int)Constants.TileAddresses.LogoEnd,AridiaUtils.getLookupValueCollection("Palette-Addresses"));
-				this.Cursor=Cursors.Default;
-				tileEditor.ShowDialog(this);
-			}
-			catch(Exception x)
-			{
-				this.errorHandler("edit the title logo",x);
-			}
-		}
-
-		private void buttonEditFont_Click(object sender, System.EventArgs e)
-		{
-			try
-			{
-				this.Cursor=Cursors.WaitCursor;
-				TileEditorForm tileEditor=new TileEditorForm(this.romIO,(int)Constants.TileAddresses.FontStart,(int)Constants.TileAddresses.FontEnd,AridiaUtils.getLookupValueCollection("Palette-Addresses"));
-				this.Cursor=Cursors.Default;
-				tileEditor.ShowDialog(this);
-			}
-			catch(Exception x)
-			{
-				this.errorHandler("edit the font",x);
-			}
-		}
-
-		private void buttonEditBorders_Click(object sender, System.EventArgs e)
-		{
-			try
-			{
-				this.Cursor=Cursors.WaitCursor;
-				TileEditorForm tileEditor=new TileEditorForm(this.romIO,(int)Constants.TileAddresses.BorderStart,(int)Constants.TileAddresses.BorderEnd,AridiaUtils.getLookupValueCollection("Palette-Addresses"));
-				this.Cursor=Cursors.Default;
-				tileEditor.ShowDialog(this);
-			}
-			catch(Exception x)
-			{
-				this.errorHandler("edit the borders",x);
-			}
-		}
-
-		private void buttonCreditFont_Click(object sender, System.EventArgs e)
-		{
-			try
-			{
-				this.Cursor=Cursors.WaitCursor;
-				TileEditorForm tileEditor=new TileEditorForm(this.romIO,(int)Constants.TileAddresses.CreditFontStart,(int)Constants.TileAddresses.CreditFontEnd,AridiaUtils.getLookupValueCollection("Palette-Addresses"));
-				this.Cursor=Cursors.Default;
-				tileEditor.ShowDialog(this);
-			}
-			catch(Exception x)
-			{
-				this.errorHandler("edit the credit font",x);
-			}
-		}
-
-		private void buttonEditStatusFont_Click(object sender, System.EventArgs e)
-		{
-			try
-			{
-				this.Cursor=Cursors.WaitCursor;
-				TileEditorForm tileEditor=new TileEditorForm(this.romIO,(int)Constants.TileAddresses.StatusFontStart,(int)Constants.TileAddresses.StatusFontEnd,AridiaUtils.getLookupValueCollection("Palette-Addresses"));
-				this.Cursor=Cursors.Default;
-				tileEditor.ShowDialog(this);
-			}
-			catch(Exception x)
-			{
-				this.errorHandler("edit the status font",x);
-			}
 		}
 
 		private void menuItemThanks_Click(object sender, System.EventArgs e)
@@ -7142,6 +7168,43 @@ namespace com.huguesjohnson.aridia.ui.AridiaUI
 				this.errorHandler("select a scripted event dialog offset",x);
 			}
 			this.Cursor=Cursors.Default;
+        }
+
+        private void buttonLaunchTileEditor_Click(object sender,EventArgs e)
+        {
+            if(this.listBoxTileSets.SelectedItem==null){return;}
+			try
+			{
+                TileSetDefinition tsd=(TileSetDefinition)this.listBoxTileSets.SelectedItem;
+				TileEditorForm tileEditor=new TileEditorForm(this.romIO,tsd.startAddress,tsd.endAddress,tsd.columns,tsd.rows,AridiaUtils.getLookupValueCollection("Palette-Addresses"));
+				tileEditor.ShowDialog(this);
+			}
+			catch(Exception x)
+			{
+				this.errorHandler("edit a tileset",x);
+			}
+        }
+
+        private void listBoxTileSets_SelectedIndexChanged(object sender,EventArgs e)
+        {
+            if(this.listBoxTileSets.SelectedItem==null){return;}
+            this.Cursor=Cursors.WaitCursor;
+			try
+			{
+                TileSetDefinition tsd=(TileSetDefinition)this.listBoxTileSets.SelectedItem;
+                this.textBoxTilesetColumns.Text=tsd.columns.ToString();
+                this.textBoxTilesetRows.Text=tsd.rows.ToString();
+                this.textBoxTilesetStartAddress.Text=tsd.startAddress.ToString();
+                this.textBoxTilesetEndAddress.Text=tsd.endAddress.ToString();
+                this.textBoxTilesetHeight.Text=tsd.tileHeight.ToString();
+                this.textBoxTilesetWidth.Text=tsd.tileWidth.ToString();
+                this.buttonLaunchTileEditor.Enabled=true;
+			}
+			catch(Exception x)
+			{
+				this.errorHandler("select a tileset",x);
+			}
+            this.Cursor=Cursors.Default;
         }
 
     }
