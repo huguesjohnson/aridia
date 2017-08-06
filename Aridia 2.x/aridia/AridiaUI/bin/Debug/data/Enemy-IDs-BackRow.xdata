@@ -23,7 +23,7 @@
     </anyType>
     <anyType xsi:type="LookupValue">
       <Description>Gryphon</Description>
-      <IntValue>4</IntValue>
+      <IntValue>5</IntValue>
     </anyType>
     <anyType xsi:type="LookupValue">
       <Description>Banshee</Description>
