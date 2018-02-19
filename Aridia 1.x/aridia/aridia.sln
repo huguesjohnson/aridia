@@ -39,7 +39,6 @@ Global
 		{C5FCCEA6-E2C7-4382-8B9A-E6A1E1F6B332}.Release.Build.0 = Release|.NET
 	EndGlobalSection
 	GlobalSection(SolutionItems) = postSolution
-		gpl.htm = gpl.htm
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 	EndGlobalSection
