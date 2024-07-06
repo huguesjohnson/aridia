@@ -3,6 +3,8 @@ Aridia is a ROM editor for Phantasy Star III. It has a mostly-friendly interface
 
 There are currently two branches for Aridia:
 
--1.x: Built against .NET 1.1, targeted for Windows XP SP2 and 2000. This is frozen unless any major bugs are found.
+-1.x: Built against .NET 1.1, targeted for Windows XP SP2 and 2000. This is missing many features in 2.x.
 
--2.x: Built against .NET 4, targeted for Windows XP SP3 and higher. This is the active development branch, all new features will be against this version. This works with Mono but the UI looks a little funky.
+-2.x: Built against .NET 4, targeted for Windows XP SP3 and higher. This works with Mono but the UI looks a little funky.
+
+This project is archived. It was fun to work on for a while. It was even more fun to see some of the ROM hacks others created with it. In the unlikely event I get back into Phantasy Star III ROM hacking it will be with a different UI framework. 
